@@ -22,10 +22,17 @@ fi
 done;
 
 version=v$1
-s3cmd_path=$2
+s3cmd_access_key=$2
+s3cmd_secret=$3
+rm -f ./lib/s3ini.poked
+cp ./lib/s3ini ./lib/s3ini_poked
+sed -i.bak -e s/%S3_ACCESS_KEY%/$s3cmd_access_key/g -e s/%S3_SECRET_KEY%/$s3cmd_secret/g ./lib/s3ini_poked
+rm -f ./lib/s3ini_poke.bak
+
 find zipped_themes -name "*.png" -exec rm -rf {} \;
 sed -i.bak s/%VERSION%/$version/g ./zipped_themes/manifest.txt
 gzip -r ./zipped_themes
 find zipped_themes -name ".*" -exec rm -rf {} \;
-./lib/s3cmd-1.5.0-alpha1/s3cmd --verbose --add-header='Content-Encoding: gzip' --cf-invalidate --no-progress --force --recursive --acl-public --config $s3cmd_path put ./zipped_themes/  s3://eegeo-static/mobile-themes/$version/ > /dev/null
+./lib/s3cmd-1.5.0-alpha1/s3cmd --verbose --add-header='Content-Encoding: gzip' --cf-invalidate --no-progress --force --recursive --acl-public --config ./lib/s3ini_poked put ./zipped_themes/  s3://eegeo-static/mobile-themes/$version/ > /dev/null
 rm -rf ./zipped_themes
+rm -f ./lib/s3ini_poked
