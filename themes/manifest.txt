@@ -1,0 +1,2283 @@
+{
+    "AssetRoot_iOS": "http://cdn1.eegeo.com/mobile-themes/%VERSION%/",
+    "AssetRoot_Android": "http://cdn1.eegeo.com/mobile-themes/%VERSION%/",
+    "AssetExtension_iOS": ".pvr.gz",
+    "AssetExtension_Android": ".ktx.gz",
+    "Themes": [
+        {
+            "Name": "San Francisco",
+            "Lighting": {
+                "DefaultLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "SunnyLighting": {
+                    "Key": [
+                        0.7058823529411765,
+                        0.6274509803921569,
+                        0.3137254901960784
+                    ],
+                    "Back": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.1568627450980392
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.43137254901960786,
+                        0.5490196078431373,
+                        0.6274509803921569
+                    ]
+                },
+                "OvercastLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "FoggyLighting": {
+                    "Key": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Back": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Fill": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.35294117647058826
+                    ],
+                    "Ambient": [
+                        0.3137254901960784,
+                        0.3137254901960784,
+                        0.3137254901960784
+                    ]
+                },
+                "NightLighting": {
+                    "Key": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Back": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Fill": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Ambient": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ]
+                },
+                "DiffuseShadowColour": [
+                    1,
+                    1,
+                    1
+                ],
+                "SunnyShadowColour": [
+                    0.45098039215686275,
+                    0.5686274509803921,
+                    0.7058823529411765
+                ],
+                "OvercastShadowColour": [
+                    0.8627450980392157,
+                    0.8627450980392157,
+                    0.8627450980392157
+                ],
+                "DefaultFogColour": [
+                    0.5019607843137255,
+                    0.5019607843137255,
+                    0.5019607843137255
+                ],
+                "SnowyFogColour": [
+                    0.7647058823529411,
+                    0.7647058823529411,
+                    0.7647058823529411
+                ],
+                "NightFogColour": [
+                    0.3137254901960784,
+                    0.18823529411764706,
+                    0.09411764705882353
+                ],
+                "NightLightmapColour": [
+                    1.3,
+                    0.8309803921568627,
+                    0.20392156862745098
+                ],
+                "NightAmbientColour": [
+                    0.13725490196078433,
+                    0.15294117647058825,
+                    0.17254901960784313
+                ],
+                "MaxFogDensity": 1
+            },
+            "Textures": {
+                "RoadDiffuse": "SanFrancisco/SanFran_roadDiffuse_repeat",
+                "RoadSnowDiffuse": "SanFrancisco/SanFran_Snow_roadDiffuse",
+                "RoadNightDiffuse": "SanFrancisco/SanFran_Night_roadDiffuse",
+                "RailDiffuse": "London/London_railDiffuse_repeat",
+                "RailSnowDiffuse": "London/London_railDiffuse_repeat",
+                "RailNightDiffuse": "London/London_railDiffuse_night",
+                "BuildingDiffuse": "SanFrancisco/SanFran_wallDiffuse",
+                "BuildingSnowDiffuse": "SanFrancisco/SanFran_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "SanFrancisco/SanFran_Night_wallDiffuse",
+                "TreeSideDiffuse": "SanFrancisco/trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
+                "TreeSideNightDiffuse": "SanFrancisco/trees_01",
+                "TreeTopDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
+                "LCM": [
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture0_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture1_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture2_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture3_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture4_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture5_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture6_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture7_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture8_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture9_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture10_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture11_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture12_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture14_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    }
+                ]
+            },
+            "LocationLatLong": [
+                37.75253,
+                -122.449837
+            ],
+            "BaseAltitude": 0,
+            "DriveOnRight": true
+        },
+        {
+            "Name": "New York",
+            "Lighting": {
+                "DefaultLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "SunnyLighting": {
+                    "Key": [
+                        0.7058823529411765,
+                        0.6274509803921569,
+                        0.3137254901960784
+                    ],
+                    "Back": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.1568627450980392
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.43137254901960786,
+                        0.5490196078431373,
+                        0.6274509803921569
+                    ]
+                },
+                "OvercastLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "FoggyLighting": {
+                    "Key": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Back": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Fill": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.35294117647058826
+                    ],
+                    "Ambient": [
+                        0.3137254901960784,
+                        0.3137254901960784,
+                        0.3137254901960784
+                    ]
+                },
+                "NightLighting": {
+                    "Key": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Back": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Fill": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Ambient": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ]
+                },
+                "DiffuseShadowColour": [
+                    1,
+                    1,
+                    1
+                ],
+                "SunnyShadowColour": [
+                    0.45098039215686275,
+                    0.5686274509803921,
+                    0.7058823529411765
+                ],
+                "OvercastShadowColour": [
+                    0.8627450980392157,
+                    0.8627450980392157,
+                    0.8627450980392157
+                ],
+                "DefaultFogColour": [
+                    0.5019607843137255,
+                    0.5019607843137255,
+                    0.5019607843137255
+                ],
+                "SnowyFogColour": [
+                    0.7647058823529411,
+                    0.7647058823529411,
+                    0.7647058823529411
+                ],
+                "NightFogColour": [
+                    0.3137254901960784,
+                    0.18823529411764706,
+                    0.09411764705882353
+                ],
+                "NightLightmapColour": [
+                    1.3,
+                    0.8309803921568627,
+                    0.20392156862745098
+                ],
+                "NightAmbientColour": [
+                    0.13725490196078433,
+                    0.15294117647058825,
+                    0.17254901960784313
+                ],
+                "MaxFogDensity": 1
+            },
+            "Textures": {
+                "RoadDiffuse": "NewYork/NewYork_roadDiffuse_repeat",
+                "RoadSnowDiffuse": "NewYork/NewYork_Snow_roadDiffuse",
+                "RoadNightDiffuse": "NewYork/NewYork_Night_roadDiffuse",
+                "RailDiffuse": "London/London_railDiffuse_repeat",
+                "RailSnowDiffuse": "London/London_railDiffuse_repeat",
+                "RailNightDiffuse": "London/London_railDiffuse_night",
+                "BuildingDiffuse": "NewYork/NewYork_wallDiffuse",
+                "BuildingSnowDiffuse": "NewYork/NewYork_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "NewYork/NewYork_Night_wallDiffuse",
+                "TreeSideDiffuse": "SanFrancisco/trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
+                "TreeSideNightDiffuse": "SanFrancisco/trees_01",
+                "TreeTopDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
+                "LCM": [
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture0_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture1_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture2_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture3_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture4_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture5_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture6_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture7_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture8_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture9_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture10_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture11_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture12_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture14_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    }
+                ]
+            },
+            "LocationLatLong": [
+                40.751418,
+                -73.987633
+            ],
+            "BaseAltitude": 0,
+            "DriveOnRight": true
+        },
+        {
+            "Name": "Barcelona",
+            "Lighting": {
+                "DefaultLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "SunnyLighting": {
+                    "Key": [
+                        0.7058823529411765,
+                        0.6274509803921569,
+                        0.3137254901960784
+                    ],
+                    "Back": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.1568627450980392
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.43137254901960786,
+                        0.5490196078431373,
+                        0.6274509803921569
+                    ]
+                },
+                "OvercastLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "FoggyLighting": {
+                    "Key": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Back": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Fill": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.35294117647058826
+                    ],
+                    "Ambient": [
+                        0.3137254901960784,
+                        0.3137254901960784,
+                        0.3137254901960784
+                    ]
+                },
+                "NightLighting": {
+                    "Key": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Back": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Fill": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Ambient": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ]
+                },
+                "DiffuseShadowColour": [
+                    1,
+                    1,
+                    1
+                ],
+                "SunnyShadowColour": [
+                    0.45098039215686275,
+                    0.5686274509803921,
+                    0.7058823529411765
+                ],
+                "OvercastShadowColour": [
+                    0.8627450980392157,
+                    0.8627450980392157,
+                    0.8627450980392157
+                ],
+                "DefaultFogColour": [
+                    0.5019607843137255,
+                    0.5019607843137255,
+                    0.5019607843137255
+                ],
+                "SnowyFogColour": [
+                    0.7647058823529411,
+                    0.7647058823529411,
+                    0.7647058823529411
+                ],
+                "NightFogColour": [
+                    0.3137254901960784,
+                    0.18823529411764706,
+                    0.09411764705882353
+                ],
+                "NightLightmapColour": [
+                    1.3,
+                    0.8309803921568627,
+                    0.20392156862745098
+                ],
+                "NightAmbientColour": [
+                    0.13725490196078433,
+                    0.15294117647058825,
+                    0.17254901960784313
+                ],
+                "MaxFogDensity": 1
+            },
+            "Textures": {
+                "RoadDiffuse": "SanFrancisco/SanFran_roadDiffuse_repeat",
+                "RoadSnowDiffuse": "SanFrancisco/SanFran_Snow_roadDiffuse",
+                "RoadNightDiffuse": "SanFrancisco/SanFran_Night_roadDiffuse",
+                "RailDiffuse": "London/London_railDiffuse_repeat",
+                "RailSnowDiffuse": "London/London_railDiffuse_repeat",
+                "RailNightDiffuse": "London/London_railDiffuse_night",
+                "BuildingDiffuse": "SanFrancisco/SanFran_wallDiffuse",
+                "BuildingSnowDiffuse": "SanFrancisco/SanFran_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "SanFrancisco/SanFran_Night_wallDiffuse",
+                "TreeSideDiffuse": "SanFrancisco/trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
+                "TreeSideNightDiffuse": "SanFrancisco/trees_01",
+                "TreeTopDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
+                "LCM": [
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture0_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture1_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture2_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture3_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture4_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture5_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture6_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture7_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture8_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture9_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture10_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture11_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture12_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture14_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    }
+                ]
+            },
+            "LocationLatLong": [
+                41.382476,
+                2.17804
+            ],
+            "BaseAltitude": 0,
+            "DriveOnRight": true
+        },
+        {
+            "Name": "Kyoto",
+            "Lighting": {
+                "DefaultLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "SunnyLighting": {
+                    "Key": [
+                        0.7058823529411765,
+                        0.6274509803921569,
+                        0.3137254901960784
+                    ],
+                    "Back": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.1568627450980392
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.43137254901960786,
+                        0.5490196078431373,
+                        0.6274509803921569
+                    ]
+                },
+                "OvercastLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "FoggyLighting": {
+                    "Key": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Back": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Fill": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.35294117647058826
+                    ],
+                    "Ambient": [
+                        0.3137254901960784,
+                        0.3137254901960784,
+                        0.3137254901960784
+                    ]
+                },
+                "NightLighting": {
+                    "Key": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Back": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Fill": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Ambient": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ]
+                },
+                "DiffuseShadowColour": [
+                    1,
+                    1,
+                    1
+                ],
+                "SunnyShadowColour": [
+                    0.45098039215686275,
+                    0.5686274509803921,
+                    0.7058823529411765
+                ],
+                "OvercastShadowColour": [
+                    0.8627450980392157,
+                    0.8627450980392157,
+                    0.8627450980392157
+                ],
+                "DefaultFogColour": [
+                    0.5019607843137255,
+                    0.5019607843137255,
+                    0.5019607843137255
+                ],
+                "SnowyFogColour": [
+                    0.7647058823529411,
+                    0.7647058823529411,
+                    0.7647058823529411
+                ],
+                "NightFogColour": [
+                    0.3137254901960784,
+                    0.18823529411764706,
+                    0.09411764705882353
+                ],
+                "NightLightmapColour": [
+                    1.3,
+                    0.8309803921568627,
+                    0.20392156862745098
+                ],
+                "NightAmbientColour": [
+                    0.13725490196078433,
+                    0.15294117647058825,
+                    0.17254901960784313
+                ],
+                "MaxFogDensity": 1
+            },
+            "Textures": {
+                "RoadDiffuse": "London/London_roadDiffuse_repeat",
+                "RoadSnowDiffuse": "London/London_Snow_roadDiffuse",
+                "RoadNightDiffuse": "London/London_Night_roadDiffuse",
+                "RailDiffuse": "London/London_railDiffuse_repeat",
+                "RailSnowDiffuse": "London/London_railDiffuse_repeat",
+                "RailNightDiffuse": "London/London_railDiffuse_night",
+                "BuildingDiffuse": "Kyoto/Kyoto_wallDiffuse",
+                "BuildingSnowDiffuse": "Kyoto/Kyoto_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "SanFrancisco/SanFran_Night_wallDiffuse",
+                "TreeSideDiffuse": "SanFrancisco/trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
+                "TreeSideNightDiffuse": "SanFrancisco/trees_01",
+                "TreeTopDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
+                "LCM": [
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture0_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture1_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture2_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture3_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture4_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture5_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture6_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture7_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture8_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture9_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture10_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture11_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture12_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture14_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    }
+                ]
+            },
+            "LocationLatLong": [
+                35.014814,
+                135.76355
+            ],
+            "BaseAltitude": 0,
+            "DriveOnRight": false
+        },
+        {
+            "Name": "Melbourne",
+            "Lighting": {
+                "DefaultLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "SunnyLighting": {
+                    "Key": [
+                        0.7058823529411765,
+                        0.6274509803921569,
+                        0.3137254901960784
+                    ],
+                    "Back": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.1568627450980392
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.43137254901960786,
+                        0.5490196078431373,
+                        0.6274509803921569
+                    ]
+                },
+                "OvercastLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "FoggyLighting": {
+                    "Key": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Back": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Fill": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.35294117647058826
+                    ],
+                    "Ambient": [
+                        0.3137254901960784,
+                        0.3137254901960784,
+                        0.3137254901960784
+                    ]
+                },
+                "NightLighting": {
+                    "Key": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Back": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Fill": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Ambient": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ]
+                },
+                "DiffuseShadowColour": [
+                    1,
+                    1,
+                    1
+                ],
+                "SunnyShadowColour": [
+                    0.45098039215686275,
+                    0.5686274509803921,
+                    0.7058823529411765
+                ],
+                "OvercastShadowColour": [
+                    0.8627450980392157,
+                    0.8627450980392157,
+                    0.8627450980392157
+                ],
+                "DefaultFogColour": [
+                    0.5019607843137255,
+                    0.5019607843137255,
+                    0.5019607843137255
+                ],
+                "SnowyFogColour": [
+                    0.7647058823529411,
+                    0.7647058823529411,
+                    0.7647058823529411
+                ],
+                "NightFogColour": [
+                    0.3137254901960784,
+                    0.18823529411764706,
+                    0.09411764705882353
+                ],
+                "NightLightmapColour": [
+                    1.3,
+                    0.8309803921568627,
+                    0.20392156862745098
+                ],
+                "NightAmbientColour": [
+                    0.13725490196078433,
+                    0.15294117647058825,
+                    0.17254901960784313
+                ],
+                "MaxFogDensity": 1
+            },
+            "Textures": {
+                "RoadDiffuse": "Melbourne/roadDiffuse",
+                "RoadSnowDiffuse": "Melbourne/roadDiffuse_Snow",
+                "RoadNightDiffuse": "Melbourne/roadDiffuse_Night",
+                "RailDiffuse": "Melbourne/Rail_01",
+                "RailSnowDiffuse": "Melbourne/Rail_01",
+                "RailNightDiffuse": "Melbourne/Rail_01_Night",
+                "BuildingDiffuse": "SanFrancisco/SanFran_wallDiffuse",
+                "BuildingSnowDiffuse": "SanFrancisco/SanFran_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "SanFrancisco/SanFran_Night_wallDiffuse",
+                "TreeSideDiffuse": "SanFrancisco/trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
+                "TreeSideNightDiffuse": "SanFrancisco/trees_01",
+                "TreeTopDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
+                "LCM": [
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture0_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture1_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture2_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture3_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture4_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture5_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture6_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture7_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture8_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture9_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture10_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture11_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture12_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture14_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    }
+                ]
+            },
+            "LocationLatLong": [
+                -37.816293,
+                144.972427
+            ],
+            "BaseAltitude": 0,
+            "DriveOnRight": false
+        },
+        {
+            "Name": "Phoenix",
+            "Lighting": {
+                "DefaultLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "SunnyLighting": {
+                    "Key": [
+                        0.7058823529411765,
+                        0.6274509803921569,
+                        0.3137254901960784
+                    ],
+                    "Back": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.1568627450980392
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.43137254901960786,
+                        0.5490196078431373,
+                        0.6274509803921569
+                    ]
+                },
+                "OvercastLighting": {
+                    "Key": [
+                        0.47058823529411764,
+                        0.43137254901960786,
+                        0.27450980392156865
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "FoggyLighting": {
+                    "Key": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Back": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Fill": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.35294117647058826
+                    ],
+                    "Ambient": [
+                        0.3137254901960784,
+                        0.3137254901960784,
+                        0.3137254901960784
+                    ]
+                },
+                "NightLighting": {
+                    "Key": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Back": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Fill": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Ambient": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ]
+                },
+                "DiffuseShadowColour": [
+                    1,
+                    1,
+                    1
+                ],
+                "SunnyShadowColour": [
+                    0.45098039215686275,
+                    0.5686274509803921,
+                    0.7058823529411765
+                ],
+                "OvercastShadowColour": [
+                    0.8627450980392157,
+                    0.8627450980392157,
+                    0.8627450980392157
+                ],
+                "DefaultFogColour": [
+                    0.5019607843137255,
+                    0.5019607843137255,
+                    0.5019607843137255
+                ],
+                "SnowyFogColour": [
+                    0.7647058823529411,
+                    0.7647058823529411,
+                    0.7647058823529411
+                ],
+                "NightFogColour": [
+                    0.3137254901960784,
+                    0.18823529411764706,
+                    0.09411764705882353
+                ],
+                "NightLightmapColour": [
+                    1.3,
+                    0.8309803921568627,
+                    0.20392156862745098
+                ],
+                "NightAmbientColour": [
+                    0.13725490196078433,
+                    0.15294117647058825,
+                    0.17254901960784313
+                ],
+                "MaxFogDensity": 1
+            },
+            "Textures": {
+                "RoadDiffuse": "SanFrancisco/SanFran_roadDiffuse_repeat",
+                "RoadSnowDiffuse": "SanFrancisco/SanFran_Snow_roadDiffuse",
+                "RoadNightDiffuse": "SanFrancisco/SanFran_Night_roadDiffuse",
+                "RailDiffuse": "London/London_railDiffuse_repeat",
+                "RailSnowDiffuse": "London/London_railDiffuse_repeat",
+                "RailNightDiffuse": "London/London_railDiffuse_night",
+                "BuildingDiffuse": "SanFrancisco/SanFran_wallDiffuse",
+                "BuildingSnowDiffuse": "SanFrancisco/SanFran_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "SanFrancisco/SanFran_Night_wallDiffuse",
+                "TreeSideDiffuse": "Phoenix/trees_01",
+                "TreeSideSnowDiffuse": "Phoenix/trees_01",
+                "TreeSideNightDiffuse": "Phoenix/trees_01",
+                "TreeTopDiffuse": "Phoenix/trees_top_01",
+                "TreeTopSnowDiffuse": "Phoenix/trees_top_01",
+                "TreeTopNightDiffuse": "Phoenix/trees_top_01",
+                "LCM": [
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture0",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture0",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture0_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture0_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture0_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture1",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture1",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture1_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture1_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture1_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture2",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture2",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture2_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture2_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture2_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture3",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture3",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture3_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture3_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture3_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture4",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture4",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture4_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture4_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture4_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture5",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture5",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture5_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture5_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture5_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture6",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture6",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture6_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture6_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture6_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture7",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture7",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture7_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture7_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture7_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture8",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture8",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture8_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture8_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture8_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture9_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture10",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture10",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture10_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture10_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture10_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture11_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture12_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture14",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture14",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture14_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture14_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture14_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "Phoenix/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "Phoenix/TerrainTexture15",
+                        "LcmTerrainNightDiffuse": "Phoenix/TerrainTexture15",
+                        "LcmTerrainLodDiffuse": "Phoenix/TerrainTexture15_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Phoenix/TerrainTexture15_LOD",
+                        "LcmTerrainLodNightDiffuse": "Phoenix/TerrainTexture15_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    }
+                ]
+            },
+            "LocationLatLong": [
+                33.448443,
+                -112.074475
+            ],
+            "BaseAltitude": 0,
+            "DriveOnRight": true
+        },
+        {
+            "Name": "London",
+            "Lighting": {
+                "DefaultLighting": {
+                    "Key": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.35294117647058826
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "SunnyLighting": {
+                    "Key": [
+                        1,
+                        1,
+                        0.9019607843137255
+                    ],
+                    "Back": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.39215686274509803
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ],
+                    "Ambient": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.39215686274509803
+                    ]
+                },
+                "OvercastLighting": {
+                    "Key": [
+                        0.43137254901960786,
+                        0.43137254901960786,
+                        0.35294117647058826
+                    ],
+                    "Back": [
+                        0.24490196078431373,
+                        0.24490196078431373,
+                        0.11070588235294118
+                    ],
+                    "Fill": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.11764705882352941
+                    ],
+                    "Ambient": [
+                        0.27450980392156865,
+                        0.39215686274509803,
+                        0.5632352941176471
+                    ]
+                },
+                "FoggyLighting": {
+                    "Key": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Back": [
+                        0.0784313725490196,
+                        0.0784313725490196,
+                        0.0784313725490196
+                    ],
+                    "Fill": [
+                        0.39215686274509803,
+                        0.39215686274509803,
+                        0.35294117647058826
+                    ],
+                    "Ambient": [
+                        0.3137254901960784,
+                        0.3137254901960784,
+                        0.3137254901960784
+                    ]
+                },
+                "NightLighting": {
+                    "Key": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Back": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Fill": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Ambient": [
+                        0.19607843137254902,
+                        0.19607843137254902,
+                        0.19607843137254902
+                    ]
+                },
+                "DiffuseShadowColour": [
+                    1,
+                    1,
+                    1
+                ],
+                "SunnyShadowColour": [
+                    0.45098039215686275,
+                    0.5686274509803921,
+                    0.7058823529411765
+                ],
+                "OvercastShadowColour": [
+                    0.8627450980392157,
+                    0.8627450980392157,
+                    0.8627450980392157
+                ],
+                "DefaultFogColour": [
+                    0.5019607843137255,
+                    0.5019607843137255,
+                    0.5019607843137255
+                ],
+                "SnowyFogColour": [
+                    0.7647058823529411,
+                    0.7647058823529411,
+                    0.7647058823529411
+                ],
+                "NightFogColour": [
+                    0.3137254901960784,
+                    0.18823529411764706,
+                    0.09411764705882353
+                ],
+                "NightLightmapColour": [
+                    1.3,
+                    0.8309803921568627,
+                    0.20392156862745098
+                ],
+                "NightAmbientColour": [
+                    0.13725490196078433,
+                    0.15294117647058825,
+                    0.17254901960784313
+                ],
+                "MaxFogDensity": 1
+            },
+            "Textures": {
+                "RoadDiffuse": "London/London_roadDiffuse_repeat",
+                "RoadSnowDiffuse": "London/London_Snow_roadDiffuse",
+                "RoadNightDiffuse": "London/London_Night_roadDiffuse",
+                "RailDiffuse": "London/London_railDiffuse_repeat",
+                "RailSnowDiffuse": "London/London_railDiffuse_repeat",
+                "RailNightDiffuse": "London/London_railDiffuse_night",
+                "BuildingDiffuse": "London/London_wallDiffuse",
+                "BuildingSnowDiffuse": "London/London_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "London/London_Night_wallDiffuse",
+                "TreeSideDiffuse": "SanFrancisco/trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
+                "TreeSideNightDiffuse": "SanFrancisco/trees_01",
+                "TreeTopDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
+                "LCM": [
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture0_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture1_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture2_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture3_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture4_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture5_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture6_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture7_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture8_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture9_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture10_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture11_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture12_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture14_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture17",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    }
+                ]
+            },
+            "LocationLatLong": [
+                51.508636,
+                -0.128059
+            ],
+            "BaseAltitude": 0,
+            "DriveOnRight": false
+        }
+    ]
+}
