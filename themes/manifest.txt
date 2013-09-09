@@ -1578,7 +1578,7 @@
                         "LcmTerrainNightDiffuse": "Melbourne/TerrainTexture12",
                         "LcmTerrainLodDiffuse": "Melbourne/TerrainTexture12_LOD",
                         "LcmTerrainLodSnowDiffuse": "Melbourne/TerrainTexture12_LOD",
-                        "LcmTerrainLodNightDiffuse": "Melbourne/TerrainTexture12_LOD",
+                        "LcmTerrainLodNightDiffuse": "Melbourne/TerrainTexture12_LOD"
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
