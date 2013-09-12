@@ -1,6 +1,36 @@
+#!/bin/sh
 
 rm -rf ./zipped_themes
 cp -R ./themes ./zipped_themes
+
+version=v$1
+s3cmd_access_key=$2
+s3cmd_secret=$3
+
+rm -f ./lib/s3ini.poked
+cp ./lib/s3ini ./lib/s3ini_poked
+sed -i.bak -e s/%S3_ACCESS_KEY%/$s3cmd_access_key/g -e s/%S3_SECRET_KEY%/$s3cmd_secret/g ./lib/s3ini_poked
+rm -f ./lib/s3ini_poke.bak
+sed -i.bak s/%VERSION%/$version/g ./zipped_themes/manifest.txt
+
+json_path="./zipped_themes/manifest.txt"
+
+cat <<-EOF | python -
+import json 
+import sys
+try:
+    json.loads(open("$json_path").read())
+except:
+    exit(1)
+exit(0)
+EOF
+
+if [ $? = 1 ] ; then
+	echo "Json manifest could not be parsed - build failed!"
+	exit 1
+else
+	echo "Json manifest parse succeeded"
+fi
 
 FILES=$(find ./zipped_themes/ -type f -name *.png);
 for f in $FILES;
@@ -21,16 +51,8 @@ if [ $status -ne 0 ]; then
 fi
 done;
 
-version=v$1
-s3cmd_access_key=$2
-s3cmd_secret=$3
-rm -f ./lib/s3ini.poked
-cp ./lib/s3ini ./lib/s3ini_poked
-sed -i.bak -e s/%S3_ACCESS_KEY%/$s3cmd_access_key/g -e s/%S3_SECRET_KEY%/$s3cmd_secret/g ./lib/s3ini_poked
-rm -f ./lib/s3ini_poke.bak
-
 find zipped_themes -name "*.png" -exec rm -rf {} \;
-sed -i.bak s/%VERSION%/$version/g ./zipped_themes/manifest.txt
+
 gzip -r ./zipped_themes
 find zipped_themes -name ".*" -exec rm -rf {} \;
 ./lib/s3cmd-1.0.1/s3cmd --verbose --add-header='Content-Encoding: gzip' --no-progress --force --recursive --acl-public --config ./lib/s3ini_poked put ./zipped_themes/  s3://eegeo-static/mobile-themes/$version/ > /dev/null
