@@ -1461,8 +1461,8 @@
             },
             "Textures": {
                 "RoadDiffuse": "Osaka/Osaka_roadDiffuse_repeat",
-                "RoadSnowDiffuse": "Osaka/Osaka_Snow_roadDiffuse",
-                "RoadNightDiffuse": "Osaka/Osaka_Night_roadDiffuse",
+                "RoadSnowDiffuse": "Osaka/Osaka_snow_roadDiffuse",
+                "RoadNightDiffuse": "Osaka/Osaka_night_roadDiffuse",
                 "RailDiffuse": "London/London_railDiffuse_repeat",
                 "RailSnowDiffuse": "London/London_railDiffuse_repeat",
                 "RailNightDiffuse": "London/London_railDiffuse_night",
