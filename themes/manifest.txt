@@ -1605,12 +1605,12 @@
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
                     },
                     {
-                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
-                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
-                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
-                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
-                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                        "LcmTerrainDiffuse": "Osaka/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "Osaka/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "Osaka/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "Osaka/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Osaka/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "Osaka/TerrainTexture16_LOD"
                     },
                     {
                         "LcmTerrainDiffuse": "Osaka/TerrainTexture17",
