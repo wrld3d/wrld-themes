@@ -1633,37 +1633,37 @@
 					"Name":"Rollercoaster",
 					"Url":"Osaka/animations/rollercoaster.pod",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5,
+					"FramerateScale":0.5
 				},
 				{
 					"Name":"Jurassic Boat",
 					"Url":"Osaka/animations/JurassicBoat.pod",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.2,
+					"FramerateScale":0.2
 				},
 				{
 					"Name":"Jaws Boat",
 					"Url":"Osaka/animations/JawsBoat.pod",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5,
+					"FramerateScale":0.5
 				},
 				{
 					"Name":"Globe",
 					"Url":"Osaka/animations/Globe.pod",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5,
+					"FramerateScale":0.5
 				},
 				{
 					"Name":"Sail Boat",
 					"Url":"Osaka/animations/SailBoat.pod",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5,
+					"FramerateScale":0.5
 				},
 				{
 					"Name":"Speed Boat",
 					"Url":"Osaka/animations/SpeedBoat.pod",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5,
+					"FramerateScale":0.5
 				}
 			]
         },
