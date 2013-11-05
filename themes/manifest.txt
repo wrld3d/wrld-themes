@@ -1655,13 +1655,13 @@
 				},
 				{
 					"Name":"Sail Boat",
-					"Url":"Osaka/animations/SailBoat.pod",
+					"Url":"Osaka/animations/SailBoat.POD",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
 					"FramerateScale":0.5
 				},
 				{
 					"Name":"Speed Boat",
-					"Url":"Osaka/animations/SpeedBoat.pod",
+					"Url":"Osaka/animations/SpeedBoat.POD",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
 					"FramerateScale":0.5
 				}
