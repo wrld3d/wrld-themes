@@ -1664,7 +1664,32 @@
 					"Url":"Osaka/animations/SpeedBoat.POD",
 					"LocationLatLong":[34.6634093386, 135.42894623, 0],
 					"FramerateScale":0.5
+				},
+				{
+					"Name":"Racing Car 1",
+					"Url":"Osaka/animations/RacingCar01.POD",
+					"LocationLatLong":[34.6634093386, 135.42894623, 0],
+					"FramerateScale":1.5
+				},
+				{
+					"Name":"Racing Car 2",
+					"Url":"Osaka/animations/RacingCar02.POD",
+					"LocationLatLong":[34.6634093386, 135.42894623, 0],
+					"FramerateScale":1.5
+				},
+				{
+					"Name":"Racing Car 3",
+					"Url":"Osaka/animations/RacingCar03.POD",
+					"LocationLatLong":[34.6634093386, 135.42894623, 0],
+					"FramerateScale":1.5
+				},
+				{
+					"Name":"Racing Car 4",
+					"Url":"Osaka/animations/RacingCar04.POD",
+					"LocationLatLong":[34.6634093386, 135.42894623, 0],
+					"FramerateScale":1.5
 				}
+				
 			]
         },
         {
