@@ -1305,7 +1305,7 @@
             "BaseAltitude": 0,
             "DriveOnRight": false
         },
-	{
+        {
             "Name": "Osaka",
             "Lighting": {
                 "DefaultLighting": {
@@ -1471,15 +1471,15 @@
                 "BuildingSnowDiffuse": "London/London_Snow_wallDiffuse",
                 "BuildingNightDiffuse": "London/London_Night_wallDiffuse",
                 "TreeSideDiffuse": "SanFrancisco/trees_01",
-                "TreeSideSnowDiffuse": "Osaka/snow_trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
                 "TreeSideNightDiffuse": "SanFrancisco/trees_01",
                 "TreeTopDiffuse": "SanFrancisco/trees_top_01",
-                "TreeTopSnowDiffuse": "Osaka/snow_trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
                 "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
                 "LCM": [
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
@@ -1487,7 +1487,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
@@ -1495,7 +1495,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
@@ -1503,7 +1503,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
@@ -1511,7 +1511,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
@@ -1519,7 +1519,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
@@ -1527,7 +1527,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
@@ -1535,7 +1535,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
@@ -1543,7 +1543,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
@@ -1551,7 +1551,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
@@ -1559,7 +1559,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
@@ -1567,7 +1567,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
@@ -1575,7 +1575,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "Osaka/TerrainTexture12",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture12",
+                        "LcmTerrainSnowDiffuse": "Osaka/TerrainTexture12",
                         "LcmTerrainNightDiffuse": "Osaka/TerrainTexture12",
                         "LcmTerrainLodDiffuse": "Osaka/TerrainTexture12_LOD",
                         "LcmTerrainLodSnowDiffuse": "Osaka/TerrainTexture12_LOD",
@@ -1583,7 +1583,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "Osaka/TerrainTexture13",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture13",
+                        "LcmTerrainSnowDiffuse": "Osaka/TerrainTexture13",
                         "LcmTerrainNightDiffuse": "Osaka/TerrainTexture13",
                         "LcmTerrainLodDiffuse": "Osaka/TerrainTexture13_LOD",
                         "LcmTerrainLodSnowDiffuse": "Osaka/TerrainTexture13_LOD",
@@ -1591,7 +1591,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
@@ -1599,7 +1599,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
@@ -1607,7 +1607,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "Osaka/TerrainTexture16",
-                        "LcmTerrainSnowDiffuse": "Osaka/snow_Texture16",
+                        "LcmTerrainSnowDiffuse": "Osaka/TerrainTexture16",
                         "LcmTerrainNightDiffuse": "Osaka/TerrainTexture16",
                         "LcmTerrainLodDiffuse": "Osaka/TerrainTexture16_LOD",
                         "LcmTerrainLodSnowDiffuse": "Osaka/TerrainTexture16_LOD",
@@ -1629,44 +1629,69 @@
             ],
             "BaseAltitude": 0,
             "DriveOnRight": false,
-			"Animations": [
-				{
-					"Name":"Rollercoaster",
-					"Url":"Osaka/animations/rollercoaster.pod",
-					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5
-				},
-				{
-					"Name":"Jurassic Boat",
-					"Url":"Osaka/animations/JurassicBoat.pod",
-					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.2
-				},
-				{
-					"Name":"Jaws Boat",
-					"Url":"Osaka/animations/JawsBoat.pod",
-					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5
-				},
-				{
-					"Name":"Globe",
-					"Url":"Osaka/animations/Globe.pod",
-					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5
-				},
-				{
-					"Name":"Sail Boat",
-					"Url":"Osaka/animations/SailBoat.pod",
-					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5
-				},
-				{
-					"Name":"Speed Boat",
-					"Url":"Osaka/animations/SpeedBoat.pod",
-					"LocationLatLong":[34.6634093386, 135.42894623, 0],
-					"FramerateScale":0.5
-				}
-			]
+                        "Animations": [
+                                {
+                                        "Name":"Rollercoaster",
+                                        "Url":"Osaka/animations/rollercoaster.pod",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":0.5
+                                },
+                                {
+                                        "Name":"Jurassic Boat",
+                                        "Url":"Osaka/animations/JurassicBoat.pod",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":0.2
+                                },
+                                {
+                                        "Name":"Jaws Boat",
+                                        "Url":"Osaka/animations/JawsBoat.pod",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":0.5
+                                },
+                                {
+                                        "Name":"Globe",
+                                        "Url":"Osaka/animations/Globe.pod",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":0.5
+                                },
+                                {
+                                        "Name":"Sail Boat",
+                                        "Url":"Osaka/animations/SailBoat.POD",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":0.5
+                                },
+                                {
+                                        "Name":"Speed Boat",
+                                        "Url":"Osaka/animations/SpeedBoat.POD",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":0.5
+                                },
+                                {
+                                        "Name":"Racing Car 1",
+                                        "Url":"Osaka/animations/RacingCar01.POD",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":1.5
+                                },
+                                {
+                                        "Name":"Racing Car 2",
+                                        "Url":"Osaka/animations/RacingCar02.POD",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":1.5
+                                },
+                                {
+                                        "Name":"Racing Car 3",
+                                        "Url":"Osaka/animations/RacingCar03.POD",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":1.5
+                                },
+                                {
+                                        "Name":"Racing Car 4",
+                                        "Url":"Osaka/animations/RacingCar04.POD",
+                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
+                                        "FramerateScale":1.5
+                                }
+                                
+                        ]
         },
         {
             "Name": "Melbourne",
