@@ -1628,70 +1628,7 @@
                 135.43224
             ],
             "BaseAltitude": 0,
-            "DriveOnRight": false,
-                        "Animations": [
-                                {
-                                        "Name":"Rollercoaster",
-                                        "Url":"Osaka/animations/rollercoaster.pod",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":0.5
-                                },
-                                {
-                                        "Name":"Jurassic Boat",
-                                        "Url":"Osaka/animations/JurassicBoat.pod",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":0.2
-                                },
-                                {
-                                        "Name":"Jaws Boat",
-                                        "Url":"Osaka/animations/JawsBoat.pod",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":0.5
-                                },
-                                {
-                                        "Name":"Globe",
-                                        "Url":"Osaka/animations/Globe.pod",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":0.5
-                                },
-                                {
-                                        "Name":"Sail Boat",
-                                        "Url":"Osaka/animations/SailBoat.POD",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":0.5
-                                },
-                                {
-                                        "Name":"Speed Boat",
-                                        "Url":"Osaka/animations/SpeedBoat.POD",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":0.5
-                                },
-                                {
-                                        "Name":"Racing Car 1",
-                                        "Url":"Osaka/animations/RacingCar01.POD",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":1.5
-                                },
-                                {
-                                        "Name":"Racing Car 2",
-                                        "Url":"Osaka/animations/RacingCar02.POD",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":1.5
-                                },
-                                {
-                                        "Name":"Racing Car 3",
-                                        "Url":"Osaka/animations/RacingCar03.POD",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":1.5
-                                },
-                                {
-                                        "Name":"Racing Car 4",
-                                        "Url":"Osaka/animations/RacingCar04.POD",
-                                        "LocationLatLong":[34.6634093386, 135.42894623, 0],
-                                        "FramerateScale":1.5
-                                }
-                                
-                        ]
+            "DriveOnRight": false
         },
         {
             "Name": "Melbourne",
