@@ -1,4 +1,5 @@
 {
+    "LandmarkTextureRoot": "http://d2xvsc8j92rfya.cloudfront.net/landmark_textures/test_builds/v170/",
     "AssetRoot_iOS": "http://cdn1.eegeo.com/mobile-themes/%VERSION%/",
     "AssetRoot_Android": "http://cdn1.eegeo.com/mobile-themes/%VERSION%/",
     "AssetExtension_iOS": ".pvr.gz",
@@ -1304,7 +1305,7 @@
             "BaseAltitude": 0,
             "DriveOnRight": false
         },
-	{
+        {
             "Name": "Osaka",
             "Lighting": {
                 "DefaultLighting": {
@@ -1461,14 +1462,14 @@
             },
             "Textures": {
                 "RoadDiffuse": "Osaka/Osaka_roadDiffuse_repeat",
-                "RoadSnowDiffuse": "Osaka/Osaka_Snow_roadDiffuse",
-                "RoadNightDiffuse": "Osaka/Osaka_Night_roadDiffuse",
+                "RoadSnowDiffuse": "Osaka/Osaka_snow_roadDiffuse",
+                "RoadNightDiffuse": "Osaka/Osaka_night_roadDiffuse",
                 "RailDiffuse": "London/London_railDiffuse_repeat",
                 "RailSnowDiffuse": "London/London_railDiffuse_repeat",
                 "RailNightDiffuse": "London/London_railDiffuse_night",
-                "BuildingDiffuse": "Osaka/Osaka_wallDiffuse",
-                "BuildingSnowDiffuse": "Osaka/Osaka_Snow_wallDiffuse",
-                "BuildingNightDiffuse": "Osaka/Osaka_Night_wallDiffuse",
+                "BuildingDiffuse": "London/London_wallDiffuse",
+                "BuildingSnowDiffuse": "London/London_Snow_wallDiffuse",
+                "BuildingNightDiffuse": "London/London_Night_wallDiffuse",
                 "TreeSideDiffuse": "SanFrancisco/trees_01",
                 "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
                 "TreeSideNightDiffuse": "SanFrancisco/trees_01",
@@ -1581,12 +1582,12 @@
                         "LcmTerrainLodNightDiffuse": "Osaka/TerrainTexture12_LOD"
                     },
                     {
-                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
-                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
-                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
-                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
-                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture13_LOD"
+                        "LcmTerrainDiffuse": "Osaka/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "Osaka/TerrainTexture13",
+                        "LcmTerrainNightDiffuse": "Osaka/TerrainTexture13",
+                        "LcmTerrainLodDiffuse": "Osaka/TerrainTexture13_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Osaka/TerrainTexture13_LOD",
+                        "LcmTerrainLodNightDiffuse": "Osaka/TerrainTexture13_LOD"
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
@@ -1605,12 +1606,12 @@
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture15_LOD"
                     },
                     {
-                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
-                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
-                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
-                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
-                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture16_LOD"
+                        "LcmTerrainDiffuse": "Osaka/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "Osaka/TerrainTexture16",
+                        "LcmTerrainNightDiffuse": "Osaka/TerrainTexture16",
+                        "LcmTerrainLodDiffuse": "Osaka/TerrainTexture16_LOD",
+                        "LcmTerrainLodSnowDiffuse": "Osaka/TerrainTexture16_LOD",
+                        "LcmTerrainLodNightDiffuse": "Osaka/TerrainTexture16_LOD"
                     },
                     {
                         "LcmTerrainDiffuse": "Osaka/TerrainTexture17",
