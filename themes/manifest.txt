@@ -320,6 +320,14 @@
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture18_LOD"
                     }
                 ]
             },
@@ -645,6 +653,14 @@
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture18_LOD"
                     }
                 ]
             },
@@ -970,6 +986,14 @@
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture18_LOD"
                     }
                 ]
             },
@@ -1295,6 +1319,14 @@
                         "LcmTerrainLodDiffuse": "Osaka/TerrainTexture17_LOD",
                         "LcmTerrainLodSnowDiffuse": "Osaka/TerrainTexture17_LOD",
                         "LcmTerrainLodNightDiffuse": "Osaka/TerrainTexture17_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture18_LOD"
                     }
                 ]
             },
@@ -1621,6 +1653,14 @@
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture18_LOD"
                     }
                 ]
             },
@@ -1946,6 +1986,14 @@
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture18_LOD"
                     }
                 ]
             },
@@ -2271,6 +2319,14 @@
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture17_LOD",
                         "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture17_LOD"
+                    },
+                    {
+                        "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
+                        "LcmTerrainLodNightDiffuse": "SanFrancisco/TerrainTexture18_LOD"
                     }
                 ]
             },
