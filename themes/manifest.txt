@@ -1,5 +1,5 @@
 {
-    "LandmarkTextureRoot": "http://d2xvsc8j92rfya.cloudfront.net/landmark_textures/test_builds/v181/",
+    "LandmarkTextureRoot": "http://d2xvsc8j92rfya.cloudfront.net/landmark_textures/test_builds/v183/",
     "AssetRoot_iOS": "http://cdn1.eegeo.com/mobile-themes/%VERSION%/",
     "AssetRoot_Android": "http://cdn1.eegeo.com/mobile-themes/%VERSION%/",
     "AssetExtension_iOS": ".pvr.gz",
