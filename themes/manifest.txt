@@ -206,7 +206,7 @@
                 "LCM": [
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture0",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture0",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture0",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture0",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture0_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture0_LOD",
@@ -214,7 +214,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture1",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture1",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture1",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture1",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture1_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture1_LOD",
@@ -222,7 +222,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture2",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture2",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture2",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture2",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture2_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture2_LOD",
@@ -230,7 +230,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture3",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture3",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture3",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture3",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture3_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture3_LOD",
@@ -238,7 +238,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture4",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture4",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture4",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture4",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture4_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture4_LOD",
@@ -246,7 +246,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture5",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture5",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture5",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture5",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture5_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture5_LOD",
@@ -254,7 +254,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture6",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture6",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture6",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture6",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture6_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture6_LOD",
@@ -262,7 +262,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture7",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture7",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture7",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture7",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture7_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture7_LOD",
@@ -270,7 +270,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture8",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture8",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture8",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture8",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture8_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture8_LOD",
@@ -278,7 +278,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture9",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture9",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture9",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture9",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture9_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture9_LOD",
@@ -286,7 +286,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture10",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture10",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture10",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture10",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture10_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture10_LOD",
@@ -294,7 +294,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture11",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture11",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture11",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture11",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture11_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture11_LOD",
@@ -302,7 +302,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture12",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture12",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture12",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture12",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture12_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture12_LOD",
@@ -310,7 +310,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture13",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture13",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture13",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture13",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture13_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture13_LOD",
@@ -318,7 +318,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture14",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture14",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture14",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture14",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture14_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture14_LOD",
@@ -326,7 +326,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture15",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture15",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture15",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture15",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture15_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture15_LOD",
@@ -334,7 +334,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture16",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture16",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture16",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture16",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture16_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture16_LOD",
@@ -350,7 +350,7 @@
                     },
                     {
                         "LcmTerrainDiffuse": "SanFrancisco/TerrainTexture18",
-                        "LcmTerrainSnowDiffuse": "SanFrancisco/TerrainTexture18",
+                        "LcmTerrainSnowDiffuse": "SanFrancisco/SanFran_Snow_Texture18",
                         "LcmTerrainNightDiffuse": "SanFrancisco/TerrainTexture18",
                         "LcmTerrainLodDiffuse": "SanFrancisco/TerrainTexture18_LOD",
                         "LcmTerrainLodSnowDiffuse": "SanFrancisco/TerrainTexture18_LOD",
