@@ -198,10 +198,10 @@
                 "BuildingSnowDiffuse": "SanFrancisco/SanFran_Snow_wallDiffuse",
                 "BuildingNightDiffuse": "SanFrancisco/SanFran_Night_wallDiffuse",
                 "TreeSideDiffuse": "SanFrancisco/trees_01",
-                "TreeSideSnowDiffuse": "SanFrancisco/trees_01",
+                "TreeSideSnowDiffuse": "SanFrancisco/SanFran_Snow_trees_01.png",
                 "TreeSideNightDiffuse": "SanFrancisco/trees_01",
                 "TreeTopDiffuse": "SanFrancisco/trees_top_01",
-                "TreeTopSnowDiffuse": "SanFrancisco/trees_top_01",
+                "TreeTopSnowDiffuse": "SanFrancisco/SanFran_Snow_trees_top_01.png",
                 "TreeTopNightDiffuse": "SanFrancisco/trees_top_01",
                 "LCM": [
                     {
