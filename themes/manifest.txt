@@ -2178,8 +2178,8 @@
                 ]
             },
             "LocationLatLong": [
-                41.750762,
-                141.457541
+                40.339725,
+                141.103439
             ],
             "BaseAltitude": 0,
             "DriveOnRight": false
