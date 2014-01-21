@@ -57,6 +57,7 @@ SanFranciscoSummerTextures: &SanFranciscoSummerTextures
    PlaneDiffuse: SanFrancisco/sf_planes_01
    WaterNormal: SanFrancisco/water_normalmap
    WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
    LcmDiffuse: 
       <<: *SanFranciscoTerrainTextures
    LcmLodDiffuse:
