@@ -55,6 +55,6 @@ find zipped_themes -name "*.png" -exec rm -rf {} \;
 
 gzip -r ./zipped_themes
 find zipped_themes -name ".*" -exec rm -rf {} \;
-./lib/s3cmd-1.0.1/s3cmd --verbose --add-header='Content-Encoding: gzip' --no-progress --force --recursive --acl-public --config ./lib/s3ini_poked put ./zipped_themes/  s3://eegeo-static/mobile-themes/$version/ > /dev/null
+./lib/s3cmd-1.0.1/s3cmd --verbose --add-header='Content-Encoding: gzip' --no-progress --force --recursive --acl-public --config ./lib/s3ini_poked put ./zipped_themes/  s3://eegeo-static/mobile-themes-new/$version/ > /dev/null
 rm -rf ./zipped_themes
 rm -f ./lib/s3ini_poked
