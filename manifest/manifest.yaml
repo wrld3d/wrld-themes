@@ -8,5 +8,4 @@ ThemeManifest:
    AssetRoot_Android: "http://cdn1.eegeo.com/mobile-themes-new/v5/"
    AssetExtension_iOS: ".pvr.gz"
    AssetExtension_Android: ".ktx.gz"
-   Themes: [*SummerSanFrancisco]
-   Themes: [*SummerJapanSouth]
+   Themes: [*SummerSanFrancisco, *SummerJapanSouth, *SpringJapanSouth]
