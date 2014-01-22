@@ -1,9 +1,12 @@
+#include "defaultlighting.yaml"
 #include "sanfrancisco.yaml"
+#include "japansouth.yaml"
 
 ThemeManifest:
    LandmarkTextureRoot: "http://d2xvsc8j92rfya.cloudfront.net/landmark_textures/test_builds/v188/"
-   AssetRoot_iOS: "http://cdn1.eegeo.com/mobile-themes/v119/"
-   AssetRoot_Android: "http://cdn1.eegeo.com/mobile-themes/v119/"
+   AssetRoot_iOS: "http://cdn1.eegeo.com/mobile-themes-new/v5/"
+   AssetRoot_Android: "http://cdn1.eegeo.com/mobile-themes-new/v5/"
    AssetExtension_iOS: ".pvr.gz"
    AssetExtension_Android: ".ktx.gz"
    Themes: [*SummerSanFrancisco]
+   Themes: [*SummerJapanSouth]
