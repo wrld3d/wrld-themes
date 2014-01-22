@@ -45,13 +45,61 @@ SanFranciscoTerrainLODTextures: &SanFranciscoTerrainLODTextures
      Terrain253: SanFrancisco/Water_01
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
+     
+SanFranciscoSnowTerrainTextures: &SanFranciscoSnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+SanFranciscoSnowTerrainLODTextures: &SanFranciscoSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
 
 SanFranciscoSummerTextures: &SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
    BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
-   TreeSideDiffuse: Okinawa/Spring_trees_top_01
-   TreeTopDiffuse: Okinawa/Spring_trees_01
+   TreeSideDiffuse: SanFrancisco/trees_top_01
+   TreeTopDiffuse: SanFrancisco/trees_01
    VehicleDiffuse: SanFrancisco/sf_vehicles_01
    TrainDiffuse: SanFrancisco/ldn_trains_01
    PlaneDiffuse: SanFrancisco/sf_planes_01
@@ -66,41 +114,29 @@ SanFranciscoSummerTextures: &SanFranciscoSummerTextures
 SanFranciscoSummerNightTextures: &SanFranciscoSummerNightTextures
    <<: *SanFranciscoSummerTextures
    BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
-
-SanFranciscoSunnyLighting: &SanFranciscoSunnyLighting
-   KeyLight: [0.7058823529411765, 0.6274509803921569, 0.3137254901960784]
-   BackLight: [0.43137254901960786, 0.43137254901960786, 0.1568627450980392]
-   FillLight: [0.19607843137254902, 0.19607843137254902, 0.11764705882352941]
-   AmbientLight: [0.43137254901960786, 0.5490196078431373, 0.6274509803921569]
-   AlternativeAmbientLight: [0.43137254901960786, 0.5490196078431373, 0.6274509803921569]
-   ShadowColor: [0.45098039215686275, 0.5686274509803921, 0.7058823529411765]
-   FogColor: [0, 0, 0]
-   FogIntensity: 0.0
-   LightMapColor: [0, 0, 0]
-   LightMapIntensity: 0.0
-   OverlayImage: none
-   OverlayIntensity: 0.0
-   LandmarkPostfix: ""
-
-SanFranciscoNightLighting: &SanFranciscoNightLighting
-   KeyLight: [0, 0, 0]
-   BackLight: [0, 0, 0]
-   FillLight: [0, 0, 0]
-   AmbientLight: [0.13725490196078433, 0.15294117647058825, 0.17254901960784313]
-   AlternativeAmbientLight: [1, 1, 1]
-   ShadowColor: [1, 1, 1]
-   FogColor: [0, 0, 0]
-   FogIntensity: 0.0
-   LightMapColor: [1.3, 0.8309803921568627, 0.20392156862745098]
-   LightMapIntensity: 1.0
-   OverlayImage: none
-   OverlayIntensity: 0.0
-   LandmarkPostfix: night
-
-SanFranciscoNightFoggyLighting: &SanFranciscoNightFoggyLighting
-   <<: *SanFranciscoNightLighting
-   FogColor: [0.3137254901960784, 0.18823529411764706, 0.09411764705882353]
-   FogIntensity: 1.0
+   RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
+   
+SanFranciscoSummerSnowTextures: &SanFranciscoSummerSnowTextures
+   <<: *SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   LcmDiffuse: 
+      <<: *SanFranciscoSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *SanFranciscoSnowTerrainLODTextures
+      
+SanFranciscoSummerNightSnowTextures: &SanFranciscoSummerNightSnowTextures
+   <<: *SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   LcmDiffuse: 
+      <<: *SanFranciscoSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *SanFranciscoSnowTerrainLODTextures
 
 SummerSanFrancisco: &SummerSanFrancisco
    Name: SummerSanFrancisco
@@ -109,18 +145,82 @@ SummerSanFrancisco: &SummerSanFrancisco
    DriveOnRight: true
    States:
       - Name: DayDefault
-        <<: *SanFranciscoSunnyLighting
+        <<: *DefaultSunnyLighting
         Textures:
            <<: *SanFranciscoSummerTextures
       - Name: NightDefault
-        <<: *SanFranciscoNightLighting
+        <<: *DefaultNightLighting
         Textures:
            <<: *SanFranciscoSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
       - Name: NightOvercast
-        <<: *SanFranciscoNightLighting
+        <<: *DefaultNightLighting
         Textures:
            <<: *SanFranciscoSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *SanFranciscoSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *SanFranciscoSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *SanFranciscoSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *SanFranciscoSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
       - Name: NightFoggy
-        <<: *SanFranciscoNightFoggyLighting
+        <<: *DefaultNightFoggyLighting
         Textures:
            <<: *SanFranciscoSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *SanFranciscoSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
