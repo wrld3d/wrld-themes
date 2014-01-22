@@ -1,0 +1,227 @@
+MelbourneTerrainTextures: &MelbourneTerrainTextures
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: SanFrancisco/TerrainTexture4
+     Terrain5: SanFrancisco/TerrainTexture5
+     Terrain6: SanFrancisco/TerrainTexture6
+     Terrain7: SanFrancisco/TerrainTexture7
+     Terrain8: SanFrancisco/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: Melbourne/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: SanFrancisco/TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+MelbourneTerrainLODTextures: &MelbourneTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: Melbourne/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+     
+MelbourneSnowTerrainTextures: &MelbourneSnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+MelbourneSnowTerrainLODTextures: &MelbourneSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: Melbourne/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+MelbourneSummerTextures: &MelbourneSummerTextures
+   RoadDiffuse: Melbourne/Melbourne_roadDiffuse
+   RailDiffuse: Melbourne/Rail_01
+   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
+   VehicleDiffuse: SanFrancisco/sf_vehicles_01
+   TrainDiffuse: SanFrancisco/ldn_trains_01
+   PlaneDiffuse: SanFrancisco/sf_planes_01
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   LcmDiffuse: 
+      <<: *MelbourneTerrainTextures
+   LcmLodDiffuse:
+      <<: *MelbourneTerrainLODTextures
+
+MelbourneSummerNightTextures: &MelbourneSummerNightTextures
+   <<: *MelbourneSummerTextures
+   BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
+   RoadDiffuse: Melbourne/roadDiffuse_Night
+   RailDiffuse: Melbourne/Rail_01_Night
+   
+MelbourneSummerSnowTextures: &MelbourneSummerSnowTextures
+   <<: *MelbourneSummerTextures
+   RoadDiffuse: Melbourne/roadDiffuse_Snow
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MelbourneSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *MelbourneSnowTerrainLODTextures
+      
+MelbourneSummerNightSnowTextures: &MelbourneSummerNightSnowTextures
+   <<: *MelbourneSummerTextures
+   RoadDiffuse: SanFrancisco/London_Night_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MelbourneSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *MelbourneSnowTerrainLODTextures
+
+SummerMelbourne: &SummerMelbourne
+   Name: SummerMelbourne
+   LocationLatLong: [-37.816293,144.972427]
+   BaseAltitude: 0
+   DriveOnRight: false
+   States:
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MelbourneSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MelbourneSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MelbourneSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MelbourneSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MelbourneSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MelbourneSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MelbourneSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MelbourneSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MelbourneSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MelbourneSummerTextures

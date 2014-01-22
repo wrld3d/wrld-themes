@@ -1,0 +1,227 @@
+PhoenixTerrainTextures: &PhoenixTerrainTextures
+     Terrain0: Phoenix/TerrainTexture0
+     Terrain1: Phoenix/TerrainTexture1
+     Terrain2: Phoenix/TerrainTexture2
+     Terrain3: Phoenix/TerrainTexture3
+     Terrain4: Phoenix/TerrainTexture4
+     Terrain5: Phoenix/TerrainTexture5
+     Terrain6: Phoenix/TerrainTexture6
+     Terrain7: Phoenix/TerrainTexture7
+     Terrain8: Phoenix/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: Phoenix/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: Phoenix/TerrainTexture14
+     Terrain15: Phoenix/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+PhoenixTerrainLODTextures: &PhoenixTerrainLODTextures
+     Terrain0: Phoenix/TerrainTexture0_LOD
+     Terrain1: Phoenix/TerrainTexture1_LOD
+     Terrain2: Phoenix/TerrainTexture2_LOD
+     Terrain3: Phoenix/TerrainTexture3_LOD
+     Terrain4: Phoenix/TerrainTexture4_LOD
+     Terrain5: Phoenix/TerrainTexture5_LOD
+     Terrain6: Phoenix/TerrainTexture6_LOD
+     Terrain7: Phoenix/TerrainTexture7_LOD
+     Terrain8: Phoenix/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: Phoenix/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: Phoenix/TerrainTexture14_LOD
+     Terrain15: Phoenix/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+     
+PhoenixSnowTerrainTextures: &PhoenixSnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+PhoenixSnowTerrainLODTextures: &PhoenixSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+PhoenixSummerTextures: &PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   TreeSideDiffuse: Phoenix/trees_01
+   TreeTopDiffuse: Phoenix/trees_top_01
+   VehicleDiffuse: SanFrancisco/sf_vehicles_01
+   TrainDiffuse: SanFrancisco/ldn_trains_01
+   PlaneDiffuse: SanFrancisco/sf_planes_01
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   LcmDiffuse: 
+      <<: *PhoenixTerrainTextures
+   LcmLodDiffuse:
+      <<: *PhoenixTerrainLODTextures
+
+PhoenixSummerNightTextures: &PhoenixSummerNightTextures
+   <<: *PhoenixSummerTextures
+   BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
+   RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   
+PhoenixSummerSnowTextures: &PhoenixSummerSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+      
+PhoenixSummerNightSnowTextures: &PhoenixSummerNightSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+
+SummerPhoenix: &SummerPhoenix
+   Name: SummerPhoenix
+   LocationLatLong: [33.448443,-112.074475]
+   BaseAltitude: 0
+   DriveOnRight: true
+   States:
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PhoenixSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PhoenixSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PhoenixSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
