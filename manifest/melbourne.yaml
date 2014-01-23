@@ -95,7 +95,7 @@ MelbourneSnowTerrainLODTextures: &MelbourneSnowTerrainLODTextures
      Terrain255: SanFrancisco/Water_03
 
 MelbourneSummerTextures: &MelbourneSummerTextures
-   RoadDiffuse: Melbourne/Melbourne_roadDiffuse
+   RoadDiffuse: Melbourne/roadDiffuse
    RailDiffuse: Melbourne/Rail_01
    BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
@@ -130,7 +130,7 @@ MelbourneSummerSnowTextures: &MelbourneSummerSnowTextures
       
 MelbourneSummerNightSnowTextures: &MelbourneSummerNightSnowTextures
    <<: *MelbourneSummerTextures
-   RoadDiffuse: SanFrancisco/London_Night_Snow_roadDiffuse
+   RoadDiffuse: Melbourne/roadDiffuse_Snow
    BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
