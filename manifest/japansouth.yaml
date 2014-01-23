@@ -98,8 +98,8 @@ JapanSouthSummerTextures: &JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
    BuildingDiffuse: Okinawa/Okinawa_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/trees_top_01
-   TreeTopDiffuse: SanFrancisco/trees_01
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
    VehicleDiffuse: SanFrancisco/sf_vehicles_01
    TrainDiffuse: SanFrancisco/ldn_trains_01
    PlaneDiffuse: SanFrancisco/sf_planes_01
@@ -113,8 +113,8 @@ JapanSouthSummerTextures: &JapanSouthSummerTextures
 
 JapanSouthSpringTextures: &JapanSouthSpringTextures
    <<: *JapanSouthSummerTextures
-   TreeSideDiffuse: SanFrancisco/Spring_trees_01
-   TreeTopDiffuse: SanFrancisco/Spring_trees_top_01
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
       <<: *JapanSouthTerrainTextures
       Terrain4: Okinawa/Spring_TerrainTexture4
@@ -127,6 +127,38 @@ JapanSouthSpringTextures: &JapanSouthSpringTextures
    LcmLodDiffuse:
       <<: *JapanSouthTerrainLODTextures
       
+JapanSouthAutumnTextures: &JapanSouthAutumnTextures
+   <<: *JapanSouthSummerTextures
+   TreeSideDiffuse: Okinawa/Autumn_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *JapanSouthTerrainTextures
+      Terrain4: Okinawa/Autumn_TerrainTexture4
+      Terrain5: Okinawa/Autumn_TerrainTexture5
+      Terrain6: Okinawa/Autumn_TerrainTexture6
+      Terrain7: Okinawa/Autumn_TerrainTexture7
+      Terrain8: Okinawa/Autumn_TerrainTexture8
+      Terrain14: Okinawa/Autumn_TerrainTexture14
+      Terrain18: Okinawa/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *JapanSouthTerrainLODTextures
+      
+JapanSouthWinterTextures: &JapanSouthWinterTextures
+   <<: *JapanSouthSummerTextures
+   TreeSideDiffuse: Okinawa/Winter_trees_01
+   TreeTopDiffuse: Okinawa/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *JapanSouthTerrainTextures
+      Terrain4: Okinawa/Winter_TerrainTexture4
+      Terrain5: Okinawa/Winter_TerrainTexture5
+      Terrain6: Okinawa/Winter_TerrainTexture6
+      Terrain7: Okinawa/Winter_TerrainTexture7
+      Terrain8: Okinawa/Winter_TerrainTexture8
+      Terrain14: Okinawa/Winter_TerrainTexture14
+      Terrain18: Okinawa/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *JapanSouthTerrainLODTextures
+      
 JapanSouthSummerNightTextures: &JapanSouthSummerNightTextures
    <<: *JapanSouthSummerTextures
    BuildingDiffuse: Okinawa/Okinawa_Night_wallDiffuse
@@ -136,8 +168,8 @@ JapanSouthSummerSnowTextures: &JapanSouthSummerSnowTextures
    <<: *JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: Okinawa/Okinawa_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
       <<: *JapanSouthSnowTerrainTextures
    LcmLodDiffuse:
@@ -147,8 +179,8 @@ JapanSouthSummerNightSnowTextures: &JapanSouthSummerNightSnowTextures
    <<: *JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
    BuildingDiffuse: Okinawa/Okinawa_Night_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
       <<: *JapanSouthSnowTerrainTextures
    LcmLodDiffuse:
@@ -158,7 +190,7 @@ SummerJapanSouth: &SummerJapanSouth
    Name: SummerJapanSouth
    LocationLatLong: [26.467061,127.852426]
    BaseAltitude: 0
-   DriveOnRight: true
+   DriveOnRight: false
    States:
       - Name: DayDefault
         <<: *DefaultSunnyLighting
@@ -245,7 +277,7 @@ SpringJapanSouth: &SpringJapanSouth
    Name: SpringJapanSouth
    LocationLatLong: [26.467061,127.852426]
    BaseAltitude: 0
-   DriveOnRight: true
+   DriveOnRight: false
    States:
       - Name: DayDefault
         <<: *DefaultSunnyLighting
@@ -327,3 +359,177 @@ SpringJapanSouth: &SpringJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthSpringTextures
+           
+AutumnJapanSouth: &AutumnJapanSouth
+   Name: AutumnJapanSouth
+   LocationLatLong: [26.467061,127.852426]
+   BaseAltitude: 0
+   DriveOnRight: false
+   States:
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *JapanSouthSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *JapanSouthSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *JapanSouthSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *JapanSouthSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *JapanSouthAutumnTextures
+           
+WinterJapanSouth: &WinterJapanSouth
+   Name: WinterJapanSouth
+   LocationLatLong: [26.467061,127.852426]
+   BaseAltitude: 0
+   DriveOnRight: false
+   States:
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *JapanSouthSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *JapanSouthSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *JapanSouthSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *JapanSouthSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *JapanSouthSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *JapanSouthWinterTextures
