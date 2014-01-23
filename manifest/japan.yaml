@@ -163,6 +163,8 @@ JapanSummerNightTextures: &JapanSummerNightTextures
    <<: *JapanSummerTextures
    BuildingDiffuse: Osaka/Osaka_Night_wallDiffuse
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
    
 JapanSummerSnowTextures: &JapanSummerSnowTextures
    <<: *JapanSummerTextures
@@ -179,8 +181,10 @@ JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
    <<: *JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
    BuildingDiffuse: Osaka/Osaka_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
    LcmDiffuse: 
       <<: *JapanSnowTerrainTextures
    LcmLodDiffuse:

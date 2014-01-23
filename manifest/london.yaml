@@ -116,6 +116,7 @@ LondonSummerNightTextures: &LondonSummerNightTextures
    BuildingDiffuse: London/London_Night_wallDiffuse
    RoadDiffuse: London/London_Night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
    
 LondonSummerSnowTextures: &LondonSummerSnowTextures
    <<: *LondonSummerTextures
@@ -134,6 +135,7 @@ LondonSummerNightSnowTextures: &LondonSummerNightSnowTextures
    BuildingDiffuse: London/London_Night_Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
    LcmDiffuse: 
       <<: *LondonSnowTerrainTextures
    LcmLodDiffuse:

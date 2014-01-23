@@ -116,6 +116,7 @@ BarcelonaSummerNightTextures: &BarcelonaSummerNightTextures
    BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
    RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
    
 BarcelonaSummerSnowTextures: &BarcelonaSummerSnowTextures
    <<: *BarcelonaSummerTextures
@@ -134,6 +135,7 @@ BarcelonaSummerNightSnowTextures: &BarcelonaSummerNightSnowTextures
    BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
    LcmDiffuse: 
       <<: *BarcelonaSnowTerrainTextures
    LcmLodDiffuse:
