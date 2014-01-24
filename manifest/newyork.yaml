@@ -182,6 +182,7 @@ NewYorkSummerNightSnowTextures: &NewYorkSummerNightSnowTextures
    <<: *NewYorkSummerTextures
    RoadDiffuse: NewYork/NewYork_Night_Snow_roadDiffuse
    BuildingDiffuse: NewYork/NewYork_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
