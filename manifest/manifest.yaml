@@ -15,4 +15,4 @@ ThemeManifest:
    AssetRoot_Android: "http://cdn1.eegeo.com/mobile-themes-new/v5/"
    AssetExtension_iOS: ".pvr.gz"
    AssetExtension_Android: ".ktx.gz"
-   Themes: [*SummerSanFrancisco, *SummerJapanSouth, *SpringJapanSouth, *AutumnJapanSouth, *WinterJapanSouth, *SummerJapanNorth, *SpringJapanNorth, *AutumnJapanNorth, *WinterJapanNorth, *SummerJapan, *SpringJapan, *AutumnJapan, *WinterJapan, *SummerBarcelona, *SummerLondon, *SummerMelbourne, *SummerNewYork, *SummerPhoenix]
+   Themes: [*SummerSanFrancisco, *SpringSanFrancisco, *AutumnSanFrancisco, *WinterSanFrancisco, *SummerJapanSouth, *SpringJapanSouth, *AutumnJapanSouth, *WinterJapanSouth, *SummerJapanNorth, *SpringJapanNorth, *AutumnJapanNorth, *WinterJapanNorth, *SummerJapan, *SpringJapan, *AutumnJapan, *WinterJapan, *SummerBarcelona, *SpringBarcelona, *AutumnBarcelona, *WinterBarcelona, *SummerLondon, *SpringLondon, *AutumnLondon, *WinterLondon, *SummerMelbourne, *SpringMelbourne, *AutumnMelbourne, *WinterMelbourne, *SummerNewYork, *SpringNewYork, *AutumnNewYork, *WinterNewYork, *SummerPhoenix, *SpringPhoenix, *AutumnPhoenix, *WinterPhoenix]

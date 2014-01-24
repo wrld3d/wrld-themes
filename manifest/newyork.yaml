@@ -110,6 +110,54 @@ NewYorkSummerTextures: &NewYorkSummerTextures
       <<: *NewYorkTerrainTextures
    LcmLodDiffuse:
       <<: *NewYorkTerrainLODTextures
+      
+NewYorkSpringTextures: &NewYorkSpringTextures
+   <<: *NewYorkSummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *NewYorkTerrainTextures
+      Terrain4: Okinawa/Spring_TerrainTexture4
+      Terrain5: Okinawa/Spring_TerrainTexture5
+      Terrain6: Okinawa/Spring_TerrainTexture6
+      Terrain7: Okinawa/Spring_TerrainTexture7
+      Terrain8: Okinawa/Spring_TerrainTexture8
+      Terrain14: Okinawa/Spring_TerrainTexture14
+      Terrain18: Okinawa/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *NewYorkTerrainLODTextures
+      
+NewYorkAutumnTextures: &NewYorkAutumnTextures
+   <<: *NewYorkSummerTextures
+   TreeSideDiffuse: Okinawa/Autumn_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *NewYorkTerrainTextures
+      Terrain4: Okinawa/Autumn_TerrainTexture4
+      Terrain5: Okinawa/Autumn_TerrainTexture5
+      Terrain6: Okinawa/Autumn_TerrainTexture6
+      Terrain7: Okinawa/Autumn_TerrainTexture7
+      Terrain8: Okinawa/Autumn_TerrainTexture8
+      Terrain14: Okinawa/Autumn_TerrainTexture14
+      Terrain18: Okinawa/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *NewYorkTerrainLODTextures
+      
+NewYorkWinterTextures: &NewYorkWinterTextures
+   <<: *NewYorkSummerTextures
+   TreeSideDiffuse: Okinawa/Winter_trees_01
+   TreeTopDiffuse: Okinawa/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *NewYorkTerrainTextures
+      Terrain4: Okinawa/Winter_TerrainTexture4
+      Terrain5: Okinawa/Winter_TerrainTexture5
+      Terrain6: Okinawa/Winter_TerrainTexture6
+      Terrain7: Okinawa/Winter_TerrainTexture7
+      Terrain8: Okinawa/Winter_TerrainTexture8
+      Terrain14: Okinawa/Winter_TerrainTexture14
+      Terrain18: Okinawa/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *NewYorkTerrainLODTextures
 
 NewYorkSummerNightTextures: &NewYorkSummerNightTextures
    <<: *NewYorkSummerTextures
@@ -227,3 +275,264 @@ SummerNewYork: &SummerNewYork
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *NewYorkSummerTextures
+           
+SpringNewYork: &SpringNewYork
+   Name: SpringNewYork
+   LocationLatLong: [40.751418,-73.987633]
+   BaseAltitude: 0
+   DriveOnRight: false
+   States:
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *NewYorkSpringTextures
+           
+AutumnNewYork: &AutumnNewYork
+   Name: AutumnNewYork
+   LocationLatLong: [40.751418,-73.987633]
+   BaseAltitude: 0
+   DriveOnRight: false
+   States:
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *NewYorkAutumnTextures
+           
+WinterNewYork: &WinterNewYork
+   Name: WinterNewYork
+   LocationLatLong: [40.751418,-73.987633]
+   BaseAltitude: 0
+   DriveOnRight: false
+   States:
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *NewYorkSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *NewYorkSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *NewYorkSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *NewYorkWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *NewYorkWinterTextures
