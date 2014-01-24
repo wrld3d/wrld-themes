@@ -42,9 +42,9 @@ JapanTerrainLODTextures: &JapanTerrainLODTextures
      Terrain16: SanFrancisco/TerrainTexture16_LOD
      Terrain17: SanFrancisco/TerrainTexture17_LOD
      Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
      
 JapanSnowTerrainTextures: &JapanSnowTerrainTextures
      Terrain0: Osaka/snow_Texture0
@@ -90,9 +90,9 @@ JapanSnowTerrainLODTextures: &JapanSnowTerrainLODTextures
      Terrain16: SanFrancisco/TerrainTexture16_LOD
      Terrain17: SanFrancisco/TerrainTexture17_LOD
      Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
 
 JapanSummerTextures: &JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
