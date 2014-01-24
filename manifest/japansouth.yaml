@@ -106,6 +106,7 @@ JapanSouthSummerTextures: &JapanSouthSummerTextures
    WaterNormal: SanFrancisco/water_normalmap
    WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
       <<: *JapanSouthTerrainTextures
    LcmLodDiffuse:

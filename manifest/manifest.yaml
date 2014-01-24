@@ -11,8 +11,8 @@
 
 ThemeManifest:
    LandmarkTextureRoot: "http://d2xvsc8j92rfya.cloudfront.net/landmark_textures/test_builds/v188/"
-   AssetRoot_iOS: "http://cdn1.eegeo.com/mobile-themes-new/v5/"
-   AssetRoot_Android: "http://cdn1.eegeo.com/mobile-themes-new/v5/"
+   AssetRoot_iOS: "http://cdn1.eegeo.com/mobile-themes-new/v14/"
+   AssetRoot_Android: "http://cdn1.eegeo.com/mobile-themes-new/v14/"
    AssetExtension_iOS: ".pvr.gz"
    AssetExtension_Android: ".ktx.gz"
    Themes: [*SummerSanFrancisco, *SpringSanFrancisco, *AutumnSanFrancisco, *WinterSanFrancisco, *SummerJapanSouth, *SpringJapanSouth, *AutumnJapanSouth, *WinterJapanSouth, *SummerJapanNorth, *SpringJapanNorth, *AutumnJapanNorth, *WinterJapanNorth, *SummerJapan, *SpringJapan, *AutumnJapan, *WinterJapan, *SummerBarcelona, *SpringBarcelona, *AutumnBarcelona, *WinterBarcelona, *SummerLondon, *SpringLondon, *AutumnLondon, *WinterLondon, *SummerMelbourne, *SpringMelbourne, *AutumnMelbourne, *WinterMelbourne, *SummerNewYork, *SpringNewYork, *AutumnNewYork, *WinterNewYork, *SummerPhoenix, *SpringPhoenix, *AutumnPhoenix, *WinterPhoenix]
