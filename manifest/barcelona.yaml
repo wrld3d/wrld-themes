@@ -42,9 +42,9 @@ BarcelonaTerrainLODTextures: &BarcelonaTerrainLODTextures
      Terrain16: SanFrancisco/TerrainTexture16_LOD
      Terrain17: SanFrancisco/TerrainTexture17_LOD
      Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
      
 BarcelonaSnowTerrainTextures: &BarcelonaSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
@@ -90,9 +90,9 @@ BarcelonaSnowTerrainLODTextures: &BarcelonaSnowTerrainLODTextures
      Terrain16: SanFrancisco/TerrainTexture16_LOD
      Terrain17: SanFrancisco/TerrainTexture17_LOD
      Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
 
 BarcelonaSummerTextures: &BarcelonaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
