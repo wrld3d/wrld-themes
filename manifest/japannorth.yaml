@@ -166,6 +166,7 @@ JapanNorthSummerNightTextures: &JapanNorthSummerNightTextures
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    
 JapanNorthSummerSnowTextures: &JapanNorthSummerSnowTextures
    <<: *JapanNorthSummerTextures
@@ -186,6 +187,7 @@ JapanNorthSummerNightSnowTextures: &JapanNorthSummerNightSnowTextures
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    LcmDiffuse: 
       <<: *JapanNorthSnowTerrainTextures
    LcmLodDiffuse:

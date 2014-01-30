@@ -166,6 +166,7 @@ MelbourneSummerNightTextures: &MelbourneSummerNightTextures
    RoadDiffuse: Melbourne/roadDiffuse_Night
    RailDiffuse: Melbourne/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    
 MelbourneSummerSnowTextures: &MelbourneSummerSnowTextures
    <<: *MelbourneSummerTextures
@@ -186,6 +187,7 @@ MelbourneSummerNightSnowTextures: &MelbourneSummerNightSnowTextures
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    LcmDiffuse: 
       <<: *MelbourneSnowTerrainTextures
    LcmLodDiffuse:
