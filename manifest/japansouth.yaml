@@ -23,25 +23,25 @@ JapanSouthTerrainTextures: &JapanSouthTerrainTextures
      Terrain255: SanFrancisco/Water_03
 
 JapanSouthTerrainLODTextures: &JapanSouthTerrainLODTextures
-     Terrain0: SanFrancisco/TerrainTexture0_LOD
-     Terrain1: SanFrancisco/TerrainTexture1_LOD
-     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain0: Osaka/TerrainTexture0_LOD
+     Terrain1: Osaka/TerrainTexture1_LOD
+     Terrain2: Osaka/TerrainTexture2_LOD
      Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain4: Okinawa/Summer_TerrainTexture4_LOD
+     Terrain5: Okinawa/Summer_TerrainTexture5_LOD
+     Terrain6: Okinawa/Summer_TerrainTexture6_LOD
+     Terrain7: Okinawa/Summer_TerrainTexture7_LOD
+     Terrain8: Okinawa/Summer_TerrainTexture8_LOD
      Terrain9: SanFrancisco/TerrainTexture9_LOD
      Terrain10: SanFrancisco/TerrainTexture10_LOD
      Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: SanFrancisco/TerrainTexture12_LOD
-     Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain12: Osaka/TerrainTexture12_LOD
+     Terrain13: Osaka/TerrainTexture13_LOD
+     Terrain14: Okinawa/Summer_TerrainTexture14_LOD
      Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: SanFrancisco/TerrainTexture16_LOD
-     Terrain17: SanFrancisco/TerrainTexture17_LOD
-     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain16: Osaka/TerrainTexture16_LOD
+     Terrain17: Osaka/TerrainTexture17_LOD
+     Terrain18: Okinawa/Summer_TerrainTexture18_LOD
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
@@ -127,6 +127,13 @@ JapanSouthSpringTextures: &JapanSouthSpringTextures
       Terrain18: Okinawa/Spring_TerrainTexture18
    LcmLodDiffuse:
       <<: *JapanSouthTerrainLODTextures
+      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
       
 JapanSouthAutumnTextures: &JapanSouthAutumnTextures
    <<: *JapanSouthSummerTextures
@@ -143,6 +150,13 @@ JapanSouthAutumnTextures: &JapanSouthAutumnTextures
       Terrain18: Okinawa/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *JapanSouthTerrainLODTextures
+      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
       
 JapanSouthWinterTextures: &JapanSouthWinterTextures
    <<: *JapanSouthSummerTextures
@@ -159,6 +173,13 @@ JapanSouthWinterTextures: &JapanSouthWinterTextures
       Terrain18: Okinawa/Winter_TerrainTexture18
    LcmLodDiffuse:
       <<: *JapanSouthTerrainLODTextures
+      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
       
 JapanSouthSummerNightTextures: &JapanSouthSummerNightTextures
    <<: *JapanSouthSummerTextures
