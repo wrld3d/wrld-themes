@@ -114,11 +114,9 @@ SanFranciscoSummerTextures: &SanFranciscoSummerTextures
       
 SanFranciscoSpringTextures: &SanFranciscoSpringTextures
    <<: *SanFranciscoSummerTextures
-   TreeSideDiffuse: Okinawa/Spring_trees_01
-   TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
       <<: *SanFranciscoTerrainTextures
-      Terrain4: Okinawa/Spring_TerrainTexture4
+      Terrain4: SanFrancisco/Spring_TerrainTexture4
       Terrain5: Okinawa/Spring_TerrainTexture5
       Terrain6: Okinawa/Spring_TerrainTexture6
       Terrain7: Okinawa/Spring_TerrainTexture7
@@ -127,6 +125,13 @@ SanFranciscoSpringTextures: &SanFranciscoSpringTextures
       Terrain18: Okinawa/Spring_TerrainTexture18
    LcmLodDiffuse:
       <<: *SanFranciscoTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
       
 SanFranciscoAutumnTextures: &SanFranciscoAutumnTextures
    <<: *SanFranciscoSummerTextures
@@ -134,7 +139,7 @@ SanFranciscoAutumnTextures: &SanFranciscoAutumnTextures
    TreeTopDiffuse: Okinawa/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *SanFranciscoTerrainTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4
       Terrain5: Okinawa/Autumn_TerrainTexture5
       Terrain6: Okinawa/Autumn_TerrainTexture6
       Terrain7: Okinawa/Autumn_TerrainTexture7
@@ -143,6 +148,13 @@ SanFranciscoAutumnTextures: &SanFranciscoAutumnTextures
       Terrain18: Okinawa/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *SanFranciscoTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
       
 SanFranciscoWinterTextures: &SanFranciscoWinterTextures
    <<: *SanFranciscoSummerTextures
@@ -150,7 +162,7 @@ SanFranciscoWinterTextures: &SanFranciscoWinterTextures
    TreeTopDiffuse: Okinawa/Winter_trees_top_01
    LcmDiffuse: 
       <<: *SanFranciscoTerrainTextures
-      Terrain4: Okinawa/Winter_TerrainTexture4
+      Terrain4: SanFrancisco/Winter_TerrainTexture4
       Terrain5: Okinawa/Winter_TerrainTexture5
       Terrain6: Okinawa/Winter_TerrainTexture6
       Terrain7: Okinawa/Winter_TerrainTexture7
@@ -159,6 +171,13 @@ SanFranciscoWinterTextures: &SanFranciscoWinterTextures
       Terrain18: Okinawa/Winter_TerrainTexture18
    LcmLodDiffuse:
       <<: *SanFranciscoTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
 SanFranciscoSummerNightTextures: &SanFranciscoSummerNightTextures
    <<: *SanFranciscoSummerTextures
