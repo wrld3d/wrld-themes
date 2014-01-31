@@ -199,6 +199,10 @@ SummerSanFrancisco: &SummerSanFrancisco
    BaseAltitude: 0
    DriveOnRight: true
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *SanFranciscoSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

@@ -199,6 +199,10 @@ SummerMelbourne: &SummerMelbourne
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MelbourneSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

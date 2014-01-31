@@ -22,7 +22,7 @@ DefaultRainyOverlay: &DefaultRainyOverlay
    OverlayLayerTwoVelocity: [0.0042, 0.562]
    OverlayLayerTwoAlpha: 0.18
    OverlayLayerTwoScale: 6.4
-
+   
 DefaultSunnyLighting: &DefaultSunnyLighting
    KeyLight: [0.7058823529411765, 0.6274509803921569, 0.3137254901960784]
    BackLight: [0.43137254901960786, 0.43137254901960786, 0.1568627450980392]
@@ -35,6 +35,9 @@ DefaultSunnyLighting: &DefaultSunnyLighting
    LightMapColor: [0, 0, 0]
    LightMapIntensity: 0.0
    LandmarkPostfix: ""
+
+DefaultGlobeViewLighting: &DefaultGlobeViewLighting
+   <<: *DefaultSunnyLighting
    
 DefaultDawnLighting: &DefaultDawnLighting
    <<: *DefaultSunnyLighting

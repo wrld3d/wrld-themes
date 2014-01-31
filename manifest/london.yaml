@@ -199,6 +199,10 @@ SummerLondon: &SummerLondon
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *LondonSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

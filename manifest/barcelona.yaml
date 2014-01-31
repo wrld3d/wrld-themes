@@ -199,6 +199,10 @@ SummerBarcelona: &SummerBarcelona
    BaseAltitude: 0
    DriveOnRight: true
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *BarcelonaSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

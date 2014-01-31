@@ -199,6 +199,10 @@ SummerNewYork: &SummerNewYork
    BaseAltitude: 0
    DriveOnRight: true
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MelbourneSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

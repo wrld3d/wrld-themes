@@ -199,6 +199,10 @@ SummerJapan: &SummerJapan
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *JapanSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
