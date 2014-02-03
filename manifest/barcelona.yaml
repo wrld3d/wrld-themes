@@ -309,6 +309,10 @@ SpringBarcelona: &SpringBarcelona
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *BarcelonaSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -396,6 +400,10 @@ AutumnBarcelona: &AutumnBarcelona
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *BarcelonaAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -483,6 +491,10 @@ WinterBarcelona: &WinterBarcelona
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *BarcelonaWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

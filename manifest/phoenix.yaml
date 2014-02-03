@@ -309,6 +309,10 @@ SpringPhoenix: &SpringPhoenix
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PhoenixSpringTextures      
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -396,6 +400,10 @@ AutumnPhoenix: &AutumnPhoenix
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PhoenixAutumnTextures      
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -483,6 +491,10 @@ WinterPhoenix: &WinterPhoenix
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PhoenixWinterTextures      
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

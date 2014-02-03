@@ -309,6 +309,10 @@ SpringSanFrancisco: &SpringSanFrancisco
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *SanFranciscoSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -396,6 +400,10 @@ AutumnSanFrancisco: &AutumnSanFrancisco
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *SanFranciscoAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -483,6 +491,10 @@ WinterSanFrancisco: &WinterSanFrancisco
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *SanFranciscoWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

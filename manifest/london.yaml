@@ -309,6 +309,10 @@ SpringLondon: &SpringLondon
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *LondonSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -396,6 +400,10 @@ AutumnLondon: &AutumnLondon
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *LondonAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -483,6 +491,10 @@ WinterLondon: &WinterLondon
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *LondonWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

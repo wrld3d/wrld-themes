@@ -309,6 +309,10 @@ SpringMelbourne: &SpringMelbourne
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MelbourneSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -396,6 +400,10 @@ AutumnMelbourne: &AutumnMelbourne
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MelbourneAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -483,6 +491,10 @@ WinterMelbourne: &WinterMelbourne
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MelbourneWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

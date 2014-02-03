@@ -311,6 +311,10 @@ SpringJapanNorth: &SpringJapanNorth
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *JapanNorthSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -398,6 +402,10 @@ AutumnJapanNorth: &AutumnJapanNorth
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *JapanNorthAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
@@ -485,6 +493,10 @@ WinterJapanNorth: &WinterJapanNorth
    BaseAltitude: 0
    DriveOnRight: false
    States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *JapanNorthWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
