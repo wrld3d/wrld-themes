@@ -217,6 +217,8 @@ SummerBarcelona: &SummerBarcelona
    LocationLatLong: [41.382476,2.17804]
    BaseAltitude: 0
    DriveOnRight: true
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -308,6 +310,8 @@ SpringBarcelona: &SpringBarcelona
    LocationLatLong: [41.382476,2.17804]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -399,6 +403,8 @@ AutumnBarcelona: &AutumnBarcelona
    LocationLatLong: [41.382476,2.17804]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -490,6 +496,8 @@ WinterBarcelona: &WinterBarcelona
    LocationLatLong: [41.382476,2.17804]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

@@ -219,6 +219,8 @@ SummerJapanNorth: &SummerJapanNorth
    LocationLatLong: [40.339725,141.103439]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -310,6 +312,8 @@ SpringJapanNorth: &SpringJapanNorth
    LocationLatLong: [40.339725,141.103439]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -401,6 +405,8 @@ AutumnJapanNorth: &AutumnJapanNorth
    LocationLatLong: [40.339725,141.103439]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -492,6 +498,8 @@ WinterJapanNorth: &WinterJapanNorth
    LocationLatLong: [40.339725,141.103439]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

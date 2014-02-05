@@ -217,6 +217,8 @@ SummerMelbourne: &SummerMelbourne
    LocationLatLong: [-37.816293,144.972427]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -308,6 +310,8 @@ SpringMelbourne: &SpringMelbourne
    LocationLatLong: [-37.816293,144.972427]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -399,6 +403,8 @@ AutumnMelbourne: &AutumnMelbourne
    LocationLatLong: [-37.816293,144.972427]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -490,6 +496,8 @@ WinterMelbourne: &WinterMelbourne
    LocationLatLong: [-37.816293,144.972427]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

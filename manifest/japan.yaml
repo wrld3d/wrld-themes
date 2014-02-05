@@ -213,12 +213,64 @@ JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
       <<: *JapanSnowTerrainTextures
    LcmLodDiffuse:
       <<: *JapanSnowTerrainLODTextures
-      
+	 
+JapanPlaceNameStyles: &JapanPlaceNameStyles
+   - Category: ctry
+     Scale: 1.0
+     <<: *PlaceNameColorWhite
+   - Category: stat
+     Scale: 1.0
+     <<: *PlaceNameColorYellow
+   - Category: coun
+     Scale: 1.0
+     <<: *PlaceNameColorYellow
+   - Category: ccty
+     Scale: 0.83
+     <<: *PlaceNameColorWhiteGray
+   - Category: city
+     Scale: 0.83
+     <<: *PlaceNameColorWhiteGray
+   - Category: poin
+     Scale: 0.8   
+     <<: *PlaceNameColorLightBlue
+   - Category: dist
+     Scale: 1.0
+     <<: *PlaceNameColorWhiteGray
+   - Category: airp
+     Scale: 1.0
+     <<: *PlaceNameColorLilac
+   - Category: park
+     Scale: 0.83
+     <<: *PlaceNameColorParkGreen
+   - Category: golf
+     Scale: 0.8
+     <<: *PlaceNameColorGreen
+   - Category: pref
+     Scale: 1.0
+     Color: [0.92, 0.92, 0.92]
+   - Category: ooaz
+     Scale: 1.0
+     Color: [0.94, 0.94, 0.94]
+   - Category: koaz
+     Scale: 1.0
+     Color: [0.8, 0.8, 0.8]
+   - Category: rail
+     Scale: 0.75
+     Color: [0.16, 0.83, 1.0]
+   - Category: zsta
+     Scale: 1.0
+     Color: [1.0, 1.0, 1.0]
+   - Category: watr
+     Scale: 0.75
+     Color: [1.0, 0.4, 0.4]
+
 SummerJapan: &SummerJapan
    Name: SummerJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -310,6 +362,8 @@ SpringJapan: &SpringJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -401,6 +455,8 @@ AutumnJapan: &AutumnJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -492,6 +548,8 @@ WinterJapan: &WinterJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
