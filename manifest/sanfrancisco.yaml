@@ -216,8 +216,8 @@ SanFranciscoSpringSnowTextures: &SanFranciscoSpringSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *SanFranciscoSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
@@ -241,8 +241,8 @@ SanFranciscoAutumnSnowTextures: &SanFranciscoAutumnSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
    LcmDiffuse: 
       <<: *SanFranciscoSnowTerrainTextures
       Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
@@ -266,8 +266,8 @@ SanFranciscoWinterSnowTextures: &SanFranciscoWinterSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
    LcmDiffuse: 
       <<: *SanFranciscoSnowTerrainTextures
       Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
