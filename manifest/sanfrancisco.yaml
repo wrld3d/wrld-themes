@@ -216,8 +216,6 @@ SanFranciscoSpringSnowTextures: &SanFranciscoSpringSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *SanFranciscoSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
