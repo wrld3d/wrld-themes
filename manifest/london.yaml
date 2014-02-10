@@ -114,6 +114,8 @@ LondonSummerTextures: &LondonSummerTextures
       
 LondonSpringTextures: &LondonSpringTextures
    <<: *LondonSummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
       <<: *LondonTerrainTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4
@@ -216,8 +218,8 @@ LondonSpringSnowTextures: &LondonSpringSnowTextures
    <<: *LondonSummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *LondonSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4

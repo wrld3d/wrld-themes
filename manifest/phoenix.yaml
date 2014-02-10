@@ -114,6 +114,8 @@ PhoenixSummerTextures: &PhoenixSummerTextures
       
 PhoenixSpringTextures: &PhoenixSpringTextures
    <<: *PhoenixSummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixTerrainTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4
@@ -216,8 +218,8 @@ PhoenixSpringSnowTextures: &PhoenixSpringSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4

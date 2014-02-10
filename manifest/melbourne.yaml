@@ -114,6 +114,8 @@ MelbourneSummerTextures: &MelbourneSummerTextures
       
 MelbourneSpringTextures: &MelbourneSpringTextures
    <<: *MelbourneSummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
       <<: *MelbourneTerrainTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4
@@ -216,8 +218,8 @@ MelbourneSpringSnowTextures: &MelbourneSpringSnowTextures
    <<: *MelbourneSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *MelbourneSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4

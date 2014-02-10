@@ -114,6 +114,8 @@ NewYorkSummerTextures: &NewYorkSummerTextures
       
 NewYorkSpringTextures: &NewYorkSpringTextures
    <<: *NewYorkSummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
       <<: *NewYorkTerrainTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4
@@ -216,8 +218,8 @@ NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
    <<: *NewYorkSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *NewYorkSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
