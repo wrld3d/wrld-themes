@@ -179,3 +179,7 @@ DefaultNightFoggyLighting: &DefaultNightFoggyLighting
 DefaultNightRainyLighting: &DefaultNightRainyLighting
    <<: *DefaultNightLighting
    <<: *DefaultRainyOverlay
+
+DefaultNightSnowyLighting: &DefaultNightSnowyLighting
+   <<: *DefaultNightLighting
+   <<: *DefaultSnowyOverlay

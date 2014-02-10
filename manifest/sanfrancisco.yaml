@@ -334,7 +334,7 @@ SummerSanFrancisco: &SummerSanFrancisco
         Textures:
            <<: *SanFranciscoSummerSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
@@ -425,7 +425,7 @@ SpringSanFrancisco: &SpringSanFrancisco
         Textures:
            <<: *SanFranciscoSpringSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
@@ -516,7 +516,7 @@ AutumnSanFrancisco: &AutumnSanFrancisco
         Textures:
            <<: *SanFranciscoAutumnSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
@@ -607,7 +607,7 @@ WinterSanFrancisco: &WinterSanFrancisco
         Textures:
            <<: *SanFranciscoWinterSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
