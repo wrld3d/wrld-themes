@@ -211,6 +211,81 @@ PhoenixSummerNightSnowTextures: &PhoenixSummerNightSnowTextures
       <<: *PhoenixSnowTerrainTextures
    LcmLodDiffuse:
       <<: *PhoenixSnowTerrainLODTextures
+      
+PhoenixSpringSnowTextures: &PhoenixSpringSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+      Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
+      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
+      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
+      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
+      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
+      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      
+PhoenixAutumnSnowTextures: &PhoenixAutumnSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+      Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
+      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
+      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
+      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
+      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
+      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      
+PhoenixWinterSnowTextures: &PhoenixWinterSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+      Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
+      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
+      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
+      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
+      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
+      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
 SummerPhoenix: &SummerPhoenix
    Name: SummerPhoenix
@@ -259,7 +334,7 @@ SummerPhoenix: &SummerPhoenix
         Textures:
            <<: *PhoenixSummerSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *PhoenixSummerNightSnowTextures
       - Name: DawnSnowy
@@ -348,19 +423,19 @@ SpringPhoenix: &SpringPhoenix
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixSpringSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *PhoenixSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixSpringSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixSpringSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
@@ -439,19 +514,19 @@ AutumnPhoenix: &AutumnPhoenix
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixAutumnSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *PhoenixSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixAutumnSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixAutumnSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
@@ -530,19 +605,19 @@ WinterPhoenix: &WinterPhoenix
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixWinterSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *PhoenixSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixWinterSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *PhoenixSummerSnowTextures
+           <<: *PhoenixWinterSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:

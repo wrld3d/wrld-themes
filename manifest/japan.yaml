@@ -214,6 +214,81 @@ JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
    LcmLodDiffuse:
       <<: *JapanSnowTerrainLODTextures
       
+JapanSpringSnowTextures: &JapanSpringSnowTextures
+   <<: *JapanSummerTextures
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *JapanSnowTerrainTextures
+      Terrain4: Okinawa/Spring_Snow_TerrainTexture4
+      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
+      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
+      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
+      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
+      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *JapanSnowTerrainLODTextures
+      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      
+JapanAutumnSnowTextures: &JapanAutumnSnowTextures
+   <<: *JapanSummerTextures
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *JapanSnowTerrainTextures
+      Terrain4: Okinawa/Autumn_Snow_TerrainTexture4
+      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
+      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
+      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
+      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
+      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *JapanSnowTerrainLODTextures
+      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      
+JapanWinterSnowTextures: &JapanWinterSnowTextures
+   <<: *JapanSummerTextures
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *JapanSnowTerrainTextures
+      Terrain4: Okinawa/Winter_Snow_TerrainTexture4
+      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
+      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
+      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
+      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
+      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *JapanSnowTerrainLODTextures
+      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+      
 SummerJapan: &SummerJapan
    Name: SummerJapan
    LocationLatLong: [34.665246,135.43224]
@@ -261,7 +336,7 @@ SummerJapan: &SummerJapan
         Textures:
            <<: *JapanSummerSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *JapanSummerNightSnowTextures
       - Name: DawnSnowy
@@ -350,19 +425,19 @@ SpringJapan: &SpringJapan
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanSpringSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *JapanSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanSpringSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanSpringSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
@@ -441,19 +516,19 @@ AutumnJapan: &AutumnJapan
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanAutumnSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *JapanSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanAutumnSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanAutumnSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
@@ -532,19 +607,19 @@ WinterJapan: &WinterJapan
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanWinterSnowTextures
       - Name: NightSnowy
-        <<: *DefaultNightLighting
+        <<: *DefaultNightSnowyLighting
         Textures:
            <<: *JapanSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanWinterSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *JapanSummerSnowTextures
+           <<: *JapanWinterSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
