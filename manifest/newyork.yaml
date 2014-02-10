@@ -296,7 +296,7 @@ SummerNewYork: &SummerNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *MelbourneSummerTextures
+           <<: *NewYorkSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:

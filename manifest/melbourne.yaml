@@ -200,7 +200,7 @@ MelbourneSummerSnowTextures: &MelbourneSummerSnowTextures
       
 MelbourneSummerNightSnowTextures: &MelbourneSummerNightSnowTextures
    <<: *MelbourneSummerTextures
-   RoadDiffuse: Melbourne/roadDiffuse_Snow
+   RoadDiffuse: Melbourne/roadDiffuse_Night_Snow
    BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
    RailDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
