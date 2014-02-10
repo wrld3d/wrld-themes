@@ -41,22 +41,23 @@ DefaultGlobeViewLighting: &DefaultGlobeViewLighting
    
 DefaultDawnLighting: &DefaultDawnLighting
    <<: *DefaultSunnyLighting
-   KeyLight: [1.0, 0.54, 0.0]
+   KeyLight: [0.8, 0.34, 0.0]
    ShadowColor: [0.65098039215686275, 0.7686274509803921, 0.9058823529411765]
    
 DefaultDawnOvercastLighting: &DefaultDawnOvercastLighting
    <<: *DefaultSunnyLighting
-   KeyLight: [1.0, 0.54, 0.0]
+   KeyLight: [0.8, 0.34, 0.0]
    BackLight: [0.24490196078431373, 0.24490196078431373, 0.11070588235294118]
    AmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
    AlternativeAmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
    ShadowColor: [0.65098039215686275, 0.7686274509803921, 0.9058823529411765]
    FogColor: [0.5019607843137255, 0.5019607843137255, 0.5019607843137255]
+   FogIntensity: 0.2
    
 DefaultDawnSnowyLighting: &DefaultDawnSnowyLighting
    <<: *DefaultSunnyLighting
    <<: *DefaultSnowyOverlay
-   KeyLight: [1.0, 0.54, 0.0]
+   KeyLight: [0.8, 0.34, 0.0]
    BackLight: [0.24490196078431373, 0.24490196078431373, 0.11070588235294118]
    AmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
    AlternativeAmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
@@ -65,25 +66,26 @@ DefaultDawnSnowyLighting: &DefaultDawnSnowyLighting
    
 DefaultDawnFoggyLighting: &DefaultDawnFoggyLighting
    <<: *DefaultSunnyLighting
-   KeyLight: [1.0, 0.54, 0.0]
+   KeyLight: [0.8, 0.34, 0.0]
    ShadowColor: [0.65098039215686275, 0.7686274509803921, 0.9058823529411765]
    FogColor: [0.5019607843137255, 0.5019607843137255, 0.5019607843137255]
    FogIntensity: 1
    
 DefaultDuskLighting: &DefaultDuskLighting
    <<: *DefaultSunnyLighting
-   KeyLight: [0.6196, 0.0, 0.4078]
+   KeyLight: [0.6196, 0.0, 0.2078]
    BackLight: [0.43137254901960786, 0.23137254901960786, 0.3568627450980392]
    ShadowColor: [0.65098039215686275, 0.7686274509803921, 0.9058823529411765]
    LightMapColor: [1.3, 0.8309803921568627, 0.20392156862745098]
    
 DefaultDuskOvercastLighting: &DefaultDuskOvercastLighting
    <<: *DefaultSunnyLighting
-   KeyLight: [0.6196, 0.0, 0.4078]
+   KeyLight: [0.6196, 0.0, 0.2078]
    BackLight: [0.43137254901960786, 0.23137254901960786, 0.3568627450980392]
    ShadowColor: [0.65098039215686275, 0.7686274509803921, 0.9058823529411765]
    FogColor: [0.5019607843137255, 0.5019607843137255, 0.5019607843137255]
    LightMapColor: [1.3, 0.8309803921568627, 0.20392156862745098]
+   FogIntensity: 0.2
    
 DefaultOvercastLighting: &DefaultOvercastLighting
    KeyLight: [0.47058823529411764, 0.43137254901960786, 0.27450980392156865]
@@ -93,7 +95,7 @@ DefaultOvercastLighting: &DefaultOvercastLighting
    AlternativeAmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
    ShadowColor: [0.8627450980392157, 0.8627450980392157, 0.8627450980392157]
    FogColor: [0.5019607843137255, 0.5019607843137255, 0.5019607843137255]
-   FogIntensity: 0.0
+   FogIntensity: 0.2
    LightMapColor: [0, 0, 0]
    LightMapIntensity: 0.0
    LandmarkPostfix: ""
@@ -127,7 +129,7 @@ DefaultSnowyLighting: &DefaultSnowyLighting
 DefaultDuskSnowyLighting: &DefaultDuskSnowyLighting
    <<: *DefaultSunnyLighting
    <<: *DefaultSnowyOverlay
-   KeyLight: [0.6196, 0.0, 0.4078]
+   KeyLight: [0.6196, 0.0, 0.2078]
    BackLight: [0.43137254901960786, 0.23137254901960786, 0.3568627450980392]
    AmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
    AlternativeAmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
@@ -151,7 +153,7 @@ DefaultDayFoggyLighting: &DefaultDayFoggyLighting
    
 DefaultDuskFoggyLighting: &DefaultDuskFoggyLighting
    <<: *DefaultSunnyLighting
-   KeyLight: [0.6196, 0.0, 0.4078]
+   KeyLight: [0.6196, 0.0, 0.2078]
    BackLight: [0.43137254901960786, 0.23137254901960786, 0.3568627450980392]
    ShadowColor: [0.65098039215686275, 0.7686274509803921, 0.9058823529411765]
    LightMapColor: [1.3, 0.8309803921568627, 0.20392156862745098]
@@ -159,7 +161,7 @@ DefaultDuskFoggyLighting: &DefaultDuskFoggyLighting
    FogIntensity: 1
    
 DefaultNightLighting: &DefaultNightLighting
-   KeyLight: [0, 0, 0]
+   KeyLight: [0, 0, 2]
    BackLight: [0, 0, 0]
    FillLight: [0, 0, 0]
    AmbientLight: [0.13725490196078433, 0.15294117647058825, 0.17254901960784313]
