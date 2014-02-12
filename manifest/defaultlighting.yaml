@@ -174,7 +174,7 @@ DefaultNightLighting: &DefaultNightLighting
    KeyLight: [0, 0, 0]
    BackLight: [0, 0, 0]
    FillLight: [0, 0, 0]
-   AmbientLight: [0.187, 0.203, 0.123]
+   AmbientLight: [0.187, 0.123, 0.203]
    AlternativeAmbientLight: [1, 1, 1]
    ShadowColor: [1, 1, 1]
    FogColor: [0, 0, 0]
