@@ -294,6 +294,7 @@ SummerSanFrancisco: &SummerSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    DriveOnRight: true
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
