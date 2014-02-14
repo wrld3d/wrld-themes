@@ -291,7 +291,7 @@ JapanNorthWinterSnowTextures: &JapanNorthWinterSnowTextures
       
 SummerJapanNorth: &SummerJapanNorth
    Name: SummerJapanNorth
-   LocationLatLong: [40.339725,141.103439]
+   LocationLatLong: [43.079394,144.189111]
    BaseAltitude: 0
    DriveOnRight: false
    States:
@@ -382,7 +382,7 @@ SummerJapanNorth: &SummerJapanNorth
            
 SpringJapanNorth: &SpringJapanNorth
    Name: SpringJapanNorth
-   LocationLatLong: [40.339725,141.103439]
+   LocationLatLong: [43.079394,144.189111]
    BaseAltitude: 0
    DriveOnRight: false
    States:
@@ -473,7 +473,7 @@ SpringJapanNorth: &SpringJapanNorth
            
 AutumnJapanNorth: &AutumnJapanNorth
    Name: AutumnJapanNorth
-   LocationLatLong: [40.339725,141.103439]
+   LocationLatLong: [43.079394,144.189111]
    BaseAltitude: 0
    DriveOnRight: false
    States:
@@ -564,7 +564,7 @@ AutumnJapanNorth: &AutumnJapanNorth
            
 WinterJapanNorth: &WinterJapanNorth
    Name: WinterJapanNorth
-   LocationLatLong: [40.339725,141.103439]
+   LocationLatLong: [43.079394,144.189111]
    BaseAltitude: 0
    DriveOnRight: false
    States:
