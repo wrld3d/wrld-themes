@@ -298,7 +298,7 @@ SummerPhoenix: &SummerPhoenix
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *MelbourneSummerTextures
+           <<: *PhoenixSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
