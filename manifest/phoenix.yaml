@@ -47,22 +47,22 @@ PhoenixTerrainLODTextures: &PhoenixTerrainLODTextures
      Terrain255: SanFrancisco/Water_03_LOD
      
 PhoenixSnowTerrainTextures: &PhoenixSnowTerrainTextures
-     Terrain0: SanFrancisco/SanFran_Snow_Texture0
-     Terrain1: SanFrancisco/SanFran_Snow_Texture1
-     Terrain2: SanFrancisco/SanFran_Snow_Texture2
-     Terrain3: SanFrancisco/SanFran_Snow_Texture3
-     Terrain4: SanFrancisco/SanFran_Snow_Texture4
-     Terrain5: SanFrancisco/SanFran_Snow_Texture5
-     Terrain6: SanFrancisco/SanFran_Snow_Texture6
-     Terrain7: SanFrancisco/SanFran_Snow_Texture7
-     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain0: Phoenix/Snow_TerrainTexture0
+     Terrain1: Phoenix/Snow_TerrainTexture1
+     Terrain2: Phoenix/Snow_TerrainTexture2
+     Terrain3: Phoenix/Snow_TerrainTexture3
+     Terrain4: Phoenix/Snow_TerrainTexture4
+     Terrain5: Phoenix/Snow_TerrainTexture5
+     Terrain6: Phoenix/Snow_TerrainTexture6
+     Terrain7: Phoenix/Snow_TerrainTexture7
+     Terrain8: Phoenix/Snow_TerrainTexture8
      Terrain9: SanFrancisco/SanFran_Snow_Texture9
-     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain10: SPhoenix/Snow_TerrainTexture10
      Terrain11: SanFrancisco/SanFran_Snow_Texture11
      Terrain12: SanFrancisco/SanFran_Snow_Texture12
      Terrain13: SanFrancisco/SanFran_Snow_Texture13
-     Terrain14: SanFrancisco/SanFran_Snow_Texture14
-     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain14: Phoenix/Snow_TerrainTexture14
+     Terrain15: Phoenix/Snow_TerrainTexture15
      Terrain16: SanFrancisco/SanFran_Snow_Texture16
      Terrain17: SanFrancisco/TerrainTexture17
      Terrain18: SanFrancisco/SanFran_Snow_Texture18
@@ -71,22 +71,22 @@ PhoenixSnowTerrainTextures: &PhoenixSnowTerrainTextures
      Terrain255: SanFrancisco/Water_03
 
 PhoenixSnowTerrainLODTextures: &PhoenixSnowTerrainLODTextures
-     Terrain0: SanFrancisco/TerrainTexture0_LOD
-     Terrain1: SanFrancisco/TerrainTexture1_LOD
-     Terrain2: SanFrancisco/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain0: Phoenix/TerrainTexture0_LOD
+     Terrain1: Phoenix/TerrainTexture1_LOD
+     Terrain2: Phoenix/TerrainTexture2_LOD
+     Terrain3: Phoenix/TerrainTexture3_LOD
+     Terrain4: Phoenix/TerrainTexture4_LOD
+     Terrain5: Phoenix/TerrainTexture5_LOD
+     Terrain6: Phoenix/TerrainTexture6_LOD
+     Terrain7: Phoenix/TerrainTexture7_LOD
+     Terrain8: Phoenix/TerrainTexture8_LOD
      Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain10: Phoenix/TerrainTexture10_LOD
      Terrain11: SanFrancisco/TerrainTexture11_LOD
      Terrain12: SanFrancisco/TerrainTexture12_LOD
      Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain14: Phoenix/TerrainTexture14_LOD
+     Terrain15: Phoenix/TerrainTexture15_LOD
      Terrain16: SanFrancisco/TerrainTexture16_LOD
      Terrain17: SanFrancisco/TerrainTexture17_LOD
      Terrain18: SanFrancisco/TerrainTexture18_LOD
