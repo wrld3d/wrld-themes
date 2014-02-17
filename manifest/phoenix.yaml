@@ -57,7 +57,7 @@ PhoenixSnowTerrainTextures: &PhoenixSnowTerrainTextures
      Terrain7: Phoenix/Snow_TerrainTexture7
      Terrain8: Phoenix/Snow_TerrainTexture8
      Terrain9: SanFrancisco/SanFran_Snow_Texture9
-     Terrain10: SPhoenix/Snow_TerrainTexture10
+     Terrain10: Phoenix/Snow_TerrainTexture10
      Terrain11: SanFrancisco/SanFran_Snow_Texture11
      Terrain12: SanFrancisco/SanFran_Snow_Texture12
      Terrain13: SanFrancisco/SanFran_Snow_Texture13
