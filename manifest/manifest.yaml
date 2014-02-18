@@ -1,0 +1,21 @@
+#include "defaultlighting.yaml"
+#include "defaultvehicles.yaml"
+#include "sanfrancisco.yaml"
+#include "japansouth.yaml"
+#include "japannorth.yaml"
+#include "japan.yaml"
+#include "barcelona.yaml"
+#include "london.yaml"
+#include "melbourne.yaml"
+#include "newyork.yaml"
+#include "phoenix.yaml"
+
+ThemeManifest:
+   LandmarkTextureRoot: "http://d2xvsc8j92rfya.cloudfront.net/landmark_textures/test_builds/v212/"
+   AssetRoot_iOS: "http://cdn1.eegeo.com/mobile-themes-new/%VERSION%/"
+   AssetRoot_Android: "http://cdn1.eegeo.com/mobile-themes-new/%VERSION%/"
+   AssetExtension_iOS: ".pvr.gz"
+   AssetExtension_Android: ".ktx.gz"
+   GlobeViewThemeState: "GlobeView"
+   GlobeViewAltitude: 15000
+   Themes: [*SummerSanFrancisco, *SpringSanFrancisco, *AutumnSanFrancisco, *WinterSanFrancisco, *SummerJapanSouth, *SpringJapanSouth, *AutumnJapanSouth, *WinterJapanSouth, *SummerJapanNorth, *SpringJapanNorth, *AutumnJapanNorth, *WinterJapanNorth, *SummerJapan, *SpringJapan, *AutumnJapan, *WinterJapan, *SummerBarcelona, *SpringBarcelona, *AutumnBarcelona, *WinterBarcelona, *SummerLondon, *SpringLondon, *AutumnLondon, *WinterLondon, *SummerMelbourne, *SpringMelbourne, *AutumnMelbourne, *WinterMelbourne, *SummerNewYork, *SpringNewYork, *AutumnNewYork, *WinterNewYork, *SummerPhoenix, *SpringPhoenix, *AutumnPhoenix, *WinterPhoenix]
