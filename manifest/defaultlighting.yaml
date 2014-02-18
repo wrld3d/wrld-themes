@@ -190,12 +190,12 @@ DefaultNightFoggyLighting: &DefaultNightFoggyLighting
    
 DefaultNightRainyLighting: &DefaultNightRainyLighting
    <<: *DefaultNightLighting
-   FogColor: [0.3137254901960784, 0.18823529411764706, 0.09411764705882353]
+   FogColor: [0.5019607843137255, 0.5019607843137255, 0.5019607843137255]
    FogIntensity: 0.5
    <<: *DefaultRainyOverlay
 
 DefaultNightSnowyLighting: &DefaultNightSnowyLighting
    <<: *DefaultNightLighting
-   FogColor: [0.3137254901960784, 0.18823529411764706, 0.09411764705882353]
+   FogColor: [0.5019607843137255, 0.5019607843137255, 0.5019607843137255]
    FogIntensity: 0.5
    <<: *DefaultSnowyOverlay
