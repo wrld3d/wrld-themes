@@ -1,7 +1,7 @@
 DefaultRailVehicles: &DefaultRailVehicles
    Name: "Basic Rail Simulation"
    DrivesOnRight: true
-   VehiclesBasePodFile: "ldn_trains_01.pod"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/ldn_trains_01.pod"
    SpawnChancePerCell: 0.6
    MinimumDistanceBetweenSpawns: 300.0
    VehicleList:
@@ -45,7 +45,7 @@ DefaultRailVehicles: &DefaultRailVehicles
 DefaultRoadVehicles: &DefaultRoadVehicles
    Name: "Basic Road Simulation"
    DrivesOnRight: true
-   VehiclesBasePodFile: "Vehicles_SF_Day.pod"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Vehicles_SF_Day.pod"
    SpawnChancePerCell: 1
    MinimumDistanceBetweenSpawns: 0
    VehicleList:
