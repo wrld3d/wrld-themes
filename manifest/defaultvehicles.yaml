@@ -45,7 +45,7 @@ DefaultRailVehicles: &DefaultRailVehicles
 DefaultRoadVehicles: &DefaultRoadVehicles
    Name: "Basic Road Simulation"
    DrivesOnRight: true
-   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Vehicles_SF.pod"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Vehicles_SF.POD"
    SpawnChancePerCell: 1
    MinimumDistanceBetweenSpawns: 0
    VehicleList:
@@ -75,7 +75,7 @@ DefaultTramVehicles: &DefaultTramVehicles
 	 
 DefaultPlaneVehicles: &DefaultPlaneVehicles
    Name: "Basic Plane Simulation"
-   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Planes_SF.pod"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Planes_SF.POD"
    VehicleList:
    - Name: "Cessna 1"
      ModelNode: "cessna_01"
