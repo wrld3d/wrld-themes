@@ -1,7 +1,7 @@
 DefaultRailVehicles: &DefaultRailVehicles
    Name: "Basic Rail Simulation"
    DrivesOnRight: true
-   VehiclesBasePodFile: "SanFrancisco/VehicleModels/ldn_trains_01.pod"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Trains_SF.POD"
    SpawnChancePerCell: 0.6
    MinimumDistanceBetweenSpawns: 300.0
    VehicleList:
@@ -45,7 +45,7 @@ DefaultRailVehicles: &DefaultRailVehicles
 DefaultRoadVehicles: &DefaultRoadVehicles
    Name: "Basic Road Simulation"
    DrivesOnRight: true
-   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Vehicles_SF_Day.pod"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Vehicles_SF.pod"
    SpawnChancePerCell: 1
    MinimumDistanceBetweenSpawns: 0
    VehicleList:
@@ -62,8 +62,40 @@ DefaultRoadVehicles: &DefaultRoadVehicles
      ModelNode: "Car_D_001"
      Speed: 20
 
+DefaultTramVehicles: &DefaultTramVehicles
+   Name: "Basic Trams Simulation"
+   DrivesOnRight: true
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Trams_SF.POD"
+   SpawnChancePerCell: 0.95
+   MinimumDistanceBetweenSpawns: 150.0
+   VehicleList:
+   - Name: "Melbourne Tram"
+     ModelNode: "Tram_A"
+     Speed: 20
+	 
+DefaultPlaneVehicles: &DefaultPlaneVehicles
+   Name: "Basic Plane Simulation"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Planes_SF.pod"
+   VehicleList:
+   - Name: "Cessna 1"
+     ModelNode: "cessna_01"
+     Speed: 50
+   - Name: "Cessna 2"
+     ModelNode: "cessna_02"
+     Speed: 50
+   - Name: "Learjet 1"
+     ModelNode: "learjet_01"
+     Speed: 200
+   - Name: "Learjet 2"
+     ModelNode: "learjet_02"
+     Speed: 200
+	 
 DefaultVehicles: &DefaultVehicles
    RoadVehicles:
       <<: *DefaultRoadVehicles
    RailVehicles:
       <<: *DefaultRailVehicles
+   TramVehicles:
+      <<: *DefaultTramVehicles
+   PlaneVehicles:
+      <<: *DefaultPlaneVehicles
