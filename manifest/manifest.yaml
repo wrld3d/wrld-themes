@@ -2,6 +2,7 @@
 #include "defaultplacenames.yaml"
 #include "defaultvehicles.yaml"
 #include "sanfrancisco.yaml"
+#include "japanvehicles.yaml"
 #include "japan.yaml"
 #include "japansouth.yaml"
 #include "japannorth.yaml"

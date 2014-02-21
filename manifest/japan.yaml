@@ -379,6 +379,7 @@ SummerJapan: &SummerJapan
    DriveOnRight: false
    PlaceNameStyles:
        *JapanPlaceNameStyles
+   <<: *JapanVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -472,6 +473,7 @@ SpringJapan: &SpringJapan
    DriveOnRight: false
    PlaceNameStyles:
        *JapanPlaceNameStyles
+   <<: *JapanVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -565,6 +567,7 @@ AutumnJapan: &AutumnJapan
    DriveOnRight: false
    PlaceNameStyles:
        *JapanPlaceNameStyles
+   <<: *JapanVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -658,6 +661,7 @@ WinterJapan: &WinterJapan
    DriveOnRight: false
    PlaceNameStyles:
        *JapanPlaceNameStyles
+   <<: *JapanVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

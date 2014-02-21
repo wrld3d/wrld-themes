@@ -1,0 +1,129 @@
+JapanRailVehicles: &JapanRailVehicles
+   Name: "Japan Rail Simulation"
+   DrivesOnRight: true
+   VehiclesBasePodFile: "Osaka/VehicleModels/Trains_ZDC.POD"
+   SpawnChancePerCell: 0.6
+   MinimumDistanceBetweenSpawns: 300.0
+   VehicleList:
+   - Name: "Train A"
+     ModelNode: "Train_A_Engine"
+     Speed: 80
+     CarriageNode: "Train_A_Middle"
+     TailNode: "Train_A_End001"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Inclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train B"
+     ModelNode: "Train_B_Engine"
+     Speed: 80
+     CarriageNode: "Train_B_Middle"
+     TailNode: "Train_B_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Inclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train C"
+     ModelNode: "Train_C_Engine"
+     Speed: 50
+     CarriageNode: "Train_C_Middle"
+     TailNode: "Train_C_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train D"
+     ModelNode: "Train_D_Engine"
+     Speed: 50
+     CarriageNode: "Train_D_Middle"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train E"
+     ModelNode: "Train_E_Engine"
+     Speed: 50
+     CarriageNode: "Train_E_Middle"
+     TailNode: "Train_E_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train F"
+     ModelNode: "Train_F_Engine"
+     Speed: 50
+     CarriageNode: "Train_F_Middle"
+     TailNode: "Train_F_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train G"
+     ModelNode: "Train_G_Engine"
+     Speed: 50
+     CarriageNode: "Train_G_Middle001"
+     TailNode: "Train_G_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+
+JapanRoadVehicles: &JapanRoadVehicles
+   Name: "Japan Road Simulation"
+   DrivesOnRight: true
+   VehiclesBasePodFile: "Osaka/VehicleModels/Vehicles_ZDC.POD"
+   SpawnChancePerCell: 1
+   MinimumDistanceBetweenSpawns: 0
+   VehicleList:
+   - Name: "White car"
+     ModelNode: "Car_A_002"
+     Speed: 20
+   - Name: "Blue Van"
+     ModelNode: "Car_B_004"
+     Speed: 20
+   - Name: "White car 2"
+     ModelNode: "Car_C_002"
+     Speed: 20
+   - Name: "Blue van 2"
+     ModelNode: "Car_C_003"
+     Speed: 20
+   - Name: "Big white van"
+     ModelNode: "Car_C_004"
+     Speed: 20
+   - Name: "Bus"
+     ModelNode: "Car_D_002"
+     Speed: 15
+   - Name: "Big white van 2"
+     ModelNode: "Car_D_003"
+     Speed: 20
+
+JapanPlaneVehicles: &JapanPlaneVehicles
+   Name: "Japan Plane Simulation"
+   VehiclesBasePodFile: "Osaka/VehicleModels/Planes_ZDC.POD"
+   VehicleList:
+   - Name: "Cessna 1"
+     ModelNode: "cessna_01"
+     Speed: 50
+   - Name: "Cessna 2"
+     ModelNode: "cessna_02"
+     Speed: 50
+   - Name: "Learjet 1"
+     ModelNode: "learjet_01"
+     Speed: 200
+   - Name: "Learjet 2"
+     ModelNode: "learjet_02"
+     Speed: 200
+   - Name: "Zeppelin"
+     ModelNode: "Zeppelin"
+     Speed: 30
+   - Name: "Helicopter"
+     ModelNode: "Helicopter"
+     Speed: 40
+	 
+JapanVehicles: &JapanVehicles
+   RoadVehicles:
+      <<: *JapanRoadVehicles
+   RailVehicles:
+      <<: *JapanRailVehicles
+   PlaneVehicles:
+      <<: *JapanPlaneVehicles
