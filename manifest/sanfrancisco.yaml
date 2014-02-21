@@ -296,7 +296,8 @@ SummerSanFrancisco: &SummerSanFrancisco
    DriveOnRight: true
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles   States:
+   <<: *DefaultVehicles   
+   States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
