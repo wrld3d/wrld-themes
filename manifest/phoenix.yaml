@@ -294,6 +294,8 @@ SummerPhoenix: &SummerPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
    DriveOnRight: true
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -385,6 +387,8 @@ SpringPhoenix: &SpringPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -476,6 +480,8 @@ AutumnPhoenix: &AutumnPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -567,6 +573,8 @@ WinterPhoenix: &WinterPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

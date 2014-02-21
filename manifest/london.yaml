@@ -294,6 +294,8 @@ SummerLondon: &SummerLondon
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -385,6 +387,8 @@ SpringLondon: &SpringLondon
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -476,6 +480,8 @@ AutumnLondon: &AutumnLondon
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -567,6 +573,8 @@ WinterLondon: &WinterLondon
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

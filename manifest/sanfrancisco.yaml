@@ -294,8 +294,9 @@ SummerSanFrancisco: &SummerSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    DriveOnRight: true
-   <<: *DefaultVehicles
-   States:
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehicles   States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
@@ -386,6 +387,8 @@ SpringSanFrancisco: &SpringSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -477,6 +480,8 @@ AutumnSanFrancisco: &AutumnSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -568,6 +573,8 @@ WinterSanFrancisco: &WinterSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

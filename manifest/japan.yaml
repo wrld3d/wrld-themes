@@ -213,7 +213,90 @@ JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
       <<: *JapanSnowTerrainTextures
    LcmLodDiffuse:
       <<: *JapanSnowTerrainLODTextures
-      
+	 
+JapanPlaceNameStyles: &JapanPlaceNameStyles
+   - Category: ctry
+     Scale: 1.0
+     <<: *PlaceNameColorWhite
+   - Category: stat
+     Scale: 1.0
+     <<: *PlaceNameColorYellow
+   - Category: coun
+     Scale: 1.0
+     <<: *PlaceNameColorYellow
+   - Category: ccty
+     Scale: 0.84
+     <<: *PlaceNameColorWhiteGray
+   - Category: city
+     Scale: 0.84
+     <<: *PlaceNameColorWhiteGray
+   - Category: poin
+     Scale: 0.84   
+     <<: *PlaceNameColorLightBlue
+   - Category: dist
+     Scale: 0.84
+     <<: *PlaceNameColorWhiteGray
+   - Category: airp
+     Scale: 1.0
+     <<: *PlaceNameColorLilac
+   - Category: park
+     Scale: 0.84
+     <<: *PlaceNameColorParkGreen
+   - Category: golf
+     Scale: 0.8
+     <<: *PlaceNameColorGreen
+   - Category: pref
+     Scale: 1.0
+     Color: [0.92, 0.92, 0.92]
+   - Category: ooaz
+     Scale: 1.0
+     Color: [0.94, 0.94, 0.94]
+   - Category: koaz
+     Scale: 1.0
+     Color: [0.8, 0.8, 0.8]
+   - Category: rail
+     Scale: 0.75
+     Color: [0.16, 0.83, 1.0]
+   - Category: zsta
+     Scale: 1.0
+     Color: [1.0, 1.0, 1.0]
+   - Category: watr
+     Scale: 0.75
+     Color: [0.76, 0.9, 0.92]
+   - Category: cros
+     Scale: 0.75
+     Color: [0.0, 0.8, 1.0]
+   - Category: skii
+     Scale: 0.84
+     Color: [0.92, 0.92, 0.92]
+   - Category: acco
+     Scale: 0.84
+     Color: [1.0, 0.9, 0.5]
+   - Category: shop
+     Scale: 0.84
+     Color: [1.0, 0.7, 0.5]
+   - Category: scho
+     Scale: 0.75
+     Color: [0.96, 0.97, 0.8]
+   - Category: hosp
+     Scale: 0.75
+     Color: [0.96, 0.97, 0.8]
+   - Category: publ
+     Scale: 0.75
+     Color: [0.8, 0.8, 0.8]
+   - Category: leis
+     Scale: 0.84
+     Color: [1.0, 0.7, 0.5]
+   - Category: lnmk
+     Scale: 0.84
+     Color: [0.96, 0.97, 0.8]
+   - Category: tran
+     Scale: 0.84
+     Color: [0.16, 0.91, 0.89]
+   - Category: misc
+     Scale: 0.75
+     Color: [0.96, 0.97, 0.8]
+
 JapanSpringSnowTextures: &JapanSpringSnowTextures
    <<: *JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -294,6 +377,8 @@ SummerJapan: &SummerJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -385,6 +470,8 @@ SpringJapan: &SpringJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -476,6 +563,8 @@ AutumnJapan: &AutumnJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -567,6 +656,8 @@ WinterJapan: &WinterJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
+   PlaceNameStyles:
+       *JapanPlaceNameStyles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
