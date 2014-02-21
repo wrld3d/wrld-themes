@@ -390,6 +390,7 @@ SpringSanFrancisco: &SpringSanFrancisco
    DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -483,6 +484,7 @@ AutumnSanFrancisco: &AutumnSanFrancisco
    DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -576,6 +578,7 @@ WinterSanFrancisco: &WinterSanFrancisco
    DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

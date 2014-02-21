@@ -295,7 +295,8 @@ SummerNewYork: &SummerNewYork
    BaseAltitude: 0
    DriveOnRight: true
    PlaceNameStyles:
-      *DefaultPlaceNameStyles   
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -388,7 +389,8 @@ SpringNewYork: &SpringNewYork
    BaseAltitude: 0
    DriveOnRight: false
    PlaceNameStyles:
-      *DefaultPlaceNameStyles   
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -481,7 +483,8 @@ AutumnNewYork: &AutumnNewYork
    BaseAltitude: 0
    DriveOnRight: false
    PlaceNameStyles:
-      *DefaultPlaceNameStyles   
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -574,7 +577,8 @@ WinterNewYork: &WinterNewYork
    BaseAltitude: 0
    DriveOnRight: false
    PlaceNameStyles:
-      *DefaultPlaceNameStyles   
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehicles
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
