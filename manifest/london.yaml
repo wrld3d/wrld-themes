@@ -296,7 +296,7 @@ SummerLondon: &SummerLondon
    DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesLeftSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -390,7 +390,7 @@ SpringLondon: &SpringLondon
    DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesLeftSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -484,7 +484,7 @@ AutumnLondon: &AutumnLondon
    DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesLeftSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -578,7 +578,7 @@ WinterLondon: &WinterLondon
    DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesLeftSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

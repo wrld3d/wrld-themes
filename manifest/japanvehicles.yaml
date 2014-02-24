@@ -1,6 +1,6 @@
 JapanRailVehicles: &JapanRailVehicles
    Name: "Japan Rail Simulation"
-   DrivesOnRight: true
+   DrivesOnRight: false
    VehiclesBasePodFile: "Osaka/VehicleModels/Trains_ZDC.POD"
    SpawnChancePerCell: 0.6
    MinimumDistanceBetweenSpawns: 300.0
@@ -70,7 +70,7 @@ JapanRailVehicles: &JapanRailVehicles
 
 JapanRoadVehicles: &JapanRoadVehicles
    Name: "Japan Road Simulation"
-   DrivesOnRight: true
+   DrivesOnRight: false
    VehiclesBasePodFile: "Osaka/VehicleModels/Vehicles_ZDC.POD"
    SpawnChancePerCell: 1
    MinimumDistanceBetweenSpawns: 0

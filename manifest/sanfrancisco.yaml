@@ -293,10 +293,9 @@ SummerSanFrancisco: &SummerSanFrancisco
    Name: SummerSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
-   DriveOnRight: true
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles   
+   <<: *DefaultVehiclesRightSide   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -387,10 +386,9 @@ SpringSanFrancisco: &SpringSanFrancisco
    Name: SpringSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -481,10 +479,9 @@ AutumnSanFrancisco: &AutumnSanFrancisco
    Name: AutumnSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -575,10 +572,9 @@ WinterSanFrancisco: &WinterSanFrancisco
    Name: WinterSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting

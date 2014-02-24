@@ -90,9 +90,20 @@ DefaultPlaneVehicles: &DefaultPlaneVehicles
      ModelNode: "learjet_02"
      Speed: 200
 	 
-DefaultVehicles: &DefaultVehicles
+DefaultVehiclesRightSide: &DefaultVehiclesRightSide
    RoadVehicles:
       <<: *DefaultRoadVehicles
+   RailVehicles:
+      <<: *DefaultRailVehicles
+   TramVehicles:
+      <<: *DefaultTramVehicles
+   PlaneVehicles:
+      <<: *DefaultPlaneVehicles
+	  
+DefaultVehiclesLeftSide: &DefaultVehiclesLeftSide
+   RoadVehicles:
+      <<: *DefaultRoadVehicles
+      DrivesOnRight: false
    RailVehicles:
       <<: *DefaultRailVehicles
    TramVehicles:

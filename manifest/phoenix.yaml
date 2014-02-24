@@ -293,10 +293,9 @@ SummerPhoenix: &SummerPhoenix
    Name: SummerPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
-   DriveOnRight: true
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -387,10 +386,9 @@ SpringPhoenix: &SpringPhoenix
    Name: SpringPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -481,10 +479,9 @@ AutumnPhoenix: &AutumnPhoenix
    Name: AutumnPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -575,10 +572,9 @@ WinterPhoenix: &WinterPhoenix
    Name: WinterPhoenix
    LocationLatLong: [33.448443,-112.074475]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehicles
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
