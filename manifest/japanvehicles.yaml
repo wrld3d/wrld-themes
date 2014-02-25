@@ -7,18 +7,24 @@ JapanRailVehicles: &JapanRailVehicles
    VehicleList:
    - Name: "Train A"
      ModelNode: "Train_A_Engine"
+     EngineNodeLength: 36.0
      Speed: 80
      CarriageNode: "Train_A_Middle"
+     CarriageNodeLength: 36.0
      TailNode: "Train_A_End"
+     TailNodeLength: 36
      MinCarriageCount: 1
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Inclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
    - Name: "Train B"
      ModelNode: "Train_B_Engine"
+     EngineNodeLength: 43.8
      Speed: 80
      CarriageNode: "Train_B_Middle"
+     CarriageNodeLength: 35.04
      TailNode: "Train_B_End"
+     TailNodeLength: 43.8
      MinCarriageCount: 1
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Inclusive
