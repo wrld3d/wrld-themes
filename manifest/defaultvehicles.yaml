@@ -14,6 +14,7 @@ DefaultRailVehicles: &DefaultRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 6.0
    - Name: "Train B"
      ModelNode: "Train_B_Engine"
      Speed: 50
@@ -23,6 +24,7 @@ DefaultRailVehicles: &DefaultRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 6.0
    - Name: "Train C"
      ModelNode: "Train_C_Engine"
      Speed: 50
@@ -32,6 +34,7 @@ DefaultRailVehicles: &DefaultRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 6.0
    - Name: "Train D"
      ModelNode: "Train_D_Engine"
      Speed: 50
@@ -41,6 +44,7 @@ DefaultRailVehicles: &DefaultRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Inclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 6.0
 
 DefaultRoadVehicles: &DefaultRoadVehicles
    Name: "Basic Road Simulation"
@@ -52,15 +56,19 @@ DefaultRoadVehicles: &DefaultRoadVehicles
    - Name: "Red pickup"
      ModelNode: "Car_A_001"
      Speed: 20
+     Scale: 6.0
    - Name: "Red estate"
      ModelNode: "Car_B_001"
      Speed: 20
+     Scale: 6.0
    - Name: "Red saloon"
      ModelNode: "Car_C_001"
      Speed: 20
+     Scale: 6.0
    - Name: "Red van"
      ModelNode: "Car_D_001"
      Speed: 20
+     Scale: 6.0
 
 DefaultTramVehicles: &DefaultTramVehicles
    Name: "Basic Trams Simulation"
@@ -72,6 +80,7 @@ DefaultTramVehicles: &DefaultTramVehicles
    - Name: "Melbourne Tram"
      ModelNode: "Tram_A"
      Speed: 20
+     Scale: 6.0
 	 
 DefaultPlaneVehicles: &DefaultPlaneVehicles
    Name: "Basic Plane Simulation"
@@ -80,15 +89,19 @@ DefaultPlaneVehicles: &DefaultPlaneVehicles
    - Name: "Cessna 1"
      ModelNode: "cessna_01"
      Speed: 50
+     Scale: 6.0
    - Name: "Cessna 2"
      ModelNode: "cessna_02"
      Speed: 50
+     Scale: 6.0
    - Name: "Learjet 1"
      ModelNode: "learjet_01"
      Speed: 200
+     Scale: 6.0
    - Name: "Learjet 2"
      ModelNode: "learjet_02"
      Speed: 200
+     Scale: 6.0
 	 
 DefaultVehiclesRightSide: &DefaultVehiclesRightSide
    RoadVehicles:
