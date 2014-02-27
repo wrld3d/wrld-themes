@@ -117,6 +117,66 @@ JapanRoadVehicles: &JapanRoadVehicles
      ModelNode: "Car_D_003"
      Speed: 20
      Scale: 3.0
+   - Name: "Red Pickup"
+     ModelNode: "Car_E_001"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Red and white Pickup"
+     ModelNode: "Car_E_002"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Grey Pickup"
+     ModelNode: "Car_E_004"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Red Wagon"
+     ModelNode: "Car_F_001"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Black Wagon"
+     ModelNode: "Car_F_002"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Green Wagon"
+     ModelNode: "Car_F_003"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Grey Wagon"
+     ModelNode: "Car_F_004"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Grey Van"
+     ModelNode: "Car_G_001"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Red Van"
+     ModelNode: "Car_G_002"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Green Van"
+     ModelNode: "Car_G_003"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Black/Yellow Van"
+     ModelNode: "Car_G_004"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Grey Car"
+     ModelNode: "Car_H_001"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Brown Car"
+     ModelNode: "Car_H_002"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Brown Black Car"
+     ModelNode: "Car_H_003"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Blue White Car"
+     ModelNode: "Car_H_004"
+     Speed: 20
+     Scale: 3.0
 
 JapanPlaneVehicles: &JapanPlaneVehicles
    Name: "Japan Plane Simulation"
@@ -125,27 +185,27 @@ JapanPlaneVehicles: &JapanPlaneVehicles
    - Name: "Cessna 1"
      ModelNode: "cessna_01"
      Speed: 50
-     Scale: 6
+     Scale: 3
    - Name: "Cessna 2"
      ModelNode: "cessna_02"
      Speed: 50
-     Scale: 6
+     Scale: 3
    - Name: "Learjet 1"
      ModelNode: "learjet_01"
      Speed: 200
-     Scale: 6
+     Scale: 3
    - Name: "Learjet 2"
      ModelNode: "learjet_02"
      Speed: 200
-     Scale: 6
+     Scale: 3
    - Name: "Zeppelin"
      ModelNode: "Zeppelin"
      Speed: 30
-     Scale: 6
+     Scale: 2
    - Name: "Helicopter"
      ModelNode: "Helicopter"
      Speed: 40
-     Scale: 6
+     Scale: 3
 	 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
