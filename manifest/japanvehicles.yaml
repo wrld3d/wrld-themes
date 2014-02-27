@@ -11,9 +11,9 @@ JapanRailVehicles: &JapanRailVehicles
      Speed: 80
      Scale: 3.0
      CarriageNode: "Train_A_Middle"
-     CarriageNodeLength: 6.0
+     CarriageNodeLength: 5.4
      TailNode: "Train_A_End"
-     TailNodeLength: 6.0
+     TailNodeLength: 5.4
      MinCarriageCount: 1
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Inclusive
@@ -24,7 +24,7 @@ JapanRailVehicles: &JapanRailVehicles
      Speed: 80
      Scale: 3.0
      CarriageNode: "Train_B_Middle"
-     CarriageNodeLength: 5.84
+     CarriageNodeLength: 5.4
      TailNode: "Train_B_End"
      TailNodeLength: 7.3
      MinCarriageCount: 1
