@@ -1,100 +1,4 @@
-LondonTerrainTextures: &LondonTerrainTextures
-     Terrain0: SanFrancisco/TerrainTexture0
-     Terrain1: SanFrancisco/TerrainTexture1
-     Terrain2: SanFrancisco/TerrainTexture2
-     Terrain3: SanFrancisco/TerrainTexture3
-     Terrain4: SanFrancisco/TerrainTexture4
-     Terrain5: SanFrancisco/TerrainTexture5
-     Terrain6: SanFrancisco/TerrainTexture6
-     Terrain7: SanFrancisco/TerrainTexture7
-     Terrain8: SanFrancisco/TerrainTexture8
-     Terrain9: SanFrancisco/TerrainTexture9
-     Terrain10: SanFrancisco/TerrainTexture10
-     Terrain11: SanFrancisco/TerrainTexture11
-     Terrain12: SanFrancisco/TerrainTexture12
-     Terrain13: SanFrancisco/TerrainTexture13
-     Terrain14: SanFrancisco/TerrainTexture14
-     Terrain15: SanFrancisco/TerrainTexture15
-     Terrain16: SanFrancisco/TerrainTexture16
-     Terrain17: SanFrancisco/TerrainTexture17
-     Terrain18: SanFrancisco/TerrainTexture18
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
-
-LondonTerrainLODTextures: &LondonTerrainLODTextures
-     Terrain0: SanFrancisco/TerrainTexture0_LOD
-     Terrain1: SanFrancisco/TerrainTexture1_LOD
-     Terrain2: SanFrancisco/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
-     Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
-     Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: SanFrancisco/TerrainTexture12_LOD
-     Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: SanFrancisco/TerrainTexture16_LOD
-     Terrain17: SanFrancisco/TerrainTexture17_LOD
-     Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01_LOD
-     Terrain254: SanFrancisco/Water_02_LOD
-     Terrain255: SanFrancisco/Water_03_LOD
-     
-LondonSnowTerrainTextures: &LondonSnowTerrainTextures
-     Terrain0: SanFrancisco/SanFran_Snow_Texture0
-     Terrain1: SanFrancisco/SanFran_Snow_Texture1
-     Terrain2: SanFrancisco/SanFran_Snow_Texture2
-     Terrain3: SanFrancisco/SanFran_Snow_Texture3
-     Terrain4: SanFrancisco/SanFran_Snow_Texture4
-     Terrain5: SanFrancisco/SanFran_Snow_Texture5
-     Terrain6: SanFrancisco/SanFran_Snow_Texture6
-     Terrain7: SanFrancisco/SanFran_Snow_Texture7
-     Terrain8: SanFrancisco/SanFran_Snow_Texture8
-     Terrain9: SanFrancisco/SanFran_Snow_Texture9
-     Terrain10: SanFrancisco/SanFran_Snow_Texture10
-     Terrain11: SanFrancisco/SanFran_Snow_Texture11
-     Terrain12: SanFrancisco/SanFran_Snow_Texture12
-     Terrain13: SanFrancisco/SanFran_Snow_Texture13
-     Terrain14: SanFrancisco/SanFran_Snow_Texture14
-     Terrain15: SanFrancisco/SanFran_Snow_Texture15
-     Terrain16: SanFrancisco/SanFran_Snow_Texture16
-     Terrain17: SanFrancisco/TerrainTexture17
-     Terrain18: SanFrancisco/SanFran_Snow_Texture18
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
-
-LondonSnowTerrainLODTextures: &LondonSnowTerrainLODTextures
-     Terrain0: SanFrancisco/TerrainTexture0_LOD
-     Terrain1: SanFrancisco/TerrainTexture1_LOD
-     Terrain2: SanFrancisco/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
-     Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
-     Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: SanFrancisco/TerrainTexture12_LOD
-     Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: SanFrancisco/TerrainTexture16_LOD
-     Terrain17: SanFrancisco/TerrainTexture17_LOD
-     Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01_LOD
-     Terrain254: SanFrancisco/Water_02_LOD
-     Terrain255: SanFrancisco/Water_03_LOD
-
-LondonSummerTextures: &LondonSummerTextures
+ParisSummerTextures: &ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
    BuildingDiffuse: London/London_wallDiffuse
@@ -112,8 +16,8 @@ LondonSummerTextures: &LondonSummerTextures
    LcmLodDiffuse:
       <<: *LondonTerrainLODTextures
       
-LondonSpringTextures: &LondonSpringTextures
-   <<: *LondonSummerTextures
+ParisSpringTextures: &ParisSpringTextures
+   <<: *ParisSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
    TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
@@ -135,8 +39,8 @@ LondonSpringTextures: &LondonSpringTextures
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
       
-LondonAutumnTextures: &LondonAutumnTextures
-   <<: *LondonSummerTextures
+ParisAutumnTextures: &ParisAutumnTextures
+   <<: *ParisSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
    TreeTopDiffuse: Okinawa/Autumn_trees_top_01
    LcmDiffuse: 
@@ -158,8 +62,8 @@ LondonAutumnTextures: &LondonAutumnTextures
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
       
-LondonWinterTextures: &LondonWinterTextures
-   <<: *LondonSummerTextures
+ParisWinterTextures: &ParisWinterTextures
+   <<: *ParisSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
    TreeTopDiffuse: Okinawa/Winter_trees_top_01
    LcmDiffuse: 
@@ -181,16 +85,16 @@ LondonWinterTextures: &LondonWinterTextures
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
-LondonSummerNightTextures: &LondonSummerNightTextures
-   <<: *LondonSummerTextures
+ParisSummerNightTextures: &ParisSummerNightTextures
+   <<: *ParisSummerTextures
    BuildingDiffuse: London/London_Night_wallDiffuse
    RoadDiffuse: Osaka/Osaka_Night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    
-LondonSummerSnowTextures: &LondonSummerSnowTextures
-   <<: *LondonSummerTextures
+ParisSummerSnowTextures: &ParisSummerSnowTextures
+   <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
@@ -200,8 +104,8 @@ LondonSummerSnowTextures: &LondonSummerSnowTextures
    LcmLodDiffuse:
       <<: *LondonSnowTerrainLODTextures
       
-LondonSummerNightSnowTextures: &LondonSummerNightSnowTextures
-   <<: *LondonSummerTextures
+ParisSummerNightSnowTextures: &ParisSummerNightSnowTextures
+   <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_Night_Snow_roadDiffuse
    BuildingDiffuse: London/London_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
@@ -214,8 +118,8 @@ LondonSummerNightSnowTextures: &LondonSummerNightSnowTextures
    LcmLodDiffuse:
       <<: *LondonSnowTerrainLODTextures
       
-LondonSpringSnowTextures: &LondonSpringSnowTextures
-   <<: *LondonSummerTextures
+ParisSpringSnowTextures: &ParisSpringSnowTextures
+   <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
@@ -239,8 +143,8 @@ LondonSpringSnowTextures: &LondonSpringSnowTextures
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
       
-LondonAutumnSnowTextures: &LondonAutumnSnowTextures
-   <<: *LondonSummerTextures
+ParisAutumnSnowTextures: &ParisAutumnSnowTextures
+   <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
@@ -264,8 +168,8 @@ LondonAutumnSnowTextures: &LondonAutumnSnowTextures
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
       
-LondonWinterSnowTextures: &LondonWinterSnowTextures
-   <<: *LondonSummerTextures
+ParisWinterSnowTextures: &ParisWinterSnowTextures
+   <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
@@ -289,8 +193,8 @@ LondonWinterSnowTextures: &LondonWinterSnowTextures
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
  
-SummerLondon: &SummerLondon
-   Name: SummerLondon
+SummerParis: &SummerParis
+   Name: SummerParis
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
@@ -301,90 +205,90 @@ SummerLondon: &SummerLondon
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *LondonSummerSnowTextures
+           <<: *ParisSummerSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *LondonSummerNightSnowTextures
+           <<: *ParisSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *LondonSummerSnowTextures
+           <<: *ParisSummerSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *LondonSummerSnowTextures
+           <<: *ParisSummerSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *LondonSummerTextures
+           <<: *ParisSummerTextures
            
-SpringLondon: &SpringLondon
-   Name: SpringLondon
+SpringParis: &SpringParis
+   Name: SpringParis
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
@@ -395,90 +299,90 @@ SpringLondon: &SpringLondon
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *LondonSpringSnowTextures
+           <<: *ParisSpringSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *LondonSummerNightSnowTextures
+           <<: *ParisSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *LondonSpringSnowTextures
+           <<: *ParisSpringSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *LondonSpringSnowTextures
+           <<: *ParisSpringSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *LondonSpringTextures
+           <<: *ParisSpringTextures
            
-AutumnLondon: &AutumnLondon
-   Name: AutumnLondon
+AutumnParis: &AutumnParis
+   Name: AutumnParis
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
@@ -489,90 +393,90 @@ AutumnLondon: &AutumnLondon
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *LondonAutumnSnowTextures
+           <<: *ParisAutumnSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *LondonSummerNightSnowTextures
+           <<: *ParisSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *LondonAutumnSnowTextures
+           <<: *ParisAutumnSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *LondonAutumnSnowTextures
+           <<: *ParisAutumnSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *LondonAutumnTextures
+           <<: *ParisAutumnTextures
            
-WinterLondon: &WinterLondon
-   Name: WinterLondon
+WinterParis: &WinterParis
+   Name: WinterParis
    LocationLatLong: [51.508636,-0.128059]
    BaseAltitude: 0
    DriveOnRight: false
@@ -583,84 +487,84 @@ WinterLondon: &WinterLondon
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *LondonWinterSnowTextures
+           <<: *ParisWinterSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *LondonSummerNightSnowTextures
+           <<: *ParisSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *LondonWinterSnowTextures
+           <<: *ParisWinterSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *LondonWinterSnowTextures
+           <<: *ParisWinterSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *LondonSummerNightTextures
+           <<: *ParisSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *LondonWinterTextures
+           <<: *ParisWinterTextures
