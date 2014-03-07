@@ -88,14 +88,14 @@ ParisWinterTextures: &ParisWinterTextures
 ParisSummerNightTextures: &ParisSummerNightTextures
    <<: *ParisSummerTextures
    BuildingDiffuse: London/London_Night_wallDiffuse
-   RoadDiffuse: Osaka/Osaka_Night_roadDiffuse
+   RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    
 ParisSummerSnowTextures: &ParisSummerSnowTextures
    <<: *ParisSummerTextures
-   RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
@@ -106,7 +106,7 @@ ParisSummerSnowTextures: &ParisSummerSnowTextures
       
 ParisSummerNightSnowTextures: &ParisSummerNightSnowTextures
    <<: *ParisSummerTextures
-   RoadDiffuse: Osaka/Osaka_Night_Snow_roadDiffuse
+   RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
    BuildingDiffuse: London/London_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
@@ -120,7 +120,7 @@ ParisSummerNightSnowTextures: &ParisSummerNightSnowTextures
       
 ParisSpringSnowTextures: &ParisSpringSnowTextures
    <<: *ParisSummerTextures
-   RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
    TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
@@ -145,7 +145,7 @@ ParisSpringSnowTextures: &ParisSpringSnowTextures
       
 ParisAutumnSnowTextures: &ParisAutumnSnowTextures
    <<: *ParisSummerTextures
-   RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
    TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
@@ -170,7 +170,7 @@ ParisAutumnSnowTextures: &ParisAutumnSnowTextures
       
 ParisWinterSnowTextures: &ParisWinterSnowTextures
    <<: *ParisSummerTextures
-   RoadDiffuse: Osaka/Osaka_Snow_roadDiffuse
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: London/London_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
    TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
