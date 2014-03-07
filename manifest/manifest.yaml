@@ -8,6 +8,7 @@
 #include "japannorth.yaml"
 #include "barcelona.yaml"
 #include "london.yaml"
+#include "Paris.yaml"
 #include "melbourne.yaml"
 #include "newyork.yaml"
 #include "phoenix.yaml"
