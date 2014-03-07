@@ -195,7 +195,7 @@ ParisWinterSnowTextures: &ParisWinterSnowTextures
  
 SummerParis: &SummerParis
    Name: SummerParis
-   LocationLatLong: [51.508636,-0.128059]
+   LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
    DriveOnRight: false
    PlaceNameStyles:
@@ -289,7 +289,7 @@ SummerParis: &SummerParis
            
 SpringParis: &SpringParis
    Name: SpringParis
-   LocationLatLong: [51.508636,-0.128059]
+   LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
    DriveOnRight: false
    PlaceNameStyles:
@@ -383,7 +383,7 @@ SpringParis: &SpringParis
            
 AutumnParis: &AutumnParis
    Name: AutumnParis
-   LocationLatLong: [51.508636,-0.128059]
+   LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
    DriveOnRight: false
    PlaceNameStyles:
@@ -477,7 +477,7 @@ AutumnParis: &AutumnParis
            
 WinterParis: &WinterParis
    Name: WinterParis
-   LocationLatLong: [51.508636,-0.128059]
+   LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
    DriveOnRight: false
    PlaceNameStyles:
