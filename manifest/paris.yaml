@@ -1,7 +1,7 @@
 ParisSummerTextures: &ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
-   BuildingDiffuse: London/London_wallDiffuse
+   BuildingDiffuse: Paris/Paris_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
    VehicleDiffuse: SanFrancisco/sf_vehicles_01
