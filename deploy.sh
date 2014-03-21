@@ -9,7 +9,7 @@ s3cmd_secret=$3
 
 rm -f ./lib/s3ini.poked
 cp ./lib/s3ini ./lib/s3ini_poked
-sed -i.bak -e s/%S3_ACCESS_KEY%/$s3cmd_access_key/g -e s/%S3_SECRET_KEY%/$s3cmd_secret/g ./lib/s3ini_poked
+sed -i.bak -e s/%S3_ACCESS_KEY%/$(echo $s3cmd_access_key | sed -e 's/\\/\\\\/g' -e 's/\//\\\//g' -e 's/&/\\\&/g')/g -e s/%S3_SECRET_KEY%/$(echo $s3cmd_secret | sed -e 's/\\/\\\\/g' -e 's/\//\\\//g' -e 's/&/\\\&/g')/g ./lib/s3ini_poked
 rm -f ./lib/s3ini_poke.bak
 sed -i.bak s/%VERSION%/$version/g ./zipped_themes/manifest.txt
 
@@ -55,6 +55,6 @@ find zipped_themes -name "*.png" -exec rm -rf {} \;
 
 gzip -r ./zipped_themes
 find zipped_themes -name ".*" -exec rm -rf {} \;
-./lib/s3cmd-1.0.1/s3cmd --verbose --add-header='Content-Encoding: gzip' --no-progress --force --recursive --acl-public --config ./lib/s3ini_poked put ./zipped_themes/  s3://eegeo-static/mobile-themes-new/$version/ > /dev/null
+./lib/s3cmd-1.0.1/s3cmd --verbose --add-header='Content-Encoding: gzip' --no-progress --force --recursive --acl-public --config ./lib/s3ini_poked put ./zipped_themes/  s3://myworld_developer_destination_resources/mobile-themes-new/$version/ > /dev/null
 rm -rf ./zipped_themes
 rm -f ./lib/s3ini_poked
