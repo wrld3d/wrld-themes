@@ -197,10 +197,9 @@ SummerParis: &SummerParis
    Name: SummerParis
    LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesLeftSide
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -291,10 +290,9 @@ SpringParis: &SpringParis
    Name: SpringParis
    LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesLeftSide
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -385,10 +383,9 @@ AutumnParis: &AutumnParis
    Name: AutumnParis
    LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesLeftSide
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -479,10 +476,9 @@ WinterParis: &WinterParis
    Name: WinterParis
    LocationLatLong: [48.856057,2.343278]
    BaseAltitude: 0
-   DriveOnRight: false
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesLeftSide
+   <<: *DefaultVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
