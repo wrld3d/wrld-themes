@@ -97,7 +97,6 @@ MelbourneSnowTerrainLODTextures: &MelbourneSnowTerrainLODTextures
 MelbourneSummerTextures: &MelbourneSummerTextures
    RoadDiffuse: Melbourne/roadDiffuse
    RailDiffuse: Melbourne/Rail_01
-   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
@@ -115,7 +114,6 @@ MelbourneSummerTextures: &MelbourneSummerTextures
       
 MelbourneSpringTextures: &MelbourneSpringTextures
    <<: *MelbourneSummerTextures
-   TramlinesDiffuse: Melbourne/Rail_01
    TreeSideDiffuse: Okinawa/Spring_trees_01
    TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
@@ -139,7 +137,6 @@ MelbourneSpringTextures: &MelbourneSpringTextures
       
 MelbourneAutumnTextures: &MelbourneAutumnTextures
    <<: *MelbourneSummerTextures
-   TramDiffuse: Melbourne/Rail_01
    TreeSideDiffuse: Okinawa/Autumn_trees_01
    TreeTopDiffuse: Okinawa/Autumn_trees_top_01
    LcmDiffuse: 
@@ -163,7 +160,6 @@ MelbourneAutumnTextures: &MelbourneAutumnTextures
       
 MelbourneWinterTextures: &MelbourneWinterTextures
    <<: *MelbourneSummerTextures
-   TramsDiffuse: Melbourne/Rail_01
    TreeSideDiffuse: Okinawa/Winter_trees_01
    TreeTopDiffuse: Okinawa/Winter_trees_top_01
    LcmDiffuse: 
