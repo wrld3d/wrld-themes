@@ -114,71 +114,71 @@ PhoenixSummerTextures: &PhoenixSummerTextures
       
 PhoenixSpringTextures: &PhoenixSpringTextures
    <<: *PhoenixSummerTextures
-   TreeSideDiffuse: Okinawa/Spring_trees_01
-   TreeTopDiffuse: Okinawa/Spring_trees_top_01
+   TreeSideDiffuse: Phoenix/Spring_trees_01
+   TreeTopDiffuse: Phoenix/Spring_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixTerrainTextures
-      Terrain4: SanFrancisco/Spring_TerrainTexture4
-      Terrain5: Okinawa/Spring_TerrainTexture5
-      Terrain6: Okinawa/Spring_TerrainTexture6
-      Terrain7: Okinawa/Spring_TerrainTexture7
-      Terrain8: Okinawa/Spring_TerrainTexture8
-      Terrain14: Okinawa/Spring_TerrainTexture14
+      Terrain4: Phoenix/Spring_TerrainTexture4
+      Terrain5: Phoenix/Spring_TerrainTexture5
+      Terrain6: Phoenix/Spring_TerrainTexture6
+      Terrain7: Phoenix/Spring_TerrainTexture7
+      Terrain8: Phoenix/Spring_TerrainTexture8
+      Terrain14: Phoenix/Spring_TerrainTexture14
       Terrain18: Okinawa/Spring_TerrainTexture18
    LcmLodDiffuse:
       <<: *PhoenixTerrainLODTextures
-      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain4: Phoenix/Spring_TerrainTexture4_LOD
+      Terrain5: Phoenix/Spring_TerrainTexture5_LOD
+      Terrain6: Phoenix/Spring_TerrainTexture6_LOD
+      Terrain7: Phoenix/Spring_TerrainTexture7_LOD
+      Terrain8: Phoenix/Spring_TerrainTexture8_LOD
+      Terrain14: Phoenix/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
       
 PhoenixAutumnTextures: &PhoenixAutumnTextures
    <<: *PhoenixSummerTextures
-   TreeSideDiffuse: Okinawa/Autumn_trees_01
-   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
+   TreeSideDiffuse: Phoenix/Autumn_trees_01
+   TreeTopDiffuse: Phoenix/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixTerrainTextures
-      Terrain4: SanFrancisco/Autumn_TerrainTexture4
-      Terrain5: Okinawa/Autumn_TerrainTexture5
-      Terrain6: Okinawa/Autumn_TerrainTexture6
-      Terrain7: Okinawa/Autumn_TerrainTexture7
-      Terrain8: Okinawa/Autumn_TerrainTexture8
-      Terrain14: Okinawa/Autumn_TerrainTexture14
+      Terrain4: Phoenix/Autumn_TerrainTexture4
+      Terrain5: Phoenix/Autumn_TerrainTexture5
+      Terrain6: Phoenix/Autumn_TerrainTexture6
+      Terrain7: Phoenix/Autumn_TerrainTexture7
+      Terrain8: Phoenix/Autumn_TerrainTexture8
+      Terrain14: Phoenix/Autumn_TerrainTexture14
       Terrain18: Okinawa/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *PhoenixTerrainLODTextures
-      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain4: Phoenix/Autumn_TerrainTexture4_LOD
+      Terrain5: Phoenix/Autumn_TerrainTexture5_LOD
+      Terrain6: Phoenix/Autumn_TerrainTexture6_LOD
+      Terrain7: Phoenix/Autumn_TerrainTexture7_LOD
+      Terrain8: Phoenix/Autumn_TerrainTexture8_LOD
+      Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
       
 PhoenixWinterTextures: &PhoenixWinterTextures
    <<: *PhoenixSummerTextures
-   TreeSideDiffuse: Okinawa/Winter_trees_01
-   TreeTopDiffuse: Okinawa/Winter_trees_top_01
+   TreeSideDiffuse: Phoenix/Winter_trees_01
+   TreeTopDiffuse: Phoenix/Winter_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixTerrainTextures
-      Terrain4: SanFrancisco/Winter_TerrainTexture4
-      Terrain5: Okinawa/Winter_TerrainTexture5
-      Terrain6: Okinawa/Winter_TerrainTexture6
-      Terrain7: Okinawa/Winter_TerrainTexture7
-      Terrain8: Okinawa/Winter_TerrainTexture8
-      Terrain14: Okinawa/Winter_TerrainTexture14
+      Terrain4: Phoenix/Winter_TerrainTexture4
+      Terrain5: Phoenix/Winter_TerrainTexture5
+      Terrain6: Phoenix/Winter_TerrainTexture6
+      Terrain7: Phoenix/Winter_TerrainTexture7
+      Terrain8: Phoenix/Winter_TerrainTexture8
+      Terrain14: Phoenix/Winter_TerrainTexture14
       Terrain18: Okinawa/Winter_TerrainTexture18
    LcmLodDiffuse:
       <<: *PhoenixTerrainLODTextures
-      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain4: Phoenix/Winter_TerrainTexture4_LOD
+      Terrain5: Phoenix/Winter_TerrainTexture5_LOD
+      Terrain6: Phoenix/Winter_TerrainTexture6_LOD
+      Terrain7: Phoenix/Winter_TerrainTexture7_LOD
+      Terrain8: Phoenix/Winter_TerrainTexture8_LOD
+      Terrain14: Phoenix/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
 PhoenixSummerNightTextures: &PhoenixSummerNightTextures
@@ -218,75 +218,75 @@ PhoenixSpringSnowTextures: &PhoenixSpringSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
+   TreeSideDiffuse: Phoenix/Spring_Snow_trees_01
+   TreeTopDiffuse: Phoenix/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixSnowTerrainTextures
-      Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
-      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
-      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
-      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
-      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
-      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain4: Phoenix/Spring_Snow_TerrainTexture4
+      Terrain5: Phoenix/Spring_Snow_TerrainTexture5
+      Terrain6: Phoenix/Spring_Snow_TerrainTexture6
+      Terrain7: Phoenix/Spring_Snow_TerrainTexture7
+      Terrain8: Phoenix/Spring_Snow_TerrainTexture8
+      Terrain14: Phoenix/Spring_Snow_TerrainTexture14
       Terrain18: Okinawa/Spring_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *PhoenixSnowTerrainLODTextures
-      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain4: Phoenix/Spring_TerrainTexture4_LOD
+      Terrain5: Phoenix/Spring_TerrainTexture5_LOD
+      Terrain6: Phoenix/Spring_TerrainTexture6_LOD
+      Terrain7: Phoenix/Spring_TerrainTexture7_LOD
+      Terrain8: Phoenix/Spring_TerrainTexture8_LOD
+      Terrain14: Phoenix/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
       
 PhoenixAutumnSnowTextures: &PhoenixAutumnSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
+   TreeSideDiffuse: Phoenix/Autumn_Snow_trees_01
+   TreeTopDiffuse: Phoenix/Autumn_Snow_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixSnowTerrainTextures
-      Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
-      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
-      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
-      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
-      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
-      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain4: Phoenix/Autumn_Snow_TerrainTexture4
+      Terrain5: Phoenix/Autumn_Snow_TerrainTexture5
+      Terrain6: Phoenix/Autumn_Snow_TerrainTexture6
+      Terrain7: Phoenix/Autumn_Snow_TerrainTexture7
+      Terrain8: Phoenix/Autumn_Snow_TerrainTexture8
+      Terrain14: Phoenix/Autumn_Snow_TerrainTexture14
       Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *PhoenixSnowTerrainLODTextures
-      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain4: Phoenix/Autumn_TerrainTexture4_LOD
+      Terrain5: Phoenix/Autumn_TerrainTexture5_LOD
+      Terrain6: Phoenix/Autumn_TerrainTexture6_LOD
+      Terrain7: Phoenix/Autumn_TerrainTexture7_LOD
+      Terrain8: Phoenix/Autumn_TerrainTexture8_LOD
+      Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
       
 PhoenixWinterSnowTextures: &PhoenixWinterSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
+   TreeSideDiffuse: Phoenix/Winter_Snow_trees_01
+   TreeTopDiffuse: Phoenix/Winter_Snow_trees_top_01
    LcmDiffuse: 
       <<: *PhoenixSnowTerrainTextures
-      Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
-      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
-      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
-      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
-      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
-      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain4: Phoenix/Winter_Snow_TerrainTexture4
+      Terrain5: Phoenix/Winter_Snow_TerrainTexture5
+      Terrain6: Phoenix/Winter_Snow_TerrainTexture6
+      Terrain7: Phoenix/Winter_Snow_TerrainTexture7
+      Terrain8: Phoenix/Winter_Snow_TerrainTexture8
+      Terrain14: Phoenix/Winter_Snow_TerrainTexture14
       Terrain18: Okinawa/Winter_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *PhoenixSnowTerrainLODTextures
-      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain4: Phoenix/Winter_TerrainTexture4_LOD
+      Terrain5: Phoenix/Winter_TerrainTexture5_LOD
+      Terrain6: Phoenix/Winter_TerrainTexture6_LOD
+      Terrain7: Phoenix/Winter_TerrainTexture7_LOD
+      Terrain8: Phoenix/Winter_TerrainTexture8_LOD
+      Terrain14: Phoenix/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
 SummerPhoenix: &SummerPhoenix
