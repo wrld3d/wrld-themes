@@ -22,7 +22,7 @@ MountRushTerrainTextures: &MountRushTerrainTextures
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
 
-MountRushTerrainLODTextures: &MountRusherrainLODTextures
+MountRushTerrainLODTextures: &MountRushTerrainLODTextures
      Terrain0: SanFrancisco/TerrainTexture0_LOD
      Terrain1: SanFrancisco/TerrainTexture1_LOD
      Terrain2: SanFrancisco/TerrainTexture2_LOD
