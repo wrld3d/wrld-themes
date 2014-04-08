@@ -13,6 +13,7 @@
 #include "melbourne.yaml"
 #include "newyork.yaml"
 #include "phoenix.yaml"
+#include "mountrush.yaml"
 
 
 ThemeManifest:
@@ -23,4 +24,4 @@ ThemeManifest:
    AssetExtension_Android: ".ktx.gz"
    GlobeViewThemeState: "GlobeView"
    GlobeViewAltitude: 15000
-   Themes: [*SummerSanFrancisco, *SpringSanFrancisco, *AutumnSanFrancisco, *WinterSanFrancisco, *SummerCanada, *SpringCanada, *AutumnCanada, *WinterCanada,*SummerJapanSouth, *SpringJapanSouth, *AutumnJapanSouth, *WinterJapanSouth, *SummerJapanNorth, *SpringJapanNorth, *AutumnJapanNorth, *WinterJapanNorth, *SummerJapan, *SpringJapan, *AutumnJapan, *WinterJapan, *SummerBarcelona, *SpringBarcelona, *AutumnBarcelona, *WinterBarcelona, *SummerLondon, *SpringLondon, *AutumnLondon, *WinterLondon, *SummerParis, *SpringParis, *AutumnParis, *WinterParis, *SummerMelbourne, *SpringMelbourne, *AutumnMelbourne, *WinterMelbourne, *SummerNewYork, *SpringNewYork, *AutumnNewYork, *WinterNewYork, *SummerPhoenix, *SpringPhoenix, *AutumnPhoenix, *WinterPhoenix]
+   Themes: [*SummerSanFrancisco, *SpringSanFrancisco, *AutumnSanFrancisco, *WinterSanFrancisco, *SummerCanada, *SpringCanada, *AutumnCanada, *WinterCanada,*SummerJapanSouth, *SpringJapanSouth, *AutumnJapanSouth, *WinterJapanSouth, *SummerJapanNorth, *SpringJapanNorth, *AutumnJapanNorth, *WinterJapanNorth, *SummerJapan, *SpringJapan, *AutumnJapan, *WinterJapan, *SummerBarcelona, *SpringBarcelona, *AutumnBarcelona, *WinterBarcelona, *SummerLondon, *SpringLondon, *AutumnLondon, *WinterLondon, *SummerParis, *SpringParis, *AutumnParis, *WinterParis, *SummerMelbourne, *SpringMelbourne, *AutumnMelbourne, *WinterMelbourne, *SummerNewYork, *SpringNewYork, *AutumnNewYork, *WinterNewYork, *SummerPhoenix, *SpringPhoenix, *AutumnPhoenix, *WinterPhoenix, *SummerMountRush, *SpringMountRush, *AutumnMountRush, *WinterMountRush]

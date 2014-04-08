@@ -1,0 +1,662 @@
+MountRushTerrainTextures: &MountRushTerrainTextures
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: SanFrancisco/TerrainTexture4
+     Terrain5: SanFrancisco/TerrainTexture5
+     Terrain6: SanFrancisco/TerrainTexture6
+     Terrain7: SanFrancisco/TerrainTexture7
+     Terrain8: SanFrancisco/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: SanFrancisco/TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+MountRushTerrainLODTextures: &MountRusherrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+     
+MountRushSnowTerrainTextures: &MountRushSnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+MountRushSnowTerrainLODTextures: &MountRushSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+MountRushSummerTextures: &MountRushSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
+   VehicleDiffuse: SanFrancisco/sf_vehicles_01
+   TrainDiffuse: SanFrancisco/ldn_trains_01
+   PlaneDiffuse: SanFrancisco/sf_planes_01
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *MountRushTerrainTextures
+   LcmLodDiffuse:
+      <<: *MountRushTerrainLODTextures
+      
+MountRushSpringTextures: &MountRushSpringTextures
+   <<: *MountRushSummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *MountRushTerrainTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4
+      Terrain5: Okinawa/Spring_TerrainTexture5
+      Terrain6: Okinawa/Spring_TerrainTexture6
+      Terrain7: Okinawa/Spring_TerrainTexture7
+      Terrain8: Okinawa/Spring_TerrainTexture8
+      Terrain14: Okinawa/Spring_TerrainTexture14
+      Terrain18: Okinawa/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MountRushTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      
+MountRushAutumnTextures: &MountRushAutumnTextures
+   <<: *MountRushSummerTextures
+   TreeSideDiffuse: Okinawa/Autumn_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *MountRushTerrainTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4
+      Terrain5: Okinawa/Autumn_TerrainTexture5
+      Terrain6: Okinawa/Autumn_TerrainTexture6
+      Terrain7: Okinawa/Autumn_TerrainTexture7
+      Terrain8: Okinawa/Autumn_TerrainTexture8
+      Terrain14: Okinawa/Autumn_TerrainTexture14
+      Terrain18: Okinawa/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MountRushTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      
+MountRushWinterTextures: &MountRushWinterTextures
+   <<: *MountRushSummerTextures
+   TreeSideDiffuse: Okinawa/Winter_trees_01
+   TreeTopDiffuse: Okinawa/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *MountRushTerrainTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4
+      Terrain5: Okinawa/Winter_TerrainTexture5
+      Terrain6: Okinawa/Winter_TerrainTexture6
+      Terrain7: Okinawa/Winter_TerrainTexture7
+      Terrain8: Okinawa/Winter_TerrainTexture8
+      Terrain14: Okinawa/Winter_TerrainTexture14
+      Terrain18: Okinawa/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MountRushTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+MountRushSummerNightTextures: &MountRushSummerNightTextures
+   <<: *MountRushSummerTextures
+   BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
+   RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   
+MountRushSummerSnowTextures: &MountRushSummerSnowTextures
+   <<: *MountRushSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MountRushSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *MountRushSnowTerrainLODTextures
+      
+MountRushSummerNightSnowTextures: &MountRushSummerNightSnowTextures
+   <<: *MountRushSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *MountRushSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *MountRushSnowTerrainLODTextures
+      
+MountRushSpringSnowTextures: &MountRushSpringSnowTextures
+   <<: *MountRushSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MountRushSnowTerrainTextures
+      Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
+      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
+      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
+      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
+      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
+      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MountRushSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      
+MountRushAutumnSnowTextures: &MountRushAutumnSnowTextures
+   <<: *MountRushSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MountRushSnowTerrainTextures
+      Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
+      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
+      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
+      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
+      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
+      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MountRushSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      
+MountRushWinterSnowTextures: &MountRushWinterSnowTextures
+   <<: *MountRushSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MountRushSnowTerrainTextures
+      Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
+      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
+      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
+      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
+      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
+      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MountRushSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+SummerMountRush: &SummerMountRush
+   Name: SummerMountRush
+   LocationLatLong: [43.878893,-103.459144]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MountRushSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MountRushSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MountRushSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MountRushSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MountRushSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MountRushSummerTextures
+           
+SpringMountRush: &SpringMountRush
+   Name: SpringMountRush
+   LocationLatLong: [43.878893,-103.459144]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MountRushSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MountRushSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MountRushSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MountRushSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MountRushSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MountRushSpringTextures
+           
+AutumnMountRush: &AutumnMountRush
+   Name: AutumnMountRush
+   LocationLatLong: [43.878893,-103.459144]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MountRushAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MountRushSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MountRushAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MountRushAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MountRushAutumnTextures
+           
+WinterMountRush: &WinterMountRush
+   Name: WinterMountRush
+   LocationLatLong: [43.878893,-103.459144]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MountRushWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MountRushSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MountRushWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MountRushWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MountRushSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MountRushWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MountRushWinterTextures
