@@ -45,7 +45,7 @@ CanadaTerrainLODTextures: &CanadaTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 CanadaSnowTerrainTextures: &CanadaSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
@@ -111,7 +111,7 @@ CanadaSummerTextures: &CanadaSummerTextures
       <<: *CanadTerrainTextures
    LcmLodDiffuse:
       <<: *CanadaTerrainLODTextures
-      
+
 CanadaSpringTextures: &CanadaSpringTextures
    <<: *CanadaSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
@@ -134,7 +134,7 @@ CanadaSpringTextures: &CanadaSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 CanadaAutumnTextures: &CanadaAutumnTextures
    <<: *CanadaSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ CanadaAutumnTextures: &CanadaAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 CanadaWinterTextures: &CanadaWinterTextures
    <<: *CanadaSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -188,7 +188,7 @@ CanadaSummerNightTextures: &CanadaSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 CanadaSummerSnowTextures: &CanadaSummerSnowTextures
    <<: *CanadaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -199,7 +199,7 @@ CanadaSummerSnowTextures: &CanadaSummerSnowTextures
       <<: *CanadaSnowTerrainTextures
    LcmLodDiffuse:
       <<: *CanadaSnowTerrainLODTextures
-      
+
 CanadaSummerNightSnowTextures: &CanadaSummerNightSnowTextures
    <<: *CanadaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
@@ -213,7 +213,7 @@ CanadaSummerNightSnowTextures: &CanadaSummerNightSnowTextures
       <<: *CanadaSnowTerrainTextures
    LcmLodDiffuse:
       <<: *CanadaSnowTerrainLODTextures
-      
+
 CanadaSpringSnowTextures: &CanadaSpringSnowTextures
    <<: *CanadaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -238,7 +238,7 @@ CanadaSpringSnowTextures: &CanadaSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 CanadaAutumnSnowTextures: &CanadaAutumnSnowTextures
    <<: *CanadaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -263,7 +263,7 @@ CanadaAutumnSnowTextures: &CanadaAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 CanadaWinterSnowTextures: &CanadaWinterSnowTextures
    <<: *CanadaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -381,7 +381,7 @@ SummerCanada: &SummerCanada
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *CanadaSummerTextures
-           
+
 SpringCanada: &SpringCanada
    Name: SpringCanada
    LocationLatLong: [64.269237, -105.122325]
@@ -474,7 +474,7 @@ SpringCanada: &SpringCanada
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *CanadaSpringTextures
-           
+
 AutumnCanada: &AutumnCanada
    Name: AutumnCanada
    LocationLatLong: [64.269237, -105.122325]
@@ -567,7 +567,7 @@ AutumnCanada: &AutumnCanada
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *CanadaAutumnTextures
-           
+
 WinterCanada: &WinterCanada
    Name: WinterCanada
    LocationLatLong: [64.269237, -105.122325]

@@ -15,7 +15,7 @@ ParisSummerTextures: &ParisSummerTextures
       <<: *LondonTerrainTextures
    LcmLodDiffuse:
       <<: *LondonTerrainLODTextures
-      
+
 ParisSpringTextures: &ParisSpringTextures
    <<: *ParisSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
@@ -38,7 +38,7 @@ ParisSpringTextures: &ParisSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 ParisAutumnTextures: &ParisAutumnTextures
    <<: *ParisSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -61,7 +61,7 @@ ParisAutumnTextures: &ParisAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 ParisWinterTextures: &ParisWinterTextures
    <<: *ParisSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -92,7 +92,7 @@ ParisSummerNightTextures: &ParisSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 ParisSummerSnowTextures: &ParisSummerSnowTextures
    <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -103,7 +103,7 @@ ParisSummerSnowTextures: &ParisSummerSnowTextures
       <<: *LondonSnowTerrainTextures
    LcmLodDiffuse:
       <<: *LondonSnowTerrainLODTextures
-      
+
 ParisSummerNightSnowTextures: &ParisSummerNightSnowTextures
    <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
@@ -117,7 +117,7 @@ ParisSummerNightSnowTextures: &ParisSummerNightSnowTextures
       <<: *LondonSnowTerrainTextures
    LcmLodDiffuse:
       <<: *LondonSnowTerrainLODTextures
-      
+
 ParisSpringSnowTextures: &ParisSpringSnowTextures
    <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -142,7 +142,7 @@ ParisSpringSnowTextures: &ParisSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 ParisAutumnSnowTextures: &ParisAutumnSnowTextures
    <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -167,7 +167,7 @@ ParisAutumnSnowTextures: &ParisAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 ParisWinterSnowTextures: &ParisWinterSnowTextures
    <<: *ParisSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -192,7 +192,7 @@ ParisWinterSnowTextures: &ParisWinterSnowTextures
       Terrain8: Okinawa/Winter_TerrainTexture8_LOD
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
- 
+
 SummerParis: &SummerParis
    Name: SummerParis
    LocationLatLong: [48.856057,2.343278]
@@ -285,7 +285,7 @@ SummerParis: &SummerParis
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *ParisSummerTextures
-           
+
 SpringParis: &SpringParis
    Name: SpringParis
    LocationLatLong: [48.856057,2.343278]
@@ -378,7 +378,7 @@ SpringParis: &SpringParis
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *ParisSpringTextures
-           
+
 AutumnParis: &AutumnParis
    Name: AutumnParis
    LocationLatLong: [48.856057,2.343278]
@@ -471,7 +471,7 @@ AutumnParis: &AutumnParis
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *ParisAutumnTextures
-           
+
 WinterParis: &WinterParis
    Name: WinterParis
    LocationLatLong: [48.856057,2.343278]

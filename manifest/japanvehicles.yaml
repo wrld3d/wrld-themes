@@ -206,7 +206,7 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      ModelNode: "Helicopter"
      Speed: 40
      Scale: 3
-	 
+
 JapanVehicles: &JapanVehicles
    RoadVehicles:
       <<: *JapanRoadVehicles

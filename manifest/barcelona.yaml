@@ -45,7 +45,7 @@ BarcelonaTerrainLODTextures: &BarcelonaTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 BarcelonaSnowTerrainTextures: &BarcelonaSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
@@ -111,7 +111,7 @@ BarcelonaSummerTextures: &BarcelonaSummerTextures
       <<: *BarcelonaTerrainTextures
    LcmLodDiffuse:
       <<: *BarcelonaTerrainLODTextures
-      
+
 BarcelonaSpringTextures: &BarcelonaSpringTextures
    <<: *BarcelonaSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
@@ -134,7 +134,7 @@ BarcelonaSpringTextures: &BarcelonaSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 BarcelonaAutumnTextures: &BarcelonaAutumnTextures
    <<: *BarcelonaSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ BarcelonaAutumnTextures: &BarcelonaAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 BarcelonaWinterTextures: &BarcelonaWinterTextures
    <<: *BarcelonaSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -188,7 +188,7 @@ BarcelonaSummerNightTextures: &BarcelonaSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 BarcelonaSummerSnowTextures: &BarcelonaSummerSnowTextures
    <<: *BarcelonaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -199,7 +199,7 @@ BarcelonaSummerSnowTextures: &BarcelonaSummerSnowTextures
       <<: *BarcelonaSnowTerrainTextures
    LcmLodDiffuse:
       <<: *BarcelonaSnowTerrainLODTextures
-      
+
 BarcelonaSummerNightSnowTextures: &BarcelonaSummerNightSnowTextures
    <<: *BarcelonaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
@@ -213,7 +213,7 @@ BarcelonaSummerNightSnowTextures: &BarcelonaSummerNightSnowTextures
       <<: *BarcelonaSnowTerrainTextures
    LcmLodDiffuse:
       <<: *BarcelonaSnowTerrainLODTextures
-      
+
 BarcelonaSpringSnowTextures: &BarcelonaSpringSnowTextures
    <<: *BarcelonaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -238,7 +238,7 @@ BarcelonaSpringSnowTextures: &BarcelonaSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 BarcelonaAutumnSnowTextures: &BarcelonaAutumnSnowTextures
    <<: *BarcelonaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -263,7 +263,7 @@ BarcelonaAutumnSnowTextures: &BarcelonaAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 BarcelonaWinterSnowTextures: &BarcelonaWinterSnowTextures
    <<: *BarcelonaSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -381,7 +381,7 @@ SummerBarcelona: &SummerBarcelona
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BarcelonaSummerTextures
-           
+
 SpringBarcelona: &SpringBarcelona
    Name: SpringBarcelona
    LocationLatLong: [41.382476,2.17804]
@@ -474,7 +474,7 @@ SpringBarcelona: &SpringBarcelona
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BarcelonaSpringTextures
-           
+
 AutumnBarcelona: &AutumnBarcelona
    Name: AutumnBarcelona
    LocationLatLong: [41.382476,2.17804]
@@ -567,7 +567,7 @@ AutumnBarcelona: &AutumnBarcelona
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BarcelonaAutumnTextures
-           
+
 WinterBarcelona: &WinterBarcelona
    Name: WinterBarcelona
    LocationLatLong: [41.382476,2.17804]

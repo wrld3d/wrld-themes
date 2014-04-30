@@ -45,7 +45,7 @@ MelbourneTerrainLODTextures: &MelbourneTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 MelbourneSnowTerrainTextures: &MelbourneSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
@@ -111,7 +111,7 @@ MelbourneSummerTextures: &MelbourneSummerTextures
       <<: *MelbourneTerrainTextures
    LcmLodDiffuse:
       <<: *MelbourneTerrainLODTextures
-      
+
 MelbourneSpringTextures: &MelbourneSpringTextures
    <<: *MelbourneSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
@@ -134,7 +134,7 @@ MelbourneSpringTextures: &MelbourneSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 MelbourneAutumnTextures: &MelbourneAutumnTextures
    <<: *MelbourneSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ MelbourneAutumnTextures: &MelbourneAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 MelbourneWinterTextures: &MelbourneWinterTextures
    <<: *MelbourneSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -188,7 +188,7 @@ MelbourneSummerNightTextures: &MelbourneSummerNightTextures
    RailDiffuse: Melbourne/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 MelbourneSummerSnowTextures: &MelbourneSummerSnowTextures
    <<: *MelbourneSummerTextures
    RoadDiffuse: Melbourne/roadDiffuse_Snow
@@ -199,7 +199,7 @@ MelbourneSummerSnowTextures: &MelbourneSummerSnowTextures
       <<: *MelbourneSnowTerrainTextures
    LcmLodDiffuse:
       <<: *MelbourneSnowTerrainLODTextures
-      
+
 MelbourneSummerNightSnowTextures: &MelbourneSummerNightSnowTextures
    <<: *MelbourneSummerTextures
    RoadDiffuse: Melbourne/roadDiffuse_Night_Snow
@@ -213,7 +213,7 @@ MelbourneSummerNightSnowTextures: &MelbourneSummerNightSnowTextures
       <<: *MelbourneSnowTerrainTextures
    LcmLodDiffuse:
       <<: *MelbourneSnowTerrainLODTextures
-      
+
 MelbourneSpringSnowTextures: &MelbourneSpringSnowTextures
    <<: *MelbourneSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -238,7 +238,7 @@ MelbourneSpringSnowTextures: &MelbourneSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 MelbourneAutumnSnowTextures: &MelbourneAutumnSnowTextures
    <<: *MelbourneSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -263,7 +263,7 @@ MelbourneAutumnSnowTextures: &MelbourneAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 MelbourneWinterSnowTextures: &MelbourneWinterSnowTextures
    <<: *MelbourneSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -381,7 +381,7 @@ SummerMelbourne: &SummerMelbourne
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MelbourneSummerTextures
-           
+
 SpringMelbourne: &SpringMelbourne
    Name: SpringMelbourne
    LocationLatLong: [-37.816293,144.972427]
@@ -474,7 +474,7 @@ SpringMelbourne: &SpringMelbourne
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MelbourneSpringTextures
-           
+
 AutumnMelbourne: &AutumnMelbourne
    Name: AutumnMelbourne
    LocationLatLong: [-37.816293,144.972427]
@@ -567,7 +567,7 @@ AutumnMelbourne: &AutumnMelbourne
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MelbourneAutumnTextures
-           
+
 WinterMelbourne: &WinterMelbourne
    Name: WinterMelbourne
    LocationLatLong: [-37.816293,144.972427]

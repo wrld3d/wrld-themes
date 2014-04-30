@@ -45,7 +45,7 @@ JapanTerrainLODTextures: &JapanTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 JapanSnowTerrainTextures: &JapanSnowTerrainTextures
      Terrain0: Osaka/snow_Texture0
      Terrain1: Osaka/snow_Texture1
@@ -134,7 +134,7 @@ JapanSpringTextures: &JapanSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 JapanAutumnTextures: &JapanAutumnTextures
    <<: *JapanSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ JapanAutumnTextures: &JapanAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 JapanWinterTextures: &JapanWinterTextures
    <<: *JapanSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -180,7 +180,7 @@ JapanWinterTextures: &JapanWinterTextures
       Terrain8: Okinawa/Winter_TerrainTexture8_LOD
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
-      
+
 JapanSummerNightTextures: &JapanSummerNightTextures
    <<: *JapanSummerTextures
    BuildingDiffuse: Osaka/Osaka_Night_wallDiffuse
@@ -188,7 +188,7 @@ JapanSummerNightTextures: &JapanSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 JapanSummerSnowTextures: &JapanSummerSnowTextures
    <<: *JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -199,7 +199,7 @@ JapanSummerSnowTextures: &JapanSummerSnowTextures
       <<: *JapanSnowTerrainTextures
    LcmLodDiffuse:
       <<: *JapanSnowTerrainLODTextures
-      
+
 JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
    <<: *JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
@@ -213,7 +213,7 @@ JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
       <<: *JapanSnowTerrainTextures
    LcmLodDiffuse:
       <<: *JapanSnowTerrainLODTextures
-	 
+
 JapanPlaceNameStyles: &JapanPlaceNameStyles
    - Category: ctry
      Scale: 1.0
@@ -321,7 +321,7 @@ JapanSpringSnowTextures: &JapanSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 JapanAutumnSnowTextures: &JapanAutumnSnowTextures
    <<: *JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -346,7 +346,7 @@ JapanAutumnSnowTextures: &JapanAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 JapanWinterSnowTextures: &JapanWinterSnowTextures
    <<: *JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -371,7 +371,7 @@ JapanWinterSnowTextures: &JapanWinterSnowTextures
       Terrain8: Okinawa/Winter_TerrainTexture8_LOD
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
-      
+
 SummerJapan: &SummerJapan
    Name: SummerJapan
    LocationLatLong: [34.665246,135.43224]
@@ -465,7 +465,7 @@ SummerJapan: &SummerJapan
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSummerTextures
-           
+
 SpringJapan: &SpringJapan
    Name: SpringJapan
    LocationLatLong: [34.665246,135.43224]
@@ -559,7 +559,7 @@ SpringJapan: &SpringJapan
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSpringTextures
-           
+
 AutumnJapan: &AutumnJapan
    Name: AutumnJapan
    LocationLatLong: [34.665246,135.43224]
@@ -653,7 +653,7 @@ AutumnJapan: &AutumnJapan
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanAutumnTextures
-           
+
 WinterJapan: &WinterJapan
    Name: WinterJapan
    LocationLatLong: [34.665246,135.43224]

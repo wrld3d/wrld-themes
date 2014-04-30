@@ -45,7 +45,7 @@ SanFranciscoTerrainLODTextures: &SanFranciscoTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 SanFranciscoSnowTerrainTextures: &SanFranciscoSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
@@ -111,7 +111,7 @@ SanFranciscoSummerTextures: &SanFranciscoSummerTextures
       <<: *SanFranciscoTerrainTextures
    LcmLodDiffuse:
       <<: *SanFranciscoTerrainLODTextures
-      
+
 SanFranciscoSpringTextures: &SanFranciscoSpringTextures
    <<: *SanFranciscoSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
@@ -134,7 +134,7 @@ SanFranciscoSpringTextures: &SanFranciscoSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 SanFranciscoAutumnTextures: &SanFranciscoAutumnTextures
    <<: *SanFranciscoSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ SanFranciscoAutumnTextures: &SanFranciscoAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 SanFranciscoWinterTextures: &SanFranciscoWinterTextures
    <<: *SanFranciscoSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -188,7 +188,7 @@ SanFranciscoSummerNightTextures: &SanFranciscoSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 SanFranciscoSummerSnowTextures: &SanFranciscoSummerSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -199,7 +199,7 @@ SanFranciscoSummerSnowTextures: &SanFranciscoSummerSnowTextures
       <<: *SanFranciscoSnowTerrainTextures
    LcmLodDiffuse:
       <<: *SanFranciscoSnowTerrainLODTextures
-      
+
 SanFranciscoSummerNightSnowTextures: &SanFranciscoSummerNightSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
@@ -213,7 +213,7 @@ SanFranciscoSummerNightSnowTextures: &SanFranciscoSummerNightSnowTextures
       <<: *SanFranciscoSnowTerrainTextures
    LcmLodDiffuse:
       <<: *SanFranciscoSnowTerrainLODTextures
-      
+
 SanFranciscoSpringSnowTextures: &SanFranciscoSpringSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -238,7 +238,7 @@ SanFranciscoSpringSnowTextures: &SanFranciscoSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 SanFranciscoAutumnSnowTextures: &SanFranciscoAutumnSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -263,7 +263,7 @@ SanFranciscoAutumnSnowTextures: &SanFranciscoAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 SanFranciscoWinterSnowTextures: &SanFranciscoWinterSnowTextures
    <<: *SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -381,7 +381,7 @@ SummerSanFrancisco: &SummerSanFrancisco
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *SanFranciscoSummerTextures
-           
+
 SpringSanFrancisco: &SpringSanFrancisco
    Name: SpringSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
@@ -474,7 +474,7 @@ SpringSanFrancisco: &SpringSanFrancisco
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *SanFranciscoSpringTextures
-           
+
 AutumnSanFrancisco: &AutumnSanFrancisco
    Name: AutumnSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
@@ -567,7 +567,7 @@ AutumnSanFrancisco: &AutumnSanFrancisco
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *SanFranciscoAutumnTextures
-           
+
 WinterSanFrancisco: &WinterSanFrancisco
    Name: WinterSanFrancisco
    LocationLatLong: [37.75253,-122.449837]

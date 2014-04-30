@@ -45,7 +45,7 @@ LondonTerrainLODTextures: &LondonTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 LondonSnowTerrainTextures: &LondonSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
@@ -111,7 +111,7 @@ LondonSummerTextures: &LondonSummerTextures
       <<: *LondonTerrainTextures
    LcmLodDiffuse:
       <<: *LondonTerrainLODTextures
-      
+
 LondonSpringTextures: &LondonSpringTextures
    <<: *LondonSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
@@ -134,7 +134,7 @@ LondonSpringTextures: &LondonSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 LondonAutumnTextures: &LondonAutumnTextures
    <<: *LondonSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ LondonAutumnTextures: &LondonAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 LondonWinterTextures: &LondonWinterTextures
    <<: *LondonSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -188,7 +188,7 @@ LondonSummerNightTextures: &LondonSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 LondonSummerSnowTextures: &LondonSummerSnowTextures
    <<: *LondonSummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
@@ -199,7 +199,7 @@ LondonSummerSnowTextures: &LondonSummerSnowTextures
       <<: *LondonSnowTerrainTextures
    LcmLodDiffuse:
       <<: *LondonSnowTerrainLODTextures
-      
+
 LondonSummerNightSnowTextures: &LondonSummerNightSnowTextures
    <<: *LondonSummerTextures
    RoadDiffuse: London/London_Night_Snow_roadDiffuse
@@ -213,7 +213,7 @@ LondonSummerNightSnowTextures: &LondonSummerNightSnowTextures
       <<: *LondonSnowTerrainTextures
    LcmLodDiffuse:
       <<: *LondonSnowTerrainLODTextures
-      
+
 LondonSpringSnowTextures: &LondonSpringSnowTextures
    <<: *LondonSummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
@@ -238,7 +238,7 @@ LondonSpringSnowTextures: &LondonSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 LondonAutumnSnowTextures: &LondonAutumnSnowTextures
    <<: *LondonSummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
@@ -263,7 +263,7 @@ LondonAutumnSnowTextures: &LondonAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 LondonWinterSnowTextures: &LondonWinterSnowTextures
    <<: *LondonSummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
@@ -288,7 +288,7 @@ LondonWinterSnowTextures: &LondonWinterSnowTextures
       Terrain8: Okinawa/Winter_TerrainTexture8_LOD
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
- 
+
 SummerLondon: &SummerLondon
    Name: SummerLondon
    LocationLatLong: [51.508636,-0.128059]
@@ -382,7 +382,7 @@ SummerLondon: &SummerLondon
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *LondonSummerTextures
-           
+
 SpringLondon: &SpringLondon
    Name: SpringLondon
    LocationLatLong: [51.508636,-0.128059]
@@ -476,7 +476,7 @@ SpringLondon: &SpringLondon
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *LondonSpringTextures
-           
+
 AutumnLondon: &AutumnLondon
    Name: AutumnLondon
    LocationLatLong: [51.508636,-0.128059]
@@ -570,7 +570,7 @@ AutumnLondon: &AutumnLondon
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *LondonAutumnTextures
-           
+
 WinterLondon: &WinterLondon
    Name: WinterLondon
    LocationLatLong: [51.508636,-0.128059]

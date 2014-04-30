@@ -45,7 +45,7 @@ MountRushTerrainLODTextures: &MountRushTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 MountRushSnowTerrainTextures: &MountRushSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
@@ -111,7 +111,7 @@ MountRushSummerTextures: &MountRushSummerTextures
       <<: *MountRushTerrainTextures
    LcmLodDiffuse:
       <<: *MountRushTerrainLODTextures
-      
+
 MountRushSpringTextures: &MountRushSpringTextures
    <<: *MountRushSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
@@ -134,7 +134,7 @@ MountRushSpringTextures: &MountRushSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 MountRushAutumnTextures: &MountRushAutumnTextures
    <<: *MountRushSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ MountRushAutumnTextures: &MountRushAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 MountRushWinterTextures: &MountRushWinterTextures
    <<: *MountRushSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -188,7 +188,7 @@ MountRushSummerNightTextures: &MountRushSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 MountRushSummerSnowTextures: &MountRushSummerSnowTextures
    <<: *MountRushSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -199,7 +199,7 @@ MountRushSummerSnowTextures: &MountRushSummerSnowTextures
       <<: *MountRushSnowTerrainTextures
    LcmLodDiffuse:
       <<: *MountRushSnowTerrainLODTextures
-      
+
 MountRushSummerNightSnowTextures: &MountRushSummerNightSnowTextures
    <<: *MountRushSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
@@ -213,7 +213,7 @@ MountRushSummerNightSnowTextures: &MountRushSummerNightSnowTextures
       <<: *MountRushSnowTerrainTextures
    LcmLodDiffuse:
       <<: *MountRushSnowTerrainLODTextures
-      
+
 MountRushSpringSnowTextures: &MountRushSpringSnowTextures
    <<: *MountRushSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -238,7 +238,7 @@ MountRushSpringSnowTextures: &MountRushSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 MountRushAutumnSnowTextures: &MountRushAutumnSnowTextures
    <<: *MountRushSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -263,7 +263,7 @@ MountRushAutumnSnowTextures: &MountRushAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 MountRushWinterSnowTextures: &MountRushWinterSnowTextures
    <<: *MountRushSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -381,7 +381,7 @@ SummerMountRush: &SummerMountRush
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MountRushSummerTextures
-           
+
 SpringMountRush: &SpringMountRush
    Name: SpringMountRush
    LocationLatLong: [43.878893,-103.459144]
@@ -474,7 +474,7 @@ SpringMountRush: &SpringMountRush
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MountRushSpringTextures
-           
+
 AutumnMountRush: &AutumnMountRush
    Name: AutumnMountRush
    LocationLatLong: [43.878893,-103.459144]
@@ -567,7 +567,7 @@ AutumnMountRush: &AutumnMountRush
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MountRushAutumnTextures
-           
+
 WinterMountRush: &WinterMountRush
    Name: WinterMountRush
    LocationLatLong: [43.878893,-103.459144]

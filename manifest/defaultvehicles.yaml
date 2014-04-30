@@ -81,7 +81,7 @@ DefaultTramVehicles: &DefaultTramVehicles
      ModelNode: "Tram_A"
      Speed: 20
      Scale: 6.0
-	 
+
 DefaultPlaneVehicles: &DefaultPlaneVehicles
    Name: "Basic Plane Simulation"
    VehiclesBasePodFile: "SanFrancisco/VehicleModels/Planes_SF.POD"
@@ -102,7 +102,7 @@ DefaultPlaneVehicles: &DefaultPlaneVehicles
      ModelNode: "learjet_02"
      Speed: 200
      Scale: 6.0
-	 
+
 DefaultVehiclesRightSide: &DefaultVehiclesRightSide
    RoadVehicles:
       <<: *DefaultRoadVehicles
@@ -112,7 +112,7 @@ DefaultVehiclesRightSide: &DefaultVehiclesRightSide
       <<: *DefaultTramVehicles
    PlaneVehicles:
       <<: *DefaultPlaneVehicles
-	  
+
 DefaultVehiclesLeftSide: &DefaultVehiclesLeftSide
    RoadVehicles:
       <<: *DefaultRoadVehicles

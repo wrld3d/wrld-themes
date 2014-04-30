@@ -45,7 +45,7 @@ PhoenixTerrainLODTextures: &PhoenixTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 PhoenixSnowTerrainTextures: &PhoenixSnowTerrainTextures
      Terrain0: Phoenix/Snow_TerrainTexture0
      Terrain1: Phoenix/Snow_TerrainTexture1
@@ -111,7 +111,7 @@ PhoenixSummerTextures: &PhoenixSummerTextures
       <<: *PhoenixTerrainTextures
    LcmLodDiffuse:
       <<: *PhoenixTerrainLODTextures
-      
+
 PhoenixSpringTextures: &PhoenixSpringTextures
    <<: *PhoenixSummerTextures
    TreeSideDiffuse: Phoenix/Spring_trees_01
@@ -134,7 +134,7 @@ PhoenixSpringTextures: &PhoenixSpringTextures
       Terrain8: Phoenix/Spring_TerrainTexture8_LOD
       Terrain14: Phoenix/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 PhoenixAutumnTextures: &PhoenixAutumnTextures
    <<: *PhoenixSummerTextures
    TreeSideDiffuse: Phoenix/Autumn_trees_01
@@ -157,7 +157,7 @@ PhoenixAutumnTextures: &PhoenixAutumnTextures
       Terrain8: Phoenix/Autumn_TerrainTexture8_LOD
       Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 PhoenixWinterTextures: &PhoenixWinterTextures
    <<: *PhoenixSummerTextures
    TreeSideDiffuse: Phoenix/Winter_trees_01
@@ -188,7 +188,7 @@ PhoenixSummerNightTextures: &PhoenixSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 PhoenixSummerSnowTextures: &PhoenixSummerSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -199,7 +199,7 @@ PhoenixSummerSnowTextures: &PhoenixSummerSnowTextures
       <<: *PhoenixSnowTerrainTextures
    LcmLodDiffuse:
       <<: *PhoenixSnowTerrainLODTextures
-      
+
 PhoenixSummerNightSnowTextures: &PhoenixSummerNightSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
@@ -213,7 +213,7 @@ PhoenixSummerNightSnowTextures: &PhoenixSummerNightSnowTextures
       <<: *PhoenixSnowTerrainTextures
    LcmLodDiffuse:
       <<: *PhoenixSnowTerrainLODTextures
-      
+
 PhoenixSpringSnowTextures: &PhoenixSpringSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -238,7 +238,7 @@ PhoenixSpringSnowTextures: &PhoenixSpringSnowTextures
       Terrain8: Phoenix/Spring_TerrainTexture8_LOD
       Terrain14: Phoenix/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 PhoenixAutumnSnowTextures: &PhoenixAutumnSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -263,7 +263,7 @@ PhoenixAutumnSnowTextures: &PhoenixAutumnSnowTextures
       Terrain8: Phoenix/Autumn_TerrainTexture8_LOD
       Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 PhoenixWinterSnowTextures: &PhoenixWinterSnowTextures
    <<: *PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
@@ -381,7 +381,7 @@ SummerPhoenix: &SummerPhoenix
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *PhoenixSummerTextures
-           
+
 SpringPhoenix: &SpringPhoenix
    Name: SpringPhoenix
    LocationLatLong: [33.448443,-112.074475]
@@ -474,7 +474,7 @@ SpringPhoenix: &SpringPhoenix
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *PhoenixSpringTextures
-           
+
 AutumnPhoenix: &AutumnPhoenix
    Name: AutumnPhoenix
    LocationLatLong: [33.448443,-112.074475]
@@ -567,7 +567,7 @@ AutumnPhoenix: &AutumnPhoenix
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *PhoenixAutumnTextures
-           
+
 WinterPhoenix: &WinterPhoenix
    Name: WinterPhoenix
    LocationLatLong: [33.448443,-112.074475]

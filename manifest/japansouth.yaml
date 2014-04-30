@@ -45,7 +45,7 @@ JapanSouthTerrainLODTextures: &JapanSouthTerrainLODTextures
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
-     
+
 JapanSouthSnowTerrainTextures: &JapanSouthSnowTerrainTextures
      Terrain0: Osaka/snow_Texture0
      Terrain1: Osaka/snow_Texture1
@@ -134,7 +134,7 @@ JapanSouthSpringTextures: &JapanSouthSpringTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 JapanSouthAutumnTextures: &JapanSouthAutumnTextures
    <<: *JapanSouthSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
@@ -157,7 +157,7 @@ JapanSouthAutumnTextures: &JapanSouthAutumnTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 JapanSouthWinterTextures: &JapanSouthWinterTextures
    <<: *JapanSouthSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
@@ -180,7 +180,7 @@ JapanSouthWinterTextures: &JapanSouthWinterTextures
       Terrain8: Okinawa/Winter_TerrainTexture8_LOD
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
-      
+
 JapanSouthSummerNightTextures: &JapanSouthSummerNightTextures
    <<: *JapanSouthSummerTextures
    BuildingDiffuse: Okinawa/Okinawa_Night_wallDiffuse
@@ -188,7 +188,7 @@ JapanSouthSummerNightTextures: &JapanSouthSummerNightTextures
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   
+
 JapanSouthSummerSnowTextures: &JapanSouthSummerSnowTextures
    <<: *JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -199,7 +199,7 @@ JapanSouthSummerSnowTextures: &JapanSouthSummerSnowTextures
       <<: *JapanSouthSnowTerrainTextures
    LcmLodDiffuse:
       <<: *JapanSouthSnowTerrainLODTextures
-      
+
 JapanSouthSummerNightSnowTextures: &JapanSouthSummerNightSnowTextures
    <<: *JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
@@ -213,7 +213,7 @@ JapanSouthSummerNightSnowTextures: &JapanSouthSummerNightSnowTextures
       <<: *JapanSouthSnowTerrainTextures
    LcmLodDiffuse:
       <<: *JapanSouthSnowTerrainLODTextures
-      
+
 JapanSouthSpringSnowTextures: &JapanSouthSpringSnowTextures
    <<: *JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -238,7 +238,7 @@ JapanSouthSpringSnowTextures: &JapanSouthSpringSnowTextures
       Terrain8: Okinawa/Spring_TerrainTexture8_LOD
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-      
+
 JapanSouthAutumnSnowTextures: &JapanSouthAutumnSnowTextures
    <<: *JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -263,7 +263,7 @@ JapanSouthAutumnSnowTextures: &JapanSouthAutumnSnowTextures
       Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-      
+
 JapanSouthWinterSnowTextures: &JapanSouthWinterSnowTextures
    <<: *JapanSouthSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
@@ -288,7 +288,7 @@ JapanSouthWinterSnowTextures: &JapanSouthWinterSnowTextures
       Terrain8: Okinawa/Winter_TerrainTexture8_LOD
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
-      
+
 SummerJapanSouth: &SummerJapanSouth
    Name: SummerJapanSouth
    LocationLatLong: [26.467061,127.852426]
@@ -382,7 +382,7 @@ SummerJapanSouth: &SummerJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthSummerTextures
-           
+
 SpringJapanSouth: &SpringJapanSouth
    Name: SpringJapanSouth
    LocationLatLong: [26.467061,127.852426]
@@ -476,7 +476,7 @@ SpringJapanSouth: &SpringJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthSpringTextures
-           
+
 AutumnJapanSouth: &AutumnJapanSouth
    Name: AutumnJapanSouth
    LocationLatLong: [26.467061,127.852426]
@@ -570,7 +570,7 @@ AutumnJapanSouth: &AutumnJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthAutumnTextures
-           
+
 WinterJapanSouth: &WinterJapanSouth
    Name: WinterJapanSouth
    LocationLatLong: [26.467061,127.852426]

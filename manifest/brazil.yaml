@@ -1,4 +1,4 @@
-NewYorkTerrainTextures: &NewYorkTerrainTextures
+BrazilTerrainTextures: &BrazilTerrainTextures
      Terrain0: SanFrancisco/TerrainTexture0
      Terrain1: SanFrancisco/TerrainTexture1
      Terrain2: SanFrancisco/TerrainTexture2
@@ -22,7 +22,7 @@ NewYorkTerrainTextures: &NewYorkTerrainTextures
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
 
-NewYorkTerrainLODTextures: &NewYorkTerrainLODTextures
+BrazilTerrainLODTextures: &BrazilTerrainLODTextures
      Terrain0: SanFrancisco/TerrainTexture0_LOD
      Terrain1: SanFrancisco/TerrainTexture1_LOD
      Terrain2: SanFrancisco/TerrainTexture2_LOD
@@ -46,7 +46,7 @@ NewYorkTerrainLODTextures: &NewYorkTerrainLODTextures
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
 
-NewYorkSnowTerrainTextures: &NewYorkSnowTerrainTextures
+BrazilSnowTerrainTextures: &BrazilSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
      Terrain2: SanFrancisco/SanFran_Snow_Texture2
@@ -70,7 +70,7 @@ NewYorkSnowTerrainTextures: &NewYorkSnowTerrainTextures
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
 
-NewYorkSnowTerrainLODTextures: &NewYorkSnowTerrainLODTextures
+BrazilSnowTerrainLODTextures: &BrazilSnowTerrainLODTextures
      Terrain0: SanFrancisco/TerrainTexture0_LOD
      Terrain1: SanFrancisco/TerrainTexture1_LOD
      Terrain2: SanFrancisco/TerrainTexture2_LOD
@@ -94,10 +94,10 @@ NewYorkSnowTerrainLODTextures: &NewYorkSnowTerrainLODTextures
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
 
-NewYorkSummerTextures: &NewYorkSummerTextures
-   RoadDiffuse: NewYork/NewYork_roadDiffuse_repeat
+BrazilSummerTextures: &BrazilSummerTextures
+   RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
-   BuildingDiffuse: NewYork/NewYork_wallDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
    VehicleDiffuse: SanFrancisco/sf_vehicles_01
@@ -108,16 +108,16 @@ NewYorkSummerTextures: &NewYorkSummerTextures
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *BrazilTerrainTextures
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *BrazilTerrainLODTextures
 
-NewYorkSpringTextures: &NewYorkSpringTextures
-   <<: *NewYorkSummerTextures
+BrazilSpringTextures: &BrazilSpringTextures
+   <<: *BrazilSummerTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
    TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *BrazilTerrainTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4
       Terrain5: Okinawa/Spring_TerrainTexture5
       Terrain6: Okinawa/Spring_TerrainTexture6
@@ -126,7 +126,7 @@ NewYorkSpringTextures: &NewYorkSpringTextures
       Terrain14: Okinawa/Spring_TerrainTexture14
       Terrain18: Okinawa/Spring_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *BrazilTerrainLODTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
       Terrain5: Okinawa/Spring_TerrainTexture5_LOD
       Terrain6: Okinawa/Spring_TerrainTexture6_LOD
@@ -135,12 +135,12 @@ NewYorkSpringTextures: &NewYorkSpringTextures
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
 
-NewYorkAutumnTextures: &NewYorkAutumnTextures
-   <<: *NewYorkSummerTextures
+BrazilAutumnTextures: &BrazilAutumnTextures
+   <<: *BrazilSummerTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
    TreeTopDiffuse: Okinawa/Autumn_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *BrazilTerrainTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4
       Terrain5: Okinawa/Autumn_TerrainTexture5
       Terrain6: Okinawa/Autumn_TerrainTexture6
@@ -149,7 +149,7 @@ NewYorkAutumnTextures: &NewYorkAutumnTextures
       Terrain14: Okinawa/Autumn_TerrainTexture14
       Terrain18: Okinawa/Autumn_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *BrazilTerrainLODTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
       Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
       Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
@@ -158,12 +158,12 @@ NewYorkAutumnTextures: &NewYorkAutumnTextures
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
 
-NewYorkWinterTextures: &NewYorkWinterTextures
-   <<: *NewYorkSummerTextures
+BrazilWinterTextures: &BrazilWinterTextures
+   <<: *BrazilSummerTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
    TreeTopDiffuse: Okinawa/Winter_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *BrazilTerrainTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4
       Terrain5: Okinawa/Winter_TerrainTexture5
       Terrain6: Okinawa/Winter_TerrainTexture6
@@ -172,7 +172,7 @@ NewYorkWinterTextures: &NewYorkWinterTextures
       Terrain14: Okinawa/Winter_TerrainTexture14
       Terrain18: Okinawa/Winter_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *BrazilTerrainLODTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
       Terrain5: Okinawa/Winter_TerrainTexture5_LOD
       Terrain6: Okinawa/Winter_TerrainTexture6_LOD
@@ -181,47 +181,47 @@ NewYorkWinterTextures: &NewYorkWinterTextures
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
-NewYorkSummerNightTextures: &NewYorkSummerNightTextures
-   <<: *NewYorkSummerTextures
-   BuildingDiffuse: NewYork/NewYork_Night_wallDiffuse
-   RoadDiffuse: NewYork/NewYork_Night_roadDiffuse
+BrazilSummerNightTextures: &BrazilSummerNightTextures
+   <<: *BrazilSummerTextures
+   BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
+   RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
-NewYorkSummerSnowTextures: &NewYorkSummerSnowTextures
-   <<: *NewYorkSummerTextures
-   RoadDiffuse: NewYork/NewYork_Snow_roadDiffuse
-   BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
+BrazilSummerSnowTextures: &BrazilSummerSnowTextures
+   <<: *BrazilSummerTextures
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *BrazilSnowTerrainTextures
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *BrazilSnowTerrainLODTextures
 
-NewYorkSummerNightSnowTextures: &NewYorkSummerNightSnowTextures
-   <<: *NewYorkSummerTextures
-   RoadDiffuse: NewYork/NewYork_Night_Snow_roadDiffuse
-   BuildingDiffuse: NewYork/NewYork_Night_Snow_wallDiffuse
+BrazilSummerNightSnowTextures: &BrazilSummerNightSnowTextures
+   <<: *BrazilSummerTextures
+   RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *BrazilSnowTerrainTextures
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *BrazilSnowTerrainLODTextures
 
-NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
-   <<: *NewYorkSummerTextures
-   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+BrazilSpringSnowTextures: &BrazilSpringSnowTextures
+   <<: *BrazilSummerTextures
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
    TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *BrazilSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
       Terrain5: Okinawa/Spring_Snow_TerrainTexture5
       Terrain6: Okinawa/Spring_Snow_TerrainTexture6
@@ -230,7 +230,7 @@ NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
       Terrain14: Okinawa/Spring_Snow_TerrainTexture14
       Terrain18: Okinawa/Spring_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *BrazilSnowTerrainLODTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
       Terrain5: Okinawa/Spring_TerrainTexture5_LOD
       Terrain6: Okinawa/Spring_TerrainTexture6_LOD
@@ -239,14 +239,14 @@ NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
       Terrain14: Okinawa/Spring_TerrainTexture14_LOD
       Terrain18: Okinawa/Spring_TerrainTexture18_LOD
 
-NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
-   <<: *NewYorkSummerTextures
-   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+BrazilAutumnSnowTextures: &BrazilAutumnSnowTextures
+   <<: *BrazilSummerTextures
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
    TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *BrazilSnowTerrainTextures
       Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
       Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
       Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
@@ -255,7 +255,7 @@ NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
       Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
       Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *BrazilSnowTerrainLODTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
       Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
       Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
@@ -264,14 +264,14 @@ NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
       Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
       Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
 
-NewYorkWinterSnowTextures: &NewYorkWinterSnowTextures
-   <<: *NewYorkSummerTextures
-   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+BrazilWinterSnowTextures: &BrazilWinterSnowTextures
+   <<: *BrazilSummerTextures
+   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
    TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *BrazilSnowTerrainTextures
       Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
       Terrain5: Okinawa/Winter_Snow_TerrainTexture5
       Terrain6: Okinawa/Winter_Snow_TerrainTexture6
@@ -280,7 +280,7 @@ NewYorkWinterSnowTextures: &NewYorkWinterSnowTextures
       Terrain14: Okinawa/Winter_Snow_TerrainTexture14
       Terrain18: Okinawa/Winter_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *BrazilSnowTerrainLODTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
       Terrain5: Okinawa/Winter_TerrainTexture5_LOD
       Terrain6: Okinawa/Winter_TerrainTexture6_LOD
@@ -289,102 +289,102 @@ NewYorkWinterSnowTextures: &NewYorkWinterSnowTextures
       Terrain14: Okinawa/Winter_TerrainTexture14_LOD
       Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
-SummerNewYork: &SummerNewYork
-   Name: SummerNewYork
-   LocationLatLong: [40.751418,-73.987633]
+SummerBrazil: &SummerBrazil
+   Name: SummerBrazil
+   LocationLatLong: [-22.821757, -44.918461]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesRightSide
+   <<: *DefaultVehiclesRightSide   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkSummerSnowTextures
+           <<: *BrazilSummerSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *BrazilSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkSummerSnowTextures
+           <<: *BrazilSummerSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkSummerSnowTextures
+           <<: *BrazilSummerSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *BrazilSummerTextures
 
-SpringNewYork: &SpringNewYork
-   Name: SpringNewYork
-   LocationLatLong: [40.751418,-73.987633]
+SpringBrazil: &SpringBrazil
+   Name: SpringBrazil
+   LocationLatLong: [-22.821757, -44.918461]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -393,91 +393,91 @@ SpringNewYork: &SpringNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkSpringTextures   
+           <<: *BrazilSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkSpringSnowTextures
+           <<: *BrazilSpringSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *BrazilSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkSpringSnowTextures
+           <<: *BrazilSpringSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkSpringSnowTextures
+           <<: *BrazilSpringSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *BrazilSpringTextures
 
-AutumnNewYork: &AutumnNewYork
-   Name: AutumnNewYork
-   LocationLatLong: [40.751418,-73.987633]
+AutumnBrazil: &AutumnBrazil
+   Name: AutumnBrazil
+   LocationLatLong: [-22.821757, -44.918461]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -486,91 +486,91 @@ AutumnNewYork: &AutumnNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkAutumnTextures   
+           <<: *BrazilAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkAutumnSnowTextures
+           <<: *BrazilAutumnSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *BrazilSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkAutumnSnowTextures
+           <<: *BrazilAutumnSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkAutumnSnowTextures
+           <<: *BrazilAutumnSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *BrazilAutumnTextures
 
-WinterNewYork: &WinterNewYork
-   Name: WinterNewYork
-   LocationLatLong: [40.751418,-73.987633]
+WinterBrazil: &WinterBrazil
+   Name: WinterBrazil
+   LocationLatLong: [-22.821757, -44.918461]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -579,84 +579,84 @@ WinterNewYork: &WinterNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkWinterTextures      
+           <<: *BrazilWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkWinterSnowTextures
+           <<: *BrazilWinterSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *BrazilSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkWinterSnowTextures
+           <<: *BrazilWinterSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkWinterSnowTextures
+           <<: *BrazilWinterSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *BrazilSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *BrazilWinterTextures
