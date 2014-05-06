@@ -183,7 +183,7 @@ BrazilWinterTextures: &BrazilWinterTextures
 
 BrazilSummerNightTextures: &BrazilSummerNightTextures
    <<: *BrazilSummerTextures
-   BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
+   BuildingDiffuse: Brazil/Brazil_Night_wallDiffuse
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
