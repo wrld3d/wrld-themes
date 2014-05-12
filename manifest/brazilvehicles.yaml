@@ -5,19 +5,19 @@ BrazilPlaneVehicles: &BrazilPlaneVehicles
    - Name: "Cessna 1"
      ModelNode: "cessna_01"
      Speed: 50
-     Scale: 3.0
+     Scale: 5.0
    - Name: "Cessna 2"
      ModelNode: "cessna_02"
      Speed: 50
-     Scale: 3.0
+     Scale: 5.0
    - Name: "Learjet 1"
      ModelNode: "learjet_01"
-     Speed: 200
-     Scale: 3.0
+     Speed: 150
+     Scale: 5.0
    - Name: "Learjet 2"
      ModelNode: "learjet_02"
-     Speed: 200
-     Scale: 3.0
+     Speed: 150
+     Scale: 5.0
 
 BrazilVehiclesRightSide: &BrazilVehiclesRightSide
    RoadVehicles:
