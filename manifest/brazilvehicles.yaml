@@ -82,7 +82,7 @@ DefaultTramVehicles: &DefaultTramVehicles
      Speed: 20
      Scale: 3.0
 
-DefaultPlaneVehicles: &DefaultPlaneVehicles
+BrazilPlaneVehicles: &BrazilPlaneVehicles
    Name: "Basic Plane Simulation"
    VehiclesBasePodFile: "Brazil/VehicleModels/Planes_New.POD"
    VehicleList:
