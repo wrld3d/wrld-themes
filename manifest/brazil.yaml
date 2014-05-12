@@ -295,7 +295,7 @@ SummerBrazil: &SummerBrazil
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesRightSide   
+   <<: *BrazilVehiclesRightSide   
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -388,7 +388,7 @@ SpringBrazil: &SpringBrazil
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesRightSide
+   <<: *BrazilVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -481,7 +481,7 @@ AutumnBrazil: &AutumnBrazil
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesRightSide
+   <<: *BrazilVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
@@ -574,7 +574,7 @@ WinterBrazil: &WinterBrazil
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesRightSide
+   <<: *BrazilVehiclesRightSide
    States:
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
