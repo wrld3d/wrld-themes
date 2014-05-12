@@ -14,6 +14,7 @@
 #include "newyork.yaml"
 #include "phoenix.yaml"
 #include "mountrush.yaml"
+#include "brazilvehicles.yaml"
 #include "brazil.yaml"
 
 ThemeManifest:
