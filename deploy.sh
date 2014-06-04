@@ -3,7 +3,7 @@
 rm -rf ./zipped_themes
 cp -R ./themes ./zipped_themes
 
-version=v$1
+version=$1
 s3cmd_access_key=$2
 s3cmd_secret=$3
 
@@ -11,7 +11,6 @@ rm -f ./lib/s3ini.poked
 cp ./lib/s3ini ./lib/s3ini_poked
 sed -i.bak -e s/%S3_ACCESS_KEY%/$(echo $s3cmd_access_key | sed -e 's/\\/\\\\/g' -e 's/\//\\\//g' -e 's/&/\\\&/g')/g -e s/%S3_SECRET_KEY%/$(echo $s3cmd_secret | sed -e 's/\\/\\\\/g' -e 's/\//\\\//g' -e 's/&/\\\&/g')/g ./lib/s3ini_poked
 rm -f ./lib/s3ini_poke.bak
-sed -i.bak s/%VERSION%/$version/g ./zipped_themes/manifest.txt
 
 json_path="./zipped_themes/manifest.txt"
 
