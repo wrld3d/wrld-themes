@@ -217,7 +217,7 @@ NewYorkSummerNightSnowTextures: &NewYorkSummerNightSnowTextures
 NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
    <<: *NewYorkSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
-   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
    TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
@@ -242,7 +242,7 @@ NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
 NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
    <<: *NewYorkSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
-   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
    TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
    LcmDiffuse: 
@@ -267,7 +267,7 @@ NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
 NewYorkWinterSnowTextures: &NewYorkWinterSnowTextures
    <<: *NewYorkSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
-   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
    TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
    TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
    LcmDiffuse: 
