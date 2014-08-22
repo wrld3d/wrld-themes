@@ -18,7 +18,7 @@
 #include "brazil.yaml"
 
 ThemeManifest:
-   LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v291/"
+   LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v292/"
    AssetRoot_iOS: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
    AssetRoot_Android: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
    AssetExtension_iOS: ".pvr.gz"
