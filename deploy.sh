@@ -50,8 +50,6 @@ if [ $status -ne 0 ]; then
 fi
 done;
 
-find zipped_themes -name "*.png" -exec rm -rf {} \;
-
 gzip -r ./zipped_themes
 find zipped_themes -name ".*" -exec rm -rf {} \;
 ./lib/s3cmd-1.0.1/s3cmd --verbose --add-header='Content-Encoding: gzip' --no-progress --force --recursive --acl-public --config ./lib/s3ini_poked put ./zipped_themes/  s3://myworld_developer_destination_resources/mobile-themes-new/$version/ > /dev/null

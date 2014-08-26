@@ -20,9 +20,11 @@
 ThemeManifest:
    LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v293/"
    AssetRoot_iOS: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
+   AssetRoot_OSX: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
    AssetRoot_Android: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
    AssetExtension_iOS: ".pvr.gz"
    AssetExtension_Android: ".ktx.gz"
+   AssetExtension_OSX: ".png.gz"
    GlobeViewThemeState: "GlobeView"
    GlobeViewAltitude: 15000
    Themes: [
