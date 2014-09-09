@@ -2,3 +2,4 @@
 manifest/manifest.yaml.prep
 tmp/
 *.pyc
+themes/manifest.txt
