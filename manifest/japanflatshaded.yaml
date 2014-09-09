@@ -1,4 +1,4 @@
-JapanFlatshadedTerrainTextures: &JapanTerrainTextures
+JapanFlatshadedTerrainTextures: &JapanFlatshadedTerrainTextures
      Terrain0: JapanFlatshaded/TerrainTexture0
      Terrain1: JapanFlatshaded/TerrainTexture1
      Terrain2: JapanFlatshaded/TerrainTexture2
@@ -108,7 +108,7 @@ JapanSummerTextures: &JapanSummerTextures
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
-      <<: *JapanTerrainTextures
+      <<: *JapanFlatshadedTerrainTextures
    LcmLodDiffuse:
       <<: *JapanTerrainLODTextures
 
@@ -117,7 +117,7 @@ JapanSpringTextures: &JapanSpringTextures
    TreeSideDiffuse: Okinawa/Spring_trees_01
    TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
-      <<: *JapanTerrainTextures
+      <<: *JapanFlatshadedTerrainTextures
       Terrain4: Okinawa/Spring_TerrainTexture4
       Terrain5: Okinawa/Spring_TerrainTexture5
       Terrain6: Okinawa/Spring_TerrainTexture6
@@ -140,7 +140,7 @@ JapanAutumnTextures: &JapanAutumnTextures
    TreeSideDiffuse: Okinawa/Autumn_trees_01
    TreeTopDiffuse: Okinawa/Autumn_trees_top_01
    LcmDiffuse: 
-      <<: *JapanTerrainTextures
+      <<: *JapanFlatshadedTerrainTextures
       Terrain4: Okinawa/Autumn_TerrainTexture4
       Terrain5: Okinawa/Autumn_TerrainTexture5
       Terrain6: Okinawa/Autumn_TerrainTexture6
@@ -163,7 +163,7 @@ JapanWinterTextures: &JapanWinterTextures
    TreeSideDiffuse: Okinawa/Winter_trees_01
    TreeTopDiffuse: Okinawa/Winter_trees_top_01
    LcmDiffuse: 
-      <<: *JapanTerrainTextures
+      <<: *JapanFlatshadedTerrainTextures
       Terrain4: Okinawa/Winter_TerrainTexture4
       Terrain5: Okinawa/Winter_TerrainTexture5
       Terrain6: Okinawa/Winter_TerrainTexture6
