@@ -22,79 +22,7 @@ JapanFlatshadedTerrainTextures: &JapanFlatshadedTerrainTextures
      Terrain254: JapanFlatshaded/Water_02
      Terrain255: JapanFlatshaded/Water_03
 
-JapanTerrainLODTextures: &JapanTerrainLODTextures
-     Terrain0: Osaka/TerrainTexture0_LOD
-     Terrain1: Osaka/TerrainTexture1_LOD
-     Terrain2: Osaka/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: Okinawa/Summer_TerrainTexture4_LOD
-     Terrain5: Okinawa/Summer_TerrainTexture5_LOD
-     Terrain6: Okinawa/Summer_TerrainTexture6_LOD
-     Terrain7: Okinawa/Summer_TerrainTexture7_LOD
-     Terrain8: Okinawa/Summer_TerrainTexture8_LOD
-     Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
-     Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: Osaka/TerrainTexture12_LOD
-     Terrain13: Osaka/TerrainTexture13_LOD
-     Terrain14: Okinawa/Summer_TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: Osaka/TerrainTexture16_LOD
-     Terrain17: Osaka/TerrainTexture17_LOD
-     Terrain18: Okinawa/Summer_TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01_LOD
-     Terrain254: SanFrancisco/Water_02_LOD
-     Terrain255: SanFrancisco/Water_03_LOD
-
-JapanSnowTerrainTextures: &JapanSnowTerrainTextures
-     Terrain0: Osaka/snow_Texture0
-     Terrain1: Osaka/snow_Texture1
-     Terrain2: Osaka/snow_Texture2
-     Terrain3: Osaka/snow_Texture3
-     Terrain4: Osaka/snow_Texture4
-     Terrain5: Osaka/snow_Texture5
-     Terrain6: Osaka/snow_Texture6
-     Terrain7: Osaka/snow_Texture7
-     Terrain8: Osaka/snow_Texture8
-     Terrain9: Osaka/snow_Texture9
-     Terrain10: Osaka/snow_Texture10
-     Terrain11: Osaka/snow_Texture11
-     Terrain12: Osaka/snow_Texture12
-     Terrain13: Osaka/snow_Texture13
-     Terrain14: Osaka/snow_Texture14
-     Terrain15: Osaka/snow_Texture15
-     Terrain16: Osaka/snow_Texture16
-     Terrain17: SanFrancisco/TerrainTexture17
-     Terrain18: Osaka/snow_Texture14
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
-
-JapanSnowTerrainLODTextures: &JapanSnowTerrainLODTextures
-     Terrain0: SanFrancisco/TerrainTexture0_LOD
-     Terrain1: SanFrancisco/TerrainTexture1_LOD
-     Terrain2: SanFrancisco/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
-     Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
-     Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: SanFrancisco/TerrainTexture12_LOD
-     Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: SanFrancisco/TerrainTexture16_LOD
-     Terrain17: SanFrancisco/TerrainTexture17_LOD
-     Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01_LOD
-     Terrain254: SanFrancisco/Water_02_LOD
-     Terrain255: SanFrancisco/Water_03_LOD
-
-JapanSummerTextures: &JapanSummerTextures
+JapanFlatshadedSummerTextures: &JapanFlatshadedSummerTextures
    RoadDiffuse: JapanFlatshaded/Flatshaded_roadDiffuse_repeat
    RailDiffuse: JapanFlatshaded/Flatshaded_railDiffuse_repeat
    BuildingDiffuse: JapanFlatshaded/Flatshaded_wallDiffuse
@@ -112,268 +40,16 @@ JapanSummerTextures: &JapanSummerTextures
    LcmLodDiffuse:
       <<: *JapanTerrainLODTextures
 
-JapanSpringTextures: &JapanSpringTextures
-   <<: *JapanSummerTextures
-   TreeSideDiffuse: Okinawa/Spring_trees_01
-   TreeTopDiffuse: Okinawa/Spring_trees_top_01
-   LcmDiffuse: 
-      <<: *JapanFlatshadedTerrainTextures
-      Terrain4: Okinawa/Spring_TerrainTexture4
-      Terrain5: Okinawa/Spring_TerrainTexture5
-      Terrain6: Okinawa/Spring_TerrainTexture6
-      Terrain7: Okinawa/Spring_TerrainTexture7
-      Terrain8: Okinawa/Spring_TerrainTexture8
-      Terrain14: Okinawa/Spring_TerrainTexture14
-      Terrain18: Okinawa/Spring_TerrainTexture18
-   LcmLodDiffuse:
-      <<: *JapanTerrainLODTextures
-      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
-      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-
-JapanAutumnTextures: &JapanAutumnTextures
-   <<: *JapanSummerTextures
-   TreeSideDiffuse: Okinawa/Autumn_trees_01
-   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
-   LcmDiffuse: 
-      <<: *JapanFlatshadedTerrainTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4
-      Terrain5: Okinawa/Autumn_TerrainTexture5
-      Terrain6: Okinawa/Autumn_TerrainTexture6
-      Terrain7: Okinawa/Autumn_TerrainTexture7
-      Terrain8: Okinawa/Autumn_TerrainTexture8
-      Terrain14: Okinawa/Autumn_TerrainTexture14
-      Terrain18: Okinawa/Autumn_TerrainTexture18
-   LcmLodDiffuse:
-      <<: *JapanTerrainLODTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
-      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-
-JapanWinterTextures: &JapanWinterTextures
-   <<: *JapanSummerTextures
-   TreeSideDiffuse: Okinawa/Winter_trees_01
-   TreeTopDiffuse: Okinawa/Winter_trees_top_01
-   LcmDiffuse: 
-      <<: *JapanFlatshadedTerrainTextures
-      Terrain4: Okinawa/Winter_TerrainTexture4
-      Terrain5: Okinawa/Winter_TerrainTexture5
-      Terrain6: Okinawa/Winter_TerrainTexture6
-      Terrain7: Okinawa/Winter_TerrainTexture7
-      Terrain8: Okinawa/Winter_TerrainTexture8
-      Terrain14: Okinawa/Winter_TerrainTexture14
-      Terrain18: Okinawa/Winter_TerrainTexture18
-   LcmLodDiffuse:
-      <<: *JapanTerrainLODTextures
-      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
-      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
-
-JapanSummerNightTextures: &JapanSummerNightTextures
-   <<: *JapanSummerTextures
+JapanFlatshadedSummerNightTextures: &JapanFlatshadedSummerNightTextures
+   <<: *JapanFlatshadedSummerTextures
    BuildingDiffuse: Osaka/Osaka_Night_wallDiffuse
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
-JapanSummerSnowTextures: &JapanSummerSnowTextures
-   <<: *JapanSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
-   BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
-   LcmDiffuse: 
-      <<: *JapanSnowTerrainTextures
-   LcmLodDiffuse:
-      <<: *JapanSnowTerrainLODTextures
-
-JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
-   <<: *JapanSummerTextures
-   RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
-   BuildingDiffuse: Osaka/Osaka_Night_Snow_wallDiffuse
-   RailDiffuse: London/London_railDiffuse_night
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
-   WaterReflection: SanFrancisco/water_reflectionmap_night
-   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
-   LcmDiffuse: 
-      <<: *JapanSnowTerrainTextures
-   LcmLodDiffuse:
-      <<: *JapanSnowTerrainLODTextures
-
-JapanPlaceNameStyles: &JapanPlaceNameStyles
-   - Category: ctry
-     Scale: 1.0
-     <<: *PlaceNameColorWhite
-   - Category: stat
-     Scale: 1.0
-     <<: *PlaceNameColorYellow
-   - Category: coun
-     Scale: 1.0
-     <<: *PlaceNameColorYellow
-   - Category: ccty
-     Scale: 0.84
-     <<: *PlaceNameColorWhiteGray
-   - Category: city
-     Scale: 0.84
-     <<: *PlaceNameColorWhiteGray
-   - Category: poin
-     Scale: 0.84   
-     <<: *PlaceNameColorLightBlue
-   - Category: dist
-     Scale: 0.84
-     <<: *PlaceNameColorWhiteGray
-   - Category: airp
-     Scale: 1.0
-     <<: *PlaceNameColorLilac
-   - Category: park
-     Scale: 0.84
-     <<: *PlaceNameColorParkGreen
-   - Category: golf
-     Scale: 0.8
-     <<: *PlaceNameColorGreen
-   - Category: pref
-     Scale: 1.0
-     Color: [0.92, 0.92, 0.92]
-   - Category: ooaz
-     Scale: 1.0
-     Color: [0.94, 0.94, 0.94]
-   - Category: koaz
-     Scale: 1.0
-     Color: [0.8, 0.8, 0.8]
-   - Category: rail
-     Scale: 0.75
-     Color: [0.16, 0.83, 1.0]
-   - Category: zsta
-     Scale: 1.0
-     Color: [1.0, 1.0, 1.0]
-   - Category: watr
-     Scale: 0.75
-     Color: [0.76, 0.9, 0.92]
-   - Category: cros
-     Scale: 0.75
-     Color: [0.0, 0.8, 1.0]
-   - Category: skii
-     Scale: 0.84
-     Color: [0.92, 0.92, 0.92]
-   - Category: acco
-     Scale: 0.84
-     Color: [1.0, 0.9, 0.5]
-   - Category: shop
-     Scale: 0.84
-     Color: [1.0, 0.7, 0.5]
-   - Category: scho
-     Scale: 0.75
-     Color: [0.96, 0.97, 0.8]
-   - Category: hosp
-     Scale: 0.75
-     Color: [0.96, 0.97, 0.8]
-   - Category: publ
-     Scale: 0.75
-     Color: [0.8, 0.8, 0.8]
-   - Category: leis
-     Scale: 0.84
-     Color: [1.0, 0.7, 0.5]
-   - Category: lnmk
-     Scale: 0.84
-     Color: [0.96, 0.97, 0.8]
-   - Category: tran
-     Scale: 0.84
-     Color: [0.16, 0.91, 0.89]
-   - Category: misc
-     Scale: 0.75
-     Color: [0.96, 0.97, 0.8]
-
-JapanSpringSnowTextures: &JapanSpringSnowTextures
-   <<: *JapanSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
-   BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
-   LcmDiffuse: 
-      <<: *JapanSnowTerrainTextures
-      Terrain4: Okinawa/Spring_Snow_TerrainTexture4
-      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
-      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
-      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
-      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
-      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
-      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
-   LcmLodDiffuse:
-      <<: *JapanSnowTerrainLODTextures
-      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
-      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
-
-JapanAutumnSnowTextures: &JapanAutumnSnowTextures
-   <<: *JapanSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
-   BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
-   LcmDiffuse: 
-      <<: *JapanSnowTerrainTextures
-      Terrain4: Okinawa/Autumn_Snow_TerrainTexture4
-      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
-      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
-      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
-      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
-      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
-      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
-   LcmLodDiffuse:
-      <<: *JapanSnowTerrainLODTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
-      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
-
-JapanWinterSnowTextures: &JapanWinterSnowTextures
-   <<: *JapanSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
-   BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
-   LcmDiffuse: 
-      <<: *JapanSnowTerrainTextures
-      Terrain4: Okinawa/Winter_Snow_TerrainTexture4
-      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
-      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
-      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
-      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
-      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
-      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
-   LcmLodDiffuse:
-      <<: *JapanSnowTerrainLODTextures
-      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
-      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
-
-SummerJapan: &SummerJapan
-   Name: SummerJapan
+SummerJapanFlatshaded: &SummerJapanFlatshaded
+   Name: SummerJapanFlatshaded
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
    DriveOnRight: false
@@ -384,11 +60,11 @@ SummerJapan: &SummerJapan
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
@@ -396,15 +72,15 @@ SummerJapan: &SummerJapan
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
@@ -412,11 +88,11 @@ SummerJapan: &SummerJapan
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
@@ -436,7 +112,7 @@ SummerJapan: &SummerJapan
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
@@ -444,15 +120,15 @@ SummerJapan: &SummerJapan
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
@@ -460,13 +136,13 @@ SummerJapan: &SummerJapan
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *JapanSummerTextures
+           <<: *JapanFlatshadedSummerTextures
 
-SpringJapan: &SpringJapan
+SpringJapanFlatshaded: &SpringJapanFlatshaded
    Name: SpringJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
@@ -560,7 +236,7 @@ SpringJapan: &SpringJapan
         Textures:
            <<: *JapanSpringTextures
 
-AutumnJapan: &AutumnJapan
+AutumnJapanFlatshaded: &AutumnJapanFlatshaded
    Name: AutumnJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
@@ -654,7 +330,7 @@ AutumnJapan: &AutumnJapan
         Textures:
            <<: *JapanAutumnTextures
 
-WinterJapan: &WinterJapan
+WinterJapanFlatshaded: &WinterJapanFlatshaded
    Name: WinterJapan
    LocationLatLong: [34.665246,135.43224]
    BaseAltitude: 0
