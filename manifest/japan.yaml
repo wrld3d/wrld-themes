@@ -61,7 +61,7 @@ JapanFlatshadedTerrainTextures: &JapanFlatshadedTerrainTextures
      Terrain11: JapanFlatshaded/TerrainTexture11
      Terrain12: JapanFlatshaded/TerrainTexture12
      Terrain13: Osaka/TerrainTexture13
-     Terrain14: JapanFlatshaded/Summer_TerrainTexture14
+     Terrain14: JapanFlatshaded/TerrainTexture14
      Terrain15: JapanFlatshaded/TerrainTexture15
      Terrain16: JapanFlatshaded/TerrainTexture16
      Terrain17: Osaka/TerrainTexture17
