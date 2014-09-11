@@ -1,3 +1,45 @@
+JapanFlatshadedTerrainTextures: &JapanFlatshadedTerrainTextures
+     Terrain0: JapanFlatshaded/TerrainTexture0
+     Terrain1: JapanFlatshaded/TerrainTexture1
+     Terrain2: JapanFlatshaded/TerrainTexture2
+     Terrain3: JapanFlatshaded/TerrainTexture3
+     Terrain4: JapanFlatshaded/TerrainTexture4
+     Terrain5: JapanFlatshaded/TerrainTexture5
+     Terrain6: JapanFlatshaded/TerrainTexture6
+     Terrain7: JapanFlatshaded/TerrainTexture7
+     Terrain8: JapanFlatshaded/TerrainTexture8
+     Terrain9: JapanFlatshaded/TerrainTexture9
+     Terrain10: JapanFlatshaded/TerrainTexture10
+     Terrain11: JapanFlatshaded/TerrainTexture11
+     Terrain12: JapanFlatshaded/TerrainTexture12
+     Terrain13: Osaka/TerrainTexture13
+     Terrain14: JapanFlatshaded/Summer_TerrainTexture14
+     Terrain15: JapanFlatshaded/TerrainTexture15
+     Terrain16: JapanFlatshaded/TerrainTexture16
+     Terrain17: Osaka/TerrainTexture17
+     Terrain18: Okinawa/Summer_TerrainTexture18
+     Terrain253: JapanFlatshaded/Water_01
+     Terrain254: JapanFlatshaded/Water_02
+     Terrain255: JapanFlatshaded/Water_03
+
+JapanFlatshadedSummerTextures: &JapanFlatshadedSummerTextures
+   RoadDiffuse: JapanFlatshaded/Flatshaded_roadDiffuse_repeat
+   RailDiffuse: JapanFlatshaded/Flatshaded_railDiffuse_repeat
+   BuildingDiffuse: JapanFlatshaded/Flatshaded_wallDiffuse
+   TreeSideDiffuse: JapanFlatshaded/trees_01
+   TreeTopDiffuse: JapanFlatshaded/trees_top_01
+   VehicleDiffuse: SanFrancisco/sf_vehicles_01
+   TrainDiffuse: SanFrancisco/ldn_trains_01
+   PlaneDiffuse: SanFrancisco/sf_planes_01
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *JapanFlatshadedTerrainTextures
+   LcmLodDiffuse:
+      <<: *JapanTerrainLODTextures
+
 JapanTerrainTextures: &JapanTerrainTextures
      Terrain0: Osaka/TerrainTexture0
      Terrain1: Osaka/TerrainTexture1
@@ -465,6 +507,10 @@ SummerJapan: &SummerJapan
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSummerTextures
+      - Name: FlatshadedDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *JapanFlatshadedSummerTextures
 
 SpringJapan: &SpringJapan
    Name: SpringJapan
