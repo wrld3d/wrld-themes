@@ -28,11 +28,6 @@ ThemeManifest:
    GlobeViewThemeState: "GlobeView"
    GlobeViewAltitude: 15000
    Themes: [
-        *SummerSanFrancisco,
-        *SpringSanFrancisco, 
-        *AutumnSanFrancisco, 
-        *WinterSanFrancisco, 
-
         *SummerCanada, 
         *SpringCanada, 
         *AutumnCanada, 
