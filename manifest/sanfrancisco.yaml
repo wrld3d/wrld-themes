@@ -1,178 +1,296 @@
-CardboardTerrainTextures: &CardboardTerrainTextures
-     Terrain0: Cardboard/TerrainTexture0
-     Terrain1: Cardboard/TerrainTexture1
-     Terrain2: Cardboard/TerrainTexture2
-     Terrain3: Cardboard/TerrainTexture3
-     Terrain4: Cardboard/TerrainTexture4
-     Terrain5: Cardboard/TerrainTexture5
-     Terrain6: Cardboard/TerrainTexture6
-     Terrain7: Cardboard/TerrainTexture7
-     Terrain8: Cardboard/TerrainTexture8
-     Terrain9: Cardboard/TerrainTexture9
-     Terrain10: Cardboard/TerrainTexture10
-     Terrain11: Cardboard/TerrainTexture11
-     Terrain12: Cardboard/TerrainTexture12
-     Terrain13: Cardboard/TerrainTexture13
-     Terrain14: Cardboard/TerrainTexture14
-     Terrain15: Cardboard/TerrainTexture15
-     Terrain16: Cardboard/TerrainTexture16
-     Terrain17: Cardboard/TerrainTexture17
-     Terrain18: Cardboard/TerrainTexture18
-     Terrain253: Cardboard/Water_01
-     Terrain254: Cardboard/Water_02
-     Terrain255: Cardboard/Water_03
+SanFranciscoTerrainTextures: &SanFranciscoTerrainTextures
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: SanFrancisco/TerrainTexture4
+     Terrain5: SanFrancisco/TerrainTexture5
+     Terrain6: SanFrancisco/TerrainTexture6
+     Terrain7: SanFrancisco/TerrainTexture7
+     Terrain8: SanFrancisco/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: SanFrancisco/TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
 
-CardboardTerrainLODTextures: &CardboardTerrainLODTextures
-     Terrain0: Cardboard/TerrainTexture0_LOD
-     Terrain1: Cardboard/TerrainTexture1_LOD
-     Terrain2: Cardboard/TerrainTexture2_LOD
-     Terrain3: Cardboard/TerrainTexture3_LOD
-     Terrain4: Cardboard/TerrainTexture4_LOD
-     Terrain5: Cardboard/TerrainTexture5_LOD
-     Terrain6: Cardboard/TerrainTexture6_LOD
-     Terrain7: Cardboard/TerrainTexture7_LOD
-     Terrain8: Cardboard/TerrainTexture8_LOD
-     Terrain9: Cardboard/TerrainTexture9_LOD
-     Terrain10: Cardboard/TerrainTexture10_LOD
-     Terrain11: Cardboard/TerrainTexture11_LOD
-     Terrain12: Cardboard/TerrainTexture12_LOD
-     Terrain13: Cardboard/TerrainTexture13_LOD
-     Terrain14: Cardboard/TerrainTexture14_LOD
-     Terrain15: Cardboard/TerrainTexture15_LOD
-     Terrain16: Cardboard/TerrainTexture16_LOD
-     Terrain17: Cardboard/TerrainTexture17_LOD
-     Terrain18: Cardboard/TerrainTexture18_LOD
-     Terrain253: Cardboard/Water_01_LOD
-     Terrain254: Cardboard/Water_02_LOD
-     Terrain255: Cardboard/Water_03_LOD
+SanFranciscoTerrainLODTextures: &SanFranciscoTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
 
-CardboardSnowTerrainTextures: &CardboardSnowTerrainTextures
-     Terrain0: Cardboard/TerrainTexture0
-     Terrain1: Cardboard/TerrainTexture1
-     Terrain2: Cardboard/TerrainTexture2
-     Terrain3: Cardboard/TerrainTexture3
-     Terrain4: Cardboard/TerrainTexture4
-     Terrain5: Cardboard/TerrainTexture5
-     Terrain6: Cardboard/TerrainTexture6
-     Terrain7: Cardboard/TerrainTexture7
-     Terrain8: Cardboard/TerrainTexture8
-     Terrain9: Cardboard/TerrainTexture9
-     Terrain10: Cardboard/TerrainTexture10
-     Terrain11: Cardboard/TerrainTexture11
-     Terrain12: Cardboard/TerrainTexture12
-     Terrain13: Cardboard/TerrainTexture13
-     Terrain14: Cardboard/TerrainTexture14
-     Terrain15: Cardboard/TerrainTexture15
-     Terrain16: Cardboard/TerrainTexture16
-     Terrain17: Cardboard/TerrainTexture17
-     Terrain18: Cardboard/TerrainTexture18
-     Terrain253: Cardboard/Water_01
-     Terrain254: Cardboard/Water_02
-     Terrain255: Cardboard/Water_03
+SanFranciscoSnowTerrainTextures: &SanFranciscoSnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
 
-CardboardSnowTerrainLODTextures: &CardboardSnowTerrainLODTextures
-     Terrain0: Cardboard/TerrainTexture0_LOD
-     Terrain1: Cardboard/TerrainTexture1_LOD
-     Terrain2: Cardboard/TerrainTexture2_LOD
-     Terrain3: Cardboard/TerrainTexture3_LOD
-     Terrain4: Cardboard/TerrainTexture4_LOD
-     Terrain5: Cardboard/TerrainTexture5_LOD
-     Terrain6: Cardboard/TerrainTexture6_LOD
-     Terrain7: Cardboard/TerrainTexture7_LOD
-     Terrain8: Cardboard/TerrainTexture8_LOD
-     Terrain9: Cardboard/TerrainTexture9_LOD
-     Terrain10: Cardboard/TerrainTexture10_LOD
-     Terrain11: Cardboard/TerrainTexture11_LOD
-     Terrain12: Cardboard/TerrainTexture12_LOD
-     Terrain13: Cardboard/TerrainTexture13_LOD
-     Terrain14: Cardboard/TerrainTexture14_LOD
-     Terrain15: Cardboard/TerrainTexture15_LOD
-     Terrain16: Cardboard/TerrainTexture16_LOD
-     Terrain17: Cardboard/TerrainTexture17_LOD
-     Terrain18: Cardboard/TerrainTexture18_LOD
-     Terrain253: Cardboard/Water_01_LOD
-     Terrain254: Cardboard/Water_02_LOD
-     Terrain255: Cardboard/Water_03_LOD
+SanFranciscoSnowTerrainLODTextures: &SanFranciscoSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
 
-CardboardSummerTextures: &CardboardSummerTextures
-   RoadDiffuse: Cardboard/roadDiffuse
-   RailDiffuse: Cardboard/railDiffuse
-   BuildingDiffuse: Cardboard/wallDiffuse
-   TreeSideDiffuse: Cardboard/trees_01
-   TreeTopDiffuse: Cardboard/trees_top_01
+SanFranciscoSummerTextures: &SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
    VehicleDiffuse: SanFrancisco/sf_vehicles_01
    TrainDiffuse: SanFrancisco/ldn_trains_01
    PlaneDiffuse: SanFrancisco/sf_planes_01
-   WaterNormal: Cardboard/water_normalmap
-   WaterReflection: Cardboard/water_reflectionmap
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
-      <<: *CardboardTerrainTextures
+      <<: *SanFranciscoTerrainTextures
    LcmLodDiffuse:
-      <<: *CardboardTerrainLODTextures
+      <<: *SanFranciscoTerrainLODTextures
 
-CardboardSpringTextures: &CardboardSpringTextures
-   <<: *CardboardSummerTextures
+SanFranciscoSpringTextures: &SanFranciscoSpringTextures
+   <<: *SanFranciscoSummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
    LcmDiffuse: 
-      <<: *CardboardTerrainTextures
+      <<: *SanFranciscoTerrainTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4
+      Terrain5: Okinawa/Spring_TerrainTexture5
+      Terrain6: Okinawa/Spring_TerrainTexture6
+      Terrain7: Okinawa/Spring_TerrainTexture7
+      Terrain8: Okinawa/Spring_TerrainTexture8
+      Terrain14: Okinawa/Spring_TerrainTexture14
+      Terrain18: Okinawa/Spring_TerrainTexture18
    LcmLodDiffuse:
-      <<: *CardboardTerrainLODTextures
+      <<: *SanFranciscoTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
 
-CardboardAutumnTextures: &CardboardAutumnTextures
-   <<: *CardboardSummerTextures
+SanFranciscoAutumnTextures: &SanFranciscoAutumnTextures
+   <<: *SanFranciscoSummerTextures
+   TreeSideDiffuse: Okinawa/Autumn_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
    LcmDiffuse: 
-      <<: *CardboardTerrainTextures
+      <<: *SanFranciscoTerrainTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4
+      Terrain5: Okinawa/Autumn_TerrainTexture5
+      Terrain6: Okinawa/Autumn_TerrainTexture6
+      Terrain7: Okinawa/Autumn_TerrainTexture7
+      Terrain8: Okinawa/Autumn_TerrainTexture8
+      Terrain14: Okinawa/Autumn_TerrainTexture14
+      Terrain18: Okinawa/Autumn_TerrainTexture18
    LcmLodDiffuse:
-      <<: *CardboardTerrainLODTextures
+      <<: *SanFranciscoTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
 
-CardboardWinterTextures: &CardboardWinterTextures
-   <<: *CardboardSummerTextures
+SanFranciscoWinterTextures: &SanFranciscoWinterTextures
+   <<: *SanFranciscoSummerTextures
+   TreeSideDiffuse: Okinawa/Winter_trees_01
+   TreeTopDiffuse: Okinawa/Winter_trees_top_01
    LcmDiffuse: 
-      <<: *CardboardTerrainTextures
+      <<: *SanFranciscoTerrainTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4
+      Terrain5: Okinawa/Winter_TerrainTexture5
+      Terrain6: Okinawa/Winter_TerrainTexture6
+      Terrain7: Okinawa/Winter_TerrainTexture7
+      Terrain8: Okinawa/Winter_TerrainTexture8
+      Terrain14: Okinawa/Winter_TerrainTexture14
+      Terrain18: Okinawa/Winter_TerrainTexture18
    LcmLodDiffuse:
-      <<: *CardboardTerrainLODTextures
+      <<: *SanFranciscoTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
-CardboardSummerNightTextures: &CardboardSummerNightTextures
-   <<: *CardboardSummerTextures
+SanFranciscoSummerNightTextures: &SanFranciscoSummerNightTextures
+   <<: *SanFranciscoSummerTextures
+   BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
+   RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
-CardboardSummerSnowTextures: &CardboardSummerSnowTextures
-   <<: *CardboardSummerTextures
+SanFranciscoSummerSnowTextures: &SanFranciscoSummerSnowTextures
+   <<: *SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *CardboardSnowTerrainTextures
+      <<: *SanFranciscoSnowTerrainTextures
    LcmLodDiffuse:
-      <<: *CardboardSnowTerrainLODTextures
+      <<: *SanFranciscoSnowTerrainLODTextures
 
-CardboardSummerNightSnowTextures: &CardboardSummerNightSnowTextures
-   <<: *CardboardSummerTextures
+SanFranciscoSummerNightSnowTextures: &SanFranciscoSummerNightSnowTextures
+   <<: *SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    LcmDiffuse: 
-      <<: *CardboardSnowTerrainTextures
+      <<: *SanFranciscoSnowTerrainTextures
    LcmLodDiffuse:
-      <<: *CardboardSnowTerrainLODTextures
+      <<: *SanFranciscoSnowTerrainLODTextures
 
-CardboardSpringSnowTextures: &CardboardSpringSnowTextures
-   <<: *CardboardSummerTextures
+SanFranciscoSpringSnowTextures: &SanFranciscoSpringSnowTextures
+   <<: *SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *CardboardSnowTerrainTextures
+      <<: *SanFranciscoSnowTerrainTextures
+      Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
+      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
+      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
+      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
+      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
+      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *CardboardSnowTerrainLODTextures
+      <<: *SanFranciscoSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
 
-CardboardAutumnSnowTextures: &CardboardAutumnSnowTextures
-   <<: *CardboardSummerTextures
+SanFranciscoAutumnSnowTextures: &SanFranciscoAutumnSnowTextures
+   <<: *SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *CardboardSnowTerrainTextures
+      <<: *SanFranciscoSnowTerrainTextures
+      Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
+      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
+      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
+      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
+      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
+      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *CardboardSnowTerrainLODTextures
+      <<: *SanFranciscoSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
 
-CardboardWinterSnowTextures: &CardboardWinterSnowTextures
-   <<: *CardboardSummerTextures
+SanFranciscoWinterSnowTextures: &SanFranciscoWinterSnowTextures
+   <<: *SanFranciscoSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *CardboardSnowTerrainTextures
+      <<: *SanFranciscoSnowTerrainTextures
+      Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
+      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
+      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
+      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
+      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
+      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *CardboardSnowTerrainLODTextures
+      <<: *SanFranciscoSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
 
-SummerCardboard: &SummerCardboard
-   Name: SummerCardboard
+SummerSanFrancisco: &SummerSanFrancisco
+   Name: SummerSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -182,90 +300,90 @@ SummerCardboard: &SummerCardboard
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *CardboardSummerSnowTextures
+           <<: *SanFranciscoSummerSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *CardboardSummerNightSnowTextures
+           <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *CardboardSummerSnowTextures
+           <<: *SanFranciscoSummerSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *CardboardSummerSnowTextures
+           <<: *SanFranciscoSummerSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *CardboardSummerTextures
+           <<: *SanFranciscoSummerTextures
 
-SpringCardboard: &SpringCardboard
-   Name: SpringCardboard
+SpringSanFrancisco: &SpringSanFrancisco
+   Name: SpringSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -275,90 +393,90 @@ SpringCardboard: &SpringCardboard
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *CardboardSpringSnowTextures
+           <<: *SanFranciscoSpringSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *CardboardSummerNightSnowTextures
+           <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *CardboardSpringSnowTextures
+           <<: *SanFranciscoSpringSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *CardboardSpringSnowTextures
+           <<: *SanFranciscoSpringSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *CardboardSpringTextures
+           <<: *SanFranciscoSpringTextures
 
-AutumnCardboard: &AutumnCardboard
-   Name: AutumnCardboard
+AutumnSanFrancisco: &AutumnSanFrancisco
+   Name: AutumnSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -368,90 +486,90 @@ AutumnCardboard: &AutumnCardboard
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *CardboardAutumnSnowTextures
+           <<: *SanFranciscoAutumnSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *CardboardSummerNightSnowTextures
+           <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *CardboardAutumnSnowTextures
+           <<: *SanFranciscoAutumnSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *CardboardAutumnSnowTextures
+           <<: *SanFranciscoAutumnSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *CardboardAutumnTextures
+           <<: *SanFranciscoAutumnTextures
 
-WinterCardboard: &WinterCardboard
-   Name: WinterCardboard
+WinterSanFrancisco: &WinterSanFrancisco
+   Name: WinterSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -461,84 +579,84 @@ WinterCardboard: &WinterCardboard
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *CardboardWinterSnowTextures
+           <<: *SanFranciscoWinterSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *CardboardSummerNightSnowTextures
+           <<: *SanFranciscoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *CardboardWinterSnowTextures
+           <<: *SanFranciscoWinterSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *CardboardWinterSnowTextures
+           <<: *SanFranciscoWinterSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *CardboardSummerNightTextures
+           <<: *SanFranciscoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *CardboardWinterTextures
+           <<: *SanFranciscoWinterTextures
