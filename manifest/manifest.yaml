@@ -92,4 +92,9 @@ ThemeManifest:
         *SpringBrazil,
         *AutumnBrazil,
         *WinterBrazil
+        
+        *SummerCardboard,
+        *SpringCardboard,
+        *AutumnCardboard,
+        *WinterCardboard
         ]
