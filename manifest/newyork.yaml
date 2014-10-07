@@ -1,50 +1,50 @@
 NewYorkTerrainTextures: &NewYorkTerrainTextures
-     Terrain0: SanFrancisco/TerrainTexture0
-     Terrain1: SanFrancisco/TerrainTexture1
-     Terrain2: SanFrancisco/TerrainTexture2
-     Terrain3: SanFrancisco/TerrainTexture3
-     Terrain4: SanFrancisco/TerrainTexture4
-     Terrain5: SanFrancisco/TerrainTexture5
-     Terrain6: SanFrancisco/TerrainTexture6
-     Terrain7: SanFrancisco/TerrainTexture7
-     Terrain8: SanFrancisco/TerrainTexture8
-     Terrain9: SanFrancisco/TerrainTexture9
-     Terrain10: SanFrancisco/TerrainTexture10
-     Terrain11: SanFrancisco/TerrainTexture11
-     Terrain12: SanFrancisco/TerrainTexture12
-     Terrain13: SanFrancisco/TerrainTexture13
-     Terrain14: SanFrancisco/TerrainTexture14
-     Terrain15: SanFrancisco/TerrainTexture15
-     Terrain16: SanFrancisco/TerrainTexture16
-     Terrain17: SanFrancisco/TerrainTexture17
-     Terrain18: SanFrancisco/TerrainTexture18
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
+     Terrain0: MirrorsEdgeTheme/TerrainTexture0
+     Terrain1: MirrorsEdgeTheme/TerrainTexture1
+     Terrain2: MirrorsEdgeTheme/TerrainTexture2
+     Terrain3: MirrorsEdgeTheme/TerrainTexture3
+     Terrain4: MirrorsEdgeTheme/TerrainTexture4
+     Terrain5: MirrorsEdgeTheme/TerrainTexture5
+     Terrain6: MirrorsEdgeTheme/TerrainTexture6
+     Terrain7: MirrorsEdgeTheme/TerrainTexture7
+     Terrain8: MirrorsEdgeTheme/TerrainTexture8
+     Terrain9: MirrorsEdgeTheme/TerrainTexture9
+     Terrain10: MirrorsEdgeTheme/TerrainTexture10
+     Terrain11: MirrorsEdgeTheme/TerrainTexture11
+     Terrain12: MirrorsEdgeTheme/TerrainTexture12
+     Terrain13: MirrorsEdgeTheme/TerrainTexture13
+     Terrain14: MirrorsEdgeTheme/TerrainTexture14
+     Terrain15: MirrorsEdgeTheme/TerrainTexture15
+     Terrain16: MirrorsEdgeTheme/TerrainTexture16
+     Terrain17: MirrorsEdgeTheme/TerrainTexture17
+     Terrain18: MirrorsEdgeTheme/TerrainTexture18
+     Terrain253: MirrorsEdgeTheme/Water_01
+     Terrain254: MirrorsEdgeTheme/Water_02
+     Terrain255: MirrorsEdgeTheme/Water_03
 
 NewYorkTerrainLODTextures: &NewYorkTerrainLODTextures
-     Terrain0: SanFrancisco/TerrainTexture0_LOD
-     Terrain1: SanFrancisco/TerrainTexture1_LOD
-     Terrain2: SanFrancisco/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
-     Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
-     Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: SanFrancisco/TerrainTexture12_LOD
-     Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: SanFrancisco/TerrainTexture16_LOD
-     Terrain17: SanFrancisco/TerrainTexture17_LOD
-     Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01_LOD
-     Terrain254: SanFrancisco/Water_02_LOD
-     Terrain255: SanFrancisco/Water_03_LOD
+     Terrain0: MirrorsEdgeTheme/TerrainTexture0_LOD
+     Terrain1: MirrorsEdgeTheme/TerrainTexture1_LOD
+     Terrain2: MirrorsEdgeTheme/TerrainTexture2_LOD
+     Terrain3: MirrorsEdgeTheme/TerrainTexture3_LOD
+     Terrain4: MirrorsEdgeTheme/TerrainTexture4_LOD
+     Terrain5: MirrorsEdgeTheme/TerrainTexture5_LOD
+     Terrain6: MirrorsEdgeTheme/TerrainTexture6_LOD
+     Terrain7: MirrorsEdgeTheme/TerrainTexture7_LOD
+     Terrain8: MirrorsEdgeTheme/TerrainTexture8_LOD
+     Terrain9: MirrorsEdgeTheme/TerrainTexture9_LOD
+     Terrain10: MirrorsEdgeTheme/TerrainTexture10_LOD
+     Terrain11: MirrorsEdgeTheme/TerrainTexture11_LOD
+     Terrain12: MirrorsEdgeTheme/TerrainTexture12_LOD
+     Terrain13: MirrorsEdgeTheme/TerrainTexture13_LOD
+     Terrain14: MirrorsEdgeTheme/TerrainTexture14_LOD
+     Terrain15: MirrorsEdgeTheme/TerrainTexture15_LOD
+     Terrain16: MirrorsEdgeTheme/TerrainTexture16_LOD
+     Terrain17: MirrorsEdgeTheme/TerrainTexture17_LOD
+     Terrain18: MirrorsEdgeTheme/TerrainTexture18_LOD
+     Terrain253: MirrorsEdgeTheme/Water_01_LOD
+     Terrain254: MirrorsEdgeTheme/Water_02_LOD
+     Terrain255: MirrorsEdgeTheme/Water_03_LOD
 
 NewYorkSnowTerrainTextures: &NewYorkSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
@@ -95,11 +95,11 @@ NewYorkSnowTerrainLODTextures: &NewYorkSnowTerrainLODTextures
      Terrain255: SanFrancisco/Water_03_LOD
 
 NewYorkSummerTextures: &NewYorkSummerTextures
-   RoadDiffuse: NewYork/NewYork_roadDiffuse_repeat
-   RailDiffuse: London/London_railDiffuse_repeat
-   BuildingDiffuse: NewYork/NewYork_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/trees_01
-   TreeTopDiffuse: SanFrancisco/trees_top_01
+   RoadDiffuse: MirrorsEdgeTheme/MirrorsEdge_roadDiffuse
+   RailDiffuse: MirrorsEdgeTheme/MirrorsEdge_railDiffuse
+   BuildingDiffuse: MirrorsEdgeTheme/MirrorsEdge_WallDiffuse
+   TreeSideDiffuse: MirrorsEdgeTheme/trees_01
+   TreeTopDiffuse: MirrorsEdgeTheme/trees_top_01
    VehicleDiffuse: SanFrancisco/sf_vehicles_01
    TrainDiffuse: SanFrancisco/ldn_trains_01
    PlaneDiffuse: SanFrancisco/sf_planes_01
