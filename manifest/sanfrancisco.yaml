@@ -1,50 +1,50 @@
 SanFranciscoTerrainTextures: &SanFranciscoTerrainTextures
-     Terrain0: Cardboard/TerrainTexture0
-     Terrain1: Cardboard/TerrainTexture1
-     Terrain2: Cardboard/TerrainTexture2
-     Terrain3: Cardboard/TerrainTexture3
-     Terrain4: Cardboard/TerrainTexture4
-     Terrain5: Cardboard/TerrainTexture5
-     Terrain6: Cardboard/TerrainTexture6
-     Terrain7: Cardboard/TerrainTexture7
-     Terrain8: Cardboard/TerrainTexture8
-     Terrain9: Cardboard/TerrainTexture9
-     Terrain10: Cardboard/TerrainTexture10
-     Terrain11: Cardboard/TerrainTexture11
-     Terrain12: Cardboard/TerrainTexture12
-     Terrain13: Cardboard/TerrainTexture13
-     Terrain14: Cardboard/TerrainTexture14
-     Terrain15: Cardboard/TerrainTexture15
-     Terrain16: Cardboard/TerrainTexture16
-     Terrain17: Cardboard/TerrainTexture17
-     Terrain18: Cardboard/TerrainTexture18
-     Terrain253: Cardboard/Water_01
-     Terrain254: Cardboard/Water_02
-     Terrain255: Cardboard/Water_03
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: SanFrancisco/TerrainTexture4
+     Terrain5: SanFrancisco/TerrainTexture5
+     Terrain6: SanFrancisco/TerrainTexture6
+     Terrain7: SanFrancisco/TerrainTexture7
+     Terrain8: SanFrancisco/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: SanFrancisco/TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
 
 SanFranciscoTerrainLODTextures: &SanFranciscoTerrainLODTextures
-     Terrain0: Cardboard/TerrainTexture0_LOD
-     Terrain1: Cardboard/TerrainTexture1_LOD
-     Terrain2: Cardboard/TerrainTexture2_LOD
-     Terrain3: Cardboard/TerrainTexture3_LOD
-     Terrain4: Cardboard/TerrainTexture4_LOD
-     Terrain5: Cardboard/TerrainTexture5_LOD
-     Terrain6: Cardboard/TerrainTexture6_LOD
-     Terrain7: Cardboard/TerrainTexture7_LOD
-     Terrain8: Cardboard/TerrainTexture8_LOD
-     Terrain9: Cardboard/TerrainTexture9_LOD
-     Terrain10: Cardboard/TerrainTexture10_LOD
-     Terrain11: Cardboard/TerrainTexture11_LOD
-     Terrain12: Cardboard/TerrainTexture12_LOD
-     Terrain13: Cardboard/TerrainTexture13_LOD
-     Terrain14: Cardboard/TerrainTexture14_LOD
-     Terrain15: Cardboard/TerrainTexture15_LOD
-     Terrain16: Cardboard/TerrainTexture16_LOD
-     Terrain17: Cardboard/TerrainTexture17_LOD
-     Terrain18: Cardboard/TerrainTexture18_LOD
-     Terrain253: Cardboard/Water_01_LOD
-     Terrain254: Cardboard/Water_02_LOD
-     Terrain255: Cardboard/Water_03_LOD
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
 
 SanFranciscoSnowTerrainTextures: &SanFranciscoSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
@@ -95,16 +95,16 @@ SanFranciscoSnowTerrainLODTextures: &SanFranciscoSnowTerrainLODTextures
      Terrain255: SanFrancisco/Water_03_LOD
 
 SanFranciscoSummerTextures: &SanFranciscoSummerTextures
-   RoadDiffuse: Cardboard/roadDiffuse
-   RailDiffuse: Cardboard/railDiffuse
-   BuildingDiffuse: Cardboard/wallDiffuse
-   TreeSideDiffuse: Cardboard/trees_01
-   TreeTopDiffuse: Cardboard/trees_top_01
+   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
    VehicleDiffuse: SanFrancisco/sf_vehicles_01
    TrainDiffuse: SanFrancisco/ldn_trains_01
    PlaneDiffuse: SanFrancisco/sf_planes_01
-   WaterNormal: Cardboard/water_normalmap
-   WaterReflection: Cardboard/water_reflectionmap
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
