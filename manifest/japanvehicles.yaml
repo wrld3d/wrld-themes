@@ -89,92 +89,80 @@ JapanRoadVehicles: &JapanRoadVehicles
    SpawnChancePerCell: 1
    MinimumDistanceBetweenSpawns: 0
    VehicleList:
+   - Name: "Red Pickup"
+     ModelNode: "Car_A_001"
+     Speed: 20
+     Scale: 3.0
    - Name: "White car"
      ModelNode: "Car_A_002"
      Speed: 20
      Scale: 3.0
-   - Name: "Blue Van"
-     ModelNode: "Car_B_004"
+   - Name: "Blue Pickup"
+     ModelNode: "Car_A_003"
      Speed: 20
      Scale: 3.0
-   - Name: "White car 2"
-     ModelNode: "Car_C_002"
-     Speed: 20
-     Scale: 3.0
-   - Name: "Blue van 2"
-     ModelNode: "Car_C_003"
-     Speed: 20
-     Scale: 3.0
-   - Name: "Big white van"
-     ModelNode: "Car_C_004"
-     Speed: 20
-     Scale: 3.0
-   - Name: "Bus"
-     ModelNode: "Car_D_002"
-     Speed: 15
-     Scale: 3.0
-   - Name: "Big white van 2"
-     ModelNode: "Car_D_003"
-     Speed: 20
-     Scale: 3.0
-   - Name: "Red Pickup"
-     ModelNode: "Car_E_001"
-     Speed: 20
-     Scale: 3.0
-   - Name: "Red and white Pickup"
-     ModelNode: "Car_E_002"
-     Speed: 20
-     Scale: 3.0
-   - Name: "Grey Pickup"
-     ModelNode: "Car_E_004"
+   - Name: "White Pickup"
+     ModelNode: "Car_A_004"
      Speed: 20
      Scale: 3.0
    - Name: "Red Wagon"
-     ModelNode: "Car_F_001"
+     ModelNode: "Car_B_001"
      Speed: 20
      Scale: 3.0
    - Name: "Black Wagon"
-     ModelNode: "Car_F_002"
+     ModelNode: "Car_B_002"
      Speed: 20
      Scale: 3.0
    - Name: "Green Wagon"
-     ModelNode: "Car_F_003"
+     ModelNode: "Car_B_003"
      Speed: 20
      Scale: 3.0
-   - Name: "Grey Wagon"
-     ModelNode: "Car_F_004"
+   - Name: "Blue Wagon"
+     ModelNode: "Car_B_004"
      Speed: 20
      Scale: 3.0
-   - Name: "Grey Van"
-     ModelNode: "Car_G_001"
+   - Name: "White Car 2"
+     ModelNode: "Car_C_001"
      Speed: 20
      Scale: 3.0
-   - Name: "Red Van"
-     ModelNode: "Car_G_002"
+   - Name: "White Van"
+     ModelNode: "Car_C_002"
      Speed: 20
      Scale: 3.0
-   - Name: "Green Van"
-     ModelNode: "Car_G_003"
+   - Name: "Big white van"
+     ModelNode: "Car_D_001"
+     Speed: 15
+     Scale: 3.0
+   - Name: "Bus"
+     ModelNode: "Car_D_002"
      Speed: 20
      Scale: 3.0
-   - Name: "Black/Yellow Van"
-     ModelNode: "Car_G_004"
+   - Name: "Police Car"
+     ModelNode: "Car_Police"
      Speed: 20
      Scale: 3.0
-   - Name: "Grey Car"
-     ModelNode: "Car_H_001"
+   - Name: "Fire Truck"
+     ModelNode: "Car_FireTruck"
      Speed: 20
      Scale: 3.0
-   - Name: "Brown Car"
-     ModelNode: "Car_H_002"
+   - Name: "Ambulance"
+     ModelNode: "Car_Ambulance"
      Speed: 20
      Scale: 3.0
-   - Name: "Brown Black Car"
-     ModelNode: "Car_H_003"
+   - Name: "Taxi"
+     ModelNode: "Car_Taxi"
      Speed: 20
      Scale: 3.0
-   - Name: "Blue White Car"
-     ModelNode: "Car_H_004"
+   - Name: "Limousine"
+     ModelNode: "Car_Limousine"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Formula 1 Car"
+     ModelNode: "Car_Formula1"
+     Speed: 20
+     Scale: 3.0
+   - Name: "Monster Truck"
+     ModelNode: "Car_Monstertruck"
      Speed: 20
      Scale: 3.0
 
@@ -206,6 +194,10 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      ModelNode: "Helicopter"
      Speed: 40
      Scale: 3
+   - Name: "Hot Air Balloon"
+     ModelNode: "Hotairballoon"
+     Speed: 30
+     Scale: 2
 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
