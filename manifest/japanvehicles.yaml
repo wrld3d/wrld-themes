@@ -9,7 +9,7 @@ JapanRailVehicles: &JapanRailVehicles
      ModelNode: "Train_A_Engine"
      EngineNodeLength: 6.0
      Speed: 80
-     Scale: 3.0
+     Scale: 4.0
      CarriageNode: "Train_A_Middle"
      CarriageNodeLength: 5.4
      TailNode: "Train_A_End"
@@ -22,7 +22,7 @@ JapanRailVehicles: &JapanRailVehicles
      ModelNode: "Train_B_Engine"
      EngineNodeLength: 7.3
      Speed: 80
-     Scale: 3.0
+     Scale: 4.0
      CarriageNode: "Train_B_Middle"
      CarriageNodeLength: 5.4
      TailNode: "Train_B_End"
@@ -34,7 +34,7 @@ JapanRailVehicles: &JapanRailVehicles
    - Name: "Train C"
      ModelNode: "Train_C_Engine"
      Speed: 50
-     Scale: 3.0
+     Scale: 4.0
      CarriageNode: "Train_C_Middle"
      TailNode: "Train_C_End"
      MinCarriageCount: 1
@@ -44,7 +44,7 @@ JapanRailVehicles: &JapanRailVehicles
    - Name: "Train D"
      ModelNode: "Train_D_Engine"
      Speed: 50
-     Scale: 3.0
+     Scale: 4.0
      CarriageNode: "Train_D_Middle"
      TailNode: "Train_D_End"
      MinCarriageCount: 1
@@ -54,7 +54,7 @@ JapanRailVehicles: &JapanRailVehicles
    - Name: "Train E"
      ModelNode: "Train_E_Engine"
      Speed: 50
-     Scale: 3.0
+     Scale: 4.0
      CarriageNode: "Train_E_Middle"
      TailNode: "Train_E_End"
      MinCarriageCount: 1
@@ -64,7 +64,7 @@ JapanRailVehicles: &JapanRailVehicles
    - Name: "Train F"
      ModelNode: "Train_F_Engine"
      Speed: 50
-     Scale: 3.0
+     Scale: 4.0
      CarriageNode: "Train_F_Middle"
      TailNode: "Train_F_End"
      MinCarriageCount: 1
@@ -74,7 +74,7 @@ JapanRailVehicles: &JapanRailVehicles
    - Name: "Train G"
      ModelNode: "Train_G_Engine"
      Speed: 50
-     Scale: 3.0
+     Scale: 4.0
      CarriageNode: "Train_G_Middle"
      TailNode: "Train_G_End"
      MinCarriageCount: 1
@@ -92,79 +92,79 @@ JapanRoadVehicles: &JapanRoadVehicles
    - Name: "Red Pickup"
      ModelNode: "Car_A_001"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "White car"
      ModelNode: "Car_A_002"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Blue Pickup"
      ModelNode: "Car_A_003"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "White Pickup"
      ModelNode: "Car_A_004"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Red Wagon"
      ModelNode: "Car_B_001"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Black Wagon"
      ModelNode: "Car_B_002"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Green Wagon"
      ModelNode: "Car_B_003"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Blue Wagon"
      ModelNode: "Car_B_004"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "White Car 2"
      ModelNode: "Car_C_001"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "White Van"
      ModelNode: "Car_C_002"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Big white van"
      ModelNode: "Car_D_001"
      Speed: 15
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Bus"
      ModelNode: "Car_D_002"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Police Car"
      ModelNode: "Car_Police"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Fire Truck"
      ModelNode: "Car_FireTruck"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Ambulance"
      ModelNode: "Car_Ambulance"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Taxi"
      ModelNode: "Car_Taxi"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Limousine"
      ModelNode: "Car_Limousine"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Formula 1 Car"
      ModelNode: "Car_Formula1"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
    - Name: "Monster Truck"
      ModelNode: "Car_Monstertruck"
      Speed: 20
-     Scale: 3.0
+     Scale: 4.0
 
 JapanPlaneVehicles: &JapanPlaneVehicles
    Name: "Japan Plane Simulation"
@@ -173,19 +173,19 @@ JapanPlaneVehicles: &JapanPlaneVehicles
    - Name: "Cessna 1"
      ModelNode: "cessna_01"
      Speed: 50
-     Scale: 3
+     Scale: 4
    - Name: "Cessna 2"
      ModelNode: "cessna_02"
      Speed: 50
-     Scale: 3
+     Scale: 4
    - Name: "Learjet 1"
      ModelNode: "learjet_01"
      Speed: 200
-     Scale: 3
+     Scale: 4
    - Name: "Learjet 2"
      ModelNode: "learjet_02"
      Speed: 200
-     Scale: 3
+     Scale: 4
    - Name: "Zeppelin"
      ModelNode: "Zeppelin"
      Speed: 30
@@ -193,7 +193,7 @@ JapanPlaneVehicles: &JapanPlaneVehicles
    - Name: "Helicopter"
      ModelNode: "Helicopter"
      Speed: 40
-     Scale: 3
+     Scale: 4
    - Name: "Hot Air Balloon"
      ModelNode: "Hotairballoon"
      Speed: 30
