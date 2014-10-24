@@ -278,6 +278,22 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      ModelNode: "Hotairballoon"
      Speed: 30
      Scale: 2
+   - Name: "UFO"
+     ModelNode: "UFO"
+     Speed: 200
+     Scale: 4
+   - Name: "Birds Light"
+     ModelNode: "Birds_01"
+     Speed: 40
+     Scale: 4
+   - Name: "Birds Dark"
+     ModelNode: "Birds_02"
+     Speed: 40
+     Scale: 4
+   - Name: "Birds Medium"
+     ModelNode: "Birds_03"
+     Speed: 40
+     Scale: 4
 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
