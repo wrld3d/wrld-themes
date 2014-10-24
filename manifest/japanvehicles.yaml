@@ -92,7 +92,7 @@ JapanRailVehicles: &JapanRailVehicles
      TailNodeLength: 7.3
      MinCarriageCount: 1
      MaxCarriageCount: 6
-     FunctionalRoadClassFilterType: Inclusive
+     FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
 
 JapanRoadVehicles: &JapanRoadVehicles
