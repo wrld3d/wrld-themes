@@ -194,10 +194,6 @@ JapanRoadVehicles: &JapanRoadVehicles
      ModelNode: "Car_A_008"
      Speed: 20
      Scale: 4.0
-   - Name: "Green Car"
-     ModelNode: "Car_A_008"
-     Speed: 20
-     Scale: 4.0
    - Name: "Light Blue Car"
      ModelNode: "Car_A_009"
      Speed: 20
