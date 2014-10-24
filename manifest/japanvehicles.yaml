@@ -81,6 +81,19 @@ JapanRailVehicles: &JapanRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "SteamTrain"
+     ModelNode: "SteamTrain"
+     EngineNodeLength: 7.3
+     Speed: 50
+     Scale: 4.0
+     CarriageNode: "SteamTrain_Middle"
+     CarriageNodeLength: 5.4
+     TailNode: "SteamTrain_End"
+     TailNodeLength: 7.3
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Inclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
 
 JapanRoadVehicles: &JapanRoadVehicles
    Name: "Japan Road Simulation"
