@@ -240,7 +240,7 @@ JapanRoadVehicles: &JapanRoadVehicles
    - Name: "Motorbike Green"
      ModelNode: "zdc_vehicle_motorbikegreen"
      Speed: 20
-     Scale: 4.0	 
+     Scale: 4.0
 
 JapanPlaneVehicles: &JapanPlaneVehicles
    Name: "Japan Plane Simulation"
@@ -289,7 +289,7 @@ JapanPlaneVehicles: &JapanPlaneVehicles
    - Name: "Birds Medium"
      ModelNode: "Birds_03"
      Speed: 40
-     Scale: 4	 
+     Scale: 4
 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
