@@ -165,6 +165,82 @@ JapanRoadVehicles: &JapanRoadVehicles
      ModelNode: "Car_Monstertruck"
      Speed: 20
      Scale: 4.0
+   - Name: "Red Car"
+     ModelNode: "Car_A_005"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Orange Car"
+     ModelNode: "Car_A_006"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Yellow Car"
+     ModelNode: "Car_A_007"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Green Car"
+     ModelNode: "Car_A_008"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Light Blue Car"
+     ModelNode: "Car_A_009"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue Car"
+     ModelNode: "Car_A_010"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Light Purple Car"
+     ModelNode: "Car_A_011"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Purple Car"
+     ModelNode: "Car_A_012"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Red Van"
+     ModelNode: "Car_C_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Yellow Van"
+     ModelNode: "Car_C_004"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Green Van"
+     ModelNode: "Car_C_005"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue Van"
+     ModelNode: "Car_C_006"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Red Pickup"
+     ModelNode: "Car_Pickuptruck_001"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Orange Pickup"
+     ModelNode: "Car_Pickuptruck_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Green Pickup"
+     ModelNode: "Car_Pickuptruck_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue Pickup"
+     ModelNode: "Car_Pickuptruck_004"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Motorbike Red"
+     ModelNode: "zdc_vehicle_motorbikered"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Motorbike Blue"
+     ModelNode: "zdc_vehicle_motorbikeblue"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Motorbike Green"
+     ModelNode: "zdc_vehicle_motorbikegreen"
+     Speed: 20
+     Scale: 4.0	 
 
 JapanPlaneVehicles: &JapanPlaneVehicles
    Name: "Japan Plane Simulation"
@@ -198,6 +274,22 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      ModelNode: "Hotairballoon"
      Speed: 30
      Scale: 2
+   - Name: "UFO"
+     ModelNode: "UFO"
+     Speed: 200
+     Scale: 4
+   - Name: "Birds Light"
+     ModelNode: "Birds_01"
+     Speed: 40
+     Scale: 4
+   - Name: "Birds Dark"
+     ModelNode: "Birds_02"
+     Speed: 40
+     Scale: 4
+   - Name: "Birds Medium"
+     ModelNode: "Birds_03"
+     Speed: 40
+     Scale: 4	 
 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
