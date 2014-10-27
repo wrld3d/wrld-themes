@@ -303,6 +303,10 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      ModelNode: "Birds_03"
      Speed: 40
      Scale: 4
+   - Name: "Hang Glider"
+     ModelNode: "hangglider"
+     Speed: 30
+     Scale: 4
 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
