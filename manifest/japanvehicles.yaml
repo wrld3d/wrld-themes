@@ -186,10 +186,6 @@ JapanRoadVehicles: &JapanRoadVehicles
      ModelNode: "Car_A_006"
      Speed: 20
      Scale: 4.0
-   - Name: "Yellow Car"
-     ModelNode: "Car_A_007"
-     Speed: 20
-     Scale: 4.0
    - Name: "Green Car"
      ModelNode: "Car_A_008"
      Speed: 20
@@ -212,10 +208,6 @@ JapanRoadVehicles: &JapanRoadVehicles
      Scale: 4.0
    - Name: "Red Van"
      ModelNode: "Car_C_003"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Yellow Van"
-     ModelNode: "Car_C_004"
      Speed: 20
      Scale: 4.0
    - Name: "Green Van"
@@ -309,7 +301,7 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      Scale: 4
    - Name: "Santa"
      ModelNode: "santa"
-     Speed: 40
+     Speed: 50
      Scale: 4
 
 JapanVehicles: &JapanVehicles
