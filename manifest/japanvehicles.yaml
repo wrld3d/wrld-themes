@@ -307,6 +307,10 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      ModelNode: "hangglider"
      Speed: 30
      Scale: 4
+   - Name: "Santa"
+     ModelNode: "santa"
+     Speed: 40
+     Scale: 4
 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
