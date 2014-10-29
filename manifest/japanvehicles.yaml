@@ -102,20 +102,8 @@ JapanRoadVehicles: &JapanRoadVehicles
    SpawnChancePerCell: 1
    MinimumDistanceBetweenSpawns: 0
    VehicleList:
-   - Name: "Red Pickup"
-     ModelNode: "Car_A_001"
-     Speed: 20
-     Scale: 4.0
    - Name: "White car"
      ModelNode: "Car_A_002"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Blue Pickup"
-     ModelNode: "Car_A_003"
-     Speed: 20
-     Scale: 4.0
-   - Name: "White Pickup"
-     ModelNode: "Car_A_004"
      Speed: 20
      Scale: 4.0
    - Name: "Red Wagon"
