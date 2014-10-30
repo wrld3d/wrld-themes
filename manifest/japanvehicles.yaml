@@ -187,7 +187,7 @@ JapanRoadVehicles: &JapanRoadVehicles
      Speed: 15
      Scale: 4.0
      SpawnWeighting: 0.8
-  -  Name: "Red Van"
+   - Name: "Red Van"
      ModelNode: "Car_C_003"
      Speed: 20
      Scale: 4.0
