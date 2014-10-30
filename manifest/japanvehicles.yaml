@@ -102,138 +102,171 @@ JapanRoadVehicles: &JapanRoadVehicles
    SpawnChancePerCell: 1
    MinimumDistanceBetweenSpawns: 0
    VehicleList:
-   - Name: "White car"
-     ModelNode: "Car_A_002"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Red Wagon"
-     ModelNode: "Car_B_001"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Black Wagon"
-     ModelNode: "Car_B_002"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Green Wagon"
-     ModelNode: "Car_B_003"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Blue Wagon"
-     ModelNode: "Car_B_004"
-     Speed: 20
-     Scale: 4.0
-   - Name: "White Car 2"
-     ModelNode: "Car_C_001"
-     Speed: 20
-     Scale: 4.0
-   - Name: "White Van"
-     ModelNode: "Car_C_002"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Big white van"
-     ModelNode: "Car_D_001"
-     Speed: 15
-     Scale: 4.0
-   - Name: "Bus"
-     ModelNode: "Car_D_002"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Police Car"
-     ModelNode: "Car_Police"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Fire Truck"
-     ModelNode: "Car_FireTruck"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Ambulance"
-     ModelNode: "Car_Ambulance"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Taxi"
-     ModelNode: "Car_Taxi"
-     Speed: 20
-     Scale: 4.0
-   - Name: "Limousine"
-     ModelNode: "Car_Limousine"
-     Speed: 20
-     Scale: 4.0
    - Name: "Formula 1 Car"
      ModelNode: "Car_Formula1"
      Speed: 20
      Scale: 4.0
-   - Name: "Monster Truck"
-     ModelNode: "Car_Monstertruck"
+     SpawnWeighting: 0.3
+   - Name: "Bus"
+     ModelNode: "Car_D_002"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "White car"
+     ModelNode: "Car_A_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Red Wagon"
+     ModelNode: "Car_B_001"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Black Wagon"
+     ModelNode: "Car_B_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Green Wagon"
+     ModelNode: "Car_B_003"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Blue Wagon"
+     ModelNode: "Car_B_004"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "White Car 2"
+     ModelNode: "Car_C_001"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
    - Name: "Red Car"
      ModelNode: "Car_A_005"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.615
    - Name: "Orange Car"
      ModelNode: "Car_A_006"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.615
    - Name: "Green Car"
      ModelNode: "Car_A_008"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.615
    - Name: "Light Blue Car"
      ModelNode: "Car_A_009"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.615
    - Name: "Blue Car"
      ModelNode: "Car_A_010"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.615
    - Name: "Light Purple Car"
      ModelNode: "Car_A_011"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.615
    - Name: "Purple Car"
      ModelNode: "Car_A_012"
      Speed: 20
      Scale: 4.0
-   - Name: "Red Van"
+     SpawnWeighting: 0.615
+   - Name: "White Van"
+     ModelNode: "Car_C_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.8
+   - Name: "Big white van"
+     ModelNode: "Car_D_001"
+     Speed: 15
+     Scale: 4.0
+     SpawnWeighting: 0.8
+  -  Name: "Red Van"
      ModelNode: "Car_C_003"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.8
    - Name: "Green Van"
      ModelNode: "Car_C_005"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.8
    - Name: "Blue Van"
      ModelNode: "Car_C_006"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.8
    - Name: "Red Pickup"
      ModelNode: "Car_Pickuptruck_001"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.5
    - Name: "Orange Pickup"
      ModelNode: "Car_Pickuptruck_002"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.5
    - Name: "Green Pickup"
      ModelNode: "Car_Pickuptruck_003"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.5
    - Name: "Blue Pickup"
      ModelNode: "Car_Pickuptruck_004"
      Speed: 20
      Scale: 4.0
+     SpawnWeighting: 0.5
+   - Name: "Police Car"
+     ModelNode: "Car_Police"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "Taxi"
+     ModelNode: "Car_Taxi"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "Fire Truck"
+     ModelNode: "Car_FireTruck"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "Ambulance"
+     ModelNode: "Car_Ambulance"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
    - Name: "Motorbike Red"
      ModelNode: "zdc_vehicle_motorbikered"
      Speed: 20
      Scale: 6.0
+     SpawnWeighting: 0.7
    - Name: "Motorbike Blue"
      ModelNode: "zdc_vehicle_motorbikeblue"
      Speed: 20
      Scale: 6.0
+     SpawnWeighting: 0.7
    - Name: "Motorbike Green"
      ModelNode: "zdc_vehicle_motorbikegreen"
      Speed: 20
      Scale: 6.0
+     SpawnWeighting: 0.7
+   - Name: "Monster Truck"
+     ModelNode: "Car_Monstertruck"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.3
+   - Name: "Limousine"
+     ModelNode: "Car_Limousine"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.3
 
 JapanPlaneVehicles: &JapanPlaneVehicles
    Name: "Japan Plane Simulation"
