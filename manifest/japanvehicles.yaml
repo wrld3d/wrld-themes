@@ -10,6 +10,7 @@ JapanRailVehicles: &JapanRailVehicles
      EngineNodeLength: 6.0
      Speed: 80
      Scale: 4.0
+     SpawnWeighting: 1.0
      CarriageNode: "Train_A_Middle"
      CarriageNodeLength: 5.4
      TailNode: "Train_A_End"
@@ -23,6 +24,7 @@ JapanRailVehicles: &JapanRailVehicles
      EngineNodeLength: 7.3
      Speed: 80
      Scale: 4.0
+     SpawnWeighting: 1.0
      CarriageNode: "Train_B_Middle"
      CarriageNodeLength: 5.4
      TailNode: "Train_B_End"
@@ -35,6 +37,7 @@ JapanRailVehicles: &JapanRailVehicles
      ModelNode: "Train_C_Engine"
      Speed: 50
      Scale: 4.0
+     SpawnWeighting: 1.0
      CarriageNode: "Train_C_Middle"
      TailNode: "Train_C_End"
      MinCarriageCount: 1
@@ -45,6 +48,7 @@ JapanRailVehicles: &JapanRailVehicles
      ModelNode: "Train_D_Engine"
      Speed: 50
      Scale: 4.0
+     SpawnWeighting: 1.0
      CarriageNode: "Train_D_Middle"
      TailNode: "Train_D_End"
      MinCarriageCount: 1
@@ -55,6 +59,7 @@ JapanRailVehicles: &JapanRailVehicles
      ModelNode: "Train_E_Engine"
      Speed: 50
      Scale: 4.0
+     SpawnWeighting: 1.0
      CarriageNode: "Train_E_Middle"
      TailNode: "Train_E_End"
      MinCarriageCount: 1
@@ -65,6 +70,7 @@ JapanRailVehicles: &JapanRailVehicles
      ModelNode: "Train_F_Engine"
      Speed: 50
      Scale: 4.0
+     SpawnWeighting: 1.0
      CarriageNode: "Train_F_Middle"
      TailNode: "Train_F_End"
      MinCarriageCount: 1
@@ -75,6 +81,7 @@ JapanRailVehicles: &JapanRailVehicles
      ModelNode: "Train_G_Engine"
      Speed: 50
      Scale: 4.0
+     SpawnWeighting: 0.8
      CarriageNode: "Train_G_Middle"
      TailNode: "Train_G_End"
      MinCarriageCount: 1
@@ -86,6 +93,7 @@ JapanRailVehicles: &JapanRailVehicles
      EngineNodeLength: 9
      Speed: 50
      Scale: 4.0
+     SpawnWeighting: 0.8
      CarriageNode: "SteamTrain_Middle"
      CarriageNodeLength: 9
      TailNode: "SteamTrain_End"
@@ -276,54 +284,67 @@ JapanPlaneVehicles: &JapanPlaneVehicles
      ModelNode: "cessna_01"
      Speed: 50
      Scale: 4
+     SpawnWeighting: 1.0
    - Name: "Cessna 2"
      ModelNode: "cessna_02"
      Speed: 50
      Scale: 4
+     SpawnWeighting: 1.0
    - Name: "Learjet 1"
      ModelNode: "learjet_01"
      Speed: 200
      Scale: 4
+     SpawnWeighting: 1.0
    - Name: "Learjet 2"
      ModelNode: "learjet_02"
      Speed: 200
      Scale: 4
+     SpawnWeighting: 1.0
    - Name: "Zeppelin"
      ModelNode: "Zeppelin"
      Speed: 30
      Scale: 2
+     SpawnWeighting: 1.0
    - Name: "Helicopter"
      ModelNode: "Helicopter"
      Speed: 40
      Scale: 4
+     SpawnWeighting: 1.0
    - Name: "Hot Air Balloon"
      ModelNode: "Hotairballoon"
      Speed: 30
      Scale: 2
+     SpawnWeighting: 0.7
    - Name: "UFO"
      ModelNode: "UFO"
      Speed: 200
      Scale: 4
+     SpawnWeighting: 0.1
    - Name: "Birds Light"
      ModelNode: "Birds_01"
      Speed: 40
      Scale: 4
+     SpawnWeighting: 0.3
    - Name: "Birds Dark"
      ModelNode: "Birds_02"
      Speed: 40
      Scale: 4
+     SpawnWeighting: 0.3
    - Name: "Birds Medium"
      ModelNode: "Birds_03"
      Speed: 40
      Scale: 4
+     SpawnWeighting: 0.3
    - Name: "Hang Glider"
      ModelNode: "hangglider"
      Speed: 30
      Scale: 4
+     SpawnWeighting: 0.7
    - Name: "Santa"
      ModelNode: "santa"
      Speed: 50
      Scale: 4
+     SpawnWeighting: 0.05
 
 JapanVehicles: &JapanVehicles
    RoadVehicles:
