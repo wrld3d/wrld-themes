@@ -5,7 +5,7 @@ JapanRailVehicles: &JapanRailVehicles
    SpawnChancePerCell: 0.6
    MinimumDistanceBetweenSpawns: 300.0
    VehicleList:
-   - Name: "Train A"
+   - Name: "Train A_ShinkansenSilver"
      ModelNode: "Train_A_Engine"
      EngineNodeLength: 6.0
      Speed: 80
@@ -19,7 +19,7 @@ JapanRailVehicles: &JapanRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Inclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
-   - Name: "Train B"
+   - Name: "Train B_ShinkansenBlue"
      ModelNode: "Train_B_Engine"
      EngineNodeLength: 7.3
      Speed: 80
@@ -33,7 +33,7 @@ JapanRailVehicles: &JapanRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Inclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
-   - Name: "Train C"
+   - Name: "Train C_JR_yellowGreen"
      ModelNode: "Train_C_Engine"
      Speed: 50
      Scale: 4.0
@@ -44,7 +44,7 @@ JapanRailVehicles: &JapanRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
-   - Name: "Train D"
+   - Name: "Train D_JR_SilverGreen"
      ModelNode: "Train_D_Engine"
      Speed: 50
      Scale: 4.0
@@ -55,7 +55,7 @@ JapanRailVehicles: &JapanRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
-   - Name: "Train E"
+   - Name: "Train E_Private_Red"
      ModelNode: "Train_E_Engine"
      Speed: 50
      Scale: 4.0
@@ -66,7 +66,7 @@ JapanRailVehicles: &JapanRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
-   - Name: "Train F"
+   - Name: "Train F_Private_White"
      ModelNode: "Train_F_Engine"
      Speed: 50
      Scale: 4.0
@@ -77,7 +77,7 @@ JapanRailVehicles: &JapanRailVehicles
      MaxCarriageCount: 6
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
-   - Name: "Train G"
+   - Name: "Train G_Trolley"
      ModelNode: "Train_G_Engine"
      Speed: 50
      Scale: 4.0
