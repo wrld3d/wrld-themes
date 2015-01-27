@@ -1,0 +1,666 @@
+GermanyTerrainTextures: &GermanyTerrainTextures
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: SanFrancisco/TerrainTexture4
+     Terrain5: SanFrancisco/TerrainTexture5
+     Terrain6: SanFrancisco/TerrainTexture6
+     Terrain7: SanFrancisco/TerrainTexture7
+     Terrain8: SanFrancisco/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: SanFrancisco/TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+GermanyTerrainLODTextures: &GermanyTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+GermanySnowTerrainTextures: &GermanySnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+GermanySnowTerrainLODTextures: &GermanySnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+GermanySummerTextures: &GermanySummerTextures
+   RoadDiffuse: London/London_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: Germany/Germany_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
+   VehicleDiffuse: SanFrancisco/sf_vehicles_01
+   TrainDiffuse: SanFrancisco/ldn_trains_01
+   PlaneDiffuse: SanFrancisco/sf_planes_01
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *GermanyTerrainTextures
+   LcmLodDiffuse:
+      <<: *GermanyTerrainLODTextures
+
+GermanySpringTextures: &GermanySpringTextures
+   <<: *GermanySummerTextures
+   TreeSideDiffuse: Okinawa/Spring_trees_01
+   TreeTopDiffuse: Okinawa/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *GermanyTerrainTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4
+      Terrain5: Okinawa/Spring_TerrainTexture5
+      Terrain6: Okinawa/Spring_TerrainTexture6
+      Terrain7: Okinawa/Spring_TerrainTexture7
+      Terrain8: Okinawa/Spring_TerrainTexture8
+      Terrain14: Okinawa/Spring_TerrainTexture14
+      Terrain18: Okinawa/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *GermanyTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+
+GermanyAutumnTextures: &GermanyAutumnTextures
+   <<: *GermanySummerTextures
+   TreeSideDiffuse: Okinawa/Autumn_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *GermanyTerrainTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4
+      Terrain5: Okinawa/Autumn_TerrainTexture5
+      Terrain6: Okinawa/Autumn_TerrainTexture6
+      Terrain7: Okinawa/Autumn_TerrainTexture7
+      Terrain8: Okinawa/Autumn_TerrainTexture8
+      Terrain14: Okinawa/Autumn_TerrainTexture14
+      Terrain18: Okinawa/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *GermanyTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+
+GermanyWinterTextures: &GermanyWinterTextures
+   <<: *GermanySummerTextures
+   TreeSideDiffuse: Okinawa/Winter_trees_01
+   TreeTopDiffuse: Okinawa/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *GermanyTerrainTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4
+      Terrain5: Okinawa/Winter_TerrainTexture5
+      Terrain6: Okinawa/Winter_TerrainTexture6
+      Terrain7: Okinawa/Winter_TerrainTexture7
+      Terrain8: Okinawa/Winter_TerrainTexture8
+      Terrain14: Okinawa/Winter_TerrainTexture14
+      Terrain18: Okinawa/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *GermanyTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+GermanySummerNightTextures: &GermanySummerNightTextures
+   <<: *GermanySummerTextures
+   BuildingDiffuse: Germany/Germany_Night_wallDiffuse
+   RoadDiffuse: London/London_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+GermanySummerSnowTextures: &GermanySummerSnowTextures
+   <<: *GermanySummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Germany/Germany_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *GermanySnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *GermanySnowTerrainLODTextures
+
+GermanySummerNightSnowTextures: &GermanySummerNightSnowTextures
+   <<: *GermanySummerTextures
+   RoadDiffuse: London/London_Night_Snow_roadDiffuse
+   BuildingDiffuse: Germany/Germany_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *GermanySnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *GermanySnowTerrainLODTextures
+
+GermanySpringSnowTextures: &GermanySpringSnowTextures
+   <<: *GermanySummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Germany/Germany_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *GermanySnowTerrainTextures
+      Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
+      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
+      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
+      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
+      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
+      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *GermanySnowTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+
+GermanyAutumnSnowTextures: &GermanyAutumnSnowTextures
+   <<: *GermanySummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Germany/Germany_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *GermanySnowTerrainTextures
+      Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
+      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
+      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
+      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
+      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
+      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *GermanySnowTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+
+GermanyWinterSnowTextures: &GermanyWinterSnowTextures
+   <<: *GermanySummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Germany/Germany_Snow_wallDiffuse
+   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
+   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *GermanySnowTerrainTextures
+      Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
+      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
+      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
+      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
+      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
+      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *GermanySnowTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+SummerGermany: &SummerGermany
+   Name: SummerGermany
+   LocationLatLong: [51.290597,5.693772]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *GermanySummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *GermanySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *GermanySummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *GermanySummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *GermanySummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *GermanySummerTextures
+
+SpringGermany: &SpringGermany
+   Name: SpringGermany
+   LocationLatLong: [51.290597,5.693772]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *GermanySpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *GermanySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *GermanySpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *GermanySpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *GermanySpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *GermanySpringTextures
+
+AutumnGermany: &AutumnGermany
+   Name: AutumnGermany
+   LocationLatLong: [51.290597,5.693772]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *GermanyAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *GermanySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *GermanyAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *GermanyAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *GermanyAutumnTextures
+
+WinterGermany: &WinterGermany
+   Name: WinterGermany
+   LocationLatLong: [51.290597,5.693772]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *GermanyWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *GermanySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *GermanyWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *GermanyWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *GermanySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *GermanyWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *GermanyWinterTextures

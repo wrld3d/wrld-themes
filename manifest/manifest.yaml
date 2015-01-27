@@ -16,6 +16,7 @@
 #include "mountrush.yaml"
 #include "brazilvehicles.yaml"
 #include "brazil.yaml"
+#include "germany.yaml"
 
 ThemeManifest:
    LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v330/"
@@ -92,4 +93,9 @@ ThemeManifest:
         *SpringBrazil,
         *AutumnBrazil,
         *WinterBrazil
+
+        *SummerGermany,
+        *SpringGermany,
+        *AutumnGermany,
+        *WinterGermany
         ]
