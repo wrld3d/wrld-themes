@@ -41,14 +41,9 @@ if [ $status -ne 0 ]; then
   echo "failed to generate pvr for $f see teamcity log"
   exit $status
 fi
-echo "Creating .ktx for $f"
-./lib/PVRTexToolCL.exe -f ETC1 -m -flip y -i "$f" -o "${f%.*}".ktx;
-status=$?
-if [ $status -ne 0 ]; then
-  echo "failed to generate ktx for $f see teamcity log"
-  exit $status
-fi
 done;
+
+find zipped_themes -name "*.png" -exec rm -rf {} \;
 
 gzip -r ./zipped_themes
 find zipped_themes -name ".*" -exec rm -rf {} \;

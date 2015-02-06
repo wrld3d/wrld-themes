@@ -2,21 +2,6 @@
 #include "defaultplacenames.yaml"
 #include "defaultvehicles.yaml"
 #include "sanfrancisco.yaml"
-#include "canada.yaml"
-#include "japanvehicles.yaml"
-#include "japan.yaml"
-#include "japansouth.yaml"
-#include "japannorth.yaml"
-#include "barcelona.yaml"
-#include "london.yaml"
-#include "paris.yaml"
-#include "melbourne.yaml"
-#include "newyork.yaml"
-#include "phoenix.yaml"
-#include "mountrush.yaml"
-#include "brazilvehicles.yaml"
-#include "brazil.yaml"
-#include "germany.yaml"
 
 ThemeManifest:
    LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v332/"
@@ -33,69 +18,4 @@ ThemeManifest:
         *SpringSanFrancisco, 
         *AutumnSanFrancisco, 
         *WinterSanFrancisco, 
-
-        *SummerCanada, 
-        *SpringCanada, 
-        *AutumnCanada, 
-        *WinterCanada,
-
-        *SummerJapanSouth, 
-        *SpringJapanSouth, 
-        *AutumnJapanSouth, 
-        *WinterJapanSouth, 
-
-        *SummerJapanNorth, 
-        *SpringJapanNorth, 
-        *AutumnJapanNorth, 
-        *WinterJapanNorth, 
-
-        *SummerJapan, 
-        *SpringJapan, 
-        *AutumnJapan, 
-        *WinterJapan, 
-
-        *SummerBarcelona, 
-        *SpringBarcelona, 
-        *AutumnBarcelona, 
-        *WinterBarcelona, 
-
-        *SummerLondon, 
-        *SpringLondon, 
-        *AutumnLondon, 
-        *WinterLondon, 
-
-        *SummerParis, 
-        *SpringParis, 
-        *AutumnParis, 
-        *WinterParis, 
-
-        *SummerMelbourne, 
-        *SpringMelbourne, 
-        *AutumnMelbourne, 
-        *WinterMelbourne, 
-
-        *SummerNewYork, 
-        *SpringNewYork, 
-        *AutumnNewYork, 
-        *WinterNewYork, 
-
-        *SummerPhoenix, 
-        *SpringPhoenix, 
-        *AutumnPhoenix, 
-        *WinterPhoenix, 
-
-        *SummerMountRush, 
-        *SpringMountRush, 
-        *AutumnMountRush, 
-        *WinterMountRush,
-
-        *SummerBrazil,
-        *SpringBrazil,
-        *AutumnBrazil,
-        *WinterBrazil,
-
-        *SummerGermany,
-        *SpringGermany,
-        *AutumnGermany,
-        *WinterGermany
         ]
