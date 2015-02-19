@@ -381,6 +381,7 @@ SummerNewYork: &SummerNewYork
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *NewYorkSummerTextures
+      - <<: *MapModeOldRoadsState
 
 SpringNewYork: &SpringNewYork
    Name: SpringNewYork
@@ -474,6 +475,7 @@ SpringNewYork: &SpringNewYork
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *NewYorkSpringTextures
+      - <<: *MapModeOldRoadsState
 
 AutumnNewYork: &AutumnNewYork
    Name: AutumnNewYork
@@ -567,6 +569,7 @@ AutumnNewYork: &AutumnNewYork
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *NewYorkAutumnTextures
+      - <<: *MapModeOldRoadsState
 
 WinterNewYork: &WinterNewYork
    Name: WinterNewYork
@@ -660,3 +663,4 @@ WinterNewYork: &WinterNewYork
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *NewYorkWinterTextures
+      - <<: *MapModeOldRoadsState

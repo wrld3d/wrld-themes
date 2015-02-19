@@ -381,6 +381,7 @@ SummerMelbourne: &SummerMelbourne
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MelbourneSummerTextures
+      - <<: *MapModeOldRoadsState
 
 SpringMelbourne: &SpringMelbourne
    Name: SpringMelbourne
@@ -474,6 +475,7 @@ SpringMelbourne: &SpringMelbourne
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MelbourneSpringTextures
+      - <<: *MapModeOldRoadsState
 
 AutumnMelbourne: &AutumnMelbourne
    Name: AutumnMelbourne
@@ -567,6 +569,7 @@ AutumnMelbourne: &AutumnMelbourne
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MelbourneAutumnTextures
+      - <<: *MapModeOldRoadsState
 
 WinterMelbourne: &WinterMelbourne
    Name: WinterMelbourne
@@ -660,3 +663,4 @@ WinterMelbourne: &WinterMelbourne
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MelbourneWinterTextures
+      - <<: *MapModeOldRoadsState

@@ -285,6 +285,7 @@ SummerParis: &SummerParis
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *ParisSummerTextures
+      - <<: *MapModeState
 
 SpringParis: &SpringParis
    Name: SpringParis
@@ -378,6 +379,7 @@ SpringParis: &SpringParis
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *ParisSpringTextures
+      - <<: *MapModeState
 
 AutumnParis: &AutumnParis
    Name: AutumnParis
@@ -471,6 +473,7 @@ AutumnParis: &AutumnParis
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *ParisAutumnTextures
+      - <<: *MapModeState
 
 WinterParis: &WinterParis
    Name: WinterParis
@@ -564,3 +567,4 @@ WinterParis: &WinterParis
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *ParisWinterTextures
+      - <<: *MapModeState

@@ -381,6 +381,7 @@ SummerMountRush: &SummerMountRush
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MountRushSummerTextures
+      - <<: *MapModeOldRoadsState
 
 SpringMountRush: &SpringMountRush
    Name: SpringMountRush
@@ -474,6 +475,7 @@ SpringMountRush: &SpringMountRush
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MountRushSpringTextures
+      - <<: *MapModeOldRoadsState
 
 AutumnMountRush: &AutumnMountRush
    Name: AutumnMountRush
@@ -567,6 +569,7 @@ AutumnMountRush: &AutumnMountRush
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MountRushAutumnTextures
+      - <<: *MapModeOldRoadsState
 
 WinterMountRush: &WinterMountRush
    Name: WinterMountRush
@@ -660,3 +663,4 @@ WinterMountRush: &WinterMountRush
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *MountRushWinterTextures
+      - <<: *MapModeOldRoadsState

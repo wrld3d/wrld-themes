@@ -381,6 +381,7 @@ SummerCanada: &SummerCanada
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *CanadaSummerTextures
+      - <<: *MapModeOldRoadsState
 
 SpringCanada: &SpringCanada
    Name: SpringCanada
@@ -474,6 +475,7 @@ SpringCanada: &SpringCanada
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *CanadaSpringTextures
+      - <<: *MapModeOldRoadsState
 
 AutumnCanada: &AutumnCanada
    Name: AutumnCanada
@@ -567,6 +569,7 @@ AutumnCanada: &AutumnCanada
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *CanadaAutumnTextures
+      - <<: *MapModeOldRoadsState
 
 WinterCanada: &WinterCanada
    Name: WinterCanada
@@ -660,3 +663,4 @@ WinterCanada: &WinterCanada
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *CanadaWinterTextures
+      - <<: *MapModeOldRoadsState

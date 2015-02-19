@@ -382,6 +382,7 @@ SummerLondon: &SummerLondon
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *LondonSummerTextures
+      - <<: *MapModeState
 
 SpringLondon: &SpringLondon
    Name: SpringLondon
@@ -476,6 +477,7 @@ SpringLondon: &SpringLondon
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *LondonSpringTextures
+      - <<: *MapModeState
 
 AutumnLondon: &AutumnLondon
    Name: AutumnLondon
@@ -570,6 +572,7 @@ AutumnLondon: &AutumnLondon
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *LondonAutumnTextures
+      - <<: *MapModeState
 
 WinterLondon: &WinterLondon
    Name: WinterLondon
@@ -664,3 +667,4 @@ WinterLondon: &WinterLondon
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *LondonWinterTextures
+      - <<: *MapModeState

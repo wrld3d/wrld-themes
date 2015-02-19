@@ -382,6 +382,7 @@ SummerJapanSouth: &SummerJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthSummerTextures
+      - <<: *MapModeState
 
 SpringJapanSouth: &SpringJapanSouth
    Name: SpringJapanSouth
@@ -476,6 +477,7 @@ SpringJapanSouth: &SpringJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthSpringTextures
+      - <<: *MapModeState
 
 AutumnJapanSouth: &AutumnJapanSouth
    Name: AutumnJapanSouth
@@ -570,6 +572,7 @@ AutumnJapanSouth: &AutumnJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthAutumnTextures
+      - <<: *MapModeState
 
 WinterJapanSouth: &WinterJapanSouth
    Name: WinterJapanSouth
@@ -664,3 +667,4 @@ WinterJapanSouth: &WinterJapanSouth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSouthWinterTextures
+      - <<: *MapModeState

@@ -382,6 +382,7 @@ SummerGermany: &SummerGermany
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *GermanySummerTextures
+      - <<: *MapModeState
 
 SpringGermany: &SpringGermany
    Name: SpringGermany
@@ -476,6 +477,7 @@ SpringGermany: &SpringGermany
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *GermanySpringTextures
+      - <<: *MapModeState
 
 AutumnGermany: &AutumnGermany
    Name: AutumnGermany
@@ -570,6 +572,7 @@ AutumnGermany: &AutumnGermany
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *GermanyAutumnTextures
+      - <<: *MapModeState
 
 WinterGermany: &WinterGermany
    Name: WinterGermany
@@ -664,3 +667,4 @@ WinterGermany: &WinterGermany
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *GermanyWinterTextures
+      - <<: *MapModeState

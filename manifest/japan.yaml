@@ -511,6 +511,7 @@ SummerJapan: &SummerJapan
         <<: *DefaultSunnyLighting
         Textures:
            <<: *JapanFlatshadedSummerTextures
+      - <<: *MapModeState
 
 SpringJapan: &SpringJapan
    Name: SpringJapan
@@ -605,6 +606,7 @@ SpringJapan: &SpringJapan
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanSpringTextures
+      - <<: *MapModeState
 
 AutumnJapan: &AutumnJapan
    Name: AutumnJapan
@@ -699,6 +701,7 @@ AutumnJapan: &AutumnJapan
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanAutumnTextures
+      - <<: *MapModeState
 
 WinterJapan: &WinterJapan
    Name: WinterJapan
@@ -793,3 +796,4 @@ WinterJapan: &WinterJapan
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanWinterTextures
+      - <<: *MapModeState

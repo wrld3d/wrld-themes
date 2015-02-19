@@ -381,6 +381,7 @@ SummerBarcelona: &SummerBarcelona
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BarcelonaSummerTextures
+      - <<: *MapModeOldRoadsState
 
 SpringBarcelona: &SpringBarcelona
    Name: SpringBarcelona
@@ -474,6 +475,7 @@ SpringBarcelona: &SpringBarcelona
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BarcelonaSpringTextures
+      - <<: *MapModeOldRoadsState
 
 AutumnBarcelona: &AutumnBarcelona
    Name: AutumnBarcelona
@@ -567,6 +569,7 @@ AutumnBarcelona: &AutumnBarcelona
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BarcelonaAutumnTextures
+      - <<: *MapModeOldRoadsState
 
 WinterBarcelona: &WinterBarcelona
    Name: WinterBarcelona
@@ -660,3 +663,4 @@ WinterBarcelona: &WinterBarcelona
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BarcelonaWinterTextures
+      - <<: *MapModeOldRoadsState

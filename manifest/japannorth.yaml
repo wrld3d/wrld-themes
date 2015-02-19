@@ -382,6 +382,7 @@ SummerJapanNorth: &SummerJapanNorth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanNorthSummerTextures
+      - <<: *MapModeState
 
 SpringJapanNorth: &SpringJapanNorth
    Name: SpringJapanNorth
@@ -476,6 +477,7 @@ SpringJapanNorth: &SpringJapanNorth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanNorthSpringTextures
+      - <<: *MapModeState
 
 AutumnJapanNorth: &AutumnJapanNorth
    Name: AutumnJapanNorth
@@ -570,6 +572,7 @@ AutumnJapanNorth: &AutumnJapanNorth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanNorthAutumnTextures
+      - <<: *MapModeState
 
 WinterJapanNorth: &WinterJapanNorth
    Name: WinterJapanNorth
@@ -664,3 +667,4 @@ WinterJapanNorth: &WinterJapanNorth
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *JapanNorthWinterTextures
+      - <<: *MapModeState
