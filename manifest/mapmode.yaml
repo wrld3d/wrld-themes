@@ -55,6 +55,7 @@ MapModeTextures: &MapModeTextures
    VehicleDiffuse: MapMode/MapMode_vehicles_01
    TrainDiffuse: MapMode/MapMode_trains_01
    PlaneDiffuse: MapMode/MapMode_planes_01
+   TramDiffuse: MapMode/MapMode_trains_01
    WaterNormal: SanFrancisco/water_normalmap
    WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: MapMode/MapMode_TerrainTexture3

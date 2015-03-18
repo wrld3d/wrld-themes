@@ -4,9 +4,7 @@ ParisSummerTextures: &ParisSummerTextures
    BuildingDiffuse: Paris/Paris_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
-   VehicleDiffuse: SanFrancisco/sf_vehicles_01
-   TrainDiffuse: SanFrancisco/ldn_trains_01
-   PlaneDiffuse: SanFrancisco/sf_planes_01
+   <<: *DefaultVehiclesDayTextures
    WaterNormal: SanFrancisco/water_normalmap
    WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
@@ -87,6 +85,7 @@ ParisWinterTextures: &ParisWinterTextures
 
 ParisSummerNightTextures: &ParisSummerNightTextures
    <<: *ParisSummerTextures
+   <<: *DefaultVehiclesNightTextures
    BuildingDiffuse: Paris/Paris_Night_wallDiffuse
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
@@ -106,6 +105,7 @@ ParisSummerSnowTextures: &ParisSummerSnowTextures
 
 ParisSummerNightSnowTextures: &ParisSummerNightSnowTextures
    <<: *ParisSummerTextures
+   <<: *DefaultVehiclesNightTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
    BuildingDiffuse: Paris/Paris_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night

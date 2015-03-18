@@ -28,3 +28,15 @@ BrazilVehiclesRightSide: &BrazilVehiclesRightSide
       <<: *DefaultTramVehicles
    PlaneVehicles:
       <<: *BrazilPlaneVehicles
+
+BrazilVehiclesDayTextures: &BrazilVehiclesDayTextures
+   VehicleDiffuse: SanFrancisco/sf_vehicles_01
+   TrainDiffuse: SanFrancisco/ldn_trains_01
+   PlaneDiffuse: Brazil/VehicleModels/planes
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams
+
+BrazilVehiclesNightTextures: &BrazilVehiclesNightTextures
+   VehicleDiffuse: SanFrancisco/VehicleModels/sf_vehicles_Night_01
+   TrainDiffuse: SanFrancisco/VehicleModels/ldn_trains_Night_01
+   PlaneDiffuse: Brazil/VehicleModels/planes_night
+   TramDiffuse: Sanfrancisco/VehicleModels/recce_trams_night

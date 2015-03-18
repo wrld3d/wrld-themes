@@ -100,9 +100,7 @@ MountRushSummerTextures: &MountRushSummerTextures
    BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
-   VehicleDiffuse: SanFrancisco/sf_vehicles_01
-   TrainDiffuse: SanFrancisco/ldn_trains_01
-   PlaneDiffuse: SanFrancisco/sf_planes_01
+   <<: *DefaultVehiclesDayTextures
    WaterNormal: SanFrancisco/water_normalmap
    WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
@@ -183,6 +181,7 @@ MountRushWinterTextures: &MountRushWinterTextures
 
 MountRushSummerNightTextures: &MountRushSummerNightTextures
    <<: *MountRushSummerTextures
+   <<: *DefaultVehiclesNightTextures
    BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
    RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
@@ -202,6 +201,7 @@ MountRushSummerSnowTextures: &MountRushSummerSnowTextures
 
 MountRushSummerNightSnowTextures: &MountRushSummerNightSnowTextures
    <<: *MountRushSummerTextures
+   <<: *DefaultVehiclesNightTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night

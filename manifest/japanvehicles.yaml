@@ -353,3 +353,15 @@ JapanVehicles: &JapanVehicles
       <<: *JapanRailVehicles
    PlaneVehicles:
       <<: *JapanPlaneVehicles
+
+JapanVehiclesDayTextures: &JapanVehiclesDayTextures
+   VehicleDiffuse: Osaka/VehicleModels/cars
+   TrainDiffuse: Osaka/VehicleModels/trains
+   PlaneDiffuse: Osaka/VehicleModels/planes
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams
+
+JapanVehiclesNightTextures: &JapanVehiclesNightTextures
+   VehicleDiffuse: Osaka/VehicleModels/cars_night
+   TrainDiffuse: Osaka/VehicleModels/trains_night
+   PlaneDiffuse: Osaka/VehicleModels/planes_night
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams_night
