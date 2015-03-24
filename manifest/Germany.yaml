@@ -293,7 +293,7 @@ SummerGermany: &SummerGermany
    Name: SummerGermany
    LocationLatLong: [51.290597,5.693772]
    BaseAltitude: 0
-   DriveOnRight: false
+   DriveOnRight: true
    PlaceNameStyles:
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesLeftSide
@@ -388,7 +388,7 @@ SpringGermany: &SpringGermany
    Name: SpringGermany
    LocationLatLong: [51.290597,5.693772]
    BaseAltitude: 0
-   DriveOnRight: false
+   DriveOnRight: true
    PlaceNameStyles:
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesLeftSide
@@ -483,7 +483,7 @@ AutumnGermany: &AutumnGermany
    Name: AutumnGermany
    LocationLatLong: [51.290597,5.693772]
    BaseAltitude: 0
-   DriveOnRight: false
+   DriveOnRight: true
    PlaceNameStyles:
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesLeftSide
@@ -578,7 +578,7 @@ WinterGermany: &WinterGermany
    Name: WinterGermany
    LocationLatLong: [51.290597,5.693772]
    BaseAltitude: 0
-   DriveOnRight: false
+   DriveOnRight: true
    PlaceNameStyles:
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesLeftSide
