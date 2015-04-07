@@ -57,16 +57,64 @@ DefaultRoadVehicles: &DefaultRoadVehicles
      ModelNode: "Car_A_001"
      Speed: 20
      Scale: 4.0
+   - Name: "Red striped pickup"
+     ModelNode: "Car_A_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue pickup"
+     ModelNode: "Car_A_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Grey pickup"
+     ModelNode: "Car_A_004"
+     Speed: 20
+     Scale: 4.0
    - Name: "Red estate"
      ModelNode: "Car_B_001"
      Speed: 20
      Scale: 4.0
-   - Name: "Red saloon"
+   - Name: "Black estate"
+     ModelNode: "Car_B_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Green estate"
+     ModelNode: "Car_B_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Grey estate"
+     ModelNode: "Car_B_004"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Grey saloon"
      ModelNode: "Car_C_001"
      Speed: 20
      Scale: 4.0
-   - Name: "Red van"
+   - Name: "Gold saloon"
+     ModelNode: "Car_C_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Orange saloon"
+     ModelNode: "Car_C_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue saloon"
+     ModelNode: "Car_C_004"
+     Speed: 20
+     Scale: 4.0
+   - Name: "White van"
      ModelNode: "Car_D_001"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Magenta vam"
+     ModelNode: "Car_D_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Green van"
+     ModelNode: "Car_D_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue and Gold van"
+     ModelNode: "Car_D_004"
      Speed: 20
      Scale: 4.0
 
