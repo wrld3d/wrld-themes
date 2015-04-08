@@ -9,11 +9,12 @@ REMOTE_SYNC_DIR := $(REMOTE_BASE_DIR)/sync
 VERSION_NAME := v$(VERSION)
 REMOTE_BUILD_DIR := $(REMOTE_BASE_DIR)/$(VERSION_NAME)
 
-SRC_FILES := $(call rwildcard,$(SRC_DIR)/,*.png)
-PVR_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.pvr,$(SRC_FILES))
-KTX_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.ktx,$(SRC_FILES))
+SRC_POD_FILES := $(call rwildcard,$(SRC_DIR)/,*.POD)
+DST_POD_FILES := $(patsubst $(SRC_DIR)/%,$(GZIP_DIR)/%.gz,$(SRC_POD_FILES))
 
 SRC_PNG_FILES := $(call rwildcard,$(SRC_DIR)/,*.png)
+PVR_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.pvr,$(SRC_PNG_FILES))
+KTX_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.ktx,$(SRC_PNG_FILES))
 DST_PNG_FILES := $(patsubst $(SRC_DIR)/%,$(COMPRESSED_DIR)/%,$(SRC_PNG_FILES))
 
 ALL_COMPRESSED_FILES := $(PVR_FILES) $(KTX_FILES) $(DST_PNG_FILES)
@@ -41,7 +42,7 @@ DST_MANIFEST := $(GZIP_DIR)/manifest.txt.gz
 
 .SECONDARY:
 .PHONY: all
-all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST)
+all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST) $(DST_POD_FILES)
 	$(S3SYNC) $(GZIP_DIR)/ $(REMOTE_SYNC_DIR)/
 	$(S3CP) $(REMOTE_SYNC_DIR)/ $(REMOTE_BUILD_DIR)/
 
@@ -77,6 +78,9 @@ $(GZIP_DIR)/%.gz:$(COMPRESSED_DIR)/%
 	$(MKDIR) $(dir $@)
 	cat $< | gzip -n --stdout >$@
 
+$(GZIP_DIR)/%.POD.gz:$(SRC_DIR)/%.POD
+	$(MKDIR) $(dir $@)
+	cat $< | gzip -n --stdout >$@
 
 .PHONY: check-env
 check-env:
