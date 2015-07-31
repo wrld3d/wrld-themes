@@ -2,6 +2,7 @@ rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
 SRC_DIR := themes
 BUILD_DIR := build
+LANDMARK_TEXTURES_VERSION_FILE := $(BUILD_DIR)/landmark_textures_version.txt
 COMPRESSED_DIR := $(BUILD_DIR)/compressed_textures
 GZIP_DIR := $(BUILD_DIR)/gzipped_assets
 REMOTE_BASE_DIR := s3://myworld_developer_destination_resources/mobile-themes-new
@@ -27,6 +28,7 @@ KTX_COMPRESS = $(TEX_TOOL) -f ETC1 -m -flip y
 MKDIR = mkdir -p
 CP = cp 
 GZIP = gzip
+CAT = cat
 AWS = AWS_SECRET_KEY_ID=$(AWS_SECRET_KEY_ID) AWS_SECRET_ACCESS_KEY=$(AWS_SECRET_ACCESS_KEY) aws
 S3CP = $(AWS) s3 cp --recursive --content-encoding "gzip"
 S3SYNC = $(AWS) s3 sync --content-encoding "gzip"
@@ -55,7 +57,7 @@ $(PREPROCESSED_MANIFEST):$(SRC_MANIFEST)
 # Always rebuild this as it contains references to the version directory.
 $(MANIFEST_BUILD_DIR)/manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
 	$(MKDIR) $(dir $@) 
-	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(ASSETS_HOST_NAME) > "$@"
+	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(ASSETS_HOST_NAME) `$(CAT) $(LANDMARK_TEXTURES_VERSION_FILE)` > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 $(GZIP_DIR)/%.txt.gz:$(MANIFEST_BUILD_DIR)/%.txt
