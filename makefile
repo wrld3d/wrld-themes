@@ -28,7 +28,6 @@ KTX_COMPRESS = $(TEX_TOOL) -f ETC1 -m -flip y
 MKDIR = mkdir -p
 CP = cp 
 GZIP = gzip
-CAT = cat
 AWS = AWS_SECRET_KEY_ID=$(AWS_SECRET_KEY_ID) AWS_SECRET_ACCESS_KEY=$(AWS_SECRET_ACCESS_KEY) aws
 S3CP = $(AWS) s3 cp --recursive --content-encoding "gzip"
 S3SYNC = $(AWS) s3 sync --content-encoding "gzip"
@@ -57,7 +56,7 @@ $(PREPROCESSED_MANIFEST):$(SRC_MANIFEST)
 # Always rebuild this as it contains references to the version directory.
 $(MANIFEST_BUILD_DIR)/manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
 	$(MKDIR) $(dir $@) 
-	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(ASSETS_HOST_NAME) `$(CAT) $(LANDMARK_TEXTURES_VERSION_FILE)` > "$@"
+	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 $(GZIP_DIR)/%.txt.gz:$(MANIFEST_BUILD_DIR)/%.txt
