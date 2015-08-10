@@ -99,7 +99,7 @@ JapanRailVehicles: &JapanRailVehicles
      TailNode: "SteamTrain_End"
      TailNodeLength: 9
      MinCarriageCount: 1
-     MaxCarriageCount: 6
+     MaxCarriageCount: 4
      FunctionalRoadClassFilterType: Exclusive
      FunctionalRoadClassFilterList: ["RailHighSpeed1"]
 
