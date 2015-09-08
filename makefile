@@ -16,14 +16,16 @@ DST_POD_FILES := $(patsubst $(SRC_DIR)/%,$(GZIP_DIR)/%.gz,$(SRC_POD_FILES))
 SRC_PNG_FILES := $(call rwildcard,$(SRC_DIR)/,*.png)
 PVR_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.pvr,$(SRC_PNG_FILES))
 KTX_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.ktx,$(SRC_PNG_FILES))
+DDS_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.dds,$(SRC_PNG_FILES))
 DST_PNG_FILES := $(patsubst $(SRC_DIR)/%,$(COMPRESSED_DIR)/%,$(SRC_PNG_FILES))
 
-ALL_COMPRESSED_FILES := $(PVR_FILES) $(KTX_FILES) $(DST_PNG_FILES)
+ALL_COMPRESSED_FILES := $(PVR_FILES) $(KTX_FILES) $(DDS_FILES) $(DST_PNG_FILES)
 ALL_GZIP_FILES := $(patsubst $(COMPRESSED_DIR)/%,$(GZIP_DIR)/%.gz,$(ALL_COMPRESSED_FILES))
 
 TEX_TOOL = ./lib/PVRTexToolCL.exe
 PVR_COMPRESS = $(TEX_TOOL) -f PVRTC1_4 -m -flip y -legacypvr
 KTX_COMPRESS = $(TEX_TOOL) -f ETC1 -m -flip y
+DDS_COMPRESS = $(TEX_TOOL) -f BC1 -m -flip y 
 
 MKDIR = mkdir -p
 CP = cp 
@@ -70,6 +72,10 @@ $(COMPRESSED_DIR)/%.pvr:$(SRC_DIR)/%.png
 $(COMPRESSED_DIR)/%.ktx:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)
 	$(KTX_COMPRESS) -i "$<" -o "$@"
+
+$(COMPRESSED_DIR)/%.dds:$(SRC_DIR)/%.png
+	$(MKDIR) $(dir $@)
+	$(DDS_COMPRESS) -i "$<" -o "$@"
 
 $(COMPRESSED_DIR)/%.png:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)
