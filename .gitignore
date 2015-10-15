@@ -1,4 +1,9 @@
 .DS_Store
 build/*
 tmp/
+
+# Ignore all compiled python files and pycharm idea local settings
 *.pyc
+*.pyo
+.idea/
+.settings/
