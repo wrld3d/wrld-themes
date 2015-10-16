@@ -1,7 +1,6 @@
 import gzip
 import json
 import os
-from sys import stderr
 import urllib2
 import cStringIO
 
@@ -72,9 +71,6 @@ class EmbeddedManifestFactory:
     def create_embedded_manifest(self):
         manifest_json = self._get_manifest_json(self._source_manifest)
 
-        # find the relevant theme
-        original_themes = manifest_json["Themes"] #copy.deepcopy(manifest_json["Themes"])
-
         theme_to_use = self._get_theme(manifest_json["Themes"])
         self._delete_redundant_theme_vehicles(theme_to_use)
 
@@ -84,28 +80,29 @@ class EmbeddedManifestFactory:
 
         theme_to_use["States"] = [state_to_use]
 
-        local_asset_root = os.path.join(self._output_path, "iOS") + "\\"
+        platforms = self._get_supported_platforms(manifest_json)
 
-        if not os.path.exists(local_asset_root):
-            os.mkdir(local_asset_root)
+        texture_names = state_to_use["Textures"]
 
-        print "downloading textures for: {0}/{1}".format(self._theme_name, self._state_name)
+        for platform in platforms:
+            self._download_textures_for_platform(platform, manifest_json, texture_names)
 
-        # todo: extend to run P times, once per platform
-        asset_root_ios = manifest_json["AssetRoot_iOS"]
-        asset_ext_ios_gz = manifest_json["AssetExtension_iOS"]
-        asset_ext_ios = asset_ext_ios_gz[:-3] if asset_ext_ios_gz.endswith(".gz") else asset_ext_ios_gz
-        manifest_json["AssetExtension_iOS"] = asset_ext_ios
-
-        http_texture_path_provider = TexturePathProvider(asset_root_ios, asset_ext_ios_gz)
-        local_texture_path_provider = TexturePathProvider(local_asset_root, asset_ext_ios)
-
-        items = state_to_use["Textures"]
-        self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, items)
-
-        state_to_use["Textures"] = self._get_local_texture_paths(items)
+        state_to_use["Textures"] = self._get_local_texture_paths(texture_names)
 
         self._write_embedded_manifest_file(manifest_json)
+
+    def _download_textures_for_platform(self, platform, manifest_json, texture_names):
+        local_asset_root = os.path.join(self._output_path, platform) + "\\"
+        if not os.path.exists(local_asset_root):
+            os.mkdir(local_asset_root)
+        print "downloading textures for: {0}/{1} ({2})".format(self._theme_name, self._state_name, platform)
+        asset_root = manifest_json["AssetRoot_{0}".format(platform)]
+        asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
+        asset_ext = asset_ext_gz[:-3] if asset_ext_gz.endswith(".gz") else asset_ext_gz
+        manifest_json["AssetExtension_{0}".format(platform)] = asset_ext
+        http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz)
+        local_texture_path_provider = TexturePathProvider(local_asset_root, asset_ext)
+        self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
 
     def _write_embedded_manifest_file(self, manifest_json):
         output_file_name = os.path.join(self._output_path, "embedded_manifest.txt")
@@ -122,13 +119,9 @@ class EmbeddedManifestFactory:
         return state_to_use
 
     def _delete_redundant_theme_vehicles(self, theme_to_use):
-        keys_to_delete = []
-        for k in theme_to_use:
-            if "Vehicle" in k:
-                keys_to_delete.append(k)
-        for k in keys_to_delete:
-            print "removing key: {0}".format(k)
-            theme_to_use.pop(k)
+        keys_to_delete = [key for key in theme_to_use if "Vehicle" in key]
+        for key in keys_to_delete:
+            theme_to_use.pop(key)
 
     def _get_theme(self, themes):
         theme_to_use = None
@@ -138,6 +131,11 @@ class EmbeddedManifestFactory:
         if theme_to_use is None:
             raise ValueError("Couldn't find theme named '{0}' in manifest.".format(self._theme_name))
         return theme_to_use
+
+    def _get_supported_platforms(self, manifest_json):
+        platform_strings = [key for key in manifest_json if key.startswith("AssetRoot_")]
+        platforms = [string.split("_")[1] for string in platform_strings]
+        return platforms
 
 
 def create_embedded_manifest(source_manifest, theme_name, state_name, output_path):
