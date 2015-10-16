@@ -18,6 +18,7 @@
 #include "brazilvehicles.yaml"
 #include "brazil.yaml"
 #include "germany.yaml"
+#include "dubai.yaml"
 
 ThemeManifest:
    LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v%LANDMARK_TEXTURES_VERSION%/"
@@ -100,4 +101,9 @@ ThemeManifest:
         *SummerGermany,
         *SpringGermany,
         *AutumnGermany,
-        *WinterGermany]
+        *WinterGermany,
+
+        *SummerDubai,
+        *SpringDubai,
+        *AutumnDubai,
+        *WinterDubai]
