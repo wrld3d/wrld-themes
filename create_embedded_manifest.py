@@ -20,31 +20,35 @@ class EmbeddedManifestFactory:
         self._state_name = state_name
         self._output_path = output_path
 
-    def _get_manifest_json(self, source_manifest):
-        response = urllib2.urlopen(source_manifest)
+    def _get_uncompressed_data(self, url):
+        response = urllib2.urlopen(url)
+
+        if response.getcode() != 200:
+            raise IOError("Failed to load resource at {0}".format(url))
 
         if response.info().get('Content-Encoding') == 'gzip':
             buf = cStringIO.StringIO( response.read())
             f = gzip.GzipFile(fileobj=buf)
             data = f.read()
+            return data
 
-            try:
-                manifest_json = json.loads(data)
-                return manifest_json
-            except:
-                print >> stderr, u"Cannot parse manifest at {0}".format(source_manifest)
-                raise
         else:
-            print >> stderr, u"Cannot load manifest at {0}".format(source_manifest)
-            raise
+            raise IOError("Resource at {0} is not a gzipped file".format(url))
+
+    def _get_manifest_json(self, manifest_url):
+        data = self._get_uncompressed_data(manifest_url)
+        try:
+            manifest_json = json.loads(data)
+            return manifest_json
+        except:
+            raise ValueError("Failed to parse JSON manifest")
 
     # TODO: ensure this works against current manifest & does not regress
     def _download_texture(self, texture_url, texture_local_path):
-        response = urllib2.urlopen(texture_url)
-        print "downloading {0}".format(texture_url)
-        with open(texture_local_path, 'wb') as texture_file:
-            texture_file.write(response.read())
-
+        print("Downloading texture {0}".format(texture_url))
+        data = self._get_uncompressed_data(texture_url)
+        with open(texture_local_path, 'wb') as uncompressed_file:
+            uncompressed_file.write(data)
 
     def _download_textures_recursive(self, http_texture_path_provider, local_texture_path_provider, items):
         if isinstance(items, dict):
@@ -89,14 +93,16 @@ class EmbeddedManifestFactory:
 
         # todo: extend to run P times, once per platform
         asset_root_ios = manifest_json["AssetRoot_iOS"]
-        asset_ext_ios = manifest_json["AssetExtension_iOS"]
-        http_texture_path_provider = TexturePathProvider(asset_root_ios, asset_ext_ios)
+        asset_ext_ios_gz = manifest_json["AssetExtension_iOS"]
+        asset_ext_ios = asset_ext_ios_gz[:-3] if asset_ext_ios_gz.endswith(".gz") else asset_ext_ios_gz
+        manifest_json["AssetExtension_iOS"] = asset_ext_ios
+
+        http_texture_path_provider = TexturePathProvider(asset_root_ios, asset_ext_ios_gz)
         local_texture_path_provider = TexturePathProvider(local_asset_root, asset_ext_ios)
 
         items = state_to_use["Textures"]
         self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, items)
 
-        # todo: modify the json, save subset of manifest
         state_to_use["Textures"] = self._get_local_texture_paths(items)
 
         self._write_embedded_manifest_file(manifest_json)
