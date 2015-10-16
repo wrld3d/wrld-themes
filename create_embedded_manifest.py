@@ -56,6 +56,14 @@ class EmbeddedManifestFactory:
             texture_local_path = local_texture_path_provider.get_path(relative_texture_path.replace("/", "_"))
             self._download_texture(texture_url, texture_local_path)
 
+    def _get_local_texture_paths(self, items):
+        local_items = {}
+        for key, value in items.iteritems():
+            try:
+                local_items[key] = value.replace("/", "_")
+            except AttributeError:
+                local_items[key] = self._get_local_texture_paths(value)
+        return local_items
 
     def create_embedded_manifest(self):
         manifest_json = self._get_manifest_json(self._source_manifest)
@@ -89,6 +97,14 @@ class EmbeddedManifestFactory:
         self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, items)
 
         # todo: modify the json, save subset of manifest
+        state_to_use["Textures"] = self._get_local_texture_paths(items)
+
+        self._write_embedded_manifest_file(manifest_json)
+
+    def _write_embedded_manifest_file(self, manifest_json):
+        output_file_name = os.path.join(self._output_path, "embedded_manifest.txt")
+        with open(output_file_name, "w") as f:
+            json.dump(manifest_json, f, indent=4, sort_keys=True)
 
     def _get_theme_state(self, states):
         state_to_use = None
