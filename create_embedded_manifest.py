@@ -1,3 +1,4 @@
+import argparse
 import gzip
 import json
 import os
@@ -13,11 +14,11 @@ class TexturePathProvider:
         return "{0}{1}{2}".format(self._asset_root_path, relative_path, self._asset_ext)
 
 class EmbeddedManifestFactory:
-    def __init__(self, source_manifest, theme_name, state_name, output_path):
+    def __init__(self, source_manifest, theme_name, state_name, output_dir):
         self._source_manifest = source_manifest
         self._theme_name = theme_name
         self._state_name = state_name
-        self._output_path = output_path
+        self._output_dir = output_dir
 
     def _get_uncompressed_data(self, url):
         response = urllib2.urlopen(url)
@@ -44,7 +45,7 @@ class EmbeddedManifestFactory:
 
     # TODO: ensure this works against current manifest & does not regress
     def _download_texture(self, texture_url, texture_local_path):
-        print("Downloading texture {0}".format(texture_url))
+        print "Downloading texture {0}".format(texture_url)
         data = self._get_uncompressed_data(texture_url)
         with open(texture_local_path, 'wb') as uncompressed_file:
             uncompressed_file.write(data)
@@ -92,7 +93,7 @@ class EmbeddedManifestFactory:
         self._write_embedded_manifest_file(manifest_json)
 
     def _download_textures_for_platform(self, platform, manifest_json, texture_names):
-        local_asset_root = os.path.join(self._output_path, platform) + "\\"
+        local_asset_root = os.path.join(self._output_dir, platform) + "\\"
         if not os.path.exists(local_asset_root):
             os.mkdir(local_asset_root)
         print "downloading textures for: {0}/{1} ({2})".format(self._theme_name, self._state_name, platform)
@@ -105,9 +106,10 @@ class EmbeddedManifestFactory:
         self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
 
     def _write_embedded_manifest_file(self, manifest_json):
-        output_file_name = os.path.join(self._output_path, "embedded_manifest.txt")
+        output_file_name = os.path.join(self._output_dir, "embedded_manifest.txt")
         with open(output_file_name, "w") as f:
             json.dump(manifest_json, f, indent=4, sort_keys=True)
+        print "Embedded manifest written to {0}".format(output_file_name)
 
     def _get_theme_state(self, states):
         state_to_use = None
@@ -138,18 +140,30 @@ class EmbeddedManifestFactory:
         return platforms
 
 
-def create_embedded_manifest(source_manifest, theme_name, state_name, output_path):
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
+def create_embedded_manifest(source_manifest, theme_name, state_name, output_dir):
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
-    factory = EmbeddedManifestFactory(source_manifest, theme_name, state_name, output_path)
+    factory = EmbeddedManifestFactory(source_manifest, theme_name, state_name, output_dir)
     factory.create_embedded_manifest()
 
+DESCRIPTION = """Create an embedded theme manifest from one state of one theme of a streamed manifest."""
 
 if __name__ == "__main__":
-    # todo: proper entrypoint
+    argparser = argparse.ArgumentParser(description=DESCRIPTION)
+    argparser.add_argument("--source_manifest", "-i", type=str, required=True,
+                           help="URL of the manifest to pull themes from")
+    argparser.add_argument("--theme_name", "-t", type=str, required=True,
+                           help="the name of the theme to extract")
+    argparser.add_argument("--state_name", "-s", type=str, required=True,
+                           help="the name of the state to extract from the theme")
+    argparser.add_argument("--output_dir", "-o", type=str, required=True,
+                           help="the location to output the embedded textures and manifest")
+    args = argparser.parse_args()
+
+    # todo: multiple themes/states
     create_embedded_manifest(
-        source_manifest="http://d2xvsc8j92rfya.cloudfront.net/mobile-themes-new/v407/manifest.txt.gz",
-        theme_name="SummerSanFrancisco",
-        state_name="DayDefault",
-        output_path="C:/temp/embedded_theme_test")
+        source_manifest=args.source_manifest,
+        theme_name=args.theme_name,
+        state_name=args.state_name,
+        output_dir=args.output_dir)
