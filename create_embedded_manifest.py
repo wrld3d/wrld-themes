@@ -14,11 +14,12 @@ class TexturePathProvider:
         return "{0}{1}{2}".format(self._asset_root_path, relative_path, self._asset_ext)
 
 class EmbeddedManifestFactory:
-    def __init__(self, source_manifest, theme_name, state_name, output_dir):
+    def __init__(self, source_manifest, theme_name, state_name, output_dir, download_textures=True):
         self._source_manifest = source_manifest
         self._theme_name = theme_name
         self._state_name = state_name
         self._output_dir = output_dir
+        self._download_textures = download_textures
 
     def _get_uncompressed_data(self, url):
         response = urllib2.urlopen(url)
@@ -43,8 +44,9 @@ class EmbeddedManifestFactory:
         except:
             raise ValueError("Failed to parse JSON manifest")
 
-    # TODO: ensure this works against current manifest & does not regress
     def _download_texture(self, texture_url, texture_local_path):
+        if not self._download_textures:
+            return
         print "Downloading texture {0}".format(texture_url)
         data = self._get_uncompressed_data(texture_url)
         with open(texture_local_path, 'wb') as uncompressed_file:
@@ -71,7 +73,10 @@ class EmbeddedManifestFactory:
 
     def create_embedded_manifest(self):
         manifest_json = self._get_manifest_json(self._source_manifest)
+        embedded_manifest_json = self.create_embedded_manifest_from_json(manifest_json)
+        self._write_embedded_manifest_file(embedded_manifest_json)
 
+    def create_embedded_manifest_from_json(self, manifest_json):
         theme_to_use = self._get_theme(manifest_json["Themes"])
         self._delete_redundant_theme_vehicles(theme_to_use)
 
@@ -88,15 +93,19 @@ class EmbeddedManifestFactory:
         for platform in platforms:
             self._download_textures_for_platform(platform, manifest_json, texture_names)
 
+        if self._download_textures:
+            self._ensure_texture_count_same_for_all_platforms(platforms)
+
         state_to_use["Textures"] = self._get_local_texture_paths(texture_names)
 
-        self._write_embedded_manifest_file(manifest_json)
+        return manifest_json
 
     def _download_textures_for_platform(self, platform, manifest_json, texture_names):
         local_asset_root = os.path.join(self._output_dir, platform) + "\\"
-        if not os.path.exists(local_asset_root):
-            os.mkdir(local_asset_root)
-        print "downloading textures for: {0}/{1} ({2})".format(self._theme_name, self._state_name, platform)
+        if self._download_textures:
+            if not os.path.exists(local_asset_root):
+                os.mkdir(local_asset_root)
+            print "downloading textures for: {0}/{1} ({2})".format(self._theme_name, self._state_name, platform)
         asset_root = manifest_json["AssetRoot_{0}".format(platform)]
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = asset_ext_gz[:-3] if asset_ext_gz.endswith(".gz") else asset_ext_gz
@@ -138,6 +147,12 @@ class EmbeddedManifestFactory:
         platform_strings = [key for key in manifest_json if key.startswith("AssetRoot_")]
         platforms = [string.split("_")[1] for string in platform_strings]
         return platforms
+
+    def _ensure_texture_count_same_for_all_platforms(self, platforms):
+        platform_dirs = [os.path.join(self._output_dir, platform) for platform in platforms]
+        file_counts = [len(os.listdir(dir)) for dir in platform_dirs]
+        for count in file_counts:
+            assert count == file_counts[0], "Number of textures differs between platforms."
 
 
 def create_embedded_manifest(source_manifest, theme_name, state_name, output_dir):
