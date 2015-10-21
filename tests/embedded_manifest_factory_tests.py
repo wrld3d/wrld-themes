@@ -2,14 +2,23 @@ import unittest
 import ddt
 from create_embedded_manifest import EmbeddedManifestFactory
 
+
 TEST_THEME = "SummerSanFrancisco"
 TEST_STATE = "DayDefault"
+
+TEST_THEMES = ["SummerSanFrancisco", "WinterSanFrancisco"]
+TEST_STATES = ["DayDefault", "DayRainy"]
+
 
 @ddt.ddt
 class EmbeddedManifestFactoryTests(unittest.TestCase):
 
     def _create_test_factory(self):
-        factory = EmbeddedManifestFactory(None, TEST_THEME, TEST_STATE, "", download_textures=False)
+        factory = EmbeddedManifestFactory(None, [TEST_THEME], [TEST_STATE], "", download_textures=False)
+        return factory
+
+    def _create_multi_theme_test_factory(self):
+        factory = EmbeddedManifestFactory(None, TEST_THEMES, TEST_STATES, "", download_textures=False)
         return factory
 
     @ddt.data(
@@ -17,9 +26,19 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
         [{"Name": "SummerNewYork"}],
         [{"Name": "WinterSanFrancisco"}],
     )
-    def test_raises_exception_if_missing_theme(self, data):
+    def test_raises_exception_if_missing_single_theme(self, data):
         manifest_json = {"Themes": data}
         factory = self._create_test_factory()
+        self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
+
+    @ddt.data(
+        [],
+        [{"Name": "SummerSanFrancisco"}],
+        [{"Name": "WinterSanFrancisco"}, {"Name": "SummerNewYork"}],
+    )
+    def test_raises_exception_if_missing_some_themes(self, data):
+        manifest_json = {"Themes": data}
+        factory = self._create_multi_theme_test_factory()
         self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
 
     @ddt.data(
@@ -27,17 +46,29 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
         [{"Name": "DayRainy"}],
         [{"Name": "DayRainy"}, {"Name": "NightDefault"}]
     )
-    def test_raises_exception_if_missing_state(self, data):
+    def test_raises_exception_if_missing_single_state(self, data):
         manifest_json = {"Themes": [{"Name": TEST_THEME, "States": data}]}
         factory = self._create_test_factory()
         self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
 
+    @ddt.data(
+        [],
+        [{"Name": "DayRainy"}],
+        [{"Name": "DayDefault"}, {"Name": "NightDefault"}]
+    )
+    def test_raises_exception_if_missing_some_states(self, data):
+        manifest_json = {"Themes": [{"Name": TEST_THEMES[0], "States": data},
+                                    {"Name": TEST_THEMES[1], "States": data}]}
+        factory = self._create_multi_theme_test_factory()
+        self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
+
     def test_correct_theme_chosen(self):
-        correct_theme = {"Name": TEST_THEME, "States": [{"Name": TEST_STATE, "Textures": {} }]}
+        correct_states = [{"Name": TEST_STATE, "Textures": {} }]
+        correct_theme = {"Name": TEST_THEME, "States": correct_states}
         manifest_json = {
             "Themes": [
-                {"Name": "SummerNewYork", "States": [{"Name": TEST_STATE, "Textures": {} }]},
-                {"Name": "WinterSanFrancisco", "States": [{"Name": TEST_STATE, "Textures": {} }]},
+                {"Name": "SummerNewYork", "States": correct_states},
+                {"Name": "WinterSanFrancisco", "States": correct_states},
                 correct_theme
             ]
         }
@@ -60,6 +91,54 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
         factory = self._create_test_factory()
         output_json = factory.create_embedded_manifest_from_json(manifest_json)
         self.assertEqual(output_json["Themes"][0]["States"], [correct_state])
+
+    def test_correct_themes_chosen(self):
+        correct_states = [{"Name": TEST_STATES[0], "Textures": {} }, {"Name": TEST_STATES[1], "Textures": {} }]
+        correct_theme0 = {"Name": TEST_THEMES[0], "States": correct_states}
+        correct_theme1 = {"Name": TEST_THEMES[1], "States": correct_states}
+        manifest_json = {
+            "Themes": [correct_theme1,
+                       {"Name": "WinterNewYork", "States": correct_states},
+                       correct_theme0]
+        }
+        factory = self._create_multi_theme_test_factory()
+        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+        correct_themes = [correct_theme0, correct_theme1]
+        self.assertTrue(
+            all(((theme in correct_themes)
+                 for theme in output_json["Themes"])))
+
+    def test_correct_states_chosen(self):
+        correct_state0 = {"Name": TEST_STATES[0], "Textures": {}}
+        correct_state1 = {"Name": TEST_STATES[1], "Textures": {}}
+        manifest_json = {
+            "Themes": [{
+                 "Name": TEST_THEMES[0],
+                 "States": [
+                     correct_state0,
+                     correct_state1,
+                     {"Name": "NightDefault", "Textures": {}}
+                 ]
+            },
+            {
+                 "Name": TEST_THEMES[1],
+                 "States": [
+                     correct_state1,
+                     {"Name": "NightDefault", "Textures": {}},
+                     correct_state0,
+                 ]
+            }]
+        }
+        factory = self._create_multi_theme_test_factory()
+        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+        correct_states = [correct_state0, correct_state1]
+        themes = output_json["Themes"]
+        all_states = [state
+                      for theme in themes
+                      for state in theme["States"]]
+        self.assertTrue(
+            all((state in correct_states)
+                for state in all_states))
 
     @ddt.data(
         (".png.gz", ".png"),
@@ -118,7 +197,7 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
             textures["TextureDict0"]["Texture2"],
             textures["TextureDict0"]["TextureDict1"]["Texture3"]
         ]
-        self.assertTrue(all([name == post_texture_name for name in texture_names]))
+        self.assertTrue(all(name == post_texture_name for name in texture_names))
 
     @ddt.data(
         ("Texture", "Texture"),
@@ -163,7 +242,7 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
         output_json = factory.create_embedded_manifest_from_json(manifest_json)
         theme = manifest_json["Themes"][0]
         vehicle_keys = ["PlaneVehicles", "RailVehicles", "TramVehicles", "RoadVehicles", "SpaceVehicles"]
-        self.assertFalse(any([key in theme for key in vehicle_keys]))
+        self.assertFalse(any(key in theme for key in vehicle_keys))
 
 if __name__ == "__main__":
     unittest.main()

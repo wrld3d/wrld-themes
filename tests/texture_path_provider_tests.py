@@ -2,6 +2,7 @@ import unittest
 import ddt
 from create_embedded_manifest import TexturePathProvider
 
+
 @ddt.ddt
 class TexturePathProviderTests(unittest.TestCase):
 
@@ -38,6 +39,7 @@ class TexturePathProviderTests(unittest.TestCase):
         filename, result = data
         tpp = TexturePathProvider("assets/", ".ktx.gz")
         self.assertEqual(tpp.get_path(filename), result)
+
 
 if __name__ == "__main__":
     unittest.main()
