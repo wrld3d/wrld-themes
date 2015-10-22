@@ -37,6 +37,9 @@ class EmbeddedManifestFactory:
         self._write_embedded_manifest_file(embedded_manifest_json)
 
     def create_embedded_manifest_from_json(self, manifest_json):
+        all_landmark_postfixes = self._get_all_landmark_postfixes(manifest_json)
+        manifest_json["LandmarkTexturePostfixes"] = all_landmark_postfixes
+
         themes_to_use = self._get_themes(manifest_json["Themes"])
 
         manifest_json["Themes"] = themes_to_use
@@ -52,7 +55,8 @@ class EmbeddedManifestFactory:
                 texture_names = state["Textures"]
 
                 for platform in platforms:
-                    self._download_textures_for_platform(platform, manifest_json, texture_names, theme["Name"], state["Name"])
+                    self._download_textures_for_platform(
+                        platform, manifest_json, texture_names, theme["Name"], state["Name"])
 
                 state["Textures"] = self._convert_to_local_texture_paths(texture_names)
 
@@ -62,6 +66,14 @@ class EmbeddedManifestFactory:
             self._ensure_texture_count_same_for_all_platforms(platforms)
 
         return manifest_json
+
+    def _get_all_landmark_postfixes(self, manifest_json):
+        postfixes = set()
+        for theme in manifest_json["Themes"]:
+            for state in theme["States"]:
+                if "LandmarkPostfix" in state:
+                    postfixes.add(state["LandmarkPostfix"])
+        return list(postfixes)
 
     def _get_manifest_json(self, manifest_url):
         data = self._get_uncompressed_data(manifest_url)
@@ -174,6 +186,7 @@ class EmbeddedManifestFactory:
             asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
             asset_ext = remove_suffix(asset_ext_gz, ".gz")
             manifest_json["AssetExtension_{0}".format(platform)] = asset_ext
+
 
 def create_embedded_manifest(source_manifest, theme_names, state_names, output_dir):
     if not os.path.exists(output_dir):
