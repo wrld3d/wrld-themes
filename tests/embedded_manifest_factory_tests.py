@@ -23,8 +23,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
 
     @ddt.data(
         [],
-        [{"Name": "SummerNewYork"}],
-        [{"Name": "WinterSanFrancisco"}],
+        [{"Name": "SummerNewYork", "States": []}],
+        [{"Name": "WinterSanFrancisco", "States": []}],
     )
     def test_raises_exception_if_missing_single_theme(self, data):
         manifest_json = {"Themes": data}
@@ -33,8 +33,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
 
     @ddt.data(
         [],
-        [{"Name": "SummerSanFrancisco"}],
-        [{"Name": "WinterSanFrancisco"}, {"Name": "SummerNewYork"}],
+        [{"Name": "SummerSanFrancisco", "States": []}],
+        [{"Name": "WinterSanFrancisco", "States": []}, {"Name": "SummerNewYork", "States": []}],
     )
     def test_raises_exception_if_missing_some_themes(self, data):
         manifest_json = {"Themes": data}
@@ -43,8 +43,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
 
     @ddt.data(
         [],
-        [{"Name": "DayRainy"}],
-        [{"Name": "DayRainy"}, {"Name": "NightDefault"}]
+        [{"Name": "DayRainy", "States": []}],
+        [{"Name": "DayRainy", "States": []}, {"Name": "NightDefault", "States": []}]
     )
     def test_raises_exception_if_missing_single_state(self, data):
         manifest_json = {"Themes": [{"Name": TEST_THEME, "States": data}]}
@@ -53,8 +53,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
 
     @ddt.data(
         [],
-        [{"Name": "DayRainy"}],
-        [{"Name": "DayDefault"}, {"Name": "NightDefault"}]
+        [{"Name": "DayRainy", "States": []}],
+        [{"Name": "DayDefault", "States": []}, {"Name": "NightDefault", "States": []}]
     )
     def test_raises_exception_if_missing_some_states(self, data):
         manifest_json = {"Themes": [{"Name": TEST_THEMES[0], "States": data},
@@ -243,6 +243,39 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
         theme = manifest_json["Themes"][0]
         vehicle_keys = ["PlaneVehicles", "RailVehicles", "TramVehicles", "RoadVehicles", "SpaceVehicles"]
         self.assertFalse(any(key in theme for key in vehicle_keys))
+
+    def test_landmark_postfix_for_one_theme_stored(self):
+        manifest_json = {
+            "Themes": [{"Name": TEST_THEME,
+                        "States": [
+                            {"Name": TEST_STATE, "Textures": {}, "LandmarkPostfix": "A"},
+                            {"Name": "WinterNewYork", "Textures": {}, "LandmarkPostfix": "B"},
+                            {"Name": "WinterIsComing", "Textures": {} },
+                        ]}]
+        }
+        factory = self._create_test_factory()
+        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+        self.assertEqual(set(output_json["LandmarkTexturePostfixes"]), set(("A", "B")))
+
+    def test_landmark_postfix_for_multiple_themes_stored(self):
+        manifest_json = {
+            "Themes": [{"Name": TEST_THEMES[0],
+                        "States": [
+                            {"Name": TEST_STATES[0], "Textures": {}, "LandmarkPostfix": "A"},
+                            {"Name": TEST_STATES[1], "Textures": {}, "LandmarkPostfix": "B"},
+                            {"Name": "WinterIsComing", "Textures": {}, "LandmarkPostfix": "C"},
+                        ]},
+                       {"Name": TEST_THEMES[1],
+                        "States": [
+                            {"Name": TEST_STATES[0], "Textures": {}, "LandmarkPostfix": "D"},
+                            {"Name": TEST_STATES[1], "Textures": {}, "LandmarkPostfix": "E"},
+                            {"Name": "WinterIsComing", "Textures": {} },
+                        ]}]
+        }
+        factory = self._create_multi_theme_test_factory()
+        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+        self.assertEqual(set(output_json["LandmarkTexturePostfixes"]), set(("A", "B", "C", "D", "E")))
+
 
 if __name__ == "__main__":
     unittest.main()
