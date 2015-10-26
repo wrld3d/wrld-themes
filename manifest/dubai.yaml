@@ -291,7 +291,7 @@ DubaiWinterSnowTextures: &DubaiWinterSnowTextures
 
 SummerDubai: &SummerDubai
    Name: SummerDubai
-   LocationLatLong: [30.264752,-97.740504]
+   LocationLatLong: [25.197304,55.274291]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -385,7 +385,7 @@ SummerDubai: &SummerDubai
 
 SpringDubai: &SpringDubai
    Name: SpringDubai
-   LocationLatLong: [30.264752,-97.740504]
+   LocationLatLong: [25.197304,55.274291]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -479,7 +479,7 @@ SpringDubai: &SpringDubai
 
 AutumnDubai: &AutumnDubai
    Name: AutumnDubai
-   LocationLatLong: [30.264752,-97.740504]
+   LocationLatLong: [25.197304,55.274291]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -573,7 +573,7 @@ AutumnDubai: &AutumnDubai
 
 WinterDubai: &WinterDubai
    Name: WinterDubai
-   LocationLatLong: [30.264752,-97.740504]
+   LocationLatLong: [25.197304,55.274291]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
