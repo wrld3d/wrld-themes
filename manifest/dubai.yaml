@@ -351,7 +351,8 @@ SummerDubai: &SummerDubai
         Textures:
            <<: *DubaiSummerSnowTextures
       - Name: DayFoggy
-        <<: *DefaultDayFoggyLighting
+        <<: *DefaultDayFoggyLighting	
+        FogColor: [0.933333333333, 0.839215686, 0.3843137254]
         Textures:
            <<: *DubaiSummerTextures
       - Name: NightFoggy
