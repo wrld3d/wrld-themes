@@ -65,9 +65,11 @@ MapModeTextures: &MapModeTextures
    LcmLodDiffuse:
       <<: *MapModeTerrainLODTextures
 
+
 MapModeOldRoadTextures: &MapModeOldRoadTextures
    <<: *MapModeTextures
    RoadDiffuse: MapMode/MapMode_roadDiffuse_repeatUS
+
 
 MapModeLighting: &MapModeLighting
   KeyLight: [0.6, 0.6, 0.4]
