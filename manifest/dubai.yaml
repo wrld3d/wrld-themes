@@ -336,23 +336,27 @@ SummerDubai: &SummerDubai
            <<: *DubaiSummerTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
+        FogColor: [0.933333333333, 0.839215686, 0.3843137254]
+        OverlayImage: ""
         Textures:
            <<: *DubaiSummerSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
+        FogColor: [0.933333333333, 0.839215686, 0.3843137254]
         Textures:
            <<: *DubaiSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
+        FogColor: [0.933333333333, 0.839215686, 0.3843137254]
         Textures:
            <<: *DubaiSummerSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
+        FogColor: [0.933333333333, 0.839215686, 0.3843137254]
         Textures:
            <<: *DubaiSummerSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting	
-        FogColor: [0.933333333333, 0.839215686, 0.3843137254]
         Textures:
            <<: *DubaiSummerTextures
       - Name: NightFoggy
