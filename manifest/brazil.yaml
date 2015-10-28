@@ -381,7 +381,7 @@ SummerBrazil: &SummerBrazil
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BrazilSummerTextures
-      - <<: *MapModeState
+      - <<: *MapModeOldRoadsState
 
 SpringBrazil: &SpringBrazil
    Name: SpringBrazil
@@ -475,7 +475,7 @@ SpringBrazil: &SpringBrazil
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BrazilSpringTextures
-      - <<: *MapModeState
+      - <<: *MapModeOldRoadsState
 
 AutumnBrazil: &AutumnBrazil
    Name: AutumnBrazil
@@ -569,7 +569,7 @@ AutumnBrazil: &AutumnBrazil
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BrazilAutumnTextures
-      - <<: *MapModeState
+      - <<: *MapModeOldRoadsState
 
 WinterBrazil: &WinterBrazil
    Name: WinterBrazil
@@ -663,4 +663,4 @@ WinterBrazil: &WinterBrazil
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *BrazilWinterTextures
-      - <<: *MapModeState
+      - <<: *MapModeOldRoadsState

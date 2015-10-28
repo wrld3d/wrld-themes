@@ -297,7 +297,7 @@ SummerSanFrancisco: &SummerSanFrancisco
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide   
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
@@ -391,7 +391,7 @@ SpringSanFrancisco: &SpringSanFrancisco
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
@@ -485,7 +485,7 @@ AutumnSanFrancisco: &AutumnSanFrancisco
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
@@ -579,7 +579,7 @@ WinterSanFrancisco: &WinterSanFrancisco
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:

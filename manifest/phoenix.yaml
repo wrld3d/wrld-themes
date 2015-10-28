@@ -381,7 +381,7 @@ SummerPhoenix: &SummerPhoenix
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *PhoenixSummerTextures
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
 
 SpringPhoenix: &SpringPhoenix
    Name: SpringPhoenix
@@ -475,7 +475,7 @@ SpringPhoenix: &SpringPhoenix
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *PhoenixSpringTextures
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
 
 AutumnPhoenix: &AutumnPhoenix
    Name: AutumnPhoenix
@@ -569,7 +569,7 @@ AutumnPhoenix: &AutumnPhoenix
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *PhoenixAutumnTextures
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
 
 WinterPhoenix: &WinterPhoenix
    Name: WinterPhoenix
@@ -663,4 +663,4 @@ WinterPhoenix: &WinterPhoenix
         <<: *DefaultDuskRainyLighting
         Textures:
            <<: *PhoenixWinterTextures
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState

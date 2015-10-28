@@ -297,7 +297,7 @@ SummerDubai: &SummerDubai
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide   
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
@@ -391,7 +391,7 @@ SpringDubai: &SpringDubai
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
@@ -485,7 +485,7 @@ AutumnDubai: &AutumnDubai
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
@@ -579,7 +579,7 @@ WinterDubai: &WinterDubai
       *DefaultPlaceNameStyles
    <<: *DefaultVehiclesRightSide
    States:
-      - <<: *MapModeOldRoadsState
+      - <<: *MapModeState
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
