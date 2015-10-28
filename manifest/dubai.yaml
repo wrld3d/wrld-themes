@@ -295,7 +295,7 @@ DubaiSnowyLighting: &DubaiSnowyLighting
    FillLight: [0.19607843137254902, 0.19607843137254902, 0.11764705882352941]
    AmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
    AlternativeAmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
-   ShadowColor: [0.45098039215686275, 0.5686274509803921, 0.7058823529411765]
+   ShadowColor: [0.73098039215686272, 0.82862745098039214, 0.98588235294117654]
    FogColor: [0.933333333333, 0.839215686, 0.3843137254]
    FogIntensity: 0.9
    LightMapColor: [0, 0, 0]
@@ -316,7 +316,7 @@ DubaiDawnSnowyLighting: &DubaiDawnSnowyLighting
 DubaiNightSnowyLighting: &DubaiNightSnowyLighting
    <<: *DefaultNightLighting
    FogColor: [0.6745098039215686, 0.5882352941176471, 0.2901960784313725]
-   FogIntensity: 0.9
+   FogIntensity: 0.95
    
 DubaiDuskSnowyLighting: &DubaiDuskSnowyLighting
    <<: *DefaultSunnyLighting
@@ -326,8 +326,8 @@ DubaiDuskSnowyLighting: &DubaiDuskSnowyLighting
    AmbientLight: [0, 0.2, 0.4]
    AlternativeAmbientLight: [0.35, 0.35, 0.47]
    ShadowColor: [1, 1, 1]
-   FogColor: [0.933333333333, 0.839215686, 0.3843137254]
-   FogIntensity: 0.9
+   FogColor:  [0.8977, 0.6274, 0.3450]
+   FogIntensity: 1
    LightMapColor: [1.3, 0.8309803921568627, 0.20392156862745098]
    LightMapIntensity: 0.4
    
