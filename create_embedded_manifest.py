@@ -4,7 +4,7 @@ import json
 import os
 import urllib2
 import cStringIO
-
+import os.path
 
 def remove_suffix(string, suffix):
     if string.endswith(suffix):
@@ -137,7 +137,7 @@ class EmbeddedManifestFactory:
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = remove_suffix(asset_ext_gz, ".gz")
         http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz)
-        local_texture_path_provider = TexturePathProvider(local_asset_root+"\\", asset_ext)
+        local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext)
         self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
 
     def _download_textures_recursive(self, http_texture_path_provider, local_texture_path_provider, items):
