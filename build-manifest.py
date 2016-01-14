@@ -1,9 +1,19 @@
 import sys
 import json
 import yaml
+import requests
+
+def _get_interior_materials_common_descriptor(assets_host_name, interior_materials_version):
+    descriptor_url = "http://{host_name}/interior-materials/v{version}/common/descriptor.json.gz"
+        .format(host_name=assets_host_name, version=interior_materials_version)
+        
+    descriptor_request = requests.get(descriptor_url)
+    return json.loads(descriptor_request.content)
 
 
 def process_manifest(source_file, version, assets_host_name, landmark_textures_version, interior_materials_version):
+    interior_materials_common_descriptor = _get_interior_materials_common_descriptor(assets_host_name, interior_materials_version)
+    
     with open(source_file, "r") as f:
         lines = f.readlines()
     yaml_document = yaml.load("".join(lines))['ThemeManifest']
@@ -14,7 +24,9 @@ def process_manifest(source_file, version, assets_host_name, landmark_textures_v
             yaml_document[k] = yaml_document[k].replace("%VERSION%", version)
             yaml_document[k] = yaml_document[k].replace("%LANDMARK_TEXTURES_VERSION%", landmark_textures_version)
             yaml_document[k] = yaml_document[k].replace("%INTERIOR_MATERIALS_VERSION%", interior_materials_version)
-
+            
+    yaml_document["InteriorMaterials"] = interior_materials_common_descriptor
+        
     print json.dumps(yaml_document, sort_keys=True, indent=4, separators=(',', ': '))
 
 
