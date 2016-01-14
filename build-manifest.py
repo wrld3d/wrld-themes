@@ -3,7 +3,7 @@ import json
 import yaml
 
 
-def process_manifest(source_file, version, assets_host_name, landmark_textures_version):
+def process_manifest(source_file, version, assets_host_name, landmark_textures_version, interior_materials_version):
     with open(source_file, "r") as f:
         lines = f.readlines()
     yaml_document = yaml.load("".join(lines))['ThemeManifest']
@@ -13,25 +13,30 @@ def process_manifest(source_file, version, assets_host_name, landmark_textures_v
             yaml_document[k] = yaml_document[k].replace("%ASSETS_HOST_NAME%", assets_host_name)
             yaml_document[k] = yaml_document[k].replace("%VERSION%", version)
             yaml_document[k] = yaml_document[k].replace("%LANDMARK_TEXTURES_VERSION%", landmark_textures_version)
+            yaml_document[k] = yaml_document[k].replace("%INTERIOR_MATERIALS_VERSION%", interior_materials_version)
 
     print json.dumps(yaml_document, sort_keys=True, indent=4, separators=(',', ': '))
 
 
-def read_landmark_textures_version(version_filename):
+def read_version_from_file(version_filename):
     with open(version_filename, 'r') as f:
         version = f.readline()
     return version.rstrip()
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 5:
+    if len(sys.argv) == 6:
         source_file = sys.argv[1]
         version = sys.argv[2]
         assets_host_name = sys.argv[3]
         landmark_textures_version_file = sys.argv[4]
+        interior_materials_version_file = sys.argv[5]
 
-        landmark_textures_version = read_landmark_textures_version(landmark_textures_version_file)
+        landmark_textures_version = read_version_from_file(landmark_textures_version_file)
+        interiors_materials_version = read_version_from_file(interior_materials_version_file)
 
-        process_manifest(source_file, version, assets_host_name, landmark_textures_version)
+        process_manifest(source_file, version, assets_host_name, landmark_textures_version, interiors_materials_version)
     else:
-        sys.stderr.write("Expected four command line arguments, source file, version name and asset host name.\n");
+        sys.stderr.write("Invalid usage.")
+        sys.stderr.write("Usage: build-manifest.py source_file version asset_host_name landmark_textures_version_file interior_materials_version_file");
+        sys.stderr.write("E.g.: build-manifest.py manifest/manifest.yaml 123 d2xvsc8j92rfya.cloudfront.net build/landmark_textures_version/version.txt build/interior_materials_version/version.txt");

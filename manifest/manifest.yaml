@@ -22,6 +22,7 @@
    
 ThemeManifest:
    LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v%LANDMARK_TEXTURES_VERSION%/"
+   InteriorMaterialsRoot: "http://%ASSETS_HOST_NAME%/interior-materials/v%INTERIOR_MATERIALS_VERSION%/"
    AssetRoot_iOS: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
    AssetRoot_OSX: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
    AssetRoot_Android: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
