@@ -2,7 +2,7 @@
     <img src="http://cdn2.eegeo.com/wp-content/uploads/2016/03/eegeo_logo_quite_big.png" alt="eeGeo Logo" title="eegeo" align="right" height="80px" />
 </a>
 
-# eeGeo Environment Themes
+# eeGeo Themes
 
 * [Theme Manifests](#theme-manifests)
     * [Themes](#themes)
@@ -46,7 +46,7 @@ For example, `DayDefault`, `NightSnowy`, and `DawnRainy` are examples of states.
 
 The [create_embedded_manifest](https://github.com/eegeo/eegeo-themes/blob/master/create_embedded_manifest.py) script can be used to generate an embedded theme manifest and its textures from a regular theme manifest. These resources are required by the eeGeo SDK at startup. All this script requires to run is Python version 2.7.
 
-If you are using the [eeGeo Example App](https://github.com/eegeo/mobile-example-app) as a basis for your own project, you can skip this step entirely, as it already contains an embedded theme manifest. If not, then it provides an example of [where to place](#adding-to-a-project) the embedded resources.
+If you are using the [eeGeo Example App](https://github.com/eegeo/eegeo-example-app) as a basis for your own project, you can skip this step entirely, as it already contains an embedded theme manifest. If not, then it provides an example of [where to place](#adding-to-a-project) the embedded resources.
 
 ### Generating the manifest
 
@@ -71,17 +71,17 @@ Note that although textures are generated for Android, iOS, OSX, and Windows, yo
 
 You should now do the following:
 
-1.  The `embedded_manifest.txt` file must be copied into your app's resources. You can see an example of this in the [eeGeo Example App](https://github.com/eegeo/mobile-example-app) for [Android](https://github.com/eegeo/mobile-example-app/blob/master/android/assets/embedded_manifest.txt), [iOS](https://github.com/eegeo/mobile-example-app/blob/master/ios/Resources/embedded_manifest.txt), and [Windows](https://github.com/eegeo/mobile-example-app/blob/master/windows/Resources/embedded_manifest.txt) applications.
+1.  The `embedded_manifest.txt` file must be copied into your app's resources. You can see an example of this in the [eeGeo Example App](https://github.com/eegeo/eegeo-example-app) for [Android](https://github.com/eegeo/eegeo-example-app/blob/master/android/assets/embedded_manifest.txt), [iOS](https://github.com/eegeo/eegeo-example-app/blob/master/ios/Resources/embedded_manifest.txt), and [Windows](https://github.com/eegeo/eegeo-example-app/blob/master/windows/Resources/embedded_manifest.txt) applications.
 
-2.  As in the [eeGeo Example App](https://github.com/eegeo/mobile-example-app), the contents of the iOS folder should then be placed under the [Resources/Textures/EmbeddedTheme](https://github.com/eegeo/mobile-example-app/tree/master/ios/Resources/Textures/EmbeddedTheme) folder in your iOS project.
+2.  As in the [eeGeo Example App](https://github.com/eegeo/eegeo-example-app), the contents of the iOS folder should then be placed under the [Resources/Textures/EmbeddedTheme](https://github.com/eegeo/eegeo-example-app/tree/master/ios/Resources/Textures/EmbeddedTheme) folder in your iOS project.
 
-    The contents of the Android folder should be placed under [assets/Textures/EmbeddedTheme](https://github.com/eegeo/mobile-example-app/tree/master/android/assets/Textures).
+    The contents of the Android folder should be placed under [assets/Textures/EmbeddedTheme](https://github.com/eegeo/eegeo-example-app/tree/master/android/assets/Textures).
     
-    The contents of the Windows folder should be placed under [Resources/Textures/EmbeddedTheme](https://github.com/eegeo/mobile-example-app/tree/master/windows/Resources/Textures/EmbeddedTheme).
+    The contents of the Windows folder should be placed under [Resources/Textures/EmbeddedTheme](https://github.com/eegeo/eegeo-example-app/tree/master/windows/Resources/Textures/EmbeddedTheme).
 
     (You can place these resources under a different path, but you will have to ensure you specify that path in your app's configuration.)
     
-3.  Finally, edit the config of your app to use the correct paths for the new resources, and select an appropriate starting theme and state. Here are examples for [Android](https://github.com/eegeo/mobile-example-app/blob/master/android/jni/AppHost.cpp#L188-L191) and [iOS](https://github.com/eegeo/mobile-example-app/blob/master/ios/ios_src/AppHost.mm#L136-L139).
+3.  Finally, edit the config of your app to use the correct paths for the new resources, and select an appropriate starting theme and state. Here are examples for [Android](https://github.com/eegeo/eegeo-example-app/blob/master/android/jni/AppHost.cpp#L188-L191) and [iOS](https://github.com/eegeo/eegeo-example-app/blob/master/ios/ios_src/AppHost.mm#L136-L139).
 
     Make sure that if you set `EmbeddedThemeNameContains = "Summer"` that your embedded manifest contains a theme with "Summer" in its name. Similarly, make sure that if you set `EmbeddedThemeStateName = "DayDefault"` that the `DayDefault` state is present in your embedded manifest.
 
