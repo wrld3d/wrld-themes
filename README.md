@@ -44,7 +44,7 @@ For example, `DayDefault`, `NightSnowy`, and `DawnRainy` are examples of states.
 
 ## Creating Embedded Manifests
 
-The [create_embedded_manifest](https://github.com/eegeo/environment-themes/blob/master/create_embedded_manifest.py) script can be used to generate an embedded theme manifest and its textures from a regular theme manifest. These resources are required by the eeGeo SDK at startup. All this script requires to run is Python version 2.7.
+The [create_embedded_manifest](https://github.com/eegeo/eegeo-themes/blob/master/create_embedded_manifest.py) script can be used to generate an embedded theme manifest and its textures from a regular theme manifest. These resources are required by the eeGeo SDK at startup. All this script requires to run is Python version 2.7.
 
 If you are using the [eeGeo Example App](https://github.com/eegeo/mobile-example-app) as a basis for your own project, you can skip this step entirely, as it already contains an embedded theme manifest. If not, then it provides an example of [where to place](#adding-to-a-project) the embedded resources.
 
@@ -88,7 +88,7 @@ You should now do the following:
 After completing these steps, you should see your app open and display the embedded theme that you generated.
 
 ## Building Theme Manifests
-If you wish to generate entirely new themes, you can do so by using `make` in the root of this repo. This will generate a theme manifest from the YAML files under [manifest](https://github.com/eegeo/environment-themes/tree/master/manifest) in the repo, as well as all the required models and textures in the correct format for each platform. Finally, these resources are uploaded to an Amazon S3 location where you can serve them to your app.
+If you wish to generate entirely new themes, you can do so by using `make` in the root of this repo. This will generate a theme manifest from the YAML files under [manifest](https://github.com/eegeo/eegeo-themes/tree/master/manifest) in the repo, as well as all the required models and textures in the correct format for each platform. Finally, these resources are uploaded to an Amazon S3 location where you can serve them to your app.
 
 ### Requirements
 
@@ -102,7 +102,7 @@ If you wish to generate entirely new themes, you can do so by using `make` in th
 ### Usage
 1.  First, make the desired changes to the textures, or YAML files.
 2.  Run the `setup.sh` script.
-3.  Modify the `REMOTE_BASE_DIR` variable in the [makefile](https://github.com/eegeo/environment-themes/blob/master/makefile) to point to an S3 bucket you wish the resources to be uploaded to.
+3.  Modify the `REMOTE_BASE_DIR` variable in the [makefile](https://github.com/eegeo/eegeo-themes/blob/master/makefile) to point to an S3 bucket you wish the resources to be uploaded to.
 4.  Run the following command: `mingw32-make.exe VERSION=<version> AWS_ACCESS_KEY_ID=<aws_access_key> AWS_SECRET_ACCESS_KEY=<aws_secret> ASSETS_HOST_NAME=<asset_host_name>`
     * `VERSION` is a unique version string for the resulting theme.
     * `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` should be keys for an AWS user with permissions to write to the S3 bucket specified in step 3.
@@ -112,4 +112,4 @@ Note that this process can take a long time to complete if you include a large n
 
 ## Support
 
-If you have any questions, bug reports, or feature requests, feel free to submit to the [issue tracker](https://github.com/eegeo/environment-themes/issues) for this repository. Alternatively, you can contact us at [support@eegeo.com](mailto:support@eegeo.com).
+If you have any questions, bug reports, or feature requests, feel free to submit to the [issue tracker](https://github.com/eegeo/eegeo-themes/issues) for this repository. Alternatively, you can contact us at [support@eegeo.com](mailto:support@eegeo.com).
