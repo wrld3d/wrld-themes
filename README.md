@@ -4,6 +4,7 @@
 
 # eeGeo Themes
 
+* [Support](#support)
 * [Theme Manifests](#theme-manifests)
     * [Themes](#themes)
     * [States](#states)
@@ -13,11 +14,14 @@
 * [Building Theme Manifests](#building-theme-manifests)
     * [Requirements](#requirements)
     * [Usage](#usage)
-* [Support](#support)
 
 This repository contains the script required to create embedded theme manifest resources. These are **required** at startup by apps using eeGeo 3D maps in order to display the map before other themes have been fully downloaded. The [Creating Embedded Manifests](#creating-embedded-manifests) section explains how this can be done.
 
 This repository also contains the resources and scripts required to generate custom theme manifests for use with the [eeGeo 3D mapping platform](http://www.eegeo.com/). Generating custom themes is entirely optional however, as the eeGeo SDK comes with a collection of preset themes.
+
+## Support
+
+If you have any questions, bug reports, or feature requests, feel free to submit to the [issue tracker](https://github.com/eegeo/eegeo-themes/issues) for this repository.
 
 ## Theme Manifests
 A theme manifest is a JSON file containing information about all the textures, lighting parameters, material parameters, and vehicle models used to style eeGeo 3D maps. Each theme in the theme manifest provides the receiving app with a different configuration of these parameters and thus a different visual style.
@@ -110,6 +114,6 @@ If you wish to generate entirely new themes, you can do so by using `make` in th
     
 Note that this process can take a long time to complete if you include a large number of themes and textures.
 
-## Support
+## License
 
-If you have any questions, bug reports, or feature requests, feel free to submit to the [issue tracker](https://github.com/eegeo/eegeo-themes/issues) for this repository. Alternatively, you can contact us at [support@eegeo.com](mailto:support@eegeo.com).
+The eeGeo 3D Maps SDK is released under the Eegeo Platform SDK Evaluation license. See the [LICENSE.md](https://github.com/eegeo/eegeo-themes/blob/master/LICENSE.md) file for details.
