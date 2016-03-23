@@ -15,7 +15,9 @@
     * [Requirements](#requirements)
     * [Usage](#usage)
 
-This repository contains the script required to create embedded theme manifest resources. These are **required** at startup by apps using eeGeo 3D maps in order to display the map before other themes have been fully downloaded. The [Creating Embedded Manifests](#creating-embedded-manifests) section explains how this can be done.
+The [eeGeo SDK](http://www.eegeo.com/) can be used to render beautiful maps in a variety of themes. Using different themes, you can display the map with different seasons, times of day, weather effects, and more. A theme determines the style of the map by specifying the texture resources, lighting parameters, and overlay effects used for rendering.
+
+At startup, the eeGeo SDK downloads a [theme manifest](#theme-manifests), which is a JSON file containing the themes that the app requires. In order to display the map before these themes have been fully downloaded, apps **must** contain an embedded theme manifest. The [Creating Embedded Manifests](#creating-embedded-manifests) section explains how to generate and embed this manifest.
 
 This repository also contains the resources and scripts required to generate custom theme manifests for use with the [eeGeo 3D mapping platform](http://www.eegeo.com/). Generating custom themes is entirely optional however, as the eeGeo SDK comes with a collection of preset themes.
 
@@ -24,7 +26,7 @@ This repository also contains the resources and scripts required to generate cus
 If you have any questions, bug reports, or feature requests, feel free to submit to the [issue tracker](https://github.com/eegeo/eegeo-themes/issues) for this repository.
 
 ## Theme Manifests
-A theme manifest is a JSON file containing information about all the textures, lighting parameters, material parameters, and vehicle models used to style eeGeo 3D maps. Each theme in the theme manifest provides the receiving app with a different configuration of these parameters and thus a different visual style.
+A theme manifest is a JSON file describing all the themes available to an app running the eeGeo SDK. It contains information about all the textures, lighting parameters, material parameters, and vehicle models used to style the map. Each theme in the theme manifest provides the receiving app with a different configuration of these parameters and thus a different visual style.
 
 ### Themes
 A theme consists of a number of [states](#states), as well as a position on the globe. The default eeGeo theme manifest includes themes for San Francisco, London, New York, and several other locations. By default, the map will display the geographically nearest theme.
@@ -67,11 +69,7 @@ python create_embedded_manifest.py -i http://d2xvsc8j92rfya.cloudfront.net/mobil
 This could be useful, for example, if you want your app to open with the season or time of day dependent on the real life date and time. For most applications however, it is best to include as few themes and states as possible to minimize app size and startup time.
 
 ### Adding to a project
-After running the above script, you should have the following directory structure:
-
-![Generated embedded theme](http://cdn2.eegeo.com/wp-content/uploads/2016/03/eegeo-embedded-theme.png)
-
-Note that although textures are generated for Android, iOS, OSX, and Windows, you can ignore any platforms that you are not using.
+After running the above script, the output folder should contain a file called `embedded_manifest.txt`, and also a folder full of textures for each platform. Note that although textures are generated for Android, iOS, OSX, and Windows, you can ignore any platforms that you are not using.
 
 You should now do the following:
 
