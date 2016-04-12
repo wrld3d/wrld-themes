@@ -43,10 +43,11 @@ MANIFEST_BUILD_DIR := $(BUILD_DIR)/manifest
 SRC_MANIFEST := $(MANIFEST_SRC_DIR)/manifest.yaml
 PREPROCESSED_MANIFEST := $(MANIFEST_BUILD_DIR)/manifest.yaml.prep
 DST_MANIFEST := $(GZIP_DIR)/manifest.txt.gz
+WEB_DST_MANIFEST := $(GZIP_DIR)/web.manifest.txt.gz
 
 .SECONDARY:
 .PHONY: all
-all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST) $(DST_POD_FILES)
+all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST) $(WEB_DST_MANIFEST) $(DST_POD_FILES)
 	$(S3SYNC) $(GZIP_DIR)/ $(REMOTE_SYNC_DIR)/
 	$(S3CP) $(REMOTE_SYNC_DIR)/ $(REMOTE_BUILD_DIR)/
 
@@ -60,6 +61,12 @@ $(PREPROCESSED_MANIFEST):$(SRC_MANIFEST)
 $(MANIFEST_BUILD_DIR)/manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
+	$(CHECK_MANIFEST) "$@"	
+
+# Always rebuild this as it contains references to the version directory.
+$(MANIFEST_BUILD_DIR)/web.manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
+	$(MKDIR) $(dir $@) 
+	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(WEB_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 $(GZIP_DIR)/%.txt.gz:$(MANIFEST_BUILD_DIR)/%.txt
@@ -103,6 +110,9 @@ ifndef AWS_SECRET_ACCESS_KEY
 endif
 ifndef ASSETS_HOST_NAME
         $(error ASSETS_HOST_NAME not defined. Specify it like this "make ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
+endif
+ifndef WEB_ASSETS_HOST_NAME
+        $(error WEB_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
 endif
 
 .PHONY: clean
