@@ -291,7 +291,7 @@ ItalyWinterSnowTextures: &ItalyWinterSnowTextures
 
 SummerItaly: &SummerItaly
    Name: SummerItaly
-   LocationLatLong: [37.75253,-122.449837]
+   LocationLatLong: [42.710006, 12.857184]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -385,7 +385,7 @@ SummerItaly: &SummerItaly
 
 SpringItaly: &SpringItaly
    Name: SpringItaly
-   LocationLatLong: [37.75253,-122.449837]
+   LocationLatLong: [42.710006, 12.857184]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -479,7 +479,7 @@ SpringItaly: &SpringItaly
 
 AutumnItaly: &AutumnItaly
    Name: AutumnItaly
-   LocationLatLong: [37.75253,-122.449837]
+   LocationLatLong: [42.710006, 12.857184]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
@@ -573,7 +573,7 @@ AutumnItaly: &AutumnItaly
 
 WinterItaly: &WinterItaly
    Name: WinterItaly
-   LocationLatLong: [37.75253,-122.449837]
+   LocationLatLong: [42.710006, 12.857184]
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
