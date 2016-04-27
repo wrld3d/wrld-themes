@@ -203,7 +203,7 @@ ItalySummerNightSnowTextures: &ItalySummerNightSnowTextures
    <<: *ItalySummerTextures
    <<: *DefaultVehiclesNightTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
-   BuildingDiffuse: Italy/Italy_Snow_Night_wallDiffuse
+   BuildingDiffuse: Italy/Italy_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
    TreeSideDiffuse: Itay/Summer_Snow_trees_01
    TreeTopDiffuse: Italy/Summer_Snow_trees_top_01
