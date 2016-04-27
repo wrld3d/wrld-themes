@@ -15,12 +15,19 @@ def remove_suffix(string, suffix):
 
 
 class TexturePathProvider:
-    def __init__(self, asset_root_path, asset_ext):
+    def __init__(self, asset_root_path, asset_ext, cube_map_asset_ext):
         self._asset_root_path = asset_root_path
         self._asset_ext = asset_ext
+        self._cube_map_asset_ext = cube_map_asset_ext
 
-    def get_path(self, relative_path):
-        return "{0}{1}{2}".format(self._asset_root_path, relative_path, self._asset_ext)
+    def get_path(self, relative_path, cube_map_face_index=-1):
+        cube_map_suffixes = [ '_posX', '_posY', '_posZ', '_negX', '_negY', '_negZ' ]
+        suffix = ''
+        asset_ext = self._asset_ext
+        if cube_map_face_index != -1:
+            suffix = cube_map_suffixes[cube_map_face_index]
+            asset_ext = self._cube_map_asset_ext
+        return "{0}{1}{2}{3}".format(self._asset_root_path, relative_path, suffix, asset_ext)
 
 
 class EmbeddedManifestFactory:
@@ -136,20 +143,29 @@ class EmbeddedManifestFactory:
         asset_root = manifest_json["AssetRoot_{0}".format(platform)]
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = remove_suffix(asset_ext_gz, ".gz")
-        http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz)
-        local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext)
+        http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz, '.png.gz')
+        local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext, '.png')
         self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
 
-    def _download_textures_recursive(self, http_texture_path_provider, local_texture_path_provider, items):
+    def _download_textures_recursive(self, http_texture_path_provider, local_texture_path_provider, items, is_cube_map=False):
         try:
             for k, v in items.iteritems():
-                self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, v)
+                is_cube_map = "CubeMap" in k
+                self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, v, is_cube_map)
         except AttributeError:
             relative_texture_path = items
-            texture_url = http_texture_path_provider.get_path(relative_texture_path)
-            texture_local_path = local_texture_path_provider.get_path(relative_texture_path.replace("/", "_"))
-            if self._should_download_textures:
-                self._download_texture(texture_url, texture_local_path)
+
+            if is_cube_map:
+                for cube_map_face_index in range(6):
+                    self._download_texture_from_relative_path(http_texture_path_provider, local_texture_path_provider, relative_texture_path, cube_map_face_index)
+            else:
+                self._download_texture_from_relative_path(http_texture_path_provider, local_texture_path_provider, relative_texture_path)
+
+    def _download_texture_from_relative_path(self, http_texture_path_provider, local_texture_path_provider, relative_path, cube_map_face_index=-1):
+        texture_url = http_texture_path_provider.get_path(relative_path, cube_map_face_index)
+        texture_local_path = local_texture_path_provider.get_path(relative_path.replace("/", "_"), cube_map_face_index)
+        if self._should_download_textures:
+           self._download_texture(texture_url, texture_local_path)
 
     def _download_texture(self, texture_url, texture_local_path):
         print "  Downloading texture {0}".format(texture_url)
