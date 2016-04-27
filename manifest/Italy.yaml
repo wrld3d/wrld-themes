@@ -97,7 +97,7 @@ ItalySnowTerrainLODTextures: &ItalySnowTerrainLODTextures
 ItalySummerTextures: &ItalySummerTextures
    RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
-   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   BuildingDiffuse: Italy/Italy_wallDiffuse
    TreeSideDiffuse: Italy/trees_01
    TreeTopDiffuse: Italy/trees_top_01
    <<: *DefaultVehiclesDayTextures
