@@ -20,7 +20,7 @@
 #include "germany.yaml"
 #include "dubai.yaml"
 #include "italy.yaml"
-   
+    
 ThemeManifest:
    LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v%LANDMARK_TEXTURES_VERSION%/"
    InteriorMaterialsRoot: "http://%ASSETS_HOST_NAME%/interior-materials/v%INTERIOR_MATERIALS_VERSION%/"
