@@ -40,6 +40,7 @@ CHECK_MANIFEST = python check-manifest.py
 
 MANIFEST_SRC_DIR := manifest
 MANIFEST_BUILD_DIR := $(BUILD_DIR)/manifest
+SRC_ROOT_MANIFEST := $(MANIFEST_SRC_DIR)/manifest.yaml
 SRC_MANIFEST_FILES := $(call rwildcard,$(MANIFEST_SRC_DIR)/,*.yaml) 
 PREPROCESSED_MANIFEST := $(MANIFEST_BUILD_DIR)/manifest.yaml.prep
 DST_MANIFEST := $(GZIP_DIR)/manifest.txt.gz
@@ -53,7 +54,7 @@ all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST) $(WEB_DST_MANIFEST) $(DST_POD_F
 
 $(PREPROCESSED_MANIFEST):$(SRC_MANIFEST_FILES)
 	$(MKDIR) $(dir $@) 
-	$(PREP_MANIFEST) "$<" > "$@"
+	$(PREP_MANIFEST) "$(SRC_ROOT_MANIFEST)" > "$@"
 
 .PHONY: .FORCE
 
