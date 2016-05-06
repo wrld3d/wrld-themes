@@ -50,6 +50,14 @@ For example, `DayDefault`, `NightSnowy`, and `DawnRainy` are examples of states.
 
 ![eeGeo Environment Themes](http://cdn2.eegeo.com/wp-content/uploads/2016/03/eegeo-environment-themes.jpg)
 
+### Water Reflection Cube Maps
+
+To override the default water reflection cube map in a theme, add an entry like the following:
+
+    WaterReflectionCubeMap: SanFrancisco/water_reflection
+
+...where the cube map PNGs for each face are named SanFrancisco/water_reflection_posX.png, SanFrancisco/water_reflection_negX.png, etc.
+
 ## Creating Embedded Manifests
 
 The [create_embedded_manifest](https://github.com/eegeo/eegeo-themes/blob/master/create_embedded_manifest.py) script can be used to generate an embedded theme manifest and its textures from a regular theme manifest. These resources are required by the eeGeo SDK at startup. All this script requires to run is Python version 2.7.
