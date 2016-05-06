@@ -4,7 +4,7 @@ import yaml
 import requests
 
 def _get_interior_materials_common_descriptor(assets_host_name, interior_materials_version):
-    descriptor_url = "http://{host_name}/interior-materials/v{version}/common/descriptor.json.gz".format(
+    descriptor_url = "{host_name}/interior-materials/v{version}/common/descriptor.json.gz".format(
         host_name=assets_host_name, version=interior_materials_version)
         
     descriptor_request = requests.get(descriptor_url)
