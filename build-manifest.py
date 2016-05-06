@@ -4,7 +4,7 @@ import yaml
 import requests
 
 def _get_interior_materials_common_descriptor(assets_host_name, interior_materials_version):
-    descriptor_url = "{host_name}/interior-materials/v{version}/common/descriptor.json.gz".format(
+    descriptor_url = "http://{host_name}/interior-materials/v{version}/common/descriptor.json.gz".format(
         host_name=assets_host_name, version=interior_materials_version)
         
     descriptor_request = requests.get(descriptor_url)
@@ -12,7 +12,9 @@ def _get_interior_materials_common_descriptor(assets_host_name, interior_materia
 
 
 def process_manifest(source_file, version, assets_host_name, landmark_textures_version, interior_materials_version):
-    interior_materials_common_descriptor = _get_interior_materials_common_descriptor(assets_host_name, interior_materials_version)
+    protocol, host = assets_host_name.split("://")
+
+    interior_materials_common_descriptor = _get_interior_materials_common_descriptor(host, interior_materials_version)
     
     with open(source_file, "r") as f:
         lines = f.readlines()
