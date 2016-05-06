@@ -22,12 +22,12 @@
 #include "italy.yaml"
     
 ThemeManifest:
-   LandmarkTextureRoot: "http://%ASSETS_HOST_NAME%/landmark_textures/test_builds/v%LANDMARK_TEXTURES_VERSION%/"
-   InteriorMaterialsRoot: "http://%ASSETS_HOST_NAME%/interior-materials/v%INTERIOR_MATERIALS_VERSION%/"
-   AssetRoot_iOS: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
-   AssetRoot_OSX: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
-   AssetRoot_Android: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
-   AssetRoot_Windows: "http://%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
+   LandmarkTextureRoot: "%ASSETS_HOST_NAME%/landmark_textures/test_builds/v%LANDMARK_TEXTURES_VERSION%/"
+   InteriorMaterialsRoot: "%ASSETS_HOST_NAME%/interior-materials/v%INTERIOR_MATERIALS_VERSION%/"
+   AssetRoot_iOS: "%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
+   AssetRoot_OSX: "%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
+   AssetRoot_Android: "%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
+   AssetRoot_Windows: "%ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/"
    AssetExtension_iOS: ".pvr.gz"
    AssetExtension_Android: ".ktx.gz"
    AssetExtension_OSX: ".png.gz"
