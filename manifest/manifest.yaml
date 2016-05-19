@@ -1,6 +1,7 @@
 #include "defaultlighting.yaml"
 #include "defaultplacenames.yaml"
 #include "defaultvehicles.yaml"
+#include "defaultwater.yaml"
 #include "mapmode.yaml"
 #include "sanfrancisco.yaml"
 #include "canada.yaml"

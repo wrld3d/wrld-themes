@@ -1,0 +1,3 @@
+DefaultWaterReflectionTextures: &DefaultWaterReflectionTextures
+	WaterReflectionCubeMap: Default/water_reflection_cube_map
+	

@@ -101,6 +101,7 @@ PhoenixSummerTextures: &PhoenixSummerTextures
    TreeSideDiffuse: Phoenix/trees_01
    TreeTopDiffuse: Phoenix/trees_top_01
    <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
    WaterNormal: SanFrancisco/water_normalmap
    WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3

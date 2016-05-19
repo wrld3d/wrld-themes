@@ -101,6 +101,7 @@ JapanSouthSummerTextures: &JapanSouthSummerTextures
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
    <<: *JapanVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
    WaterNormal: SanFrancisco/water_normalmap
    WaterReflection: SanFrancisco/water_reflectionmap
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3

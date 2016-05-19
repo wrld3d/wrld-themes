@@ -101,6 +101,7 @@ DubaiSummerTextures: &DubaiSummerTextures
    TreeSideDiffuse: Dubai/trees_01
    TreeTopDiffuse: Dubai/trees_top_01
    <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
    WaterNormal: Dubai/water_normalmap
    WaterReflection: Dubai/water_reflectionmap
    AsyncPlaceholderDiffuse: Dubai/TerrainTexture3
