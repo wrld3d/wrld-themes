@@ -1,0 +1,837 @@
+ScandinaviaTerrainTextures: &ScandinaviaTerrainTextures
+     Terrain0: Scandinavia/TerrainTexture0
+     Terrain1: Scandinavia/TerrainTexture1
+     Terrain2: Scandinavia/TerrainTexture2
+     Terrain3: Scandinavia/TerrainTexture3
+     Terrain4: Scandinavia/TerrainTexture4
+     Terrain5: Scandinavia/TerrainTexture5
+     Terrain6: Scandinavia/TerrainTexture6
+     Terrain7: Scandinavia/TerrainTexture7
+     Terrain8: Scandinavia/TerrainTexture8
+     Terrain9: Scandinavia/TerrainTexture9
+     Terrain10: Scandinavia/TerrainTexture10
+     Terrain11: Scandinavia/TerrainTexture11
+     Terrain12: Scandinavia/TerrainTexture12
+     Terrain13: Scandinavia/TerrainTexture13
+     Terrain14: Scandinavia/TerrainTexture14
+     Terrain15: Scandinavia/TerrainTexture15
+     Terrain16: Scandinavia/TerrainTexture16
+     Terrain17: Scandinavia/TerrainTexture17
+     Terrain18: Scandinavia/TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+ScandinaviaTerrainLODTextures: &ScandinaviaTerrainLODTextures
+     Terrain0: Scandinavia/TerrainTexture0_LOD
+     Terrain1: Scandinavia/TerrainTexture1_LOD
+     Terrain2: Scandinavia/TerrainTexture2_LOD
+     Terrain3: Scandinavia/TerrainTexture3_LOD
+     Terrain4: Scandinavia/TerrainTexture4_LOD
+     Terrain5: Scandinavia/TerrainTexture5_LOD
+     Terrain6: Scandinavia/TerrainTexture6_LOD
+     Terrain7: Scandinavia/TerrainTexture7_LOD
+     Terrain8: Scandinavia/TerrainTexture8_LOD
+     Terrain9: Scandinavia/TerrainTexture9_LOD
+     Terrain10: Scandinavia/TerrainTexture10_LOD
+     Terrain11: Scandinavia/TerrainTexture11_LOD
+     Terrain12: Scandinavia/TerrainTexture12_LOD
+     Terrain13: Scandinavia/TerrainTexture13_LOD
+     Terrain14: Scandinavia/TerrainTexture14_LOD
+     Terrain15: Scandinavia/TerrainTexture15_LOD
+     Terrain16: Scandinavia/TerrainTexture16_LOD
+     Terrain17: Scandinavia/TerrainTexture17_LOD
+     Terrain18: Scandinavia/TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+
+ScandinaviaSummerTerrainTextures: &ScandinaviaSummerTerrainTextures
+     Terrain0: Scandinavia/Summer_TerrainTexture0
+     Terrain1: Scandinavia/Summer_TerrainTexture1
+     Terrain2: Scandinavia/Summer_TerrainTexture2
+     Terrain3: Scandinavia/Summer_TerrainTexture3
+     Terrain4: Scandinavia/Summer_TerrainTexture4
+     Terrain5: Scandinavia/Summer_TerrainTexture5
+     Terrain6: Scandinavia/Summer_TerrainTexture6
+     Terrain7: Scandinavia/Summer_TerrainTexture7
+     Terrain8: Scandinavia/Summer_TerrainTexture8
+     Terrain9: Scandinavia/Summer_TerrainTexture9
+     Terrain10: Scandinavia/Summer_TerrainTexture10
+     Terrain11: Scandinavia/Summer_TerrainTexture11
+     Terrain12: Scandinavia/Summer_TerrainTexture12
+     Terrain13: Scandinavia/Summer_TerrainTexture13
+     Terrain14: Scandinavia/Summer_TerrainTexture14
+     Terrain15: Scandinavia/Summer_TerrainTexture15
+     Terrain16: Scandinavia/Summer_TerrainTexture16
+     Terrain17: Scandinavia/Summer_TerrainTexture17
+     Terrain18: Scandinavia/Summer_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+ScandinaviaSummmerTerrainLODTextures: &ScandinaviaSummerTerrainLODTextures
+     Terrain0: Scandinavia/Summer_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Summer_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Summer_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Summer_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Summer_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Summer_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Summer_TerrainTexture6_LOD
+     Terrain7: Scandinavia/Summer_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Summer_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Summer_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Summer_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Summer_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Summer_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Summer_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Summer_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Summer_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Summer_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Summer_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Summer_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+ScandinaviaSpringTerrainTextures: &ScandinaviaSpringTerrainTextures
+     Terrain0: Scandinavia/Spring_TerrainTexture0
+     Terrain1: Scandinavia/Spring_TerrainTexture1
+     Terrain2: Scandinavia/Spring_TerrainTexture2
+     Terrain3: Scandinavia/Spring_TerrainTexture3
+     Terrain4: Scandinavia/Spring_TerrainTexture4
+     Terrain5: Scandinavia/Spring_TerrainTexture5
+     Terrain6: Scandinavia/Spring_TerrainTexture6
+     Terrain7: Scandinavia/Spring_TerrainTexture7
+     Terrain8: Scandinavia/Spring_TerrainTexture8
+     Terrain9: Scandinavia/Spring_TerrainTexture9
+     Terrain10: Scandinavia/Spring_TerrainTexture10
+     Terrain11: Scandinavia/Spring_TerrainTexture11
+     Terrain12: Scandinavia/Spring_TerrainTexture12
+     Terrain13: Scandinavia/Spring_TerrainTexture13
+     Terrain14: Scandinavia/Spring_TerrainTexture14
+     Terrain15: Scandinavia/Spring_TerrainTexture15
+     Terrain16: Scandinavia/Spring_TerrainTexture16
+     Terrain17: Scandinavia/Spring_TerrainTexture17
+     Terrain18: Scandinavia/Spring_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+ScandinaviaSpringTerrainLODTextures: &ScandinaviaSpringTerrainLODTextures
+     Terrain0: Scandinavia/Spring_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Spring_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Spring_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Spring_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Spring_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Spring_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Spring_TerrainTexture6_LOD
+     Terrain7: Scandinavia/Spring_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Spring_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Spring_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Spring_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Spring_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Spring_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Spring_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Spring_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Spring_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Spring_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Spring_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Spring_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+ScandinaviaAutumnTerrainTextures: &ScandinaviaAutumnTerrainTextures
+     Terrain0: Scandinavia/Autumn_TerrainTexture0
+     Terrain1: Scandinavia/Autumn_TerrainTexture1
+     Terrain2: Scandinavia/Autumn_TerrainTexture2
+     Terrain3: Scandinavia/Autumn_TerrainTexture3
+     Terrain4: Scandinavia/Autumn_TerrainTexture4
+     Terrain5: Scandinavia/Autumn_TerrainTexture5
+     Terrain6: Scandinavia/Autumn_TerrainTexture6
+     Terrain7: Scandinavia/Autumn_TerrainTexture7
+     Terrain8: Scandinavia/Autumn_TerrainTexture8
+     Terrain9: Scandinavia/Autumn_TerrainTexture9
+     Terrain10: Scandinavia/Autumn_TerrainTexture10
+     Terrain11: Scandinavia/Autumn_TerrainTexture11
+     Terrain12: Scandinavia/Autumn_TerrainTexture12
+     Terrain13: Scandinavia/Autumn_TerrainTexture13
+     Terrain14: Scandinavia/Autumn_TerrainTexture14
+     Terrain15: Scandinavia/Autumn_TerrainTexture15
+     Terrain16: Scandinavia/Autumn_TerrainTexture16
+     Terrain17: Scandinavia/Autumn_TerrainTexture17
+     Terrain18: Scandinavia/Autumn_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+ScandinaviaAutumnTerrainLODTextures: &ScandinaviaAutumnTerrainLODTextures
+     Terrain0: Scandinavia/Autumn_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Autumn_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Autumn_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Autumn_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Autumn_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Autumn_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Autumn_TerrainTexture6_LOD
+     Terrain7: Scandinavia/Autumn_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Autumn_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Autumn_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Autumn_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Autumn_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Autumn_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Autumn_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Autumn_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Autumn_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Autumn_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Autumn_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Autumn_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+ScandinaviaWinterTerrainTextures: &ScandinaviaWinterTerrainTextures
+     Terrain0: Scandinavia/Winter_TerrainTexture0
+     Terrain1: Scandinavia/Winter_TerrainTexture1
+     Terrain2: Scandinavia/Winter_TerrainTexture2
+     Terrain3: Scandinavia/Winter_TerrainTexture3
+     Terrain4: Scandinavia/Winter_TerrainTexture4
+     Terrain5: Scandinavia/Winter_TerrainTexture5
+     Terrain6: Scandinavia/Winter_TerrainTexture6
+     Terrain7: Scandinavia/Winter_TerrainTexture7
+     Terrain8: Scandinavia/Winter_TerrainTexture8
+     Terrain9: Scandinavia/Winter_TerrainTexture9
+     Terrain10: Scandinavia/Winter_TerrainTexture10
+     Terrain11: Scandinavia/Winter_TerrainTexture11
+     Terrain12: Scandinavia/Winter_TerrainTexture12
+     Terrain13: Scandinavia/Winter_TerrainTexture13
+     Terrain14: Scandinavia/Winter_TerrainTexture14
+     Terrain15: Scandinavia/Winter_TerrainTexture15
+     Terrain16: Scandinavia/Winter_TerrainTexture16
+     Terrain17: Scandinavia/Winter_TerrainTexture17
+     Terrain18: Scandinavia/Winter_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+ScandinaviaWinterTerrainLODTextures: &ScandinaviaWinterTerrainLODTextures
+     Terrain0: Scandinavia/Winter_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Winter_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Winter_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Winter_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Winter_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Winter_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Winter_TerrainTexture6_LOD
+     Terrain7: Scandinavia/Winter_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Winter_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Winter_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Winter_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Winter_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Winter_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Winter_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Winter_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Winter_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Winter_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Winter_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Winter_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+ScandinaviaWinterSnowTerrainTextures: &ScandinaviaWinterSnowTerrainTextures
+     Terrain0: Scandinavia/Winter_Snow_TerrainTexture0
+     Terrain1: Scandinavia/Winter_Snow_TerrainTexture1
+     Terrain2: Scandinavia/Winter_Snow_TerrainTexture2
+     Terrain3: Scandinavia/Winter_Snow_TerrainTexture3
+     Terrain4: Scandinavia/Winter_Snow_TerrainTexture4
+     Terrain5: Scandinavia/Winter_Snow_TerrainTexture5
+     Terrain6: Scandinavia/Winter_Snow_TerrainTexture6
+     Terrain7: Scandinavia/Winter_Snow_TerrainTexture7
+     Terrain8: Scandinavia/Winter_Snow_TerrainTexture8
+     Terrain9: Scandinavia/Winter_Snow_TerrainTexture9
+     Terrain10: Scandinavia/Winter_Snow_TerrainTexture10
+     Terrain11: Scandinavia/Winter_Snow_TerrainTexture11
+     Terrain12: Scandinavia/Winter_Snow_TerrainTexture12
+     Terrain13: Scandinavia/Winter_Snow_TerrainTexture13
+     Terrain14: Scandinavia/Winter_Snow_TerrainTexture14
+     Terrain15: Scandinavia/Winter_Snow_TerrainTexture15
+     Terrain16: Scandinavia/Winter_Snow_TerrainTexture16
+     Terrain17: Scandinavia/Winter_Snow_TerrainTexture17
+     Terrain18: Scandinavia/Winter_Snow_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+ScandinaviaWinterSnowTerrainLODTextures: &ScandinaviaWinterSnowTerrainLODTextures
+     Terrain0: Scandinavia/Winter_Snow_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Winter_Snow_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Winter_Snow_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Winter_Snow_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Winter_Snow_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Winter_Snow_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Winter_Snow_TerrainTexture6_LOD
+     Terrain7: Scandinavia/Winter_Snow_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Winter_Snow_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Winter_Snow_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Winter_Snow_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Winter_Snow_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Winter_Snow_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Winter_Snow_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Winter_Snow_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Winter_Snow_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Winter_Snow_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Winter_Snow_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Winter_Snow_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+ScandinaviaSummerSnowTerrainTextures: &ScandinaviaSummerSnowTerrainTextures
+     Terrain0: Scandinavia/Summer_Snow_TerrainTexture0
+     Terrain1: Scandinavia/Summer_Snow_TerrainTexture1
+     Terrain2: Scandinavia/Summer_Snow_TerrainTexture2
+     Terrain3: Scandinavia/Summer_Snow_TerrainTexture3
+     Terrain4: Scandinavia/Summer_Snow_TerrainTexture4
+     Terrain5: Scandinavia/Summer_Snow_TerrainTexture5
+     Terrain6: Scandinavia/Summer_Snow_TerrainTexture6
+     Terrain7: Scandinavia/Summer_Snow_TerrainTexture7
+     Terrain8: Scandinavia/Summer_Snow_TerrainTexture8
+     Terrain9: Scandinavia/Summer_Snow_TerrainTexture9
+     Terrain10: Scandinavia/Summer_Snow_TerrainTexture10
+     Terrain11: Scandinavia/Summer_Snow_TerrainTexture11
+     Terrain12: Scandinavia/Summer_Snow_TerrainTexture12
+     Terrain13: Scandinavia/Summer_Snow_TerrainTexture13
+     Terrain14: Scandinavia/Summer_Snow_TerrainTexture14
+     Terrain15: Scandinavia/Summer_Snow_TerrainTexture15
+     Terrain16: Scandinavia/Summer_Snow_TerrainTexture16
+     Terrain17: Scandinavia/Summer_Snow_TerrainTexture17
+     Terrain18: Scandinavia/Summer_Snow_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+ScandinaviaSummerSnowTerrainLODTextures: &ScandinaviaSummerSnowTerrainLODTextures
+     Terrain0: Scandinavia/Summer_Snow_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Summer_Snow_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Summer_Snow_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Summer_Snow_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Summer_Snow_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Summer_Snow_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Summer_Snow_TerrainTexture6_LOD
+     Terrain7: Scandinavia/Summer_Snow_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Summer_Snow_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Summer_Snow_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Summer_Snow_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Summer_Snow_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Summer_Snow_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Summer_Snow_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Summer_Snow_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Summer_Snow_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Summer_Snow_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Summer_Snow_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Summer_Snow_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+ScandinaviaSummerTextures: &ScandinaviaSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: Scandinavia/Scandinavia_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Summer_trees
+   TreeTopDiffuse: Scandinavia/Summer_trees_top
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: Scandinavia/water_normalmap
+   WaterReflection: Scandinavia/water_reflectionmap
+   AsyncPlaceholderDiffuse: Scandinavia/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse:
+     <<: *ScandinaviaSummerTerrainTextures  
+   
+   LcmLodDiffuse:
+     <<: *ScandinaviaSummerTerrainLODTextures 
+
+ScandinaviaSpringTextures: &ScandinaviaSpringTextures
+   <<: *ScandinaviaSummerTextures
+   TreeSideDiffuse: Scandinavia/Spring_trees
+   TreeTopDiffuse: Scandinavia/Spring_trees_top
+   LcmDiffuse: 
+     <<: *ScandinaviaSpringTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaSpringTerrainLODTextures 
+
+ScandinaviaAutumnTextures: &ScandinaviaAutumnTextures
+   <<: *ScandinaviaSummerTextures
+   TreeSideDiffuse: Scandinavia/Autumn_trees
+   TreeTopDiffuse: Scandinavia/Autumn_trees_top
+   LcmDiffuse: 
+     <<: *ScandinaviaAutumnTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaAutumnTerrainLODTextures 
+
+ScandinaviaWinterTextures: &ScandinaviaWinterTextures
+   <<: *ScandinaviaSummerTextures
+   TreeSideDiffuse: Scandinavia/Winter_trees
+   TreeTopDiffuse: Scandinavia/Winter_trees_top
+   LcmDiffuse: 
+     <<: *ScandinaviaWinterTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaWinterTerrainLODTextures 
+     
+
+ScandinaviaSummerNightTextures: &ScandinaviaSummerNightTextures
+   <<: *ScandinaviaSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Scandinavia/Scandinavia_Night_wallDiffuse
+   RoadDiffuse: Scandinavia/Scandinavia_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: Scandinavia/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+ScandinaviaSummerSnowTextures: &ScandinaviaSummerSnowTextures
+   <<: *ScandinaviaSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Scandinavia/Scandinavia_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Summer_Snow_trees
+   TreeTopDiffuse: Scandinavia/Summer_Snow_tree_top
+   LcmDiffuse: 
+     <<: *ScandinaviaSummerSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaSummerSnowTerrainLODTextures 
+
+ScandinaviaSummerNightSnowTextures: &ScandinaviaSummerNightSnowTextures
+   <<: *ScandinaviaSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Night_Snow_roadDiffuse
+   BuildingDiffuse: Scandinavia/Scandinavia_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: Scandinavia/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+     <<: *ScandinaviaSummerSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaSummerSnowTerrainLODTextures 
+
+ScandinaviaSpringSnowTextures: &ScandinaviaSpringSnowTextures
+   <<: *ScandinaviaSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Scandinavia/Scandinavia_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Summer_Snow_trees
+   TreeTopDiffuse: Scandinavia/Summer_Snow_tree_top
+   LcmDiffuse: 
+     <<: *ScandinaviaSummerSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaSummerSnowTerrainLODTextures 
+
+ScandinaviaAutumnSnowTextures: &ScandinaviaAutumnSnowTextures
+   <<: *ScandinaviaSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Scandinavia/Scandinavia_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Winter_Snow_trees
+   TreeTopDiffuse: Scandinavia/Winter_Snow_tree_top
+   LcmDiffuse: 
+     <<: *ScandinaviaWinterSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaWinterSnowTerrainLODTextures 
+
+ScandinaviaWinterSnowTextures: &ScandinaviaWinterSnowTextures
+   <<: *ScandinaviaSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Scandinavia/Scandinavia_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Winter_Snow_trees
+   TreeTopDiffuse: Scandinavia/Winter_Snow_tree_top
+   LcmDiffuse: 
+     <<: *ScandinaviaWinterSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *ScandinaviaWinterSnowTerrainLODTextures 
+
+SummerScandinavia: &SummerScandinavia
+   Name: SummerScandinavia
+   LocationLatLong: [60.013498, 18.500558]
+   BaseAltitude: 0
+   DriveOnRight: true
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ScandinaviaSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ScandinaviaSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ScandinaviaSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ScandinaviaSummerTextures
+      - <<: *MapModeState
+
+SpringScandinavia: &SpringScandinavia
+   Name: SpringScandinavia
+   LocationLatLong: [60.013498, 18.500558]
+   BaseAltitude: 0
+   DriveOnRight: true
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ScandinaviaSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ScandinaviaSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ScandinaviaSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ScandinaviaSpringTextures
+      - <<: *MapModeState
+
+AutumnScandinavia: &AutumnScandinavia
+   Name: AutumnScandinavia
+   LocationLatLong: [60.013498, 18.500558]
+   BaseAltitude: 0
+   DriveOnRight: true
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ScandinaviaAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ScandinaviaAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ScandinaviaAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ScandinaviaAutumnTextures
+      - <<: *MapModeState
+
+WinterScandinavia: &WinterScandinavia
+   Name: WinterScandinavia
+   LocationLatLong: [60.013498, 18.500558]
+   BaseAltitude: 0
+   DriveOnRight: true
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ScandinaviaWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ScandinaviaWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ScandinaviaWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ScandinaviaSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ScandinaviaWinterTextures
+      - <<: *MapModeState

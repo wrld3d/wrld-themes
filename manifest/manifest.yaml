@@ -21,6 +21,7 @@
 #include "germany.yaml"
 #include "dubai.yaml"
 #include "italy.yaml"
+#include "Scandinavia.yaml"
     
 ThemeManifest:
    LandmarkTextureRoot: "%ASSETS_HOST_NAME%/landmark_textures/test_builds/v%LANDMARK_TEXTURES_VERSION%/"
@@ -110,6 +111,11 @@ ThemeManifest:
         *SpringItaly,
         *AutumnItaly,
         *WinterItaly,
+        
+        *SummerScandinavia,
+        *SpringScandinavia,
+        *AutumnScandinavia,
+        *WinterScandinavia,
         
         *SummerDubai,
         *SpringDubai,
