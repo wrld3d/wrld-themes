@@ -15,18 +15,35 @@ SRC_POD_FILES := $(call rwildcard,$(SRC_DIR)/,*.POD)
 DST_POD_FILES := $(patsubst $(SRC_DIR)/%,$(GZIP_DIR)/%.gz,$(SRC_POD_FILES))
 
 SRC_PNG_FILES := $(call rwildcard,$(SRC_DIR)/,*.png)
-PVR_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.pvr,$(SRC_PNG_FILES))
-KTX_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.ktx,$(SRC_PNG_FILES))
-DDS_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.dds,$(SRC_PNG_FILES))
+
+SRC_CUBE_POSX_FILES := $(filter %_posX.png,$(SRC_PNG_FILES))
+SRC_CUBE_NEGX_FILES := $(SRC_CUBE_POSX_FILES:_posX.png=_negX.png) 
+SRC_CUBE_POSY_FILES := $(SRC_CUBE_POSX_FILES:_posX.png=_posY.png)
+SRC_CUBE_NEGY_FILES := $(SRC_CUBE_POSX_FILES:_posX.png=_negY.png)
+SRC_CUBE_POSZ_FILES := $(SRC_CUBE_POSX_FILES:_posX.png=_posZ.png)
+SRC_CUBE_NEGZ_FILES := $(SRC_CUBE_POSX_FILES:_posX.png=_negZ.png)
+SRC_CUBE_FILES := $(SRC_CUBE_NEGX_FILES) $(SRC_CUBE_POSX_FILES) $(SRC_CUBE_NEGY_FILES) $(SRC_CUBE_POSY_FILES) $(SRC_CUBE_NEGZ_FILES) $(SRC_CUBE_POSZ_FILES)
+SRC_NON_CUBE_FILES := $(filter-out $(SRC_CUBE_FILES), $(SRC_PNG_FILES))
+
+PVR_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.pvr,$(SRC_NON_CUBE_FILES))
+KTX_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.ktx,$(SRC_NON_CUBE_FILES))
+DDS_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.dds,$(SRC_NON_CUBE_FILES))
 DST_PNG_FILES := $(patsubst $(SRC_DIR)/%,$(COMPRESSED_DIR)/%,$(SRC_PNG_FILES))
 
-ALL_COMPRESSED_FILES := $(PVR_FILES) $(KTX_FILES) $(DDS_FILES) $(DST_PNG_FILES)
+PVR_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.pvr,$(SRC_CUBE_POSX_FILES))
+KTX_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.ktx,$(SRC_CUBE_POSX_FILES))
+DDS_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.dds,$(SRC_CUBE_POSX_FILES))
+
+ALL_COMPRESSED_FILES := $(PVR_FILES) $(PVR_CUBE_FILES) $(KTX_FILES) $(KTX_CUBE_FILES) $(DDS_FILES) $(DDS_CUBE_FILES) $(DST_PNG_FILES)
 ALL_GZIP_FILES := $(patsubst $(COMPRESSED_DIR)/%,$(GZIP_DIR)/%.gz,$(ALL_COMPRESSED_FILES))
 
 TEX_TOOL = ./lib/PVRTexToolCL.exe
 PVR_COMPRESS = $(TEX_TOOL) -f PVRTC1_4 -m -flip y -legacypvr
+PVR_COMPRESS_CUBE = $(TEX_TOOL) -f PVRTC1_4 -m -legacypvr
 KTX_COMPRESS = $(TEX_TOOL) -f ETC1 -m -flip y
+KTX_COMPRESS_CUBE = $(TEX_TOOL) -f ETC1 -m 
 DDS_COMPRESS = $(TEX_TOOL) -f BC1 -m -flip y 
+DDS_COMPRESS_CUBE = $(TEX_TOOL) -f BC1 -m 
 
 MKDIR = mkdir -p
 CP = cp 
@@ -78,13 +95,25 @@ $(COMPRESSED_DIR)/%.pvr:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@) 
 	$(PVR_COMPRESS) -i "$<" -o "$@"
 
+$(COMPRESSED_DIR)/%_cubemap.pvr:$(SRC_DIR)/%_posX.png
+	$(MKDIR) $(dir $@)
+	$(PVR_COMPRESS_CUBE) -cube -i "$(<)","$(<:_posX.png=_negX.png)","$(<:_posX.png=_posY.png)","$(<:_posX.png=_negY.png)","$(<:_posX.png=_posZ.png)","$(<:_posX.png=_negZ.png)" -o "$@"
+
 $(COMPRESSED_DIR)/%.ktx:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)
 	$(KTX_COMPRESS) -i "$<" -o "$@"
 
+$(COMPRESSED_DIR)/%_cubemap.ktx:$(SRC_DIR)/%_posX.png
+	$(MKDIR) $(dir $@)
+	$(KTX_COMPRESS_CUBE) -cube -i "$(<)","$(<:_posX.png=_negX.png)","$(<:_posX.png=_posY.png)","$(<:_posX.png=_negY.png)","$(<:_posX.png=_posZ.png)","$(<:_posX.png=_negZ.png)" -o "$@"
+
 $(COMPRESSED_DIR)/%.dds:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)
 	$(DDS_COMPRESS) -i "$<" -o "$@"
+
+$(COMPRESSED_DIR)/%_cubemap.dds:$(SRC_DIR)/%_posX.png
+	$(MKDIR) $(dir $@)
+	$(DDS_COMPRESS_CUBE) -cube -i "$(<)","$(<:_posX.png=_negX.png)","$(<:_posX.png=_posY.png)","$(<:_posX.png=_negY.png)","$(<:_posX.png=_posZ.png)","$(<:_posX.png=_negZ.png)" -o "$@"
 
 $(COMPRESSED_DIR)/%.png:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)

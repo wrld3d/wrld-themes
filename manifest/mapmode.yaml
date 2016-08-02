@@ -57,8 +57,7 @@ MapModeTextures: &MapModeTextures
    PlaneDiffuse: MapMode/MapMode_planes_01
    TramDiffuse: MapMode/MapMode_trains_01
    WaterNormal: SanFrancisco/water_normalmap
-   WaterReflection: SanFrancisco/water_reflectionmap
-   WaterReflectionCubeMap: Default/water_reflection_cube_map
+   <<: *DefaultWaterReflectionTextures
    AsyncPlaceholderDiffuse: MapMode/MapMode_TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
