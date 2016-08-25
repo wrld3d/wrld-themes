@@ -31,11 +31,13 @@ class TexturePathProvider:
 
 
 class EmbeddedManifestFactory:
-    def __init__(self, source_manifest, theme_names, state_names, output_dir, download_textures=True):
+    def __init__(self, source_manifest, theme_names, state_names, output_dir, download_textures=True, asset_root=None, partial=False):
         self._source_manifest = source_manifest
         self._theme_names = set(theme_names)
         self._state_names = set(state_names)
         self._output_dir = output_dir
+        self._asset_root = asset_root
+        self._partial = partial
         self._should_download_textures = download_textures
 
     def create_embedded_manifest(self):
@@ -90,20 +92,32 @@ class EmbeddedManifestFactory:
         except:
             raise ValueError("Failed to parse JSON manifest")
 
-    def _get_uncompressed_data(self, url):
-        try:
-            response = urllib2.urlopen(url)
-        except urllib2.HTTPError:
-            raise IOError("Failed to download resource at {0}".format(url))
-
-        if response.info().get('Content-Encoding') == 'gzip':
-            buf = cStringIO.StringIO( response.read())
-            f = gzip.GzipFile(fileobj=buf)
-            data = f.read()
-            return data
-
+    def _get_uncompressed_data(self, url, ignore_errors=False):
+        if ignore_errors:
+            return self._try_fetch_and_decompress_url(url)
         else:
-            raise ValueError("Resource at {0} is not a gzipped file".format(url))
+            try:
+                return self._fetch_and_decompress_url(url)
+            except urllib2.HTTPError:
+                raise IOError("Failed to download resource at {0}".format(url))
+
+    def _try_fetch_and_decompress_url(self, url):
+        try:
+            return self._fetch_and_decompress_url(url)
+        except:
+            return None
+
+    def _fetch_and_decompress_url(self, url):
+        response = urllib2.urlopen(url)
+
+        is_gzipped = response.info().get('Content-Encoding') == 'gzip'
+        if not is_gzipped:
+            raise IOError("Resource at {0} is not a gzipped file".format(url))
+
+        buf = cStringIO.StringIO(response.read())
+        f = gzip.GzipFile(fileobj=buf)
+        data = f.read()
+        return data
 
     def _get_themes(self, themes):
         themes_to_use = [theme for theme in themes if theme["Name"] in self._theme_names]
@@ -140,7 +154,7 @@ class EmbeddedManifestFactory:
             if not os.path.exists(local_asset_root):
                 os.mkdir(local_asset_root)
             print "Downloading textures for: {0}/{1} ({2})".format(theme_name, state_name, platform)
-        asset_root = manifest_json["AssetRoot_{0}".format(platform)]
+        asset_root = self._asset_root or manifest_json["AssetRoot_{0}".format(platform)]
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = remove_suffix(asset_ext_gz, ".gz")
         http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz, '.png.gz')
@@ -168,10 +182,11 @@ class EmbeddedManifestFactory:
            self._download_texture(texture_url, texture_local_path)
 
     def _download_texture(self, texture_url, texture_local_path):
-        print "  Downloading texture {0}".format(texture_url)
-        data = self._get_uncompressed_data(texture_url)
-        with open(texture_local_path, 'wb') as uncompressed_file:
-            uncompressed_file.write(data)
+        data = self._get_uncompressed_data(texture_url, ignore_errors=self._partial)
+        if data:
+            print "  Downloaded texture {0}".format(texture_url)
+            with open(texture_local_path, 'wb') as uncompressed_file:
+                uncompressed_file.write(data)
 
     def _get_platform_path(self, platform):
         return os.path.join(self._output_dir, platform)
@@ -204,11 +219,11 @@ class EmbeddedManifestFactory:
             manifest_json["AssetExtension_{0}".format(platform)] = asset_ext
 
 
-def create_embedded_manifest(source_manifest, theme_names, state_names, output_dir):
+def create_embedded_manifest(source_manifest, theme_names, state_names, output_dir, asset_root=None, partial=False):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    factory = EmbeddedManifestFactory(source_manifest, theme_names, state_names, output_dir)
+    factory = EmbeddedManifestFactory(source_manifest, theme_names, state_names, output_dir, asset_root=asset_root, partial=partial)
     factory.create_embedded_manifest()
 
 
@@ -223,10 +238,16 @@ if __name__ == "__main__":
                            help="the names of the states to extract from the theme")
     argparser.add_argument("--output_dir", "-o", type=str, required=True,
                            help="the location to output the embedded textures and manifest")
+    argparser.add_argument("--asset_root", "-r", type=str,
+                           help="override the asset roots in the input manifest")
+    argparser.add_argument("--partial", "-p", action="store_true",
+                           help="ignore failed downloads - use to overwrite a subset of an existing embedded theme")
     args = argparser.parse_args()
 
     create_embedded_manifest(
         source_manifest=args.source_manifest,
         theme_names=args.theme_names,
         state_names=args.state_names,
-        output_dir=args.output_dir)
+        output_dir=args.output_dir,
+        asset_root=args.asset_root,
+        partial=args.partial)
