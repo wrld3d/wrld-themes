@@ -15,19 +15,26 @@ def remove_suffix(string, suffix):
 
 
 class TexturePathProvider:
-    def __init__(self, asset_root_path, asset_ext, cube_map_asset_ext):
+    def __init__(self, asset_root_path, asset_ext, uses_single_file_cubemap_files):
         self._asset_root_path = asset_root_path
         self._asset_ext = asset_ext
-        self._cube_map_asset_ext = cube_map_asset_ext
+        self._uses_single_file_cubemap_files = uses_single_file_cubemap_files
 
-    def get_path(self, relative_path, cube_map_face_index=-1):
-        cube_map_suffixes = [ '_posX', '_posY', '_posZ', '_negX', '_negY', '_negZ' ]
+    def get_path(self, relative_path, cubemap_face_index=-1):
         suffix = ''
         asset_ext = self._asset_ext
-        if cube_map_face_index != -1:
-            suffix = cube_map_suffixes[cube_map_face_index]
-            asset_ext = self._cube_map_asset_ext
+
+        if cubemap_face_index != -1:
+            if self._uses_single_file_cubemap_files:
+                suffix = '_cubemap'
+            else:
+                cubemap_suffixes = ['_posX', '_posY', '_posZ', '_negX', '_negY', '_negZ']
+                suffix = cubemap_suffixes[cubemap_face_index]
+
         return "{0}{1}{2}{3}".format(self._asset_root_path, relative_path, suffix, asset_ext)
+
+    def get_cubemap_file_count(self):
+        return 1 if self._uses_single_file_cubemap_files else 6
 
 
 class EmbeddedManifestFactory:
@@ -39,6 +46,8 @@ class EmbeddedManifestFactory:
         self._asset_root = asset_root
         self._partial = partial
         self._should_download_textures = download_textures
+        self._platform_cubemap_counts = dict()
+        self._platform_files_per_cubemap = dict()
 
     def create_embedded_manifest(self):
         manifest_json = self._get_manifest_json(self._source_manifest)
@@ -157,27 +166,41 @@ class EmbeddedManifestFactory:
         asset_root = self._asset_root or manifest_json["AssetRoot_{0}".format(platform)]
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = remove_suffix(asset_ext_gz, ".gz")
-        http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz, '.png.gz')
-        local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext, '.png')
-        self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
+        use_single_file_cubemap_files = asset_ext.lower() != '.png'
+        http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz, use_single_file_cubemap_files)
+        local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext, use_single_file_cubemap_files)
+        cubemap_count = self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
+        self._platform_cubemap_counts[platform] = cubemap_count
+        self._platform_files_per_cubemap[platform] = http_texture_path_provider.get_cubemap_file_count()
 
-    def _download_textures_recursive(self, http_texture_path_provider, local_texture_path_provider, items, is_cube_map=False):
+    def _download_textures_recursive(self, http_texture_path_provider, local_texture_path_provider, items, is_cubemap=False):
+        cubemap_count = 0
         try:
             for k, v in items.iteritems():
-                is_cube_map = "CubeMap" in k
-                self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, v, is_cube_map)
+                is_cubemap = "CubeMap" in k
+                cubemap_count += self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, v, is_cubemap)
         except AttributeError:
             relative_texture_path = items
 
-            if is_cube_map:
-                for cube_map_face_index in range(6):
-                    self._download_texture_from_relative_path(http_texture_path_provider, local_texture_path_provider, relative_texture_path, cube_map_face_index)
+            if is_cubemap:
+                self._download_cubemap_from_relative_path(http_texture_path_provider, local_texture_path_provider, relative_texture_path)
+                cubemap_count += 1
             else:
                 self._download_texture_from_relative_path(http_texture_path_provider, local_texture_path_provider, relative_texture_path)
+        return cubemap_count
 
-    def _download_texture_from_relative_path(self, http_texture_path_provider, local_texture_path_provider, relative_path, cube_map_face_index=-1):
-        texture_url = http_texture_path_provider.get_path(relative_path, cube_map_face_index)
-        texture_local_path = local_texture_path_provider.get_path(relative_path.replace("/", "_"), cube_map_face_index)
+    def _download_cubemap_from_relative_path(self, http_texture_path_provider, local_texture_path_provider, relative_path):
+        file_count = http_texture_path_provider.get_cubemap_file_count()
+
+        for cubemap_face_index in range(file_count):
+            texture_url = http_texture_path_provider.get_path(relative_path, cubemap_face_index)
+            texture_local_path = local_texture_path_provider.get_path(relative_path.replace("/", "_"), cubemap_face_index)
+            if self._should_download_textures:
+                self._download_texture(texture_url, texture_local_path)
+
+    def _download_texture_from_relative_path(self, http_texture_path_provider, local_texture_path_provider, relative_path):
+        texture_url = http_texture_path_provider.get_path(relative_path)
+        texture_local_path = local_texture_path_provider.get_path(relative_path.replace("/", "_"))
         if self._should_download_textures:
            self._download_texture(texture_url, texture_local_path)
 
@@ -201,10 +224,18 @@ class EmbeddedManifestFactory:
         return local_items
 
     def _ensure_texture_count_same_for_all_platforms(self, platforms):
-        platform_dirs = [self._get_platform_path(platform) for platform in platforms]
-        file_counts = [len(os.listdir(dir)) for dir in platform_dirs]
-        for count in file_counts:
-            assert count == file_counts[0], "Number of textures differs between platforms."
+        count = None
+
+        for platform in platforms:
+            platform_dir = self._get_platform_path(platform)
+            file_count = len(os.listdir(platform_dir))
+            cubemap_count = self._platform_cubemap_counts[platform]
+            non_cubemap_count = file_count - self._platform_files_per_cubemap[platform] * cubemap_count
+
+            if count == None:
+                count = non_cubemap_count
+            else:
+                assert count == non_cubemap_count, "Number of textures differs between platforms."
 
     def _write_embedded_manifest_file(self, manifest_json):
         output_file_name = os.path.join(self._output_dir, "embedded_manifest.txt")
