@@ -6,12 +6,47 @@ import urllib2
 import cStringIO
 import os.path
 
+
 def remove_suffix(string, suffix):
     if string.endswith(suffix):
         suffix_length = len(suffix)
         return string[:-suffix_length]
     else:
         return string
+
+def get_decompressed_data(url, ignore_errors=False):
+    if ignore_errors:
+        return try_fetch_and_decompress_url(url)
+    else:
+        try:
+            return fetch_and_decompress_url(url)
+        except urllib2.HTTPError:
+            raise IOError("Failed to download resource at {0}".format(url))
+
+def try_fetch_and_decompress_url(url):
+    try:
+        return fetch_and_decompress_url(url)
+    except:
+        return None
+
+def fetch_and_decompress_url(url):
+    response = urllib2.urlopen(url)
+
+    is_gzipped = response.info().get('Content-Encoding') == 'gzip'
+    if not is_gzipped:
+        raise IOError("Resource at {0} is not a gzipped file".format(url))
+
+    buf = cStringIO.StringIO(response.read())
+    f = gzip.GzipFile(fileobj=buf)
+    data = f.read()
+    return data
+
+def read_file_or_url(path):
+    if path.startswith("http://") or path.startswith("https://"):
+        return get_decompressed_data(path)
+    else:
+        with open(path) as f:
+            return f.read()
 
 
 class TexturePathProvider:
@@ -38,8 +73,7 @@ class TexturePathProvider:
 
 
 class EmbeddedManifestFactory:
-    def __init__(self, source_manifest, theme_names, state_names, output_dir, download_textures=True, asset_root=None, partial=False):
-        self._source_manifest = source_manifest
+    def __init__(self, theme_names, state_names, output_dir, download_textures=True, asset_root=None, partial=False):
         self._theme_names = set(theme_names)
         self._state_names = set(state_names)
         self._output_dir = output_dir
@@ -49,12 +83,12 @@ class EmbeddedManifestFactory:
         self._platform_cubemap_counts = dict()
         self._platform_files_per_cubemap = dict()
 
-    def create_embedded_manifest(self):
-        manifest_json = self._get_manifest_json(self._source_manifest)
-        embedded_manifest_json = self.create_embedded_manifest_from_json(manifest_json)
+    def create_embedded_manifest(self, manifest_text):
+        manifest_json = json.loads(manifest_text)
+        embedded_manifest_json = self._create_embedded_manifest_from_json(manifest_json)
         self._write_embedded_manifest_file(embedded_manifest_json)
 
-    def create_embedded_manifest_from_json(self, manifest_json):
+    def _create_embedded_manifest_from_json(self, manifest_json):
         all_landmark_postfixes = self._get_all_landmark_postfixes(manifest_json)
         manifest_json["LandmarkTexturePostfixes"] = all_landmark_postfixes
 
@@ -92,41 +126,6 @@ class EmbeddedManifestFactory:
                 if "LandmarkPostfix" in state:
                     postfixes.add(state["LandmarkPostfix"])
         return list(postfixes)
-
-    def _get_manifest_json(self, manifest_url):
-        data = self._get_uncompressed_data(manifest_url)
-        try:
-            manifest_json = json.loads(data)
-            return manifest_json
-        except:
-            raise ValueError("Failed to parse JSON manifest")
-
-    def _get_uncompressed_data(self, url, ignore_errors=False):
-        if ignore_errors:
-            return self._try_fetch_and_decompress_url(url)
-        else:
-            try:
-                return self._fetch_and_decompress_url(url)
-            except urllib2.HTTPError:
-                raise IOError("Failed to download resource at {0}".format(url))
-
-    def _try_fetch_and_decompress_url(self, url):
-        try:
-            return self._fetch_and_decompress_url(url)
-        except:
-            return None
-
-    def _fetch_and_decompress_url(self, url):
-        response = urllib2.urlopen(url)
-
-        is_gzipped = response.info().get('Content-Encoding') == 'gzip'
-        if not is_gzipped:
-            raise IOError("Resource at {0} is not a gzipped file".format(url))
-
-        buf = cStringIO.StringIO(response.read())
-        f = gzip.GzipFile(fileobj=buf)
-        data = f.read()
-        return data
 
     def _get_themes(self, themes):
         themes_to_use = [theme for theme in themes if theme["Name"] in self._theme_names]
@@ -205,7 +204,7 @@ class EmbeddedManifestFactory:
            self._download_texture(texture_url, texture_local_path)
 
     def _download_texture(self, texture_url, texture_local_path):
-        data = self._get_uncompressed_data(texture_url, ignore_errors=self._partial)
+        data = get_decompressed_data(texture_url, ignore_errors=self._partial)
         if data:
             print "  Downloaded texture {0}".format(texture_url)
             with open(texture_local_path, 'wb') as uncompressed_file:
@@ -251,18 +250,20 @@ class EmbeddedManifestFactory:
 
 
 def create_embedded_manifest(source_manifest, theme_names, state_names, output_dir, asset_root=None, partial=False):
+    manifest_text = read_file_or_url(source_manifest)
+
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    factory = EmbeddedManifestFactory(source_manifest, theme_names, state_names, output_dir, asset_root=asset_root, partial=partial)
-    factory.create_embedded_manifest()
+    factory = EmbeddedManifestFactory(theme_names, state_names, output_dir, asset_root=asset_root, partial=partial)
+    factory.create_embedded_manifest(manifest_text)
 
 
 if __name__ == "__main__":
     description = """Create an embedded theme manifest by extracting themes and states from a source manifest."""
     argparser = argparse.ArgumentParser(description=description, epilog="See README.md for example usage.")
     argparser.add_argument("--source_manifest", "-i", type=str, required=True,
-                           help="URL of the manifest to pull themes from")
+                           help="URL or local path of the manifest to pull themes from")
     argparser.add_argument("--theme_names", "-t", type=str, required=True, nargs="+",
                            help="the names of the themes to extract")
     argparser.add_argument("--state_names", "-s", type=str, required=True, nargs="+",
