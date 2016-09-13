@@ -162,7 +162,11 @@ class EmbeddedManifestFactory:
             if not os.path.exists(local_asset_root):
                 os.mkdir(local_asset_root)
             print "Downloading textures for: {0}/{1} ({2})".format(theme_name, state_name, platform)
+
         asset_root = self._asset_root or manifest_json["AssetRoot_{0}".format(platform)]
+        if asset_root.startswith("//"):
+            asset_root = "http:" + asset_root
+
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = remove_suffix(asset_ext_gz, ".gz")
         use_single_file_cubemap_files = asset_ext.lower() != '.png'
