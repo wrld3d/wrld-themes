@@ -160,7 +160,7 @@ class EmbeddedManifestFactory:
         local_asset_root = self._get_platform_path(platform)
         if self._should_download_textures:
             if not os.path.exists(local_asset_root):
-                os.mkdir(local_asset_root)
+                os.makedirs(local_asset_root)
             print "Downloading textures for: {0}/{1} ({2})".format(theme_name, state_name, platform)
 
         asset_root = self._asset_root or manifest_json["AssetRoot_{0}".format(platform)]
@@ -215,7 +215,7 @@ class EmbeddedManifestFactory:
                 uncompressed_file.write(data)
 
     def _get_platform_path(self, platform):
-        return os.path.join(self._output_dir, platform)
+        return os.path.join(self._output_dir, platform, "EmbeddedTheme")
 
     def _convert_to_local_texture_paths(self, items):
         local_items = {}
