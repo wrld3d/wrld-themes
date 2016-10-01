@@ -124,4 +124,4 @@ Note that this process can take a long time to complete if you include a large n
 
 ## License
 
-The eeGeo 3D Maps SDK is released under the Eegeo Platform SDK Evaluation license. See the [LICENSE.md](https://github.com/eegeo/eegeo-themes/blob/master/LICENSE.md) file for details.
+All textures and assets are released under the Creative Commons Attribution 4.0 International license. See the [LICENSE.md](https://github.com/eegeo/eegeo-themes/blob/master/LICENSE.md) file for details.
