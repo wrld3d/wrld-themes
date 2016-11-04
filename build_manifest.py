@@ -35,11 +35,11 @@ def process_manifest(source_file, version, assets_host_name, landmark_textures_v
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='build a theme manifest')
-    parser.add_argument('source_file', type=string, help='source yaml file path. E.g. manifest/manifest.yaml')
-    parser.add_argument('version', type=string, help='version. E.g. 123')
-    parser.add_argument('asset_host_name', type=string, help='the hostname that the assets will be served from. E.g. d2xvsc8j92rfya.cloudfront.net')
-    parser.add_argument('landmark_textures_version', type=string, help='Version number of the landmark textures store. E.g. 1')
-    parser.add_argument('interior_materials_version', type=string, help='Version number of the interior materials store. E.g. 3')
+    parser.add_argument('source_file', type=str, help='source yaml file path. E.g. manifest/manifest.yaml')
+    parser.add_argument('version', type=str, help='version. E.g. 123')
+    parser.add_argument('asset_host_name', type=str, help='the hostname that the assets will be served from. E.g. d2xvsc8j92rfya.cloudfront.net')
+    parser.add_argument('landmark_textures_version', type=str, help='Version number of the landmark textures store. E.g. 1')
+    parser.add_argument('interior_materials_version', type=str, help='Version number of the interior materials store. E.g. 3')
 
     args = parser.parse_args()
 
