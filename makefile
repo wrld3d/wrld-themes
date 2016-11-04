@@ -2,8 +2,8 @@ rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
 SRC_DIR := themes
 BUILD_DIR := build
-LANDMARK_TEXTURES_VERSION_FILE := $(BUILD_DIR)/landmark_textures_version/version.txt
-INTERIOR_MATERIALS_VERSION_FILE := $(BUILD_DIR)/interior_materials_version/version.txt
+LANDMARK_TEXTURES_VERSION_FILE := $(cat $(BUILD_DIR)/landmark_textures_version/version.txt)
+INTERIOR_MATERIALS_VERSION_FILE := $(cat $(BUILD_DIR)/interior_materials_version/version.txt)
 COMPRESSED_DIR := $(BUILD_DIR)/compressed_textures
 GZIP_DIR := $(BUILD_DIR)/gzipped_assets
 REMOTE_BASE_DIR := s3://myworld_developer_destination_resources/mobile-themes-new
@@ -52,8 +52,8 @@ AWS = AWS_SECRET_KEY_ID=$(AWS_SECRET_KEY_ID) AWS_SECRET_ACCESS_KEY=$(AWS_SECRET_
 S3CP = $(AWS) s3 cp --recursive --content-encoding "gzip"
 S3SYNC = $(AWS) s3 sync --content-encoding "gzip"
 PREP_MANIFEST = cpp 
-BUILD_MANIFEST = python build-manifest.py 
-CHECK_MANIFEST = python check-manifest.py
+BUILD_MANIFEST = ./venv_wrapper.sh python build_manifest.py 
+CHECK_MANIFEST = ./venv_wrapper.sh python check_manifest.py
 
 MANIFEST_SRC_DIR := manifest
 MANIFEST_BUILD_DIR := $(BUILD_DIR)/manifest

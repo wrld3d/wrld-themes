@@ -7,3 +7,5 @@ tmp/
 *.pyo
 .idea/
 .settings/
+
+.vscode/

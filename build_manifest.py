@@ -2,6 +2,7 @@ import sys
 import json
 import yaml
 import requests
+import argparse
 
 def _get_interior_materials_common_descriptor(assets_host_name, interior_materials_version):
     descriptor_url = "http://{host_name}/interior-materials/v{version}/common/descriptor.json.gz".format(
@@ -30,27 +31,21 @@ def process_manifest(source_file, version, assets_host_name, landmark_textures_v
     yaml_document["InteriorMaterials"] = interior_materials_common_descriptor
         
     print json.dumps(yaml_document, sort_keys=True, indent=4, separators=(',', ': '))
-
-
-def read_version_from_file(version_filename):
-    with open(version_filename, 'r') as f:
-        version = f.readline()
-    return version.rstrip()
-
+    
 
 if __name__ == '__main__':
-    if len(sys.argv) == 6:
-        source_file = sys.argv[1]
-        version = sys.argv[2]
-        assets_host_name = sys.argv[3]
-        landmark_textures_version_file = sys.argv[4]
-        interior_materials_version_file = sys.argv[5]
+    parser = argparse.ArgumentParser(description='build a theme manifest')
+    parser.add_argument('source_file', type=string, help='source yaml file path. E.g. manifest/manifest.yaml')
+    parser.add_argument('version', type=string, help='version. E.g. 123')
+    parser.add_argument('asset_host_name', type=string, help='the hostname that the assets will be served from. E.g. d2xvsc8j92rfya.cloudfront.net')
+    parser.add_argument('landmark_textures_version', type=string, help='Version number of the landmark textures store. E.g. 1')
+    parser.add_argument('interior_materials_version', type=string, help='Version number of the interior materials store. E.g. 3')
 
-        landmark_textures_version = read_version_from_file(landmark_textures_version_file)
-        interiors_materials_version = read_version_from_file(interior_materials_version_file)
+    args = parser.parse_args()
 
-        process_manifest(source_file, version, assets_host_name, landmark_textures_version, interiors_materials_version)
-    else:
-        sys.stderr.write("Invalid usage.")
-        sys.stderr.write("Usage: build-manifest.py source_file version asset_host_name landmark_textures_version_file interior_materials_version_file");
-        sys.stderr.write("E.g.: build-manifest.py manifest/manifest.yaml 123 d2xvsc8j92rfya.cloudfront.net build/landmark_textures_version/version.txt build/interior_materials_version/version.txt");
+    process_manifest(
+        args.source_file, 
+        args.version, 
+        args.assets_host_name, 
+        args.landmark_textures_version, 
+        args.interiors_materials_version)
