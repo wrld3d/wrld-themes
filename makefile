@@ -2,8 +2,8 @@ rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
 SRC_DIR := themes
 BUILD_DIR := build
-LANDMARK_TEXTURES_VERSION_FILE := $(cat $(BUILD_DIR)/landmark_textures_version/version.txt)
-INTERIOR_MATERIALS_VERSION_FILE := $(cat $(BUILD_DIR)/interior_materials_version/version.txt)
+LANDMARK_TEXTURES_VERSION_FILE := $(shell cat $(BUILD_DIR)/landmark_textures_version/version.txt)
+INTERIOR_MATERIALS_VERSION_FILE := $(shell cat $(BUILD_DIR)/interior_materials_version/version.txt)
 COMPRESSED_DIR := $(BUILD_DIR)/compressed_textures
 GZIP_DIR := $(BUILD_DIR)/gzipped_assets
 REMOTE_BASE_DIR := s3://myworld_developer_destination_resources/mobile-themes-new
