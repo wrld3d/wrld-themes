@@ -16,6 +16,7 @@ else
     source "$venv_name"/bin/activate
 fi
 
-echo "Running command with python virtual env: $VIRTUAL_ENV"
+echo "Running command with python virtual env: $VIRTUAL_ENV" >&2
+echo "$@" >&2
 
 "$@"
