@@ -115,11 +115,12 @@ If you wish to generate entirely new themes, you can do so by using `make` in th
 1.  First, make the desired changes to the textures, or YAML files.
 2.  Run the `setup.sh` script.
 3.  Modify the `REMOTE_BASE_DIR` variable in the [makefile](https://github.com/eegeo/eegeo-themes/blob/master/makefile) to point to an S3 bucket you wish the resources to be uploaded to.
-4.  Run the following command: `mingw32-make.exe VERSION=<version> AWS_ACCESS_KEY_ID=<aws_access_key> AWS_SECRET_ACCESS_KEY=<aws_secret> ASSETS_HOST_NAME=<asset_host_name>`
+4.  Run the following command: `mingw32-make.exe VERSION=<version> AWS_ACCESS_KEY_ID=<aws_access_key> AWS_SECRET_ACCESS_KEY=<aws_secret> EEGEO_ASSETS_HOST_NAME=<asset_host_name> THEME_ASSETS_HOST_NAME=<asset_host_name>`
     * `VERSION` is a unique version string for the resulting theme.
     * `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` should be keys for an AWS user with permissions to write to the S3 bucket specified in step 3.
-    * `ASSETS_HOST_NAME` is the host name you plan to serve the theme resources from. It will be included in the theme manifest to tell the app where to request resources from.
-    
+    * `EEGEO_ASSETS_HOST_NAME` is the host name that eegeo provided assets will be served from. It will be included in the theme manifest to tell the app where to request resources from. You will need to request this from eeGeo.
+    * `THEME_ASSETS_HOST_NAME` is the host name you plan to serve the theme resources from. It will be included in the theme manifest to tell the app where to request resources from.
+
 Note that this process can take a long time to complete if you include a large number of themes and textures.
 
 ## License

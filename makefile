@@ -79,19 +79,19 @@ $(PREPROCESSED_MANIFEST):$(SRC_MANIFEST_FILES)
 # Always rebuild this as it contains references to the version directory.
 $(MANIFEST_BUILD_DIR)/manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
 	$(MKDIR) $(dir $@) 
-	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
+	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(EEGEO_ASSETS_HOST_NAME) $(THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
 $(MANIFEST_BUILD_DIR)/web.manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
 	$(MKDIR) $(dir $@) 
-	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(WEB_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
+	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(WEB_EEGEO_ASSETS_HOST_NAME) $(WEB_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
 $(MANIFEST_BUILD_DIR)/ssl.manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
 	$(MKDIR) $(dir $@) 
-	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(SSL_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
+	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(SSL_EEGEO_ASSETS_HOST_NAME) $(SSL_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 $(GZIP_DIR)/%.txt.gz:$(MANIFEST_BUILD_DIR)/%.txt
@@ -145,14 +145,23 @@ endif
 ifndef AWS_SECRET_ACCESS_KEY
         $(error AWS_SECRET_ACCESS_KEY not defined. Specify it like this "make AWS_SECRET_ACCESS_KEY=<YOUR KEY>")
 endif
-ifndef ASSETS_HOST_NAME
-        $(error ASSETS_HOST_NAME not defined. Specify it like this "make ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
+ifndef EEGEO_ASSETS_HOST_NAME
+        $(error EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
 endif
-ifndef WEB_ASSETS_HOST_NAME
-        $(error WEB_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
+ifndef THEME_ASSETS_HOST_NAME
+        $(error THEME_ASSETS_HOST_NAME not defined. Specify it like this "make THEME_ASSETS_HOST_NAME=<YOUR THEME ASSETS HOST NAME>")
 endif
-ifndef SSL_ASSETS_HOST_NAME
-        $(error SSL_ASSETS_HOST_NAME not defined. Specify it like this "make SSL_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
+ifndef WEB_EEGEO_ASSETS_HOST_NAME
+        $(error WEB_EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
+endif
+ifndef WEB_THEME_ASSETS_HOST_NAME
+        $(error WEB_THEME_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_THEME_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
+endif
+ifndef SSL_EEGEO_ASSETS_HOST_NAME
+        $(error SSL_EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make SSL_EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
+endif
+ifndef SSL_THEME_ASSETS_HOST_NAME
+        $(error SSL_THEME_ASSETS_HOST_NAME not defined. Specify it like this "make SSL_THEME_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
 endif
 
 .PHONY: clean
