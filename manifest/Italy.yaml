@@ -117,22 +117,22 @@ ItalySpringTextures: &ItalySpringTextures
    TreeTopDiffuse: Italy/Spring_trees_top_01
    LcmDiffuse: 
       <<: *ItalyTerrainTextures
-      Terrain4: SanFrancisco/Spring_TerrainTexture4
-      Terrain5: Okinawa/Spring_TerrainTexture5
-      Terrain6: Okinawa/Spring_TerrainTexture6
-      Terrain7: Okinawa/Spring_TerrainTexture7
-      Terrain8: Okinawa/Spring_TerrainTexture8
-      Terrain14: Okinawa/Spring_TerrainTexture14
-      Terrain18: Okinawa/Spring_TerrainTexture18
+      Terrain4: Italy/Spring_TerrainTexture4
+      Terrain5: Italy/Spring_TerrainTexture5
+      Terrain6: Italy/Spring_TerrainTexture6
+      Terrain7: Italy/Spring_TerrainTexture7
+      Terrain8: Italy/Spring_TerrainTexture8
+      Terrain14: Italy/Spring_TerrainTexture14
+      Terrain18: Italy/Spring_TerrainTexture18
    LcmLodDiffuse:
       <<: *ItalyTerrainLODTextures
-      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
-      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      Terrain4: Italy/Spring_TerrainTexture4_LOD
+      Terrain5: Italy/Spring_TerrainTexture5_LOD
+      Terrain6: Italy/Spring_TerrainTexture6_LOD
+      Terrain7: Italy/Spring_TerrainTexture7_LOD
+      Terrain8: Italy/Spring_TerrainTexture8_LOD
+      Terrain14: Italy/Spring_TerrainTexture14_LOD
+      Terrain18: Italy/Spring_TerrainTexture18_LOD
 
 ItalyAutumnTextures: &ItalyAutumnTextures
    <<: *ItalySummerTextures
@@ -140,22 +140,22 @@ ItalyAutumnTextures: &ItalyAutumnTextures
    TreeTopDiffuse: Italy/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *ItalyTerrainTextures
-      Terrain4: SanFrancisco/Autumn_TerrainTexture4
-      Terrain5: Okinawa/Autumn_TerrainTexture5
-      Terrain6: Okinawa/Autumn_TerrainTexture6
-      Terrain7: Okinawa/Autumn_TerrainTexture7
-      Terrain8: Okinawa/Autumn_TerrainTexture8
-      Terrain14: Okinawa/Autumn_TerrainTexture14
-      Terrain18: Okinawa/Autumn_TerrainTexture18
+      Terrain4: Italy/Autumn_TerrainTexture4
+      Terrain5: Italy/Autumn_TerrainTexture5
+      Terrain6: Italy/Autumn_TerrainTexture6
+      Terrain7: Italy/Autumn_TerrainTexture7
+      Terrain8: Italy/Autumn_TerrainTexture8
+      Terrain14: Italy/Autumn_TerrainTexture14
+      Terrain18: Italy/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *ItalyTerrainLODTextures
-      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
-      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      Terrain4: Italy/Autumn_TerrainTexture4_LOD
+      Terrain5: Italy/Autumn_TerrainTexture5_LOD
+      Terrain6: Italy/Autumn_TerrainTexture6_LOD
+      Terrain7: Italy/Autumn_TerrainTexture7_LOD
+      Terrain8: Italy/Autumn_TerrainTexture8_LOD
+      Terrain14: Italy/Autumn_TerrainTexture14_LOD
+      Terrain18: Italy/Autumn_TerrainTexture18_LOD
 
 ItalyWinterTextures: &ItalyWinterTextures
    <<: *ItalySummerTextures
@@ -163,22 +163,22 @@ ItalyWinterTextures: &ItalyWinterTextures
    TreeTopDiffuse: Italy/Winter_trees_top_01
    LcmDiffuse: 
       <<: *ItalyTerrainTextures
-      Terrain4: SanFrancisco/Winter_TerrainTexture4
-      Terrain5: Okinawa/Winter_TerrainTexture5
-      Terrain6: Okinawa/Winter_TerrainTexture6
-      Terrain7: Okinawa/Winter_TerrainTexture7
-      Terrain8: Okinawa/Winter_TerrainTexture8
-      Terrain14: Okinawa/Winter_TerrainTexture14
-      Terrain18: Okinawa/Winter_TerrainTexture18
+      Terrain4: Italy/Winter_TerrainTexture4
+      Terrain5: Italy/Winter_TerrainTexture5
+      Terrain6: Italy/Winter_TerrainTexture6
+      Terrain7: Italy/Winter_TerrainTexture7
+      Terrain8: Italy/Winter_TerrainTexture8
+      Terrain14: Italy/Winter_TerrainTexture14
+      Terrain18: Italy/Winter_TerrainTexture18
    LcmLodDiffuse:
       <<: *ItalyTerrainLODTextures
-      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
-      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+      Terrain4: Italy/Winter_TerrainTexture4_LOD
+      Terrain5: Italy/Winter_TerrainTexture5_LOD
+      Terrain6: Italy/Winter_TerrainTexture6_LOD
+      Terrain7: Italy/Winter_TerrainTexture7_LOD
+      Terrain8: Italy/Winter_TerrainTexture8_LOD
+      Terrain14: Italy/Winter_TerrainTexture14_LOD
+      Terrain18: Italy/Winter_TerrainTexture18_LOD
 
 ItalySummerNightTextures: &ItalySummerNightTextures
    <<: *ItalySummerTextures
