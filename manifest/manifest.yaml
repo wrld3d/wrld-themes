@@ -22,6 +22,7 @@
 #include "dubai.yaml"
 #include "italy.yaml"
 #include "Scandinavia.yaml"
+#include "Thailand.yaml"
     
 ThemeManifest:
    FormatVersion: 1  # Added unified cubemaps & versioning
@@ -121,4 +122,9 @@ ThemeManifest:
         *SummerDubai,
         *SpringDubai,
         *AutumnDubai,
-        *WinterDubai]
+        *WinterDubai,
+        
+        *SummerThailand,
+        *SpringThailand,
+        *AutumnThailand,
+        *WinterThailand]
