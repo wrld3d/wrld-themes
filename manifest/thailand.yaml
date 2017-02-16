@@ -99,7 +99,7 @@ ThailandSummerTextures: &ThailandSummerTextures
    RailDiffuse: London/London_railDiffuse_repeat
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
    TreeSideDiffuse: Dubai/trees_01
-   TreeTopDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
    <<: *DefaultVehiclesDayTextures
    <<: *DefaultWaterReflectionTextures
    WaterNormal: SanFrancisco/water_normalmap
