@@ -183,7 +183,7 @@ ThailandWinterTextures: &ThailandWinterTextures
 ThailandSummerNightTextures: &ThailandSummerNightTextures
    <<: *ThailandSummerTextures
    <<: *DefaultVehiclesNightTextures
-   BuildingDiffuse: Thailand/WallDiffuse_Thailand
+   BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: SanFrancisco/water_reflectionmap_night
@@ -204,7 +204,7 @@ ThailandSummerNightSnowTextures: &ThailandSummerNightSnowTextures
    <<: *ThailandSummerTextures
    <<: *DefaultVehiclesNightTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
-   BuildingDiffuse: Thailand/WallDiffuse_Thailand
+   BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
    RailDiffuse: London/London_railDiffuse_night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
