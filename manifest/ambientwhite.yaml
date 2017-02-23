@@ -1,0 +1,83 @@
+AmbientWhiteTerrainTextures: &AmbientWhiteTerrainTextures
+     Terrain0: AmbientWhite/TerrainTexture0
+     Terrain1: AmbientWhite/TerrainTexture1
+     Terrain2: AmbientWhite/TerrainTexture2
+     Terrain3: AmbientWhite/TerrainTexture3
+     Terrain4: AmbientWhite/TerrainTexture4
+     Terrain5: AmbientWhite/TerrainTexture5
+     Terrain6: AmbientWhite/TerrainTexture6
+     Terrain7: AmbientWhite/TerrainTexture7
+     Terrain8: AmbientWhite/TerrainTexture8
+     Terrain9: AmbientWhite/TerrainTexture9
+     Terrain10: AmbientWhite/TerrainTexture10
+     Terrain11: AmbientWhite/TerrainTexture11
+     Terrain12: AmbientWhite/TerrainTexture12
+     Terrain13: AmbientWhite/TerrainTexture13
+     Terrain14: AmbientWhite/TerrainTexture14
+     Terrain15: AmbientWhite/TerrainTexture15
+     Terrain16: AmbientWhite/TerrainTexture16
+     Terrain17: AmbientWhite/TerrainTexture17
+     Terrain18: AmbientWhite/TerrainTexture18
+     Terrain253: AmbientWhite/Water_01
+     Terrain254: AmbientWhite/Water_02
+     Terrain255: AmbientWhite/Water_03
+
+AmbientWhiteTerrainLODTextures: &AmbientWhiteTerrainLODTextures
+     Terrain0: AmbientWhite/TerrainTexture0_LOD
+     Terrain1: AmbientWhite/TerrainTexture1_LOD
+     Terrain2: AmbientWhite/TerrainTexture2_LOD
+     Terrain3: AmbientWhite/TerrainTexture3_LOD
+     Terrain4: AmbientWhite/TerrainTexture4_LOD
+     Terrain5: AmbientWhite/TerrainTexture5_LOD
+     Terrain6: AmbientWhite/TerrainTexture6_LOD
+     Terrain7: AmbientWhite/TerrainTexture7_LOD
+     Terrain8: AmbientWhite/TerrainTexture8_LOD
+     Terrain9: AmbientWhite/TerrainTexture9_LOD
+     Terrain10: AmbientWhite/TerrainTexture10_LOD
+     Terrain11: AmbientWhite/TerrainTexture11_LOD
+     Terrain12: AmbientWhite/TerrainTexture12_LOD
+     Terrain13: AmbientWhite/TerrainTexture13_LOD
+     Terrain14: AmbientWhite/TerrainTexture14_LOD
+     Terrain15: AmbientWhite/TerrainTexture15_LOD
+     Terrain16: AmbientWhite/TerrainTexture16_LOD
+     Terrain17: AmbientWhite/TerrainTexture17_LOD
+     Terrain18: AmbientWhite/TerrainTexture18_LOD
+     Terrain253: AmbientWhite/Water_01_LOD
+     Terrain254: AmbientWhite/Water_02_LOD
+     Terrain255: AmbientWhite/Water_03_LOD
+
+AmbientWhiteDevTextures: &AmbientWhiteDevTextures
+   RoadDiffuse: AmbientWhite/roadDiffuse_repeat
+   RailDiffuse: AmbientWhite/railDiffuse
+   BuildingDiffuse: AmbientWhite/WallDiffuse
+   TreeSideDiffuse: AmbientWhite/trees_01
+   TreeTopDiffuse: AmbientWhite/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: AmbientWhite/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *AmbientWhiteTerrainTextures
+   LcmLodDiffuse:
+      <<: *AmbientWhiteTerrainLODTextures
+
+DevAmbientWhite: &DevAmbientWhite
+   Name: DevAmbientWhite
+   LocationLatLong: [37.75253,-122.449837]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *AmbientWhiteDevTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *AmbientWhiteDevTextures
+  

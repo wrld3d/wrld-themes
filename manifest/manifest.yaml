@@ -23,6 +23,7 @@
 #include "italy.yaml"
 #include "Scandinavia.yaml"
 #include "Thailand.yaml"
+#include "ambientwhite.yaml"
     
 ThemeManifest:
    FormatVersion: 1  # Added unified cubemaps & versioning
@@ -127,4 +128,6 @@ ThemeManifest:
         *SummerThailand,
         *SpringThailand,
         *AutumnThailand,
-        *WinterThailand]
+        *WinterThailand,
+        
+        *DevAmbientWhite]
