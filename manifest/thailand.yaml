@@ -96,7 +96,7 @@ ThailandSnowTerrainLODTextures: &ThailandSnowTerrainLODTextures
 
 ThailandSummerTextures: &ThailandSummerTextures
    RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
-   RailDiffuse: London/London_railDiffuse_repeat
+   RailDiffuse: Thailand/Thailand_Rail_01
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
    TreeSideDiffuse: Dubai/trees_01
    TreeTopDiffuse: Dubai/trees_top_01
@@ -185,7 +185,7 @@ ThailandSummerNightTextures: &ThailandSummerNightTextures
    <<: *DefaultVehiclesNightTextures
    BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
-   RailDiffuse: London/London_railDiffuse_night
+   RailDiffuse: Thailand/Thailand_Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
@@ -205,7 +205,7 @@ ThailandSummerNightSnowTextures: &ThailandSummerNightSnowTextures
    <<: *DefaultVehiclesNightTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
-   RailDiffuse: London/London_railDiffuse_night
+   RailDiffuse: Thailand/Thailand_Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
