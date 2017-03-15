@@ -66,17 +66,23 @@ class EmbeddedManifestFactory:
     def __init__(self, theme_names, state_names, output_dir, download_textures=True, asset_root=None, partial=False):
         self._theme_names = set(theme_names)
         self._state_names = set(state_names)
-        self._output_dir = output_dir
+        self._output_dir = output_dir if output_dir is not None else ""
+        self._write_output_to_file = output_dir is not None
         self._asset_root = asset_root
         self._partial = partial
         self._should_download_textures = download_textures
         self._platform_cubemap_counts = dict()
         self._platform_files_per_cubemap = dict()
 
+
     def create_embedded_manifest(self, manifest_text):
         manifest_json = json.loads(manifest_text)
         embedded_manifest_json = self._create_embedded_manifest_from_json(manifest_json)
-        self._write_embedded_manifest_file(embedded_manifest_json)
+
+        if self._write_output_to_file:
+            self._write_embedded_manifest_file(embedded_manifest_json)
+
+        return manifest_json
 
     def _create_embedded_manifest_from_json(self, manifest_json):
         all_landmark_postfixes = self._get_all_landmark_postfixes(manifest_json)

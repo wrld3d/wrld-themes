@@ -1,3 +1,4 @@
+import json
 import unittest
 import ddt
 from create_embedded_manifest import EmbeddedManifestFactory
@@ -12,14 +13,15 @@ TEST_STATES = ["DayDefault", "DayRainy"]
 
 @ddt.ddt
 class EmbeddedManifestFactoryTests(unittest.TestCase):
+    def _create_manifest_from_json_obj_single_theme(self, manifest_json_obj):
+        factory = EmbeddedManifestFactory([TEST_THEME], [TEST_STATE], output_dir=None, download_textures=False)
+        json_text = json.dumps(manifest_json_obj)
+        return factory.create_embedded_manifest(json_text)
 
-    def _create_test_factory(self):
-        factory = EmbeddedManifestFactory(None, [TEST_THEME], [TEST_STATE], "", download_textures=False)
-        return factory
-
-    def _create_multi_theme_test_factory(self):
-        factory = EmbeddedManifestFactory(None, TEST_THEMES, TEST_STATES, "", download_textures=False)
-        return factory
+    def _create_manifest_from_json_obj_multiple_themes(self, manifest_json_obj):
+        factory = EmbeddedManifestFactory(TEST_THEMES, TEST_STATES, output_dir=None, download_textures=False)
+        json_text = json.dumps(manifest_json_obj)
+        return factory.create_embedded_manifest(json_text)
 
     @ddt.data(
         [],
@@ -28,8 +30,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
     )
     def test_raises_exception_if_missing_single_theme(self, data):
         manifest_json = {"Themes": data}
-        factory = self._create_test_factory()
-        self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
+
+        self.assertRaises(ValueError, lambda: self._create_manifest_from_json_obj_single_theme(manifest_json))
 
     @ddt.data(
         [],
@@ -38,8 +40,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
     )
     def test_raises_exception_if_missing_some_themes(self, data):
         manifest_json = {"Themes": data}
-        factory = self._create_multi_theme_test_factory()
-        self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
+
+        self.assertRaises(ValueError, lambda: self._create_manifest_from_json_obj_multiple_themes(manifest_json))
 
     @ddt.data(
         [],
@@ -48,8 +50,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
     )
     def test_raises_exception_if_missing_single_state(self, data):
         manifest_json = {"Themes": [{"Name": TEST_THEME, "States": data}]}
-        factory = self._create_test_factory()
-        self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
+
+        self.assertRaises(ValueError, lambda: self._create_manifest_from_json_obj_single_theme(manifest_json))
 
     @ddt.data(
         [],
@@ -59,8 +61,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
     def test_raises_exception_if_missing_some_states(self, data):
         manifest_json = {"Themes": [{"Name": TEST_THEMES[0], "States": data},
                                     {"Name": TEST_THEMES[1], "States": data}]}
-        factory = self._create_multi_theme_test_factory()
-        self.assertRaises(ValueError, lambda: factory.create_embedded_manifest_from_json(manifest_json))
+
+        self.assertRaises(ValueError, lambda: self._create_manifest_from_json_obj_multiple_themes(manifest_json))
 
     def test_correct_theme_chosen(self):
         correct_states = [{"Name": TEST_STATE, "Textures": {} }]
@@ -72,8 +74,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                 correct_theme
             ]
         }
-        factory = self._create_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+        output_json = self._create_manifest_from_json_obj_single_theme(manifest_json)
+
         self.assertEqual(output_json["Themes"], [correct_theme])
 
     def test_correct_state_chosen(self):
@@ -88,8 +90,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                  ]
             }]
         }
-        factory = self._create_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+
+        output_json = self._create_manifest_from_json_obj_single_theme(manifest_json)
         self.assertEqual(output_json["Themes"][0]["States"], [correct_state])
 
     def test_correct_themes_chosen(self):
@@ -101,8 +103,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                        {"Name": "WinterNewYork", "States": correct_states},
                        correct_theme0]
         }
-        factory = self._create_multi_theme_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+
+        output_json = self._create_manifest_from_json_obj_multiple_themes(manifest_json)
         correct_themes = [correct_theme0, correct_theme1]
         self.assertTrue(
             all(((theme in correct_themes)
@@ -129,8 +131,7 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                  ]
             }]
         }
-        factory = self._create_multi_theme_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+        output_json = self._create_manifest_from_json_obj_multiple_themes(manifest_json)
         correct_states = [correct_state0, correct_state1]
         themes = output_json["Themes"]
         all_states = [state
@@ -163,8 +164,7 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                 }]
             }]
         }
-        factory = self._create_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+        output_json = self._create_manifest_from_json_obj_single_theme(manifest_json)
         self.assertEqual(post_ext, output_json["AssetExtension_Platform"])
 
     def test_textures_renamed_recursively(self):
@@ -188,8 +188,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                 }]
             }]
         }
-        factory = self._create_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+
+        output_json = self._create_manifest_from_json_obj_single_theme(manifest_json)
         textures = output_json["Themes"][0]["States"][0]["Textures"]
         texture_names = [
             textures["Texture0"],
@@ -218,8 +218,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                 }]
             }]
         }
-        factory = self._create_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
+
+        output_json = self._create_manifest_from_json_obj_single_theme(manifest_json)
         texture_name = output_json["Themes"][0]["States"][0]["Textures"]["Texture0"]
         self.assertEqual(post_texture_name, texture_name)
 
@@ -238,9 +238,9 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                 "SpaceVehicles": []
             }]
         }
-        factory = self._create_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
-        theme = manifest_json["Themes"][0]
+
+        output_json = self._create_manifest_from_json_obj_single_theme(manifest_json)
+        theme = output_json ["Themes"][0]
         vehicle_keys = ["PlaneVehicles", "RailVehicles", "TramVehicles", "RoadVehicles", "SpaceVehicles"]
         self.assertFalse(any(key in theme for key in vehicle_keys))
 
@@ -253,9 +253,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                             {"Name": "WinterIsComing", "Textures": {} },
                         ]}]
         }
-        factory = self._create_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
-        self.assertEqual(set(output_json["LandmarkTexturePostfixes"]), set(("A", "B")))
+        output_json = self._create_manifest_from_json_obj_single_theme(manifest_json)
+        self.assertEqual(set(output_json["LandmarkTexturePostfixes"]), {"A", "B"})
 
     def test_landmark_postfix_for_multiple_themes_stored(self):
         manifest_json = {
@@ -272,9 +271,8 @@ class EmbeddedManifestFactoryTests(unittest.TestCase):
                             {"Name": "WinterIsComing", "Textures": {} },
                         ]}]
         }
-        factory = self._create_multi_theme_test_factory()
-        output_json = factory.create_embedded_manifest_from_json(manifest_json)
-        self.assertEqual(set(output_json["LandmarkTexturePostfixes"]), set(("A", "B", "C", "D", "E")))
+        output_json = self._create_manifest_from_json_obj_multiple_themes(manifest_json)
+        self.assertEqual(set(output_json["LandmarkTexturePostfixes"]), {"A", "B", "C", "D", "E"})
 
 
 if __name__ == "__main__":
