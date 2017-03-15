@@ -1,0 +1,86 @@
+ScifiVTerrainTextures: &ScifiVTerrainTextures
+     Terrain0: ScifiV/TerrainTexture0
+     Terrain1: ScifiV/TerrainTexture1
+     Terrain2: ScifiV/TerrainTexture2
+     Terrain3: ScifiV/TerrainTexture3
+     Terrain4: ScifiV/TerrainTexture4
+     Terrain5: ScifiV/TerrainTexture5
+     Terrain6: ScifiV/TerrainTexture6
+     Terrain7: ScifiV/TerrainTexture7
+     Terrain8: ScifiV/TerrainTexture8
+     Terrain9: ScifiV/TerrainTexture9
+     Terrain10: ScifiV/TerrainTexture10
+     Terrain11: ScifiV/TerrainTexture11
+     Terrain12: ScifiV/TerrainTexture12
+     Terrain13: ScifiV/TerrainTexture13
+     Terrain14: ScifiV/TerrainTexture14
+     Terrain15: ScifiV/TerrainTexture15
+     Terrain16: ScifiV/TerrainTexture16
+     Terrain17: ScifiV/TerrainTexture17
+     Terrain18: ScifiV/TerrainTexture18
+     Terrain253: ScifiV/Water_01
+     Terrain254: ScifiV/Water_02
+     Terrain255: ScifiV/Water_03
+
+ScifiVTerrainLODTextures: &ScifiVTerrainLODTextures
+     Terrain0: ScifiV/TerrainTexture0_LOD
+     Terrain1: ScifiV/TerrainTexture1_LOD
+     Terrain2: ScifiV/TerrainTexture2_LOD
+     Terrain3: ScifiV/TerrainTexture3_LOD
+     Terrain4: ScifiV/TerrainTexture4_LOD
+     Terrain5: ScifiV/TerrainTexture5_LOD
+     Terrain6: ScifiV/TerrainTexture6_LOD
+     Terrain7: ScifiV/TerrainTexture7_LOD
+     Terrain8: ScifiV/TerrainTexture8_LOD
+     Terrain9: ScifiV/TerrainTexture9_LOD
+     Terrain10: ScifiV/TerrainTexture10_LOD
+     Terrain11: ScifiV/TerrainTexture11_LOD
+     Terrain12: ScifiV/TerrainTexture12_LOD
+     Terrain13: ScifiV/TerrainTexture13_LOD
+     Terrain14: ScifiV/TerrainTexture14_LOD
+     Terrain15: ScifiV/TerrainTexture15_LOD
+     Terrain16: ScifiV/TerrainTexture16_LOD
+     Terrain17: ScifiV/TerrainTexture17_LOD
+     Terrain18: ScifiV/TerrainTexture18_LOD
+     Terrain253: ScifiV/Water_01_LOD
+     Terrain254: ScifiV/Water_02_LOD
+     Terrain255: ScifiV/Water_03_LOD
+
+ScifiVDevTextures: &ScifiVDevTextures
+   RoadDiffuse: ScifiV/roadDiffuse_repeat
+   RailDiffuse: ScifiV/railDiffuse
+   BuildingDiffuse: ScifiV/WallDiffuse
+   TreeSideDiffuse: ScifiV/trees_01
+   TreeTopDiffuse: ScifiV/trees_top_01
+   VehicleDiffuse: ScifiV/vehicles_01
+   TrainDiffuse: ScifiV/trains_01
+   PlaneDiffuse: ScifiV/planes_01
+   TramDiffuse: ScifiV/trains_01
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: ScifiV/water_normalmap
+   WaterReflection: ScifiV/water_reflection
+   AsyncPlaceholderDiffuse: ScifiV/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *ScifiVTerrainTextures
+   LcmLodDiffuse:
+      <<: *ScifiVTerrainLODTextures
+
+SciFiV: &SciFiV
+   Name: SummerSciFiV
+   LocationLatLong: [37.75253,-122.449837]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *WhiteLighting
+        Textures:
+           <<: *ScifiVDevTextures
+      - Name: DayDefault
+        <<: *WhiteLighting
+        Textures:
+           <<: *ScifiVDevTextures
+  

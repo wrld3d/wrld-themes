@@ -1,0 +1,12 @@
+WhiteLighting: &WhiteLighting
+   KeyLight: [0.8, 0.8, 0.8]
+   BackLight: [0.3, 0.3, 0.3]
+   FillLight: [0.1, 0.1, 0.1]
+   AmbientLight: [0.43, 0.43, 0.43]
+   AlternativeAmbientLight: [0.43, 0.43, 0.43]
+   ShadowColor: [0.4, 0.4, 0.4]
+   FogColor: [0, 0, 0]
+   FogIntensity: 0.0
+   LightMapColor: [0, 0, 0]
+   LightMapIntensity: 0.0
+   LandmarkPostfix: ""
