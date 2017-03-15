@@ -137,31 +137,31 @@ $(GZIP_DIR)/%.POD.gz:$(SRC_DIR)/%.POD
 .PHONY: check-env
 check-env:
 ifndef VERSION
-        $(error VERSION not defined. Specify it like this "make VERSION=<YOUR VERSION>")
+		$(error VERSION not defined. Specify it like this "make VERSION=<YOUR VERSION>")
 endif
 ifndef AWS_ACCESS_KEY_ID
-        $(error AWS_ACCESS_KEY_ID not defined. Specify it like this "make AWS_ACCESS_KEY_ID=<YOUR KEY>")
+		$(error AWS_ACCESS_KEY_ID not defined. Specify it like this "make AWS_ACCESS_KEY_ID=<YOUR KEY>")
 endif
 ifndef AWS_SECRET_ACCESS_KEY
-        $(error AWS_SECRET_ACCESS_KEY not defined. Specify it like this "make AWS_SECRET_ACCESS_KEY=<YOUR KEY>")
+		$(error AWS_SECRET_ACCESS_KEY not defined. Specify it like this "make AWS_SECRET_ACCESS_KEY=<YOUR KEY>")
 endif
 ifndef EEGEO_ASSETS_HOST_NAME
-        $(error EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
+		$(error EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
 endif
 ifndef THEME_ASSETS_HOST_NAME
-        $(error THEME_ASSETS_HOST_NAME not defined. Specify it like this "make THEME_ASSETS_HOST_NAME=<YOUR THEME ASSETS HOST NAME>")
+		$(error THEME_ASSETS_HOST_NAME not defined. Specify it like this "make THEME_ASSETS_HOST_NAME=<YOUR THEME ASSETS HOST NAME>")
 endif
 ifndef WEB_EEGEO_ASSETS_HOST_NAME
-        $(error WEB_EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
+		$(error WEB_EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
 endif
 ifndef WEB_THEME_ASSETS_HOST_NAME
-        $(error WEB_THEME_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_THEME_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
+		$(error WEB_THEME_ASSETS_HOST_NAME not defined. Specify it like this "make WEB_THEME_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
 endif
 ifndef SSL_EEGEO_ASSETS_HOST_NAME
-        $(error SSL_EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make SSL_EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
+		$(error SSL_EEGEO_ASSETS_HOST_NAME not defined. Specify it like this "make SSL_EEGEO_ASSETS_HOST_NAME=<EEGEO ASSETS HOST NAME>")
 endif
 ifndef SSL_THEME_ASSETS_HOST_NAME
-        $(error SSL_THEME_ASSETS_HOST_NAME not defined. Specify it like this "make SSL_THEME_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
+		$(error SSL_THEME_ASSETS_HOST_NAME not defined. Specify it like this "make SSL_THEME_ASSETS_HOST_NAME=<YOUR ASSETS HOST NAME>")
 endif
 
 .PHONY: clean
