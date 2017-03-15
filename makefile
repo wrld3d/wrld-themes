@@ -6,13 +6,14 @@ LANDMARK_TEXTURES_VERSION_FILE := $(BUILD_DIR)/landmark_textures_version/version
 INTERIOR_MATERIALS_VERSION_FILE := $(BUILD_DIR)/interior_materials_version/version.txt
 COMPRESSED_DIR := $(BUILD_DIR)/compressed_textures
 GZIP_DIR := $(BUILD_DIR)/gzipped_assets
+GZIPPED_ASSETS_DIR := $(GZIP_DIR)/Assets
 REMOTE_BASE_DIR := s3://myworld_developer_destination_resources/mobile-themes-new
 REMOTE_SYNC_DIR := $(REMOTE_BASE_DIR)/sync
 VERSION_NAME := v$(VERSION)
 REMOTE_BUILD_DIR := $(REMOTE_BASE_DIR)/$(VERSION_NAME)
 
 SRC_POD_FILES := $(call rwildcard,$(SRC_DIR)/,*.POD)
-DST_POD_FILES := $(patsubst $(SRC_DIR)/%,$(GZIP_DIR)/%.gz,$(SRC_POD_FILES))
+DST_POD_FILES := $(patsubst $(SRC_DIR)/%,$(GZIPPED_ASSETS_DIR)/%.gz,$(SRC_POD_FILES))
 
 SRC_PNG_FILES := $(call rwildcard,$(SRC_DIR)/,*.png)
 
@@ -35,7 +36,7 @@ KTX_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.k
 DDS_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.dds,$(SRC_CUBE_POSX_FILES))
 
 ALL_COMPRESSED_FILES := $(PVR_FILES) $(PVR_CUBE_FILES) $(KTX_FILES) $(KTX_CUBE_FILES) $(DDS_FILES) $(DDS_CUBE_FILES) $(DST_PNG_FILES)
-ALL_GZIP_FILES := $(patsubst $(COMPRESSED_DIR)/%,$(GZIP_DIR)/%.gz,$(ALL_COMPRESSED_FILES))
+ALL_GZIP_FILES := $(patsubst $(COMPRESSED_DIR)/%,$(GZIPPED_ASSETS_DIR)/%.gz,$(ALL_COMPRESSED_FILES))
 
 TEX_TOOL = ./lib/PVRTexToolCL.exe
 PVR_COMPRESS = $(TEX_TOOL) -f PVRTC1_4 -m -flip y -legacypvr
@@ -56,41 +57,42 @@ BUILD_MANIFEST = ./venv_wrapper.sh python build_manifest.py
 CHECK_MANIFEST = ./venv_wrapper.sh python check_manifest.py
 
 MANIFEST_SRC_DIR := manifest
+MANIFEST_ROOTS_DIR := $(MANIFEST_SRC_DIR)/manifest_roots
 MANIFEST_BUILD_DIR := $(BUILD_DIR)/manifest
 SRC_MANIFEST_FILES := $(call rwildcard,$(MANIFEST_SRC_DIR)/,*.yaml)
 
-DST_MANIFEST_FILES := $(patsubst $(MANIFEST_SRC_DIR)/%.yaml,$(GZIP_DIR)/%.txt.gz,$(wildcard $(MANIFEST_SRC_DIR)/*.yaml))
-WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_SRC_DIR)/%.yaml,$(GZIP_DIR)/web.%.txt.gz,$(wildcard $(MANIFEST_SRC_DIR)/*.yaml))
-SSL_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_SRC_DIR)/%.yaml,$(GZIP_DIR)/ssl.%.txt.gz,$(wildcard $(MANIFEST_SRC_DIR)/*.yaml))
+DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
+WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/web.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
+SSL_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/ssl.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 
 .SECONDARY:
 .PHONY: all
 all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST_FILES) $(WEB_DST_MANIFEST_FILES) $(SSL_DST_MANIFEST_FILES) $(DST_POD_FILES)
-	$(S3SYNC) $(GZIP_DIR)/ $(REMOTE_SYNC_DIR)/
-	$(S3CP) $(REMOTE_SYNC_DIR)/ $(REMOTE_BUILD_DIR)/
+	# $(S3SYNC) $(GZIP_DIR)/ $(REMOTE_SYNC_DIR)/
+	# $(S3CP) $(REMOTE_SYNC_DIR)/ $(REMOTE_BUILD_DIR)/
 
-$(MANIFEST_BUILD_DIR)/%.yaml.prep:$(MANIFEST_SRC_DIR)/%.yaml
+$(MANIFEST_BUILD_DIR)/%.yaml.prep:$(MANIFEST_ROOTS_DIR)/%.yaml
 	$(MKDIR) $(dir $@) 
 	$(PREP_MANIFEST) "$<" > "$@"
 
-$(MANIFEST_SRC_DIR)/%.yaml:$(SRC_MANIFEST_FILES)
+$(MANIFEST_ROOTS_DIR)/%.yaml:$(SRC_MANIFEST_FILES)
 
 .PHONY: .FORCE
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/%.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
+$(MANIFEST_BUILD_DIR)/%/manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(EEGEO_ASSETS_HOST_NAME) $(THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/web.%.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
+$(MANIFEST_BUILD_DIR)/%/web.manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(WEB_EEGEO_ASSETS_HOST_NAME) $(WEB_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/ssl.%.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
+$(MANIFEST_BUILD_DIR)/%/ssl.manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(SSL_EEGEO_ASSETS_HOST_NAME) $(SSL_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
@@ -127,11 +129,11 @@ $(COMPRESSED_DIR)/%.png:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)
 	$(CP) "$<" "$@"
 
-$(GZIP_DIR)/%.gz:$(COMPRESSED_DIR)/%
+$(GZIPPED_ASSETS_DIR)/%.gz:$(COMPRESSED_DIR)/%
 	$(MKDIR) $(dir $@)
 	cat $< | gzip -n --stdout >$@
 
-$(GZIP_DIR)/%.POD.gz:$(SRC_DIR)/%.POD
+$(GZIPPED_ASSETS_DIR)/%.POD.gz:$(SRC_DIR)/%.POD
 	$(MKDIR) $(dir $@)
 	cat $< | gzip -n --stdout >$@
 
