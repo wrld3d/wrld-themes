@@ -57,39 +57,40 @@ CHECK_MANIFEST = ./venv_wrapper.sh python check_manifest.py
 
 MANIFEST_SRC_DIR := manifest
 MANIFEST_BUILD_DIR := $(BUILD_DIR)/manifest
-SRC_ROOT_MANIFEST := $(MANIFEST_SRC_DIR)/manifest.yaml
-SRC_MANIFEST_FILES := $(call rwildcard,$(MANIFEST_SRC_DIR)/,*.yaml) 
-PREPROCESSED_MANIFEST := $(MANIFEST_BUILD_DIR)/manifest.yaml.prep
-DST_MANIFEST := $(GZIP_DIR)/manifest.txt.gz
-WEB_DST_MANIFEST := $(GZIP_DIR)/web.manifest.txt.gz
-SSL_DST_MANIFEST := $(GZIP_DIR)/ssl.manifest.txt.gz
+SRC_MANIFEST_FILES := $(call rwildcard,$(MANIFEST_SRC_DIR)/,*.yaml)
+
+DST_MANIFEST_FILES := $(patsubst $(MANIFEST_SRC_DIR)/%.yaml,$(GZIP_DIR)/%.txt.gz,$(wildcard $(MANIFEST_SRC_DIR)/*.yaml))
+WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_SRC_DIR)/%.yaml,$(GZIP_DIR)/web.%.txt.gz,$(wildcard $(MANIFEST_SRC_DIR)/*.yaml))
+SSL_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_SRC_DIR)/%.yaml,$(GZIP_DIR)/ssl.%.txt.gz,$(wildcard $(MANIFEST_SRC_DIR)/*.yaml))
 
 .SECONDARY:
 .PHONY: all
-all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST) $(WEB_DST_MANIFEST) $(SSL_DST_MANIFEST) $(DST_POD_FILES)
+all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST_FILES) $(WEB_DST_MANIFEST_FILES) $(SSL_DST_MANIFEST_FILES) $(DST_POD_FILES)
 	$(S3SYNC) $(GZIP_DIR)/ $(REMOTE_SYNC_DIR)/
 	$(S3CP) $(REMOTE_SYNC_DIR)/ $(REMOTE_BUILD_DIR)/
 
-$(PREPROCESSED_MANIFEST):$(SRC_MANIFEST_FILES)
+$(MANIFEST_BUILD_DIR)/%.yaml.prep:$(MANIFEST_SRC_DIR)/%.yaml
 	$(MKDIR) $(dir $@) 
-	$(PREP_MANIFEST) "$(SRC_ROOT_MANIFEST)" > "$@"
+	$(PREP_MANIFEST) "$<" > "$@"
+
+$(MANIFEST_SRC_DIR)/%.yaml:$(SRC_MANIFEST_FILES)
 
 .PHONY: .FORCE
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
+$(MANIFEST_BUILD_DIR)/%.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(EEGEO_ASSETS_HOST_NAME) $(THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/web.manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
+$(MANIFEST_BUILD_DIR)/web.%.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(WEB_EEGEO_ASSETS_HOST_NAME) $(WEB_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/ssl.manifest.txt:$(PREPROCESSED_MANIFEST) .FORCE
+$(MANIFEST_BUILD_DIR)/ssl.%.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(SSL_EEGEO_ASSETS_HOST_NAME) $(SSL_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
