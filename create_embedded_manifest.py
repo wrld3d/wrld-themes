@@ -1,10 +1,9 @@
 import argparse
-import gzip
 import json
 import os
-import urllib2
-import cStringIO
 import os.path
+
+import requests
 
 
 def remove_suffix(string, suffix):
@@ -17,29 +16,20 @@ def remove_suffix(string, suffix):
 def get_decompressed_data(url, ignore_errors=False):
     if ignore_errors:
         return try_fetch_and_decompress_url(url)
-    else:
-        try:
-            return fetch_and_decompress_url(url)
-        except urllib2.HTTPError:
-            raise IOError("Failed to download resource at {0}".format(url))
+
+    return fetch_and_decompress_url(url)
 
 def try_fetch_and_decompress_url(url):
     try:
         return fetch_and_decompress_url(url)
-    except:
+    except requests.exceptions.RequestException:
         return None
 
 def fetch_and_decompress_url(url):
-    response = urllib2.urlopen(url)
+    r = requests.get(url)
+    r.raise_for_status()
+    return r.content
 
-    is_gzipped = response.info().get('Content-Encoding') == 'gzip'
-    if not is_gzipped:
-        raise IOError("Resource at {0} is not a gzipped file".format(url))
-
-    buf = cStringIO.StringIO(response.read())
-    f = gzip.GzipFile(fileobj=buf)
-    data = f.read()
-    return data
 
 def read_file_or_url(path):
     if path.startswith("http://") or path.startswith("https://"):
