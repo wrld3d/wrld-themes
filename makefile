@@ -51,7 +51,7 @@ CP = cp
 GZIP = gzip
 AWS = AWS_SECRET_KEY_ID=$(AWS_SECRET_KEY_ID) AWS_SECRET_ACCESS_KEY=$(AWS_SECRET_ACCESS_KEY) aws
 S3CP = $(AWS) s3 cp --recursive --content-encoding "gzip"
-S3SYNC = $(AWS) s3 sync --content-encoding "gzip"
+S3SYNC = $(AWS) s3 sync --content-encoding "gzip" --delete
 PREP_MANIFEST = cpp 
 BUILD_MANIFEST = ./venv_wrapper.sh python build_manifest.py 
 CHECK_MANIFEST = ./venv_wrapper.sh python check_manifest.py
