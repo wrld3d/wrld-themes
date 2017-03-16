@@ -1,0 +1,86 @@
+NewCardboardTerrainTextures: &NewCardboardTerrainTextures
+     Terrain0: NewCardboard/TerrainTexture0
+     Terrain1: NewCardboard/TerrainTexture1
+     Terrain2: NewCardboard/TerrainTexture2
+     Terrain3: NewCardboard/TerrainTexture3
+     Terrain4: NewCardboard/TerrainTexture4
+     Terrain5: NewCardboard/TerrainTexture5
+     Terrain6: NewCardboard/TerrainTexture6
+     Terrain7: NewCardboard/TerrainTexture7
+     Terrain8: NewCardboard/TerrainTexture8
+     Terrain9: NewCardboard/TerrainTexture9
+     Terrain10: NewCardboard/TerrainTexture10
+     Terrain11: NewCardboard/TerrainTexture11
+     Terrain12: NewCardboard/TerrainTexture12
+     Terrain13: NewCardboard/TerrainTexture13
+     Terrain14: NewCardboard/TerrainTexture14
+     Terrain15: NewCardboard/TerrainTexture15
+     Terrain16: NewCardboard/TerrainTexture16
+     Terrain17: NewCardboard/TerrainTexture17
+     Terrain18: NewCardboard/TerrainTexture18
+     Terrain253: NewCardboard/Water_01
+     Terrain254: NewCardboard/Water_02
+     Terrain255: NewCardboard/Water_03
+
+NewCardboardTerrainLODTextures: &NewCardboardTerrainLODTextures
+     Terrain0: NewCardboard/TerrainTexture0_LOD
+     Terrain1: NewCardboard/TerrainTexture1_LOD
+     Terrain2: NewCardboard/TerrainTexture2_LOD
+     Terrain3: NewCardboard/TerrainTexture3_LOD
+     Terrain4: NewCardboard/TerrainTexture4_LOD
+     Terrain5: NewCardboard/TerrainTexture5_LOD
+     Terrain6: NewCardboard/TerrainTexture6_LOD
+     Terrain7: NewCardboard/TerrainTexture7_LOD
+     Terrain8: NewCardboard/TerrainTexture8_LOD
+     Terrain9: NewCardboard/TerrainTexture9_LOD
+     Terrain10: NewCardboard/TerrainTexture10_LOD
+     Terrain11: NewCardboard/TerrainTexture11_LOD
+     Terrain12: NewCardboard/TerrainTexture12_LOD
+     Terrain13: NewCardboard/TerrainTexture13_LOD
+     Terrain14: NewCardboard/TerrainTexture14_LOD
+     Terrain15: NewCardboard/TerrainTexture15_LOD
+     Terrain16: NewCardboard/TerrainTexture16_LOD
+     Terrain17: NewCardboard/TerrainTexture17_LOD
+     Terrain18: NewCardboard/TerrainTexture18_LOD
+     Terrain253: NewCardboard/Water_01_LOD
+     Terrain254: NewCardboard/Water_02_LOD
+     Terrain255: NewCardboard/Water_03_LOD
+
+NewCardboardDevTextures: &NewCardboardDevTextures
+   RoadDiffuse: NewCardboard/roadDiffuse_repeat
+   RailDiffuse: NewCardboard/railDiffuse
+   BuildingDiffuse: NewCardboard/WallDiffuse
+   TreeSideDiffuse: NewCardboard/trees_01
+   TreeTopDiffuse: NewCardboard/trees_top_01
+   VehicleDiffuse: NewCardboard/vehicles_01
+   TrainDiffuse: NewCardboard/trains_01
+   PlaneDiffuse: NewCardboard/planes_01
+   TramDiffuse: NewCardboard/trains_01
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: NewCardboard/Water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: NewCardboard/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *NewCardboardTerrainTextures
+   LcmLodDiffuse:
+      <<: *NewCardboardTerrainLODTextures
+
+Cardboard: &Cardboard
+   Name: SummerCardboard
+   LocationLatLong: [37.75253,-122.449837]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *WhiteLighting
+        Textures:
+           <<: *NewCardboardDevTextures
+      - Name: DayDefault
+        <<: *WhiteLighting
+        Textures:
+           <<: *NewCardboardDevTextures
+  

@@ -1,0 +1,13 @@
+#include "../themes/defaultheader.yaml"
+#include "../themes/defaultlighting.yaml"
+#include "../themes/defaultplacenames.yaml"
+#include "../themes/defaultvehicles.yaml"
+#include "../themes/defaultwater.yaml"
+#include "../themes/whitelighting.yaml"
+#include "../themes/mapmode.yaml"
+#include "../themes/ambientwhite.yaml"
+    
+ThemeManifest:
+   <<: *DefaultHeader
+   Themes: [
+        *AmbientWhite]

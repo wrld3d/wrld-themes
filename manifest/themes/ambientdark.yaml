@@ -1,0 +1,87 @@
+AmbientDarkTerrainTextures: &AmbientDarkTerrainTextures
+     Terrain0: AmbientDark/TerrainTexture0
+     Terrain1: AmbientDark/TerrainTexture1
+     Terrain2: AmbientDark/TerrainTexture2
+     Terrain3: AmbientDark/TerrainTexture3
+     Terrain4: AmbientDark/TerrainTexture4
+     Terrain5: AmbientDark/TerrainTexture5
+     Terrain6: AmbientDark/TerrainTexture6
+     Terrain7: AmbientDark/TerrainTexture7
+     Terrain8: AmbientDark/TerrainTexture8
+     Terrain9: AmbientDark/TerrainTexture9
+     Terrain10: AmbientDark/TerrainTexture10
+     Terrain11: AmbientDark/TerrainTexture11
+     Terrain12: AmbientDark/TerrainTexture12
+     Terrain13: AmbientDark/TerrainTexture13
+     Terrain14: AmbientDark/TerrainTexture14
+     Terrain15: AmbientDark/TerrainTexture15
+     Terrain16: AmbientDark/TerrainTexture16
+     Terrain17: AmbientDark/TerrainTexture17
+     Terrain18: AmbientDark/TerrainTexture18
+     Terrain253: AmbientDark/Water_01
+     Terrain254: AmbientDark/Water_02
+     Terrain255: AmbientDark/Water_03
+
+AmbientDarkTerrainLODTextures: &AmbientDarkTerrainLODTextures
+     Terrain0: AmbientDark/TerrainTexture0_LOD
+     Terrain1: AmbientDark/TerrainTexture1_LOD
+     Terrain2: AmbientDark/TerrainTexture2_LOD
+     Terrain3: AmbientDark/TerrainTexture3_LOD
+     Terrain4: AmbientDark/TerrainTexture4_LOD
+     Terrain5: AmbientDark/TerrainTexture5_LOD
+     Terrain6: AmbientDark/TerrainTexture6_LOD
+     Terrain7: AmbientDark/TerrainTexture7_LOD
+     Terrain8: AmbientDark/TerrainTexture8_LOD
+     Terrain9: AmbientDark/TerrainTexture9_LOD
+     Terrain10: AmbientDark/TerrainTexture10_LOD
+     Terrain11: AmbientDark/TerrainTexture11_LOD
+     Terrain12: AmbientDark/TerrainTexture12_LOD
+     Terrain13: AmbientDark/TerrainTexture13_LOD
+     Terrain14: AmbientDark/TerrainTexture14_LOD
+     Terrain15: AmbientDark/TerrainTexture15_LOD
+     Terrain16: AmbientDark/TerrainTexture16_LOD
+     Terrain17: AmbientDark/TerrainTexture17_LOD
+     Terrain18: AmbientDark/TerrainTexture18_LOD
+     Terrain253: AmbientDark/Water_01_LOD
+     Terrain254: AmbientDark/Water_02_LOD
+     Terrain255: AmbientDark/Water_03_LOD
+
+AmbientDarkDevTextures: &AmbientDarkDevTextures
+   RoadDiffuse: AmbientDark/roadDiffuse_repeat
+   RailDiffuse: AmbientDark/railDiffuse
+   BuildingDiffuse: AmbientDark/WallDiffuse
+   TreeSideDiffuse: AmbientDark/trees_01
+   TreeTopDiffuse: AmbientDark/trees_top_01
+   TreeTopDiffuse: AmbientDark/trees_top_01
+   VehicleDiffuse: AmbientDark/vehicles_01
+   TrainDiffuse: AmbientDark/trains_01
+   PlaneDiffuse: AmbientDark/planes_01
+   TramDiffuse: AmbientDark/trains_01
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: AmbientDark/water_reflection
+   AsyncPlaceholderDiffuse: AmbientDark/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *AmbientDarkTerrainTextures
+   LcmLodDiffuse:
+      <<: *AmbientDarkTerrainLODTextures
+
+AmbientDark: &AmbientDark
+   Name: SummerAmbientDark
+   LocationLatLong: [37.75253,-122.449837]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *WhiteLighting
+        Textures:
+           <<: *AmbientDarkDevTextures
+      - Name: DayDefault
+        <<: *WhiteLighting
+        Textures:
+           <<: *AmbientDarkDevTextures
+  
