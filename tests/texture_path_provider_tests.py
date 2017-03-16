@@ -5,7 +5,6 @@ from create_embedded_manifest import TexturePathProvider
 
 @ddt.ddt
 class TexturePathProviderTests(unittest.TestCase):
-
     @ddt.data(
         ("", ".png", ".png"),
         ("texture", ".ktx", "texture.ktx"),
@@ -14,7 +13,7 @@ class TexturePathProviderTests(unittest.TestCase):
     )
     def test_correct_extension_given(self, data):
         filename, extension, result = data
-        tpp = TexturePathProvider("", extension)
+        tpp = TexturePathProvider("", extension, False)
         self.assertEqual(tpp.get_path(filename), result)
 
     @ddt.data(
@@ -26,7 +25,7 @@ class TexturePathProviderTests(unittest.TestCase):
     )
     def test_correct_root_path_given(self, data):
         filename, rootpath, result = data
-        tpp = TexturePathProvider(rootpath, "")
+        tpp = TexturePathProvider(rootpath, "", False)
         self.assertEqual(tpp.get_path(filename), result)
 
     @ddt.data(
@@ -37,7 +36,7 @@ class TexturePathProviderTests(unittest.TestCase):
     )
     def test_correct_path(self, data):
         filename, result = data
-        tpp = TexturePathProvider("assets/", ".ktx.gz")
+        tpp = TexturePathProvider("assets/", ".ktx.gz", False)
         self.assertEqual(tpp.get_path(filename), result)
 
 
