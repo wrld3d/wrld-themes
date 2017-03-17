@@ -58,8 +58,12 @@ CHECK_MANIFEST = ./venv_wrapper.sh python check_manifest.py
 
 MANIFEST_SRC_DIR := manifest
 MANIFEST_ROOTS_DIR := $(MANIFEST_SRC_DIR)/manifest_roots
+MANIFEST_ROOT_FILES := $(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml)
 MANIFEST_BUILD_DIR := $(BUILD_DIR)/manifest
 SRC_MANIFEST_FILES := $(call rwildcard,$(MANIFEST_SRC_DIR)/,*.yaml)
+
+VERSIONS_JSON := $(MANIFEST_BUILD_DIR)/versions.json
+EMIT_VERSION_JSON = ./venv_wrapper.sh python emit_version_json.py -s "$(REMOTE_BUILD_DIR)" -o "$(VERSIONS_JSON)"
 
 DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/web.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
@@ -67,7 +71,7 @@ SSL_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/
 
 .SECONDARY:
 .PHONY: all
-all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST_FILES) $(WEB_DST_MANIFEST_FILES) $(SSL_DST_MANIFEST_FILES) $(DST_POD_FILES)
+all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST_FILES) $(WEB_DST_MANIFEST_FILES) $(SSL_DST_MANIFEST_FILES) $(DST_POD_FILES) $(VERSIONS_JSON)
 	$(S3SYNC) $(GZIP_DIR)/ $(REMOTE_SYNC_DIR)/
 	$(S3CP) $(REMOTE_SYNC_DIR)/ $(REMOTE_BUILD_DIR)/
 
@@ -95,7 +99,11 @@ $(MANIFEST_BUILD_DIR)/%/web.manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORC
 $(MANIFEST_BUILD_DIR)/%/ssl.manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(SSL_EEGEO_ASSETS_HOST_NAME) $(SSL_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
-	$(CHECK_MANIFEST) "$@"	
+	$(CHECK_MANIFEST) "$@"
+
+# Always rebuild this as it includes the versioned URLs
+$(VERSIONS_JSON):$(DST_MANIFEST_FILES) .FORCE
+	$(EMIT_VERSION_JSON) $(MANIFEST_ROOT_FILES)
 
 $(GZIP_DIR)/%.txt.gz:$(MANIFEST_BUILD_DIR)/%.txt
 	$(MKDIR) $(dir $@)
