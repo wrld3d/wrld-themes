@@ -63,6 +63,7 @@ MANIFEST_BUILD_DIR := $(BUILD_DIR)/manifest
 SRC_MANIFEST_FILES := $(call rwildcard,$(MANIFEST_SRC_DIR)/,*.yaml)
 
 VERSIONS_JSON := $(MANIFEST_BUILD_DIR)/versions.json
+GZIPPED_VERSIONS_JSON := $(GZIP_DIR)/versions.json
 EMIT_VERSION_JSON = ./venv_wrapper.sh python emit_version_json.py -s "$(REMOTE_BUILD_DIR)" -o "$(VERSIONS_JSON)"
 
 DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
@@ -104,6 +105,7 @@ $(MANIFEST_BUILD_DIR)/%/ssl.manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORC
 # Always rebuild this as it includes the versioned URLs
 $(VERSIONS_JSON):$(DST_MANIFEST_FILES) .FORCE
 	$(EMIT_VERSION_JSON) $(MANIFEST_ROOT_FILES)
+	cat $(VERSIONS_JSON) | gzip -n --stdout > $(GZIPPED_VERSIONS_JSON)
 
 $(GZIP_DIR)/%.txt.gz:$(MANIFEST_BUILD_DIR)/%.txt
 	$(MKDIR) $(dir $@)
