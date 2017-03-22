@@ -7,10 +7,12 @@ INTERIOR_MATERIALS_VERSION_FILE := $(BUILD_DIR)/interior_materials_version/versi
 COMPRESSED_DIR := $(BUILD_DIR)/compressed_textures
 GZIP_DIR := $(BUILD_DIR)/gzipped_assets
 GZIPPED_ASSETS_DIR := $(GZIP_DIR)/Assets
-REMOTE_BASE_DIR := s3://myworld_developer_destination_resources/mobile-themes-new
-REMOTE_SYNC_DIR := $(REMOTE_BASE_DIR)/sync
+BUCKET_NAME := s3://myworld_developer_destination_resources
+BUCKET_PATH := mobile-themes-new
+REMOTE_SYNC_DIR := $(BUCKET_NAME)/$(BUCKET_PATH)/sync
 VERSION_NAME := v$(VERSION)
-REMOTE_BUILD_DIR := $(REMOTE_BASE_DIR)/$(VERSION_NAME)
+REMOTE_STORE_PATH := $(BUCKET_PATH)/$(VERSION_NAME)
+REMOTE_BUILD_DIR := $(BUCKET_NAME)/$(REMOTE_STORE_PATH)
 
 SRC_POD_FILES := $(call rwildcard,$(SRC_DIR)/,*.POD)
 DST_POD_FILES := $(patsubst $(SRC_DIR)/%,$(GZIPPED_ASSETS_DIR)/%.gz,$(SRC_POD_FILES))
@@ -64,7 +66,7 @@ SRC_MANIFEST_FILES := $(call rwildcard,$(MANIFEST_SRC_DIR)/,*.yaml)
 
 VERSIONS_JSON := $(MANIFEST_BUILD_DIR)/versions.json
 GZIPPED_VERSIONS_JSON := $(GZIP_DIR)/versions.json
-EMIT_VERSION_JSON = ./venv_wrapper.sh python emit_version_json.py -s "$(REMOTE_BUILD_DIR)" -o "$(VERSIONS_JSON)"
+EMIT_VERSION_JSON = ./venv_wrapper.sh python emit_version_json.py -s "$(REMOTE_STORE_PATH)" -o "$(VERSIONS_JSON)"
 
 DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/web.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
