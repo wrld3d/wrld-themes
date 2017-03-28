@@ -198,7 +198,7 @@ DubaiSummerSnowTextures: &DubaiSummerSnowTextures
    RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
    BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
    TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
-   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
    LcmLodDiffuse:
@@ -211,7 +211,7 @@ DubaiSummerNightSnowTextures: &DubaiSummerNightSnowTextures
    BuildingDiffuse: Dubai/SanFran_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
    TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
-   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   TreeTopDiffuse: Dubai/trees_top_01
    WaterReflection: Dubai/water_reflectionmap_night
    AsyncPlaceholderDiffuse: Dubai/placeholder
    LcmDiffuse: 
