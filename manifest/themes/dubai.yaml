@@ -145,7 +145,7 @@ DubaiAutumnTextures: &DubaiAutumnTextures
       Terrain6: Dubai/Autumn_TerrainTexture6
       Terrain7: Dubai/Autumn_TerrainTexture7
       Terrain8: Dubai/Autumn_TerrainTexture8
-	  Terrain9: Dubai/Autumn_TerrainTexture9
+      Terrain9: Dubai/Autumn_TerrainTexture9
       Terrain14: Dubai/Autumn_TerrainTexture14
       Terrain18: Dubai/Autumn_TerrainTexture18
    LcmLodDiffuse:
@@ -155,7 +155,7 @@ DubaiAutumnTextures: &DubaiAutumnTextures
       Terrain6: Dubai/Autumn_TerrainTexture6_LOD
       Terrain7: Dubai/Autumn_TerrainTexture7_LOD
       Terrain8: Dubai/Autumn_TerrainTexture8_LOD
-	  Terrain9: Dubai/Autumn_TerrainTexture9_LOD
+      Terrain9: Dubai/Autumn_TerrainTexture9_LOD
       Terrain14: Dubai/Autumn_TerrainTexture14_LOD
       Terrain18: Dubai/Autumn_TerrainTexture18_LOD
 
@@ -170,7 +170,7 @@ DubaiWinterTextures: &DubaiWinterTextures
       Terrain6: Dubai/Winter_TerrainTexture6
       Terrain7: Dubai/Winter_TerrainTexture7
       Terrain8: Dubai/Winter_TerrainTexture8
-	  Terrain9: Dubai/Winter_TerrainTexture9
+      Terrain9: Dubai/Winter_TerrainTexture9
       Terrain14: Dubai/Winter_TerrainTexture14
       Terrain18: Dubai/Winter_TerrainTexture18
    LcmLodDiffuse:
@@ -180,7 +180,7 @@ DubaiWinterTextures: &DubaiWinterTextures
       Terrain6: Dubai/Winter_TerrainTexture6_LOD
       Terrain7: Dubai/Winter_TerrainTexture7_LOD
       Terrain8: Dubai/Winter_TerrainTexture8_LOD
-	  Terrain9: Dubai/Winter_TerrainTexture9_LOD
+      Terrain9: Dubai/Winter_TerrainTexture9_LOD
       Terrain14: Dubai/Winter_TerrainTexture14_LOD
       Terrain18: Dubai/Winter_TerrainTexture18_LOD
 
@@ -293,7 +293,7 @@ DubaiWinterSnowTextures: &DubaiWinterSnowTextures
       Terrain8: Dubai/Winter_TerrainTexture8_LOD
       Terrain14: Dubai/Winter_TerrainTexture14_LOD
       Terrain18: Dubai/Winter_TerrainTexture18_LOD
-	  
+
 DubaiSnowyLighting: &DubaiSnowyLighting
    KeyLight: [0.47058823529411764, 0.43137254901960786, 0.27450980392156865]
    BackLight: [0.24490196078431373, 0.24490196078431373, 0.11070588235294118]
@@ -398,7 +398,7 @@ SummerDubai: &SummerDubai
         Textures:
            <<: *DubaiSummerSnowTextures
       - Name: DayFoggy
-        <<: *DefaultDayFoggyLighting	
+        <<: *DefaultDayFoggyLighting
         Textures:
            <<: *DubaiSummerTextures
       - Name: NightFoggy
