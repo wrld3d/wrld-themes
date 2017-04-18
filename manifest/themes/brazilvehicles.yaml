@@ -39,4 +39,4 @@ BrazilVehiclesNightTextures: &BrazilVehiclesNightTextures
    VehicleDiffuse: SanFrancisco/VehicleModels/sf_vehicles_Night_01
    TrainDiffuse: SanFrancisco/VehicleModels/ldn_trains_Night_01
    PlaneDiffuse: Brazil/VehicleModels/planes_night
-   TramDiffuse: Sanfrancisco/VehicleModels/recce_trams_night
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams_night
