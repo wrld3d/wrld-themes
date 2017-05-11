@@ -24,6 +24,7 @@
 #include "../themes/italy.yaml"
 #include "../themes/Scandinavia.yaml"
 #include "../themes/Thailand.yaml"
+#include "../themes/hongkong.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -116,4 +117,10 @@ ThemeManifest:
         *SummerThailand,
         *SpringThailand,
         *AutumnThailand,
-        *WinterThailand]
+        *WinterThailand,
+
+        *Summerhongkong,
+        *Springhongkong,
+        *Autumnhongkong,
+        *Winterhongkong
+        ]
