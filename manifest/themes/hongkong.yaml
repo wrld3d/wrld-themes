@@ -96,7 +96,7 @@ hongkongSnowTerrainLODTextures: &hongkongSnowTerrainLODTextures
 
 hongkongSummerTextures: &hongkongSummerTextures
    RoadDiffuse: HongKong/roadDiffuse_repeat
-   RailDiffuse: HongKong/Rail_01
+   RailDiffuse: HongKong/railDiffuse_repeat
    BuildingDiffuse: HongKong/wallDiffuse
    TreeSideDiffuse: HongKong/trees_01
    TreeTopDiffuse: HongKong/trees_top_01
@@ -183,7 +183,7 @@ hongkongWinterTextures: &hongkongWinterTextures
 hongkongSummerNightTextures: &hongkongSummerNightTextures
    <<: *hongkongSummerTextures
    <<: *DefaultVehiclesNightTextures
-   BuildingDiffuse: HongKong/wallDiffuse_Night
+   BuildingDiffuse: HongKong/Night_wallDiffuse
    RoadDiffuse: HongKong/Night_roadDiffuse
    RailDiffuse: HongKong/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
@@ -204,7 +204,7 @@ hongkongSummerNightSnowTextures: &hongkongSummerNightSnowTextures
    <<: *hongkongSummerTextures
    <<: *DefaultVehiclesNightTextures
    RoadDiffuse: HongKong/Night_Snow_roadDiffuse
-   BuildingDiffuse: HongKong/wallDiffuse_Night
+   BuildingDiffuse: HongKong/Night_wallDiffuse
    RailDiffuse: HongKong/Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
