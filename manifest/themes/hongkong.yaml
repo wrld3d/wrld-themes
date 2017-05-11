@@ -95,11 +95,11 @@ hongkongSnowTerrainLODTextures: &hongkongSnowTerrainLODTextures
      Terrain255: SanFrancisco/Water_03_LOD
 
 hongkongSummerTextures: &hongkongSummerTextures
-   RoadDiffuse: Hongkong/roadDiffuse_repeat
-   RailDiffuse: Hongkong/Rail_01
-   BuildingDiffuse: Hongkong/wallDiffuse
-   TreeSideDiffuse: Hongkong/trees_01
-   TreeTopDiffuse: Hongkong/trees_top_01
+   RoadDiffuse: HongKong/roadDiffuse_repeat
+   RailDiffuse: HongKong/Rail_01
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/trees_01
+   TreeTopDiffuse: HongKong/trees_top_01
    <<: *DefaultVehiclesDayTextures
    <<: *DefaultWaterReflectionTextures
    WaterNormal: SanFrancisco/water_normalmap
@@ -113,8 +113,8 @@ hongkongSummerTextures: &hongkongSummerTextures
 
 hongkongSpringTextures: &hongkongSpringTextures
    <<: *hongkongSummerTextures
-   TreeSideDiffuse: Hongkong/Spring_trees_01
-   TreeTopDiffuse: Hongkong/Spring_trees_top_01
+   TreeSideDiffuse: HongKong/Spring_trees_01
+   TreeTopDiffuse: HongKong/Spring_trees_top_01
    LcmDiffuse: 
       <<: *hongkongTerrainTextures
       Terrain4: Okinawa/Spring_TerrainTexture4
@@ -136,8 +136,8 @@ hongkongSpringTextures: &hongkongSpringTextures
 
 hongkongAutumnTextures: &hongkongAutumnTextures
    <<: *hongkongSummerTextures
-   TreeSideDiffuse: Hongkong/Autumn_trees_01
-   TreeTopDiffuse: Hongkong/Autumn_trees_top_01
+   TreeSideDiffuse: HongKong/Autumn_trees_01
+   TreeTopDiffuse: HongKong/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *hongkongTerrainTextures
       Terrain4: Okinawa/Autumn_TerrainTexture4
@@ -159,8 +159,8 @@ hongkongAutumnTextures: &hongkongAutumnTextures
 
 hongkongWinterTextures: &hongkongWinterTextures
    <<: *hongkongSummerTextures
-   TreeSideDiffuse: Hongkong/Winter_trees_01
-   TreeTopDiffuse: Hongkong/Winter_trees_top_01
+   TreeSideDiffuse: HongKong/Winter_trees_01
+   TreeTopDiffuse: HongKong/Winter_trees_top_01
    LcmDiffuse: 
       <<: *hongkongTerrainTextures
       Terrain4: Okinawa/Winter_TerrainTexture4
@@ -183,16 +183,16 @@ hongkongWinterTextures: &hongkongWinterTextures
 hongkongSummerNightTextures: &hongkongSummerNightTextures
    <<: *hongkongSummerTextures
    <<: *DefaultVehiclesNightTextures
-   BuildingDiffuse: Hongkong/wallDiffuse_Night
-   RoadDiffuse: Hongkong/Night_roadDiffuse
-   RailDiffuse: Hongkong/Rail_01_Night
+   BuildingDiffuse: HongKong/wallDiffuse_Night
+   RoadDiffuse: HongKong/Night_roadDiffuse
+   RailDiffuse: HongKong/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
 hongkongSummerSnowTextures: &hongkongSummerSnowTextures
    <<: *hongkongSummerTextures
-   RoadDiffuse: Hongkong/Snow_roadDiffuse
-   BuildingDiffuse: Hongkong/wallDiffuse
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
@@ -203,9 +203,9 @@ hongkongSummerSnowTextures: &hongkongSummerSnowTextures
 hongkongSummerNightSnowTextures: &hongkongSummerNightSnowTextures
    <<: *hongkongSummerTextures
    <<: *DefaultVehiclesNightTextures
-   RoadDiffuse: Hongkong/Night_Snow_roadDiffuse
-   BuildingDiffuse: Hongkong/wallDiffuse_Night
-   RailDiffuse: Hongkong/Rail_01_Night
+   RoadDiffuse: HongKong/Night_Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse_Night
+   RailDiffuse: HongKong/Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
@@ -217,10 +217,10 @@ hongkongSummerNightSnowTextures: &hongkongSummerNightSnowTextures
 
 hongkongSpringSnowTextures: &hongkongSpringSnowTextures
    <<: *hongkongSummerTextures
-   RoadDiffuse: Hongkong/Snow_roadDiffuse
-   BuildingDiffuse: Hongkong/wallDiffuse
-   TreeSideDiffuse: Hongkong/Spring_trees_01
-   TreeTopDiffuse: Hongkong/Spring_trees_top_01
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/Spring_trees_01
+   TreeTopDiffuse: HongKong/Spring_trees_top_01
    LcmDiffuse: 
       <<: *hongkongSnowTerrainTextures
       Terrain4: Okinawa/Spring_Snow_TerrainTexture4
@@ -242,10 +242,10 @@ hongkongSpringSnowTextures: &hongkongSpringSnowTextures
 
 hongkongAutumnSnowTextures: &hongkongAutumnSnowTextures
    <<: *hongkongSummerTextures
-   RoadDiffuse: Hongkong/Snow_roadDiffuse
-   BuildingDiffuse: Hongkong/wallDiffuse
-   TreeSideDiffuse: Hongkong/Autumn_trees_01
-   TreeTopDiffuse: Hongkong/Autumn_trees_top_01
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/Autumn_trees_01
+   TreeTopDiffuse: HongKong/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *hongkongSnowTerrainTextures
       Terrain4: Okinawa/Autumn_Snow_TerrainTexture4
@@ -267,10 +267,10 @@ hongkongAutumnSnowTextures: &hongkongAutumnSnowTextures
 
 hongkongWinterSnowTextures: &hongkongWinterSnowTextures
    <<: *hongkongSummerTextures
-   RoadDiffuse: Hongkong/Snow_roadDiffuse
-   BuildingDiffuse: Hongkong/wallDiffuse
-   TreeSideDiffuse: Hongkong/Autumn_trees_01
-   TreeTopDiffuse: Hongkong/Autumn_trees_top_01
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/Autumn_trees_01
+   TreeTopDiffuse: HongKong/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *hongkongSnowTerrainTextures
       Terrain4: Okinawa/Winter_Snow_TerrainTexture4
