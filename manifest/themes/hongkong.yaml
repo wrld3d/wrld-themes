@@ -1,0 +1,671 @@
+hongkongTerrainTextures: &hongkongTerrainTextures
+     Terrain0: Osaka/TerrainTexture0
+     Terrain1: Osaka/TerrainTexture1
+     Terrain2: Osaka/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: Okinawa/Summer_TerrainTexture4
+     Terrain5: Okinawa/Summer_TerrainTexture5
+     Terrain6: Okinawa/Summer_TerrainTexture6
+     Terrain7: Okinawa/Summer_TerrainTexture7
+     Terrain8: Okinawa/Summer_TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: Osaka/TerrainTexture12
+     Terrain13: Osaka/TerrainTexture13
+     Terrain14: Okinawa/Summer_TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: Osaka/TerrainTexture16
+     Terrain17: Osaka/TerrainTexture17
+     Terrain18: Okinawa/Summer_TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+hongkongTerrainLODTextures: &hongkongTerrainLODTextures
+     Terrain0: Osaka/TerrainTexture0_LOD
+     Terrain1: Osaka/TerrainTexture1_LOD
+     Terrain2: Osaka/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: Okinawa/Summer_TerrainTexture4_LOD
+     Terrain5: Okinawa/Summer_TerrainTexture5_LOD
+     Terrain6: Okinawa/Summer_TerrainTexture6_LOD
+     Terrain7: Okinawa/Summer_TerrainTexture7_LOD
+     Terrain8: Okinawa/Summer_TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: Osaka/TerrainTexture12_LOD
+     Terrain13: Osaka/TerrainTexture13_LOD
+     Terrain14: Okinawa/Summer_TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: Osaka/TerrainTexture16_LOD
+     Terrain17: Osaka/TerrainTexture17_LOD
+     Terrain18: Okinawa/Summer_TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+hongkongSnowTerrainTextures: &hongkongSnowTerrainTextures
+     Terrain0: Osaka/snow_Texture0
+     Terrain1: Osaka/snow_Texture1
+     Terrain2: Osaka/snow_Texture2
+     Terrain3: Osaka/snow_Texture3
+     Terrain4: Osaka/snow_Texture4
+     Terrain5: Osaka/snow_Texture5
+     Terrain6: Osaka/snow_Texture6
+     Terrain7: Osaka/snow_Texture7
+     Terrain8: Osaka/snow_Texture8
+     Terrain9: Osaka/snow_Texture9
+     Terrain10: Osaka/snow_Texture10
+     Terrain11: Osaka/snow_Texture11
+     Terrain12: Osaka/snow_Texture12
+     Terrain13: Osaka/snow_Texture13
+     Terrain14: Osaka/snow_Texture14
+     Terrain15: Osaka/snow_Texture15
+     Terrain16: Osaka/snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: Osaka/snow_Texture14
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+hongkongSnowTerrainLODTextures: &hongkongSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+hongkongSummerTextures: &hongkongSummerTextures
+   RoadDiffuse: HongKong/roadDiffuse_repeat
+   RailDiffuse: HongKong/railDiffuse_repeat
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/trees_01
+   TreeTopDiffuse: HongKong/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *hongkongTerrainTextures
+   LcmLodDiffuse:
+      <<: *hongkongTerrainLODTextures
+
+hongkongSpringTextures: &hongkongSpringTextures
+   <<: *hongkongSummerTextures
+   TreeSideDiffuse: HongKong/Spring_trees_01
+   TreeTopDiffuse: HongKong/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *hongkongTerrainTextures
+      Terrain4: Okinawa/Spring_TerrainTexture4
+      Terrain5: Okinawa/Spring_TerrainTexture5
+      Terrain6: Okinawa/Spring_TerrainTexture6
+      Terrain7: Okinawa/Spring_TerrainTexture7
+      Terrain8: Okinawa/Spring_TerrainTexture8
+      Terrain14: Okinawa/Spring_TerrainTexture14
+      Terrain18: Okinawa/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *hongkongTerrainLODTextures
+      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+
+hongkongAutumnTextures: &hongkongAutumnTextures
+   <<: *hongkongSummerTextures
+   TreeSideDiffuse: HongKong/Autumn_trees_01
+   TreeTopDiffuse: HongKong/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *hongkongTerrainTextures
+      Terrain4: Okinawa/Autumn_TerrainTexture4
+      Terrain5: Okinawa/Autumn_TerrainTexture5
+      Terrain6: Okinawa/Autumn_TerrainTexture6
+      Terrain7: Okinawa/Autumn_TerrainTexture7
+      Terrain8: Okinawa/Autumn_TerrainTexture8
+      Terrain14: Okinawa/Autumn_TerrainTexture14
+      Terrain18: Okinawa/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *hongkongTerrainLODTextures
+      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+
+hongkongWinterTextures: &hongkongWinterTextures
+   <<: *hongkongSummerTextures
+   TreeSideDiffuse: HongKong/Winter_trees_01
+   TreeTopDiffuse: HongKong/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *hongkongTerrainTextures
+      Terrain4: Okinawa/Winter_TerrainTexture4
+      Terrain5: Okinawa/Winter_TerrainTexture5
+      Terrain6: Okinawa/Winter_TerrainTexture6
+      Terrain7: Okinawa/Winter_TerrainTexture7
+      Terrain8: Okinawa/Winter_TerrainTexture8
+      Terrain14: Okinawa/Winter_TerrainTexture14
+      Terrain18: Okinawa/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *hongkongTerrainLODTextures
+      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+hongkongSummerNightTextures: &hongkongSummerNightTextures
+   <<: *hongkongSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: HongKong/Night_wallDiffuse
+   RoadDiffuse: HongKong/Night_roadDiffuse
+   RailDiffuse: HongKong/Rail_01_Night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+hongkongSummerSnowTextures: &hongkongSummerSnowTextures
+   <<: *hongkongSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *hongkongSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *hongkongSnowTerrainLODTextures
+
+hongkongSummerNightSnowTextures: &hongkongSummerNightSnowTextures
+   <<: *hongkongSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: HongKong/Night_Snow_roadDiffuse
+   BuildingDiffuse: HongKong/Night_wallDiffuse
+   RailDiffuse: HongKong/Rail_01_Night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *hongkongSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *hongkongSnowTerrainLODTextures
+
+hongkongSpringSnowTextures: &hongkongSpringSnowTextures
+   <<: *hongkongSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/Spring_trees_01
+   TreeTopDiffuse: HongKong/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *hongkongSnowTerrainTextures
+      Terrain4: Okinawa/Spring_Snow_TerrainTexture4
+      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
+      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
+      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
+      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
+      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *hongkongSnowTerrainLODTextures
+      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+
+hongkongAutumnSnowTextures: &hongkongAutumnSnowTextures
+   <<: *hongkongSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/Autumn_trees_01
+   TreeTopDiffuse: HongKong/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *hongkongSnowTerrainTextures
+      Terrain4: Okinawa/Autumn_Snow_TerrainTexture4
+      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
+      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
+      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
+      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
+      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *hongkongSnowTerrainLODTextures
+      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+
+hongkongWinterSnowTextures: &hongkongWinterSnowTextures
+   <<: *hongkongSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: HongKong/wallDiffuse
+   TreeSideDiffuse: HongKong/Autumn_trees_01
+   TreeTopDiffuse: HongKong/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *hongkongSnowTerrainTextures
+      Terrain4: Okinawa/Winter_Snow_TerrainTexture4
+      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
+      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
+      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
+      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
+      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *hongkongSnowTerrainLODTextures
+      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+Summerhongkong: &Summerhongkong
+   Name: Summerhongkong
+   LocationLatLong: [22.303723, 113.931231]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *hongkongSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *hongkongSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *hongkongSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *hongkongSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *hongkongSummerTextures
+      - <<: *MapModeState
+
+Springhongkong: &Springhongkong
+   Name: Springhongkong
+   LocationLatLong: [22.303723, 113.931231]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *hongkongSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *hongkongSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *hongkongSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *hongkongSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *hongkongSpringTextures
+      - <<: *MapModeState
+
+Autumnhongkong: &Autumnhongkong
+   Name: Autumnhongkong
+   LocationLatLong: [22.303723, 113.931231]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *hongkongAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *hongkongSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *hongkongAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *hongkongAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *hongkongAutumnTextures
+      - <<: *MapModeState
+
+Winterhongkong: &Winterhongkong
+   Name: Winterhongkong
+   LocationLatLong: [22.303723, 113.931231]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *hongkongWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *hongkongSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *hongkongWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *hongkongWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *hongkongSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *hongkongWinterTextures
+      - <<: *MapModeState
