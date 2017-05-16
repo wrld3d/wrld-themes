@@ -192,7 +192,7 @@ hongkongSummerNightTextures: &hongkongSummerNightTextures
 hongkongSummerSnowTextures: &hongkongSummerSnowTextures
    <<: *hongkongSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
-   BuildingDiffuse: HongKong/wallDiffuse
+   BuildingDiffuse: HongKong/Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
@@ -204,7 +204,7 @@ hongkongSummerNightSnowTextures: &hongkongSummerNightSnowTextures
    <<: *hongkongSummerTextures
    <<: *DefaultVehiclesNightTextures
    RoadDiffuse: HongKong/Night_Snow_roadDiffuse
-   BuildingDiffuse: HongKong/Night_wallDiffuse
+   BuildingDiffuse: HongKong/Night_Snow_wallDiffuse
    RailDiffuse: HongKong/Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
@@ -218,7 +218,7 @@ hongkongSummerNightSnowTextures: &hongkongSummerNightSnowTextures
 hongkongSpringSnowTextures: &hongkongSpringSnowTextures
    <<: *hongkongSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
-   BuildingDiffuse: HongKong/wallDiffuse
+   BuildingDiffuse: HongKong/Snow_wallDiffuse
    TreeSideDiffuse: HongKong/Spring_trees_01
    TreeTopDiffuse: HongKong/Spring_trees_top_01
    LcmDiffuse: 
@@ -243,7 +243,7 @@ hongkongSpringSnowTextures: &hongkongSpringSnowTextures
 hongkongAutumnSnowTextures: &hongkongAutumnSnowTextures
    <<: *hongkongSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
-   BuildingDiffuse: HongKong/wallDiffuse
+   BuildingDiffuse: HongKong/Snow_wallDiffuse
    TreeSideDiffuse: HongKong/Autumn_trees_01
    TreeTopDiffuse: HongKong/Autumn_trees_top_01
    LcmDiffuse: 
@@ -268,7 +268,7 @@ hongkongAutumnSnowTextures: &hongkongAutumnSnowTextures
 hongkongWinterSnowTextures: &hongkongWinterSnowTextures
    <<: *hongkongSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
-   BuildingDiffuse: HongKong/wallDiffuse
+   BuildingDiffuse: HongKong/Snow_wallDiffuse
    TreeSideDiffuse: HongKong/Autumn_trees_01
    TreeTopDiffuse: HongKong/Autumn_trees_top_01
    LcmDiffuse: 
