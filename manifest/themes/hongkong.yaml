@@ -7,13 +7,13 @@ hongkongTerrainTextures: &hongkongTerrainTextures
      Terrain5: Okinawa/Summer_TerrainTexture5
      Terrain6: Okinawa/Summer_TerrainTexture6
      Terrain7: Okinawa/Summer_TerrainTexture7
-     Terrain8: Okinawa/Summer_TerrainTexture8
+     Terrain8: SanFrancisco/TerrainTexture8
      Terrain9: SanFrancisco/TerrainTexture9
      Terrain10: SanFrancisco/TerrainTexture10
      Terrain11: SanFrancisco/TerrainTexture11
      Terrain12: Osaka/TerrainTexture12
      Terrain13: Osaka/TerrainTexture13
-     Terrain14: Okinawa/Summer_TerrainTexture14
+     Terrain14: SanFrancisco/TerrainTexture14
      Terrain15: SanFrancisco/TerrainTexture15
      Terrain16: Osaka/TerrainTexture16
      Terrain17: Osaka/TerrainTexture17
@@ -31,13 +31,13 @@ hongkongTerrainLODTextures: &hongkongTerrainLODTextures
      Terrain5: Okinawa/Summer_TerrainTexture5_LOD
      Terrain6: Okinawa/Summer_TerrainTexture6_LOD
      Terrain7: Okinawa/Summer_TerrainTexture7_LOD
-     Terrain8: Okinawa/Summer_TerrainTexture8_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
      Terrain9: SanFrancisco/TerrainTexture9_LOD
      Terrain10: SanFrancisco/TerrainTexture10_LOD
      Terrain11: SanFrancisco/TerrainTexture11_LOD
      Terrain12: Osaka/TerrainTexture12_LOD
      Terrain13: Osaka/TerrainTexture13_LOD
-     Terrain14: Okinawa/Summer_TerrainTexture14_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
      Terrain15: SanFrancisco/TerrainTexture15_LOD
      Terrain16: Osaka/TerrainTexture16_LOD
      Terrain17: Osaka/TerrainTexture17_LOD
@@ -140,7 +140,7 @@ hongkongAutumnTextures: &hongkongAutumnTextures
    TreeTopDiffuse: HongKong/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *hongkongTerrainTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4
       Terrain5: Okinawa/Autumn_TerrainTexture5
       Terrain6: Okinawa/Autumn_TerrainTexture6
       Terrain7: Okinawa/Autumn_TerrainTexture7
@@ -149,7 +149,7 @@ hongkongAutumnTextures: &hongkongAutumnTextures
       Terrain18: Okinawa/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *hongkongTerrainLODTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
       Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
       Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
       Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
