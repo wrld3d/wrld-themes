@@ -36,7 +36,7 @@ hongkongTerrainLODTextures: &hongkongTerrainLODTextures
      Terrain10: SanFrancisco/TerrainTexture10_LOD
      Terrain11: SanFrancisco/TerrainTexture11_LOD
      Terrain12: SanFrancisco/TerrainTexture12_LOD
-     Terrain13: SanFranciscoTerrainTexture13_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
      Terrain14: EasternSeasons/Summer_TerrainTexture14_LOD
      Terrain15: SanFrancisco/TerrainTexture15_LOD
      Terrain16: SanFrancisco/TerrainTexture16_LOD
