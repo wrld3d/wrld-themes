@@ -47,23 +47,23 @@ hongkongTerrainLODTextures: &hongkongTerrainLODTextures
      Terrain255: SanFrancisco/Water_03_LOD
 
 hongkongSnowTerrainTextures: &hongkongSnowTerrainTextures
-     Terrain0: SanFrancisco/snow_Texture0
-     Terrain1: SanFrancisco/snow_Texture1
-     Terrain2: SanFrancisco/snow_Texture2
-     Terrain3: SanFrancisco/snow_Texture3
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
      Terrain4: EasternSeasons/Summer_Snow_TerrainTexture4
      Terrain5: EasternSeasons/Summer_Snow_TerrainTexture5
      Terrain6: EasternSeasons/Summer_Snow_TerrainTexture6
      Terrain7: EasternSeasons/Summer_Snow_TerrainTexture7
      Terrain8: EasternSeasons/Summer_Snow_TerrainTexture8
-     Terrain9: SanFrancisco/snow_Texture9
-     Terrain10: SanFrancisco/snow_Texture10
-     Terrain11: SanFrancisco/snow_Texture11
-     Terrain12: SanFrancisco/snow_Texture12
-     Terrain13: SanFrancisco/snow_Texture13
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
      Terrain14: EasternSeasons/Summer_Snow_TerrainTexture14
-     Terrain15: SanFrancisco/snow_Texture15
-     Terrain16: SanFrancisco/snow_Texture16
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
      Terrain17: SanFrancisco/TerrainTexture17
      Terrain18: EasternSeasons/Summer_Snow_TerrainTexture18
      Terrain253: SanFrancisco/Water_01
