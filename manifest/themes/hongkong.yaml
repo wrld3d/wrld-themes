@@ -219,8 +219,8 @@ hongkongSpringSnowTextures: &hongkongSpringSnowTextures
    <<: *hongkongSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: HongKong/Snow_wallDiffuse
-   TreeSideDiffuse: EasternSeasons/Spring_snow_trees_01
-   TreeTopDiffuse: EasternSeasons/Spring_snow_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Spring_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *hongkongSnowTerrainTextures
       Terrain4: EasternSeasons/Spring_Snow_TerrainTexture4
@@ -244,8 +244,8 @@ hongkongAutumnSnowTextures: &hongkongAutumnSnowTextures
    <<: *hongkongSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: HongKong/Snow_wallDiffuse
-   TreeSideDiffuse: EasternSeasons/Autumn_snow_trees_01
-   TreeTopDiffuse: EasternSeasons/Autumn_snow_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Autumn_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Autumn_Snow_trees_top_01
    LcmDiffuse: 
       <<: *hongkongSnowTerrainTextures
       Terrain4: EasternSeasons/Autumn_Snow_TerrainTexture4
@@ -269,8 +269,8 @@ hongkongWinterSnowTextures: &hongkongWinterSnowTextures
    <<: *hongkongSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: HongKong/Snow_wallDiffuse
-   TreeSideDiffuse: EasternSeasons/Winter_snow_trees_01
-   TreeTopDiffuse: EasternSeasons/Winter_snow_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Winter_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Winter_Snow_trees_top_01
    LcmDiffuse: 
       <<: *hongkongSnowTerrainTextures
       Terrain4: EasternSeasons/Winter_Snow_TerrainTexture4
