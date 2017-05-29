@@ -57,6 +57,7 @@ S3SYNC = $(AWS) s3 sync --content-encoding "gzip" --delete
 PREP_MANIFEST = cpp 
 BUILD_MANIFEST = ./venv_wrapper.sh python build_manifest.py 
 CHECK_MANIFEST = ./venv_wrapper.sh python check_manifest.py
+CHECK_THEME_PATHS = ./venv_wrapper.sh python check_theme_paths.py
 
 MANIFEST_SRC_DIR := manifest
 MANIFEST_ROOTS_DIR := $(MANIFEST_SRC_DIR)/manifest_roots
@@ -71,6 +72,7 @@ EMIT_VERSION_JSON = ./venv_wrapper.sh python emit_version_json.py -s "$(REMOTE_S
 DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/web.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 SSL_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/ssl.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
+PREPPED_YAML_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(MANIFEST_BUILD_DIR)/%.yaml.prep,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 
 .SECONDARY:
 .PHONY: all
@@ -181,5 +183,8 @@ endif
 clean: 
 	rm -rf $(BUILD_DIR)
 
+.PHONY: check_theme_paths 
+check_theme_paths:$(PREPPED_YAML_FILES)
+	$(CHECK_THEME_PATHS) --source_files $(PREPPED_YAML_FILES) --texture_directory "themes/"
 
 
