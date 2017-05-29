@@ -1,71 +1,71 @@
 ThailandTerrainTextures: &ThailandTerrainTextures
-     Terrain0: Osaka/TerrainTexture0
-     Terrain1: Osaka/TerrainTexture1
-     Terrain2: Osaka/TerrainTexture2
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
      Terrain3: SanFrancisco/TerrainTexture3
-     Terrain4: Okinawa/Summer_TerrainTexture4
-     Terrain5: Okinawa/Summer_TerrainTexture5
-     Terrain6: Okinawa/Summer_TerrainTexture6
-     Terrain7: Okinawa/Summer_TerrainTexture7
-     Terrain8: Okinawa/Summer_TerrainTexture8
+     Terrain4: EasternSeasons/Summer_TerrainTexture4
+     Terrain5: EasternSeasons/Summer_TerrainTexture5
+     Terrain6: EasternSeasons/Summer_TerrainTexture6
+     Terrain7: EasternSeasons/Summer_TerrainTexture7
+     Terrain8: EasternSeasons/Summer_TerrainTexture8
      Terrain9: SanFrancisco/TerrainTexture9
      Terrain10: SanFrancisco/TerrainTexture10
      Terrain11: SanFrancisco/TerrainTexture11
-     Terrain12: Osaka/TerrainTexture12
-     Terrain13: Osaka/TerrainTexture13
-     Terrain14: Okinawa/Summer_TerrainTexture14
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: EasternSeasons/Summer_TerrainTexture14
      Terrain15: SanFrancisco/TerrainTexture15
-     Terrain16: Osaka/TerrainTexture16
-     Terrain17: Osaka/TerrainTexture17
-     Terrain18: Okinawa/Summer_TerrainTexture18
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: EasternSeasons/Summer_TerrainTexture18
      Terrain253: SanFrancisco/Water_01
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
 
 ThailandTerrainLODTextures: &ThailandTerrainLODTextures
-     Terrain0: Osaka/TerrainTexture0_LOD
-     Terrain1: Osaka/TerrainTexture1_LOD
-     Terrain2: Osaka/TerrainTexture2_LOD
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
      Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: Okinawa/Summer_TerrainTexture4_LOD
-     Terrain5: Okinawa/Summer_TerrainTexture5_LOD
-     Terrain6: Okinawa/Summer_TerrainTexture6_LOD
-     Terrain7: Okinawa/Summer_TerrainTexture7_LOD
-     Terrain8: Okinawa/Summer_TerrainTexture8_LOD
+     Terrain4: EasternSeasons/Summer_TerrainTexture4_LOD
+     Terrain5: EasternSeasons/Summer_TerrainTexture5_LOD
+     Terrain6: EasternSeasons/Summer_TerrainTexture6_LOD
+     Terrain7: EasternSeasons/Summer_TerrainTexture7_LOD
+     Terrain8: EasternSeasons/Summer_TerrainTexture8_LOD
      Terrain9: SanFrancisco/TerrainTexture9_LOD
      Terrain10: SanFrancisco/TerrainTexture10_LOD
      Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: Osaka/TerrainTexture12_LOD
-     Terrain13: Osaka/TerrainTexture13_LOD
-     Terrain14: Okinawa/Summer_TerrainTexture14_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: EasternSeasons/Summer_TerrainTexture14_LOD
      Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: Osaka/TerrainTexture16_LOD
-     Terrain17: Osaka/TerrainTexture17_LOD
-     Terrain18: Okinawa/Summer_TerrainTexture18_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: EasternSeasons/Summer_TerrainTexture18_LOD
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
 
 ThailandSnowTerrainTextures: &ThailandSnowTerrainTextures
-     Terrain0: Osaka/snow_Texture0
-     Terrain1: Osaka/snow_Texture1
-     Terrain2: Osaka/snow_Texture2
-     Terrain3: Osaka/snow_Texture3
-     Terrain4: Osaka/snow_Texture4
-     Terrain5: Osaka/snow_Texture5
-     Terrain6: Osaka/snow_Texture6
-     Terrain7: Osaka/snow_Texture7
-     Terrain8: Osaka/snow_Texture8
-     Terrain9: Osaka/snow_Texture9
-     Terrain10: Osaka/snow_Texture10
-     Terrain11: Osaka/snow_Texture11
-     Terrain12: Osaka/snow_Texture12
-     Terrain13: Osaka/snow_Texture13
-     Terrain14: Osaka/snow_Texture14
-     Terrain15: Osaka/snow_Texture15
-     Terrain16: Osaka/snow_Texture16
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: EasternSeasons/Summer_Snow_TerrainTexture4
+     Terrain5: EasternSeasons/Summer_Snow_TerrainTexture5
+     Terrain6: EasternSeasons/Summer_Snow_TerrainTexture6
+     Terrain7: EasternSeasons/Summer_Snow_TerrainTexture7
+     Terrain8: EasternSeasons/Summer_Snow_TerrainTexture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: EasternSeasons/Summer_Snow_TerrainTexture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
      Terrain17: SanFrancisco/TerrainTexture17
-     Terrain18: Osaka/snow_Texture14
+     Terrain18: EasternSeasons/Summer_Snow_TerrainTexture18
      Terrain253: SanFrancisco/Water_01
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
@@ -75,27 +75,27 @@ ThailandSnowTerrainLODTextures: &ThailandSnowTerrainLODTextures
      Terrain1: SanFrancisco/TerrainTexture1_LOD
      Terrain2: SanFrancisco/TerrainTexture2_LOD
      Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain4: EasternSeasons/Summer_TerrainTexture4_LOD
+     Terrain5: EasternSeasons/Summer_TerrainTexture5_LOD
+     Terrain6: EasternSeasons/Summer_TerrainTexture6_LOD
+     Terrain7: EasternSeasons/Summer_TerrainTexture7_LOD
+     Terrain8: EasternSeasons/Summer_TerrainTexture8_LOD
      Terrain9: SanFrancisco/TerrainTexture9_LOD
      Terrain10: SanFrancisco/TerrainTexture10_LOD
      Terrain11: SanFrancisco/TerrainTexture11_LOD
      Terrain12: SanFrancisco/TerrainTexture12_LOD
      Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain14: EasternSeasons/Summer_TerrainTexture14_LOD
      Terrain15: SanFrancisco/TerrainTexture15_LOD
      Terrain16: SanFrancisco/TerrainTexture16_LOD
      Terrain17: SanFrancisco/TerrainTexture17_LOD
-     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain18: EasternSeasons/Summer_TerrainTexture18_LOD
      Terrain253: SanFrancisco/Water_01_LOD
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
 
 ThailandSummerTextures: &ThailandSummerTextures
-   RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
+   RoadDiffuse: HongKong/roadDiffuse_repeat
    RailDiffuse: Thailand/Thailand_Rail_01
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
    TreeSideDiffuse: Dubai/trees_01
@@ -117,22 +117,22 @@ ThailandSpringTextures: &ThailandSpringTextures
    TreeTopDiffuse: Dubai/Spring_trees_top_01
    LcmDiffuse: 
       <<: *ThailandTerrainTextures
-      Terrain4: Okinawa/Spring_TerrainTexture4
-      Terrain5: Okinawa/Spring_TerrainTexture5
-      Terrain6: Okinawa/Spring_TerrainTexture6
-      Terrain7: Okinawa/Spring_TerrainTexture7
-      Terrain8: Okinawa/Spring_TerrainTexture8
-      Terrain14: Okinawa/Spring_TerrainTexture14
-      Terrain18: Okinawa/Spring_TerrainTexture18
+      Terrain4: EasternSeasons/Spring_TerrainTexture4
+      Terrain5: EasternSeasons/Spring_TerrainTexture5
+      Terrain6: EasternSeasons/Spring_TerrainTexture6
+      Terrain7: EasternSeasons/Spring_TerrainTexture7
+      Terrain8: EasternSeasons/Spring_TerrainTexture8
+      Terrain14: EasternSeasons/Spring_TerrainTexture14
+      Terrain18: EasternSeasons/Spring_TerrainTexture18
    LcmLodDiffuse:
       <<: *ThailandTerrainLODTextures
-      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
-      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      Terrain4: EasternSeasons/Spring_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Spring_TerrainTexture18_LOD
 
 ThailandAutumnTextures: &ThailandAutumnTextures
    <<: *ThailandSummerTextures
@@ -140,22 +140,22 @@ ThailandAutumnTextures: &ThailandAutumnTextures
    TreeTopDiffuse: Dubai/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *ThailandTerrainTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4
-      Terrain5: Okinawa/Autumn_TerrainTexture5
-      Terrain6: Okinawa/Autumn_TerrainTexture6
-      Terrain7: Okinawa/Autumn_TerrainTexture7
-      Terrain8: Okinawa/Autumn_TerrainTexture8
-      Terrain14: Okinawa/Autumn_TerrainTexture14
-      Terrain18: Okinawa/Autumn_TerrainTexture18
+      Terrain4: EasternSeasons/Autumn_TerrainTexture4
+      Terrain5: EasternSeasons/Autumn_TerrainTexture5
+      Terrain6: EasternSeasons/Autumn_TerrainTexture6
+      Terrain7: EasternSeasons/Autumn_TerrainTexture7
+      Terrain8: EasternSeasons/Autumn_TerrainTexture8
+      Terrain14: EasternSeasons/Autumn_TerrainTexture14
+      Terrain18: EasternSeasons/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *ThailandTerrainLODTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
-      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      Terrain4: EasternSeasons/Autumn_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Autumn_TerrainTexture18_LOD
 
 ThailandWinterTextures: &ThailandWinterTextures
    <<: *ThailandSummerTextures
@@ -163,35 +163,35 @@ ThailandWinterTextures: &ThailandWinterTextures
    TreeTopDiffuse: Dubai/Winter_trees_top_01
    LcmDiffuse: 
       <<: *ThailandTerrainTextures
-      Terrain4: Okinawa/Winter_TerrainTexture4
-      Terrain5: Okinawa/Winter_TerrainTexture5
-      Terrain6: Okinawa/Winter_TerrainTexture6
-      Terrain7: Okinawa/Winter_TerrainTexture7
-      Terrain8: Okinawa/Winter_TerrainTexture8
-      Terrain14: Okinawa/Winter_TerrainTexture14
-      Terrain18: Okinawa/Winter_TerrainTexture18
+      Terrain4: EasternSeasons/Winter_TerrainTexture4
+      Terrain5: EasternSeasons/Winter_TerrainTexture5
+      Terrain6: EasternSeasons/Winter_TerrainTexture6
+      Terrain7: EasternSeasons/Winter_TerrainTexture7
+      Terrain8: EasternSeasons/Winter_TerrainTexture8
+      Terrain14: EasternSeasons/Winter_TerrainTexture14
+      Terrain18: EasternSeasons/Winter_TerrainTexture18
    LcmLodDiffuse:
       <<: *ThailandTerrainLODTextures
-      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
-      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+      Terrain4: EasternSeasons/Winter_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Winter_TerrainTexture18_LOD
 
 ThailandSummerNightTextures: &ThailandSummerNightTextures
    <<: *ThailandSummerTextures
    <<: *DefaultVehiclesNightTextures
    BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
-   RoadDiffuse: Osaka/Osaka_night_roadDiffuse
+   RoadDiffuse: HongKong/Night_roadDiffuse
    RailDiffuse: Thailand/Thailand_Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
 ThailandSummerSnowTextures: &ThailandSummerSnowTextures
    <<: *ThailandSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
@@ -203,7 +203,7 @@ ThailandSummerSnowTextures: &ThailandSummerSnowTextures
 ThailandSummerNightSnowTextures: &ThailandSummerNightSnowTextures
    <<: *ThailandSummerTextures
    <<: *DefaultVehiclesNightTextures
-   RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
+   RoadDiffuse: HongKong/Night_Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
    RailDiffuse: Thailand/Thailand_Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
@@ -217,78 +217,78 @@ ThailandSummerNightSnowTextures: &ThailandSummerNightSnowTextures
 
 ThailandSpringSnowTextures: &ThailandSpringSnowTextures
    <<: *ThailandSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
    TreeSideDiffuse: Dubai/Spring_trees_01
    TreeTopDiffuse: Dubai/Spring_trees_top_01
    LcmDiffuse: 
       <<: *ThailandSnowTerrainTextures
-      Terrain4: Okinawa/Spring_Snow_TerrainTexture4
-      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
-      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
-      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
-      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
-      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
-      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+      Terrain4: EasternSeasons/Spring_Snow_TerrainTexture4
+      Terrain5: EasternSeasons/Spring_Snow_TerrainTexture5
+      Terrain6: EasternSeasons/Spring_Snow_TerrainTexture6
+      Terrain7: EasternSeasons/Spring_Snow_TerrainTexture7
+      Terrain8: EasternSeasons/Spring_Snow_TerrainTexture8
+      Terrain14: EasternSeasons/Spring_Snow_TerrainTexture14
+      Terrain18: EasternSeasons/Spring_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *ThailandSnowTerrainLODTextures
-      Terrain4: Okinawa/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
-      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      Terrain4: EasternSeasons/Spring_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Spring_TerrainTexture18_LOD
 
 ThailandAutumnSnowTextures: &ThailandAutumnSnowTextures
    <<: *ThailandSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
    TreeSideDiffuse: Dubai/Autumn_trees_01
    TreeTopDiffuse: Dubai/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *ThailandSnowTerrainTextures
-      Terrain4: Okinawa/Autumn_Snow_TerrainTexture4
-      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
-      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
-      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
-      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
-      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
-      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+      Terrain4: EasternSeasons/Autumn_Snow_TerrainTexture4
+      Terrain5: EasternSeasons/Autumn_Snow_TerrainTexture5
+      Terrain6: EasternSeasons/Autumn_Snow_TerrainTexture6
+      Terrain7: EasternSeasons/Autumn_Snow_TerrainTexture7
+      Terrain8: EasternSeasons/Autumn_Snow_TerrainTexture8
+      Terrain14: EasternSeasons/Autumn_Snow_TerrainTexture14
+      Terrain18: EasternSeasons/Autumn_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *ThailandSnowTerrainLODTextures
-      Terrain4: Okinawa/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
-      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      Terrain4: EasternSeasons/Autumn_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Autumn_TerrainTexture18_LOD
 
 ThailandWinterSnowTextures: &ThailandWinterSnowTextures
    <<: *ThailandSummerTextures
-   RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
+   RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
    TreeSideDiffuse: Dubai/Autumn_trees_01
    TreeTopDiffuse: Dubai/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *ThailandSnowTerrainTextures
-      Terrain4: Okinawa/Winter_Snow_TerrainTexture4
-      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
-      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
-      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
-      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
-      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
-      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+      Terrain4: EasternSeasons/Winter_Snow_TerrainTexture4
+      Terrain5: EasternSeasons/Winter_Snow_TerrainTexture5
+      Terrain6: EasternSeasons/Winter_Snow_TerrainTexture6
+      Terrain7: EasternSeasons/Winter_Snow_TerrainTexture7
+      Terrain8: EasternSeasons/Winter_Snow_TerrainTexture8
+      Terrain14: EasternSeasons/Winter_Snow_TerrainTexture14
+      Terrain18: EasternSeasons/Winter_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *ThailandSnowTerrainLODTextures
-      Terrain4: Okinawa/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
-      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+      Terrain4: EasternSeasons/Winter_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Winter_TerrainTexture18_LOD
 
 SummerThailand: &SummerThailand
    Name: SummerThailand
