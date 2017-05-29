@@ -57,7 +57,6 @@ S3SYNC = $(AWS) s3 sync --content-encoding "gzip" --delete
 PREP_MANIFEST = cpp 
 BUILD_MANIFEST = ./venv_wrapper.sh python build_manifest.py 
 CHECK_MANIFEST = ./venv_wrapper.sh python check_manifest.py
-CHECK_THEME_PATHS = ./venv_wrapper.sh python check_theme_paths.py
 
 MANIFEST_SRC_DIR := manifest
 MANIFEST_ROOTS_DIR := $(MANIFEST_SRC_DIR)/manifest_roots
@@ -72,7 +71,6 @@ EMIT_VERSION_JSON = ./venv_wrapper.sh python emit_version_json.py -s "$(REMOTE_S
 DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/web.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 SSL_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/ssl.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
-PREPPED_YAML_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(MANIFEST_BUILD_DIR)/%.yaml.prep,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 
 .SECONDARY:
 .PHONY: all
@@ -87,19 +85,19 @@ $(MANIFEST_BUILD_DIR)/%.yaml.prep:$(MANIFEST_ROOTS_DIR)/%.yaml $(SRC_MANIFEST_FI
 .PHONY: .FORCE
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/%/manifest.txt:$(PREPPED_YAML_FILES) .FORCE
+$(MANIFEST_BUILD_DIR)/%/manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(EEGEO_ASSETS_HOST_NAME) $(THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/%/web.manifest.txt:$(PREPPED_YAML_FILES) .FORCE
+$(MANIFEST_BUILD_DIR)/%/web.manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(WEB_EEGEO_ASSETS_HOST_NAME) $(WEB_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"	
 
 # Always rebuild this as it contains references to the version directory.
-$(MANIFEST_BUILD_DIR)/%/ssl.manifest.txt:$(PREPPED_YAML_FILES) .FORCE
+$(MANIFEST_BUILD_DIR)/%/ssl.manifest.txt:$(MANIFEST_BUILD_DIR)/%.yaml.prep .FORCE
 	$(MKDIR) $(dir $@) 
 	$(BUILD_MANIFEST) "$<" $(VERSION_NAME) $(SSL_EEGEO_ASSETS_HOST_NAME) $(SSL_THEME_ASSETS_HOST_NAME) $(LANDMARK_TEXTURES_VERSION_FILE) $(INTERIOR_MATERIALS_VERSION_FILE) > "$@"
 	$(CHECK_MANIFEST) "$@"
@@ -183,8 +181,5 @@ endif
 clean: 
 	rm -rf $(BUILD_DIR)
 
-.PHONY: check_theme_paths 
-check_theme_paths:$(PREPPED_YAML_FILES)
-	$(CHECK_THEME_PATHS) --source_files $(PREPPED_YAML_FILES) --texture_directory "themes/"
 
 
