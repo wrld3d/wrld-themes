@@ -113,8 +113,8 @@ DubaiSummerTextures: &DubaiSummerTextures
 
 DubaiSpringTextures: &DubaiSpringTextures
    <<: *DubaiSummerTextures
-   TreeSideDiffuse: Dubai/Spring_trees_01
-   TreeTopDiffuse: Dubai/Spring_trees_top_01
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiTerrainTextures
       Terrain4: Dubai/Spring_TerrainTexture4
@@ -136,8 +136,8 @@ DubaiSpringTextures: &DubaiSpringTextures
 
 DubaiAutumnTextures: &DubaiAutumnTextures
    <<: *DubaiSummerTextures
-   TreeSideDiffuse: Dubai/Autumn_trees_01
-   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiTerrainTextures
       Terrain4: Dubai/Autumn_TerrainTexture4
@@ -161,8 +161,8 @@ DubaiAutumnTextures: &DubaiAutumnTextures
 
 DubaiWinterTextures: &DubaiWinterTextures
    <<: *DubaiSummerTextures
-   TreeSideDiffuse: Dubai/Winter_trees_01
-   TreeTopDiffuse: Dubai/Winter_trees_top_01
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiTerrainTextures
       Terrain4: Dubai/Winter_TerrainTexture4
@@ -223,8 +223,8 @@ DubaiSpringSnowTextures: &DubaiSpringSnowTextures
    <<: *DubaiSummerTextures
    RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
    BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Dubai/Spring_Snow_trees_01
-   TreeTopDiffuse: Dubai/Spring_trees_top_01
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
       Terrain4: Dubai/Spring_Snow_TerrainTexture4
@@ -248,8 +248,8 @@ DubaiAutumnSnowTextures: &DubaiAutumnSnowTextures
    <<: *DubaiSummerTextures
    RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
    BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Dubai/Autumn_Snow_trees_01
-   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
       Terrain4: Dubai/Autumn_Snow_TerrainTexture4
@@ -273,8 +273,8 @@ DubaiWinterSnowTextures: &DubaiWinterSnowTextures
    <<: *DubaiSummerTextures
    RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
    BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Dubai/Winter_Snow_trees_01
-   TreeTopDiffuse: Dubai/Winter_trees_top_01
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
       Terrain4: Dubai/Winter_Snow_TerrainTexture4
