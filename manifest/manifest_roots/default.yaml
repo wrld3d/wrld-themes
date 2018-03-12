@@ -25,6 +25,7 @@
 #include "../themes/Scandinavia.yaml"
 #include "../themes/Thailand.yaml"
 #include "../themes/hongkong.yaml"
+#include "../themes/china.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -122,5 +123,10 @@ ThemeManifest:
         *Summerhongkong,
         *Springhongkong,
         *Autumnhongkong,
-        *Winterhongkong
+        *Winterhongkong,
+
+        *Summerchina,
+        *Springchina,
+        *Autumnchina,
+        *Winterchina
         ]
