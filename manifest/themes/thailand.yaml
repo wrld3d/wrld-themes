@@ -98,8 +98,8 @@ ThailandSummerTextures: &ThailandSummerTextures
    RoadDiffuse: HongKong/roadDiffuse_repeat
    RailDiffuse: Thailand/Thailand_Rail_01
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
-   TreeSideDiffuse: Dubai/trees_01
-   TreeTopDiffuse: Dubai/trees_top_01
+   TreeSideDiffuse: EasternSeasons/Summer_trees_01
+   TreeTopDiffuse: EasternSeasons/Summer_trees_top_01
    <<: *DefaultVehiclesDayTextures
    <<: *DefaultWaterReflectionTextures
    WaterNormal: SanFrancisco/water_normalmap
@@ -113,8 +113,8 @@ ThailandSummerTextures: &ThailandSummerTextures
 
 ThailandSpringTextures: &ThailandSpringTextures
    <<: *ThailandSummerTextures
-   TreeSideDiffuse: Dubai/Spring_trees_01
-   TreeTopDiffuse: Dubai/Spring_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Spring_trees_01
+   TreeTopDiffuse: EasternSeasons/Spring_trees_top_01
    LcmDiffuse: 
       <<: *ThailandTerrainTextures
       Terrain4: EasternSeasons/Spring_TerrainTexture4
@@ -136,8 +136,8 @@ ThailandSpringTextures: &ThailandSpringTextures
 
 ThailandAutumnTextures: &ThailandAutumnTextures
    <<: *ThailandSummerTextures
-   TreeSideDiffuse: Dubai/Autumn_trees_01
-   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Autumn_trees_01
+   TreeTopDiffuse: EasternSeasons/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *ThailandTerrainTextures
       Terrain4: EasternSeasons/Autumn_TerrainTexture4
@@ -159,8 +159,8 @@ ThailandAutumnTextures: &ThailandAutumnTextures
 
 ThailandWinterTextures: &ThailandWinterTextures
    <<: *ThailandSummerTextures
-   TreeSideDiffuse: Dubai/Winter_trees_01
-   TreeTopDiffuse: Dubai/Winter_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Winter_trees_01
+   TreeTopDiffuse: EasternSeasons/Winter_trees_top_01
    LcmDiffuse: 
       <<: *ThailandTerrainTextures
       Terrain4: EasternSeasons/Winter_TerrainTexture4
@@ -193,8 +193,8 @@ ThailandSummerSnowTextures: &ThailandSummerSnowTextures
    <<: *ThailandSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Summer_snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Summer_snow_trees_top_01
    LcmDiffuse: 
       <<: *ThailandSnowTerrainTextures
    LcmLodDiffuse:
@@ -206,8 +206,8 @@ ThailandSummerNightSnowTextures: &ThailandSummerNightSnowTextures
    RoadDiffuse: HongKong/Night_Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
    RailDiffuse: Thailand/Thailand_Rail_01_Night
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Summer_snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Summer_snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    LcmDiffuse: 
@@ -219,8 +219,8 @@ ThailandSpringSnowTextures: &ThailandSpringSnowTextures
    <<: *ThailandSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
-   TreeSideDiffuse: Dubai/Spring_trees_01
-   TreeTopDiffuse: Dubai/Spring_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Spring_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *ThailandSnowTerrainTextures
       Terrain4: EasternSeasons/Spring_Snow_TerrainTexture4
@@ -244,8 +244,8 @@ ThailandAutumnSnowTextures: &ThailandAutumnSnowTextures
    <<: *ThailandSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
-   TreeSideDiffuse: Dubai/Autumn_trees_01
-   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Autumn_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Autumn_Snow_trees_top_01
    LcmDiffuse: 
       <<: *ThailandSnowTerrainTextures
       Terrain4: EasternSeasons/Autumn_Snow_TerrainTexture4
@@ -269,8 +269,8 @@ ThailandWinterSnowTextures: &ThailandWinterSnowTextures
    <<: *ThailandSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: Thailand/WallDiffuse_Thailand
-   TreeSideDiffuse: Dubai/Autumn_trees_01
-   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   TreeSideDiffuse: EasternSeasons/Winter_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Winter_Snow_trees_top_01
    LcmDiffuse: 
       <<: *ThailandSnowTerrainTextures
       Terrain4: EasternSeasons/Winter_Snow_TerrainTexture4
