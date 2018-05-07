@@ -58,7 +58,7 @@ ScifiVDevTextures: &ScifiVDevTextures
    TramDiffuse: ScifiV/trains_01
    <<: *DefaultWaterReflectionTextures
    WaterNormal: ScifiV/water_normalmap
-   WaterReflection: ScifiV/water_reflection
+   WaterReflection: ScifiV/Water_reflection
    AsyncPlaceholderDiffuse: ScifiV/TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
