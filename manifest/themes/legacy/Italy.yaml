@@ -1,0 +1,667 @@
+ItalyTerrainTextures: &ItalyTerrainTextures
+     Terrain0: Italy/TerrainTexture0
+     Terrain1: Italy/TerrainTexture1
+     Terrain2: Italy/TerrainTexture2
+     Terrain3: Italy/TerrainTexture3
+     Terrain4: Italy/TerrainTexture4
+     Terrain5: Italy/TerrainTexture5
+     Terrain6: Italy/TerrainTexture6
+     Terrain7: Italy/TerrainTexture7
+     Terrain8: Italy/TerrainTexture8
+     Terrain9: Italy/TerrainTexture9
+     Terrain10: Italy/TerrainTexture10
+     Terrain11: Italy/TerrainTexture11
+     Terrain12: Italy/TerrainTexture12
+     Terrain13: Italy/TerrainTexture13
+     Terrain14: Italy/TerrainTexture14
+     Terrain15: Italy/TerrainTexture15
+     Terrain16: Italy/TerrainTexture16
+     Terrain17: Italy/TerrainTexture17
+     Terrain18: Italy/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+ItalyTerrainLODTextures: &ItalyTerrainLODTextures
+     Terrain0: Italy/TerrainTexture0_LOD
+     Terrain1: Italy/TerrainTexture1_LOD
+     Terrain2: Italy/TerrainTexture2_LOD
+     Terrain3: Italy/TerrainTexture3_LOD
+     Terrain4: Italy/TerrainTexture4_LOD
+     Terrain5: Italy/TerrainTexture5_LOD
+     Terrain6: Italy/TerrainTexture6_LOD
+     Terrain7: Italy/TerrainTexture7_LOD
+     Terrain8: Italy/TerrainTexture8_LOD
+     Terrain9: Italy/TerrainTexture9_LOD
+     Terrain10: Italy/TerrainTexture10_LOD
+     Terrain11: Italy/TerrainTexture11_LOD
+     Terrain12: Italy/TerrainTexture12_LOD
+     Terrain13: Italy/TerrainTexture13_LOD
+     Terrain14: Italy/TerrainTexture14_LOD
+     Terrain15: Italy/TerrainTexture15_LOD
+     Terrain16: Italy/TerrainTexture16_LOD
+     Terrain17: Italy/TerrainTexture17_LOD
+     Terrain18: Italy/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+ItalySnowTerrainTextures: &ItalySnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/SanFran_Snow_Texture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+ItalySnowTerrainLODTextures: &ItalySnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+ItalySummerTextures: &ItalySummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: Italy/Italy_wallDiffuse
+   TreeSideDiffuse: Italy/trees_01
+   TreeTopDiffuse: Italy/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *ItalyTerrainTextures
+   LcmLodDiffuse:
+      <<: *ItalyTerrainLODTextures
+
+ItalySpringTextures: &ItalySpringTextures
+   <<: *ItalySummerTextures
+   TreeSideDiffuse: Italy/Spring_trees_01
+   TreeTopDiffuse: Italy/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *ItalyTerrainTextures
+      Terrain4: Italy/Spring_TerrainTexture4
+      Terrain5: Italy/Spring_TerrainTexture5
+      Terrain6: Italy/Spring_TerrainTexture6
+      Terrain7: Italy/Spring_TerrainTexture7
+      Terrain8: Italy/Spring_TerrainTexture8
+      Terrain14: Italy/Spring_TerrainTexture14
+      Terrain18: Italy/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ItalyTerrainLODTextures
+      Terrain4: Italy/Spring_TerrainTexture4_LOD
+      Terrain5: Italy/Spring_TerrainTexture5_LOD
+      Terrain6: Italy/Spring_TerrainTexture6_LOD
+      Terrain7: Italy/Spring_TerrainTexture7_LOD
+      Terrain8: Italy/Spring_TerrainTexture8_LOD
+      Terrain14: Italy/Spring_TerrainTexture14_LOD
+      Terrain18: Italy/Spring_TerrainTexture18_LOD
+
+ItalyAutumnTextures: &ItalyAutumnTextures
+   <<: *ItalySummerTextures
+   TreeSideDiffuse: Italy/Autumn_trees_01
+   TreeTopDiffuse: Italy/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *ItalyTerrainTextures
+      Terrain4: Italy/Autumn_TerrainTexture4
+      Terrain5: Italy/Autumn_TerrainTexture5
+      Terrain6: Italy/Autumn_TerrainTexture6
+      Terrain7: Italy/Autumn_TerrainTexture7
+      Terrain8: Italy/Autumn_TerrainTexture8
+      Terrain14: Italy/Autumn_TerrainTexture14
+      Terrain18: Italy/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ItalyTerrainLODTextures
+      Terrain4: Italy/Autumn_TerrainTexture4_LOD
+      Terrain5: Italy/Autumn_TerrainTexture5_LOD
+      Terrain6: Italy/Autumn_TerrainTexture6_LOD
+      Terrain7: Italy/Autumn_TerrainTexture7_LOD
+      Terrain8: Italy/Autumn_TerrainTexture8_LOD
+      Terrain14: Italy/Autumn_TerrainTexture14_LOD
+      Terrain18: Italy/Autumn_TerrainTexture18_LOD
+
+ItalyWinterTextures: &ItalyWinterTextures
+   <<: *ItalySummerTextures
+   TreeSideDiffuse: Italy/Winter_trees_01
+   TreeTopDiffuse: Italy/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *ItalyTerrainTextures
+      Terrain4: Italy/Winter_TerrainTexture4
+      Terrain5: Italy/Winter_TerrainTexture5
+      Terrain6: Italy/Winter_TerrainTexture6
+      Terrain7: Italy/Winter_TerrainTexture7
+      Terrain8: Italy/Winter_TerrainTexture8
+      Terrain14: Italy/Winter_TerrainTexture14
+      Terrain18: Italy/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ItalyTerrainLODTextures
+      Terrain4: Italy/Winter_TerrainTexture4_LOD
+      Terrain5: Italy/Winter_TerrainTexture5_LOD
+      Terrain6: Italy/Winter_TerrainTexture6_LOD
+      Terrain7: Italy/Winter_TerrainTexture7_LOD
+      Terrain8: Italy/Winter_TerrainTexture8_LOD
+      Terrain14: Italy/Winter_TerrainTexture14_LOD
+      Terrain18: Italy/Winter_TerrainTexture18_LOD
+
+ItalySummerNightTextures: &ItalySummerNightTextures
+   <<: *ItalySummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Italy/Italy_Night_wallDiffuse
+   RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+ItalySummerSnowTextures: &ItalySummerSnowTextures
+   <<: *ItalySummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Italy/Italy_Snow_wallDiffuse
+   TreeSideDiffuse: Italy/Summer_Snow_trees_01
+   TreeTopDiffuse: Italy/Summer_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *ItalySnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *ItalySnowTerrainLODTextures
+
+ItalySummerNightSnowTextures: &ItalySummerNightSnowTextures
+   <<: *ItalySummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: Italy/Italy_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: Italy/Summer_Snow_trees_01
+   TreeTopDiffuse: Italy/Summer_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *ItalySnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *ItalySnowTerrainLODTextures
+
+ItalySpringSnowTextures: &ItalySpringSnowTextures
+   <<: *ItalySummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Italy/Italy_Snow_wallDiffuse
+   TreeSideDiffuse: Italy/Spring_Snow_trees_01
+   TreeTopDiffuse: Italy/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *ItalySnowTerrainTextures
+      Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
+      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
+      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
+      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
+      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
+      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ItalySnowTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
+      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
+      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
+      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
+      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+
+ItalyAutumnSnowTextures: &ItalyAutumnSnowTextures
+   <<: *ItalySummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Italy/Italy_Snow_wallDiffuse
+   TreeSideDiffuse: Italy/Autumn_Snow_trees_01
+   TreeTopDiffuse: Italy/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *ItalySnowTerrainTextures
+      Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
+      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
+      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
+      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
+      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
+      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ItalySnowTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
+      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
+      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
+      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
+      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+
+ItalyWinterSnowTextures: &ItalyWinterSnowTextures
+   <<: *ItalySummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Italy/Italy_Snow_wallDiffuse
+   TreeSideDiffuse: Italy/Winter_Snow_trees_01
+   TreeTopDiffuse: Italy/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *ItalySnowTerrainTextures
+      Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
+      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
+      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
+      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
+      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
+      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ItalySnowTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
+      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
+      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
+      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
+      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+SummerItaly: &SummerItaly
+   Name: SummerItaly
+   LocationLatLong: [42.710006, 12.857184]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ItalySummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ItalySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ItalySummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ItalySummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ItalySummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ItalySummerTextures
+
+SpringItaly: &SpringItaly
+   Name: SpringItaly
+   LocationLatLong: [42.710006, 12.857184]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ItalySpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ItalySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ItalySpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ItalySpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ItalySpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ItalySpringTextures
+
+AutumnItaly: &AutumnItaly
+   Name: AutumnItaly
+   LocationLatLong: [42.710006, 12.857184]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ItalyAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ItalySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ItalyAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ItalyAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ItalyAutumnTextures
+
+WinterItaly: &WinterItaly
+   Name: WinterItaly
+   LocationLatLong: [42.710006, 12.857184]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ItalyWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ItalySummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ItalyWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ItalyWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ItalySummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ItalyWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ItalyWinterTextures

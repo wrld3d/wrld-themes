@@ -1,0 +1,132 @@
+#include "../themes/legacy/defaultheader.yaml"
+#include "../themes/legacy/defaultlighting.yaml"
+#include "../themes/legacy/defaultplacenames.yaml"
+#include "../themes/legacy/defaultvehicles.yaml"
+#include "../themes/legacy/defaultwater.yaml"
+#include "../themes/legacy/mapmode.yaml"
+#include "../themes/legacy/sanfrancisco.yaml"
+#include "../themes/legacy/canada.yaml"
+#include "../themes/legacy/japanvehicles.yaml"
+#include "../themes/legacy/japan.yaml"
+#include "../themes/legacy/japansouth.yaml"
+#include "../themes/legacy/japannorth.yaml"
+#include "../themes/legacy/barcelona.yaml"
+#include "../themes/legacy/london.yaml"
+#include "../themes/legacy/paris.yaml"
+#include "../themes/legacy/melbourne.yaml"
+#include "../themes/legacy/newyork.yaml"
+#include "../themes/legacy/phoenix.yaml"
+#include "../themes/legacy/mountrush.yaml"
+#include "../themes/legacy/brazilvehicles.yaml"
+#include "../themes/legacy/brazil.yaml"
+#include "../themes/legacy/germany.yaml"
+#include "../themes/legacy/dubai.yaml"
+#include "../themes/legacy/italy.yaml"
+#include "../themes/legacy/Scandinavia.yaml"
+#include "../themes/legacy/Thailand.yaml"
+#include "../themes/legacy/hongkong.yaml"
+#include "../themes/legacy/china.yaml"
+    
+ThemeManifest:
+   <<: *DefaultHeader
+   Themes: [
+        *SummerSanFrancisco,
+        *SpringSanFrancisco, 
+        *AutumnSanFrancisco, 
+        *WinterSanFrancisco, 
+
+        *SummerCanada, 
+        *SpringCanada, 
+        *AutumnCanada, 
+        *WinterCanada,
+
+        *SummerJapanSouth, 
+        *SpringJapanSouth, 
+        *AutumnJapanSouth, 
+        *WinterJapanSouth, 
+
+        *SummerJapanNorth, 
+        *SpringJapanNorth, 
+        *AutumnJapanNorth, 
+        *WinterJapanNorth, 
+
+        *SummerJapan, 
+        *SpringJapan, 
+        *AutumnJapan, 
+        *WinterJapan, 
+
+        *SummerBarcelona, 
+        *SpringBarcelona, 
+        *AutumnBarcelona, 
+        *WinterBarcelona, 
+
+        *SummerLondon, 
+        *SpringLondon, 
+        *AutumnLondon, 
+        *WinterLondon, 
+
+        *SummerParis, 
+        *SpringParis, 
+        *AutumnParis, 
+        *WinterParis, 
+
+        *SummerMelbourne, 
+        *SpringMelbourne, 
+        *AutumnMelbourne, 
+        *WinterMelbourne, 
+
+        *SummerNewYork, 
+        *SpringNewYork, 
+        *AutumnNewYork, 
+        *WinterNewYork, 
+
+        *SummerPhoenix, 
+        *SpringPhoenix, 
+        *AutumnPhoenix, 
+        *WinterPhoenix, 
+
+        *SummerMountRush, 
+        *SpringMountRush, 
+        *AutumnMountRush, 
+        *WinterMountRush,
+
+        *SummerBrazil,
+        *SpringBrazil,
+        *AutumnBrazil,
+        *WinterBrazil,
+
+        *SummerGermany,
+        *SpringGermany,
+        *AutumnGermany,
+        *WinterGermany,
+
+        *SummerItaly,
+        *SpringItaly,
+        *AutumnItaly,
+        *WinterItaly,
+        
+        *SummerScandinavia,
+        *SpringScandinavia,
+        *AutumnScandinavia,
+        *WinterScandinavia,
+        
+        *SummerDubai,
+        *SpringDubai,
+        *AutumnDubai,
+        *WinterDubai,
+        
+        *SummerThailand,
+        *SpringThailand,
+        *AutumnThailand,
+        *WinterThailand,
+
+        *Summerhongkong,
+        *Springhongkong,
+        *Autumnhongkong,
+        *Winterhongkong,
+
+        *Summerchina,
+        *Springchina,
+        *Autumnchina,
+        *Winterchina
+        ]

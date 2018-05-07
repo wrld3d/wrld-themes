@@ -1,0 +1,97 @@
+MapModeTerrainTextures: &MapModeTerrainTextures
+     Terrain0: MapMode/MapMode_TerrainTexture0
+     Terrain1: MapMode/MapMode_TerrainTexture1
+     Terrain2: MapMode/MapMode_TerrainTexture2
+     Terrain3: MapMode/MapMode_TerrainTexture3
+     Terrain4: MapMode/MapMode_TerrainTexture4
+     Terrain5: MapMode/MapMode_TerrainTexture5
+     Terrain6: MapMode/MapMode_TerrainTexture6
+     Terrain7: MapMode/MapMode_TerrainTexture7
+     Terrain8: MapMode/MapMode_TerrainTexture8
+     Terrain9: MapMode/MapMode_TerrainTexture9
+     Terrain10: MapMode/MapMode_TerrainTexture10
+     Terrain11: MapMode/MapMode_TerrainTexture11
+     Terrain12: MapMode/MapMode_TerrainTexture12
+     Terrain13: MapMode/MapMode_TerrainTexture13
+     Terrain14: MapMode/MapMode_TerrainTexture14
+     Terrain15: MapMode/MapMode_TerrainTexture15
+     Terrain16: MapMode/MapMode_TerrainTexture16
+     Terrain17: MapMode/MapMode_TerrainTexture17
+     Terrain18: MapMode/MapMode_TerrainTexture18
+     Terrain253: MapMode/MapMode_Water_01
+     Terrain254: MapMode/MapMode_Water_02
+     Terrain255: MapMode/MapMode_Water_03
+
+MapModeTerrainLODTextures: &MapModeTerrainLODTextures
+     Terrain0: MapMode/MapMode_TerrainTexture0_LOD
+     Terrain1: MapMode/MapMode_TerrainTexture1_LOD
+     Terrain2: MapMode/MapMode_TerrainTexture2_LOD
+     Terrain3: MapMode/MapMode_TerrainTexture3_LOD
+     Terrain4: MapMode/MapMode_TerrainTexture4_LOD
+     Terrain5: MapMode/MapMode_TerrainTexture5_LOD
+     Terrain6: MapMode/MapMode_TerrainTexture6_LOD
+     Terrain7: MapMode/MapMode_TerrainTexture7_LOD
+     Terrain8: MapMode/MapMode_TerrainTexture8_LOD
+     Terrain9: MapMode/MapMode_TerrainTexture9_LOD
+     Terrain10: MapMode/MapMode_TerrainTexture10_LOD
+     Terrain11: MapMode/MapMode_TerrainTexture11_LOD
+     Terrain12: MapMode/MapMode_TerrainTexture12_LOD
+     Terrain13: MapMode/MapMode_TerrainTexture13_LOD
+     Terrain14: MapMode/MapMode_TerrainTexture14_LOD
+     Terrain15: MapMode/MapMode_TerrainTexture15_LOD
+     Terrain16: MapMode/MapMode_TerrainTexture16_LOD
+     Terrain17: MapMode/MapMode_TerrainTexture17_LOD
+     Terrain18: MapMode/MapMode_TerrainTexture18_LOD
+     Terrain253: MapMode/MapMode_Water_01_LOD
+     Terrain254: MapMode/MapMode_Water_02_LOD
+     Terrain255: MapMode/MapMode_Water_03_LOD
+
+MapModeTextures: &MapModeTextures
+   RoadDiffuse: MapMode/MapMode_roadDiffuse_repeat
+   RailDiffuse: MapMode/MapMode_railDiffuse
+   BuildingDiffuse: MapMode/MapMode_wallDiffuse
+   TreeSideDiffuse: MapMode/MapMode_trees_01
+   TreeTopDiffuse: MapMode/MapMode_trees_top_01
+   VehicleDiffuse: MapMode/MapMode_vehicles_01
+   TrainDiffuse: MapMode/MapMode_trains_01
+   PlaneDiffuse: MapMode/MapMode_planes_01
+   TramDiffuse: MapMode/MapMode_trains_01
+   WaterNormal: SanFrancisco/water_normalmap
+   <<: *DefaultWaterReflectionTextures
+   AsyncPlaceholderDiffuse: MapMode/MapMode_TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *MapModeTerrainTextures
+   LcmLodDiffuse:
+      <<: *MapModeTerrainLODTextures
+
+
+MapModeOldRoadTextures: &MapModeOldRoadTextures
+   <<: *MapModeTextures
+   RoadDiffuse: MapMode/MapMode_roadDiffuse_repeatUS
+
+
+MapModeLighting: &MapModeLighting
+  KeyLight: [0.6, 0.6, 0.4]
+  BackLight: [0.4, 0.4, 0.4]
+  FillLight: [0.15, 0.15, 0.15]
+  AmbientLight: [0.564, 0.482, 0.353]
+  AlternativeAmbientLight: [0.663, 0.584, 0.459]
+  ShadowColor: [1, 1, 1]
+  FogColor: [0, 0, 0]
+  FogIntensity: 0.0
+  LightMapColor: [0.0, 0.0, 0.0]
+  LightMapIntensity: 0.0
+  LandmarkPostfix: ""
+
+MapModeState: &MapModeState
+  Name: MapMode
+  <<: *MapModeLighting
+  Textures:
+    <<: *MapModeTextures
+
+MapModeOldRoadsState: &MapModeOldRoadsState
+  Name: MapMode
+  <<: *MapModeLighting
+  Textures:
+    <<: *MapModeOldRoadTextures

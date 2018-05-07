@@ -1,0 +1,671 @@
+ThailandTerrainTextures: &ThailandTerrainTextures
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: EasternSeasons/Summer_TerrainTexture4
+     Terrain5: EasternSeasons/Summer_TerrainTexture5
+     Terrain6: EasternSeasons/Summer_TerrainTexture6
+     Terrain7: EasternSeasons/Summer_TerrainTexture7
+     Terrain8: EasternSeasons/Summer_TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: EasternSeasons/Summer_TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: EasternSeasons/Summer_TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+ThailandTerrainLODTextures: &ThailandTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: EasternSeasons/Summer_TerrainTexture4_LOD
+     Terrain5: EasternSeasons/Summer_TerrainTexture5_LOD
+     Terrain6: EasternSeasons/Summer_TerrainTexture6_LOD
+     Terrain7: EasternSeasons/Summer_TerrainTexture7_LOD
+     Terrain8: EasternSeasons/Summer_TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: EasternSeasons/Summer_TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: EasternSeasons/Summer_TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+ThailandSnowTerrainTextures: &ThailandSnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: EasternSeasons/Summer_Snow_TerrainTexture4
+     Terrain5: EasternSeasons/Summer_Snow_TerrainTexture5
+     Terrain6: EasternSeasons/Summer_Snow_TerrainTexture6
+     Terrain7: EasternSeasons/Summer_Snow_TerrainTexture7
+     Terrain8: EasternSeasons/Summer_Snow_TerrainTexture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: EasternSeasons/Summer_Snow_TerrainTexture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: EasternSeasons/Summer_Snow_TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+ThailandSnowTerrainLODTextures: &ThailandSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: EasternSeasons/Summer_TerrainTexture4_LOD
+     Terrain5: EasternSeasons/Summer_TerrainTexture5_LOD
+     Terrain6: EasternSeasons/Summer_TerrainTexture6_LOD
+     Terrain7: EasternSeasons/Summer_TerrainTexture7_LOD
+     Terrain8: EasternSeasons/Summer_TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: EasternSeasons/Summer_TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: EasternSeasons/Summer_TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+ThailandSummerTextures: &ThailandSummerTextures
+   RoadDiffuse: HongKong/roadDiffuse_repeat
+   RailDiffuse: Thailand/Thailand_Rail_01
+   BuildingDiffuse: Thailand/WallDiffuse_Thailand
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *ThailandTerrainTextures
+   LcmLodDiffuse:
+      <<: *ThailandTerrainLODTextures
+
+ThailandSpringTextures: &ThailandSpringTextures
+   <<: *ThailandSummerTextures
+   TreeSideDiffuse: Dubai/Spring_trees_01
+   TreeTopDiffuse: Dubai/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *ThailandTerrainTextures
+      Terrain4: EasternSeasons/Spring_TerrainTexture4
+      Terrain5: EasternSeasons/Spring_TerrainTexture5
+      Terrain6: EasternSeasons/Spring_TerrainTexture6
+      Terrain7: EasternSeasons/Spring_TerrainTexture7
+      Terrain8: EasternSeasons/Spring_TerrainTexture8
+      Terrain14: EasternSeasons/Spring_TerrainTexture14
+      Terrain18: EasternSeasons/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ThailandTerrainLODTextures
+      Terrain4: EasternSeasons/Spring_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Spring_TerrainTexture18_LOD
+
+ThailandAutumnTextures: &ThailandAutumnTextures
+   <<: *ThailandSummerTextures
+   TreeSideDiffuse: Dubai/Autumn_trees_01
+   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *ThailandTerrainTextures
+      Terrain4: EasternSeasons/Autumn_TerrainTexture4
+      Terrain5: EasternSeasons/Autumn_TerrainTexture5
+      Terrain6: EasternSeasons/Autumn_TerrainTexture6
+      Terrain7: EasternSeasons/Autumn_TerrainTexture7
+      Terrain8: EasternSeasons/Autumn_TerrainTexture8
+      Terrain14: EasternSeasons/Autumn_TerrainTexture14
+      Terrain18: EasternSeasons/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ThailandTerrainLODTextures
+      Terrain4: EasternSeasons/Autumn_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Autumn_TerrainTexture18_LOD
+
+ThailandWinterTextures: &ThailandWinterTextures
+   <<: *ThailandSummerTextures
+   TreeSideDiffuse: Dubai/Winter_trees_01
+   TreeTopDiffuse: Dubai/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *ThailandTerrainTextures
+      Terrain4: EasternSeasons/Winter_TerrainTexture4
+      Terrain5: EasternSeasons/Winter_TerrainTexture5
+      Terrain6: EasternSeasons/Winter_TerrainTexture6
+      Terrain7: EasternSeasons/Winter_TerrainTexture7
+      Terrain8: EasternSeasons/Winter_TerrainTexture8
+      Terrain14: EasternSeasons/Winter_TerrainTexture14
+      Terrain18: EasternSeasons/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ThailandTerrainLODTextures
+      Terrain4: EasternSeasons/Winter_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Winter_TerrainTexture18_LOD
+
+ThailandSummerNightTextures: &ThailandSummerNightTextures
+   <<: *ThailandSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
+   RoadDiffuse: HongKong/Night_roadDiffuse
+   RailDiffuse: Thailand/Thailand_Rail_01_Night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+ThailandSummerSnowTextures: &ThailandSummerSnowTextures
+   <<: *ThailandSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: Thailand/WallDiffuse_Thailand
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *ThailandSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *ThailandSnowTerrainLODTextures
+
+ThailandSummerNightSnowTextures: &ThailandSummerNightSnowTextures
+   <<: *ThailandSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: HongKong/Night_Snow_roadDiffuse
+   BuildingDiffuse: Thailand/WallDiffuse_Night_Thailand
+   RailDiffuse: Thailand/Thailand_Rail_01_Night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *ThailandSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *ThailandSnowTerrainLODTextures
+
+ThailandSpringSnowTextures: &ThailandSpringSnowTextures
+   <<: *ThailandSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: Thailand/WallDiffuse_Thailand
+   TreeSideDiffuse: Dubai/Spring_trees_01
+   TreeTopDiffuse: Dubai/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *ThailandSnowTerrainTextures
+      Terrain4: EasternSeasons/Spring_Snow_TerrainTexture4
+      Terrain5: EasternSeasons/Spring_Snow_TerrainTexture5
+      Terrain6: EasternSeasons/Spring_Snow_TerrainTexture6
+      Terrain7: EasternSeasons/Spring_Snow_TerrainTexture7
+      Terrain8: EasternSeasons/Spring_Snow_TerrainTexture8
+      Terrain14: EasternSeasons/Spring_Snow_TerrainTexture14
+      Terrain18: EasternSeasons/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ThailandSnowTerrainLODTextures
+      Terrain4: EasternSeasons/Spring_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Spring_TerrainTexture18_LOD
+
+ThailandAutumnSnowTextures: &ThailandAutumnSnowTextures
+   <<: *ThailandSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: Thailand/WallDiffuse_Thailand
+   TreeSideDiffuse: Dubai/Autumn_trees_01
+   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *ThailandSnowTerrainTextures
+      Terrain4: EasternSeasons/Autumn_Snow_TerrainTexture4
+      Terrain5: EasternSeasons/Autumn_Snow_TerrainTexture5
+      Terrain6: EasternSeasons/Autumn_Snow_TerrainTexture6
+      Terrain7: EasternSeasons/Autumn_Snow_TerrainTexture7
+      Terrain8: EasternSeasons/Autumn_Snow_TerrainTexture8
+      Terrain14: EasternSeasons/Autumn_Snow_TerrainTexture14
+      Terrain18: EasternSeasons/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ThailandSnowTerrainLODTextures
+      Terrain4: EasternSeasons/Autumn_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Autumn_TerrainTexture18_LOD
+
+ThailandWinterSnowTextures: &ThailandWinterSnowTextures
+   <<: *ThailandSummerTextures
+   RoadDiffuse: HongKong/Snow_roadDiffuse
+   BuildingDiffuse: Thailand/WallDiffuse_Thailand
+   TreeSideDiffuse: Dubai/Autumn_trees_01
+   TreeTopDiffuse: Dubai/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *ThailandSnowTerrainTextures
+      Terrain4: EasternSeasons/Winter_Snow_TerrainTexture4
+      Terrain5: EasternSeasons/Winter_Snow_TerrainTexture5
+      Terrain6: EasternSeasons/Winter_Snow_TerrainTexture6
+      Terrain7: EasternSeasons/Winter_Snow_TerrainTexture7
+      Terrain8: EasternSeasons/Winter_Snow_TerrainTexture8
+      Terrain14: EasternSeasons/Winter_Snow_TerrainTexture14
+      Terrain18: EasternSeasons/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *ThailandSnowTerrainLODTextures
+      Terrain4: EasternSeasons/Winter_TerrainTexture4_LOD
+      Terrain5: EasternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: EasternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: EasternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: EasternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: EasternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: EasternSeasons/Winter_TerrainTexture18_LOD
+
+SummerThailand: &SummerThailand
+   Name: SummerThailand
+   LocationLatLong: [13.746628, 100.532968]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ThailandSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ThailandSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ThailandSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ThailandSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ThailandSummerTextures
+      - <<: *MapModeState
+
+SpringThailand: &SpringThailand
+   Name: SpringThailand
+   LocationLatLong: [13.746628, 100.532968]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ThailandSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ThailandSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ThailandSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ThailandSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ThailandSpringTextures
+      - <<: *MapModeState
+
+AutumnThailand: &AutumnThailand
+   Name: AutumnThailand
+   LocationLatLong: [13.746628, 100.532968]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ThailandAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ThailandSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ThailandAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ThailandAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ThailandAutumnTextures
+      - <<: *MapModeState
+
+WinterThailand: &WinterThailand
+   Name: WinterThailand
+   LocationLatLong: [13.746628, 100.532968]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+       *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *ThailandWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *ThailandSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *ThailandWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *ThailandWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *ThailandSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *ThailandWinterTextures
+      - <<: *MapModeState

@@ -1,0 +1,667 @@
+PhoenixTerrainTextures: &PhoenixTerrainTextures
+     Terrain0: Phoenix/TerrainTexture0
+     Terrain1: Phoenix/TerrainTexture1
+     Terrain2: Phoenix/TerrainTexture2
+     Terrain3: Phoenix/TerrainTexture3
+     Terrain4: Phoenix/TerrainTexture4
+     Terrain5: Phoenix/TerrainTexture5
+     Terrain6: Phoenix/TerrainTexture6
+     Terrain7: Phoenix/TerrainTexture7
+     Terrain8: Phoenix/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: Phoenix/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: Phoenix/TerrainTexture14
+     Terrain15: Phoenix/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+PhoenixTerrainLODTextures: &PhoenixTerrainLODTextures
+     Terrain0: Phoenix/TerrainTexture0_LOD
+     Terrain1: Phoenix/TerrainTexture1_LOD
+     Terrain2: Phoenix/TerrainTexture2_LOD
+     Terrain3: Phoenix/TerrainTexture3_LOD
+     Terrain4: Phoenix/TerrainTexture4_LOD
+     Terrain5: Phoenix/TerrainTexture5_LOD
+     Terrain6: Phoenix/TerrainTexture6_LOD
+     Terrain7: Phoenix/TerrainTexture7_LOD
+     Terrain8: Phoenix/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: Phoenix/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: Phoenix/TerrainTexture14_LOD
+     Terrain15: Phoenix/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+PhoenixSnowTerrainTextures: &PhoenixSnowTerrainTextures
+     Terrain0: Phoenix/Snow_TerrainTexture0
+     Terrain1: Phoenix/Snow_TerrainTexture1
+     Terrain2: Phoenix/Snow_TerrainTexture2
+     Terrain3: Phoenix/Snow_TerrainTexture3
+     Terrain4: Phoenix/Snow_TerrainTexture4
+     Terrain5: Phoenix/Snow_TerrainTexture5
+     Terrain6: Phoenix/Snow_TerrainTexture6
+     Terrain7: Phoenix/Snow_TerrainTexture7
+     Terrain8: Phoenix/Snow_TerrainTexture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: Phoenix/Snow_TerrainTexture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: Phoenix/Snow_TerrainTexture14
+     Terrain15: Phoenix/Snow_TerrainTexture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+PhoenixSnowTerrainLODTextures: &PhoenixSnowTerrainLODTextures
+     Terrain0: Phoenix/TerrainTexture0_LOD
+     Terrain1: Phoenix/TerrainTexture1_LOD
+     Terrain2: Phoenix/TerrainTexture2_LOD
+     Terrain3: Phoenix/TerrainTexture3_LOD
+     Terrain4: Phoenix/TerrainTexture4_LOD
+     Terrain5: Phoenix/TerrainTexture5_LOD
+     Terrain6: Phoenix/TerrainTexture6_LOD
+     Terrain7: Phoenix/TerrainTexture7_LOD
+     Terrain8: Phoenix/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: Phoenix/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: Phoenix/TerrainTexture14_LOD
+     Terrain15: Phoenix/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+PhoenixSummerTextures: &PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   TreeSideDiffuse: Phoenix/trees_01
+   TreeTopDiffuse: Phoenix/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *PhoenixTerrainTextures
+   LcmLodDiffuse:
+      <<: *PhoenixTerrainLODTextures
+
+PhoenixSpringTextures: &PhoenixSpringTextures
+   <<: *PhoenixSummerTextures
+   TreeSideDiffuse: Phoenix/Spring_trees_01
+   TreeTopDiffuse: Phoenix/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixTerrainTextures
+      Terrain4: Phoenix/Spring_TerrainTexture4
+      Terrain5: Phoenix/Spring_TerrainTexture5
+      Terrain6: Phoenix/Spring_TerrainTexture6
+      Terrain7: Phoenix/Spring_TerrainTexture7
+      Terrain8: Phoenix/Spring_TerrainTexture8
+      Terrain14: Phoenix/Spring_TerrainTexture14
+      Terrain18: Okinawa/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixTerrainLODTextures
+      Terrain4: Phoenix/Spring_TerrainTexture4_LOD
+      Terrain5: Phoenix/Spring_TerrainTexture5_LOD
+      Terrain6: Phoenix/Spring_TerrainTexture6_LOD
+      Terrain7: Phoenix/Spring_TerrainTexture7_LOD
+      Terrain8: Phoenix/Spring_TerrainTexture8_LOD
+      Terrain14: Phoenix/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+
+PhoenixAutumnTextures: &PhoenixAutumnTextures
+   <<: *PhoenixSummerTextures
+   TreeSideDiffuse: Phoenix/Autumn_trees_01
+   TreeTopDiffuse: Phoenix/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixTerrainTextures
+      Terrain4: Phoenix/Autumn_TerrainTexture4
+      Terrain5: Phoenix/Autumn_TerrainTexture5
+      Terrain6: Phoenix/Autumn_TerrainTexture6
+      Terrain7: Phoenix/Autumn_TerrainTexture7
+      Terrain8: Phoenix/Autumn_TerrainTexture8
+      Terrain14: Phoenix/Autumn_TerrainTexture14
+      Terrain18: Okinawa/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixTerrainLODTextures
+      Terrain4: Phoenix/Autumn_TerrainTexture4_LOD
+      Terrain5: Phoenix/Autumn_TerrainTexture5_LOD
+      Terrain6: Phoenix/Autumn_TerrainTexture6_LOD
+      Terrain7: Phoenix/Autumn_TerrainTexture7_LOD
+      Terrain8: Phoenix/Autumn_TerrainTexture8_LOD
+      Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+
+PhoenixWinterTextures: &PhoenixWinterTextures
+   <<: *PhoenixSummerTextures
+   TreeSideDiffuse: Phoenix/Winter_trees_01
+   TreeTopDiffuse: Phoenix/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixTerrainTextures
+      Terrain4: Phoenix/Winter_TerrainTexture4
+      Terrain5: Phoenix/Winter_TerrainTexture5
+      Terrain6: Phoenix/Winter_TerrainTexture6
+      Terrain7: Phoenix/Winter_TerrainTexture7
+      Terrain8: Phoenix/Winter_TerrainTexture8
+      Terrain14: Phoenix/Winter_TerrainTexture14
+      Terrain18: Okinawa/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixTerrainLODTextures
+      Terrain4: Phoenix/Winter_TerrainTexture4_LOD
+      Terrain5: Phoenix/Winter_TerrainTexture5_LOD
+      Terrain6: Phoenix/Winter_TerrainTexture6_LOD
+      Terrain7: Phoenix/Winter_TerrainTexture7_LOD
+      Terrain8: Phoenix/Winter_TerrainTexture8_LOD
+      Terrain14: Phoenix/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+PhoenixSummerNightTextures: &PhoenixSummerNightTextures
+   <<: *PhoenixSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
+   RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+PhoenixSummerSnowTextures: &PhoenixSummerSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Phoenix/Snow_trees_01
+   TreeTopDiffuse: Phoenix/Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+
+PhoenixSummerNightSnowTextures: &PhoenixSummerNightSnowTextures
+   <<: *PhoenixSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: Phoenix/Snow_trees_01
+   TreeTopDiffuse: Phoenix/Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+
+PhoenixSpringSnowTextures: &PhoenixSpringSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Phoenix/Spring_Snow_trees_01
+   TreeTopDiffuse: Phoenix/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+      Terrain4: Phoenix/Spring_Snow_TerrainTexture4
+      Terrain5: Phoenix/Spring_Snow_TerrainTexture5
+      Terrain6: Phoenix/Spring_Snow_TerrainTexture6
+      Terrain7: Phoenix/Spring_Snow_TerrainTexture7
+      Terrain8: Phoenix/Spring_Snow_TerrainTexture8
+      Terrain14: Phoenix/Spring_Snow_TerrainTexture14
+      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+      Terrain4: Phoenix/Spring_TerrainTexture4_LOD
+      Terrain5: Phoenix/Spring_TerrainTexture5_LOD
+      Terrain6: Phoenix/Spring_TerrainTexture6_LOD
+      Terrain7: Phoenix/Spring_TerrainTexture7_LOD
+      Terrain8: Phoenix/Spring_TerrainTexture8_LOD
+      Terrain14: Phoenix/Spring_TerrainTexture14_LOD
+      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+
+PhoenixAutumnSnowTextures: &PhoenixAutumnSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Phoenix/Autumn_Snow_trees_01
+   TreeTopDiffuse: Phoenix/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+      Terrain4: Phoenix/Autumn_Snow_TerrainTexture4
+      Terrain5: Phoenix/Autumn_Snow_TerrainTexture5
+      Terrain6: Phoenix/Autumn_Snow_TerrainTexture6
+      Terrain7: Phoenix/Autumn_Snow_TerrainTexture7
+      Terrain8: Phoenix/Autumn_Snow_TerrainTexture8
+      Terrain14: Phoenix/Autumn_Snow_TerrainTexture14
+      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+      Terrain4: Phoenix/Autumn_TerrainTexture4_LOD
+      Terrain5: Phoenix/Autumn_TerrainTexture5_LOD
+      Terrain6: Phoenix/Autumn_TerrainTexture6_LOD
+      Terrain7: Phoenix/Autumn_TerrainTexture7_LOD
+      Terrain8: Phoenix/Autumn_TerrainTexture8_LOD
+      Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
+      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+
+PhoenixWinterSnowTextures: &PhoenixWinterSnowTextures
+   <<: *PhoenixSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Phoenix/Winter_Snow_trees_01
+   TreeTopDiffuse: Phoenix/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *PhoenixSnowTerrainTextures
+      Terrain4: Phoenix/Winter_Snow_TerrainTexture4
+      Terrain5: Phoenix/Winter_Snow_TerrainTexture5
+      Terrain6: Phoenix/Winter_Snow_TerrainTexture6
+      Terrain7: Phoenix/Winter_Snow_TerrainTexture7
+      Terrain8: Phoenix/Winter_Snow_TerrainTexture8
+      Terrain14: Phoenix/Winter_Snow_TerrainTexture14
+      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *PhoenixSnowTerrainLODTextures
+      Terrain4: Phoenix/Winter_TerrainTexture4_LOD
+      Terrain5: Phoenix/Winter_TerrainTexture5_LOD
+      Terrain6: Phoenix/Winter_TerrainTexture6_LOD
+      Terrain7: Phoenix/Winter_TerrainTexture7_LOD
+      Terrain8: Phoenix/Winter_TerrainTexture8_LOD
+      Terrain14: Phoenix/Winter_TerrainTexture14_LOD
+      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+
+SummerPhoenix: &SummerPhoenix
+   Name: SummerPhoenix
+   LocationLatLong: [33.448443,-112.074475]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PhoenixSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PhoenixSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PhoenixSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PhoenixSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PhoenixSummerTextures
+      - <<: *MapModeState
+
+SpringPhoenix: &SpringPhoenix
+   Name: SpringPhoenix
+   LocationLatLong: [33.448443,-112.074475]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PhoenixSpringTextures      
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PhoenixSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PhoenixSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PhoenixSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PhoenixSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PhoenixSpringTextures
+      - <<: *MapModeState
+
+AutumnPhoenix: &AutumnPhoenix
+   Name: AutumnPhoenix
+   LocationLatLong: [33.448443,-112.074475]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PhoenixAutumnTextures      
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PhoenixAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PhoenixSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PhoenixAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PhoenixAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PhoenixAutumnTextures
+      - <<: *MapModeState
+
+WinterPhoenix: &WinterPhoenix
+   Name: WinterPhoenix
+   LocationLatLong: [33.448443,-112.074475]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PhoenixWinterTextures      
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PhoenixWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PhoenixSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PhoenixWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PhoenixWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PhoenixSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PhoenixWinterTextures
+      - <<: *MapModeState

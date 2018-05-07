@@ -1,0 +1,367 @@
+JapanRailVehicles: &JapanRailVehicles
+   Name: "Japan Rail Simulation"
+   DrivesOnRight: false
+   VehiclesBasePodFile: "Osaka/VehicleModels/Trains_ZDC.POD"
+   SpawnChancePerCell: 0.6
+   MinimumDistanceBetweenSpawns: 300.0
+   VehicleList:
+   - Name: "Train A_ShinkansenSilver"
+     ModelNode: "Train_A_Engine"
+     EngineNodeLength: 6.0
+     Speed: 80
+     Scale: 4.0
+     SpawnWeighting: 1.0
+     CarriageNode: "Train_A_Middle"
+     CarriageNodeLength: 5.4
+     TailNode: "Train_A_End"
+     TailNodeLength: 5.4
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Inclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train B_ShinkansenBlue"
+     ModelNode: "Train_B_Engine"
+     EngineNodeLength: 7.3
+     Speed: 80
+     Scale: 4.0
+     SpawnWeighting: 1.0
+     CarriageNode: "Train_B_Middle"
+     CarriageNodeLength: 5.4
+     TailNode: "Train_B_End"
+     TailNodeLength: 7.3
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Inclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train C_JR_yellowGreen"
+     ModelNode: "Train_C_Engine"
+     Speed: 50
+     Scale: 4.0
+     SpawnWeighting: 1.0
+     CarriageNode: "Train_C_Middle"
+     TailNode: "Train_C_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train D_JR_SilverGreen"
+     ModelNode: "Train_D_Engine"
+     Speed: 50
+     Scale: 4.0
+     SpawnWeighting: 1.0
+     CarriageNode: "Train_D_Middle"
+     TailNode: "Train_D_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train E_Private_Red"
+     ModelNode: "Train_E_Engine"
+     Speed: 50
+     Scale: 4.0
+     SpawnWeighting: 1.0
+     CarriageNode: "Train_E_Middle"
+     TailNode: "Train_E_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train F_Private_White"
+     ModelNode: "Train_F_Engine"
+     Speed: 50
+     Scale: 4.0
+     SpawnWeighting: 1.0
+     CarriageNode: "Train_F_Middle"
+     TailNode: "Train_F_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Train G_Trolley"
+     ModelNode: "Train_G_Engine"
+     Speed: 50
+     Scale: 4.0
+     SpawnWeighting: 0.8
+     CarriageNode: "Train_G_Middle"
+     TailNode: "Train_G_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+   - Name: "Steam Train"
+     ModelNode: "SteamTrain"
+     EngineNodeLength: 9
+     Speed: 50
+     Scale: 4.0
+     SpawnWeighting: 0.8
+     CarriageNode: "SteamTrain_Middle"
+     CarriageNodeLength: 9
+     TailNode: "SteamTrain_End"
+     TailNodeLength: 9
+     MinCarriageCount: 1
+     MaxCarriageCount: 4
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+
+JapanRoadVehicles: &JapanRoadVehicles
+   Name: "Japan Road Simulation"
+   DrivesOnRight: false
+   VehiclesBasePodFile: "Osaka/VehicleModels/Vehicles_ZDC.POD"
+   SpawnChancePerCell: 1
+   MinimumDistanceBetweenSpawns: 0
+   VehicleList:
+   - Name: "Formula 1 Car"
+     ModelNode: "Car_Formula1"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.3
+   - Name: "Bus"
+     ModelNode: "Car_D_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "White car"
+     ModelNode: "Car_A_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Red Wagon"
+     ModelNode: "Car_B_001"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Black Wagon"
+     ModelNode: "Car_B_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Green Wagon"
+     ModelNode: "Car_B_003"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Blue Wagon"
+     ModelNode: "Car_B_004"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "White Car 2"
+     ModelNode: "Car_C_001"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Red Car"
+     ModelNode: "Car_A_005"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Orange Car"
+     ModelNode: "Car_A_006"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Green Car"
+     ModelNode: "Car_A_008"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Light Blue Car"
+     ModelNode: "Car_A_009"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Blue Car"
+     ModelNode: "Car_A_010"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Light Purple Car"
+     ModelNode: "Car_A_011"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "Purple Car"
+     ModelNode: "Car_A_012"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.615
+   - Name: "White Van"
+     ModelNode: "Car_C_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.8
+   - Name: "Big white van"
+     ModelNode: "Car_D_001"
+     Speed: 15
+     Scale: 4.0
+     SpawnWeighting: 0.8
+   - Name: "Red Van"
+     ModelNode: "Car_C_003"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.8
+   - Name: "Green Van"
+     ModelNode: "Car_C_005"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.8
+   - Name: "Blue Van"
+     ModelNode: "Car_C_006"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.8
+   - Name: "Red Pickup"
+     ModelNode: "Car_Pickuptruck_001"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.5
+   - Name: "Orange Pickup"
+     ModelNode: "Car_Pickuptruck_002"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.5
+   - Name: "Green Pickup"
+     ModelNode: "Car_Pickuptruck_003"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.5
+   - Name: "Blue Pickup"
+     ModelNode: "Car_Pickuptruck_004"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.5
+   - Name: "Police Car"
+     ModelNode: "Car_Police"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "Taxi"
+     ModelNode: "Car_Taxi"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "Fire Truck"
+     ModelNode: "Car_FireTruck"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "Ambulance"
+     ModelNode: "Car_Ambulance"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 1.0
+   - Name: "Motorbike Red"
+     ModelNode: "zdc_vehicle_motorbikered"
+     Speed: 20
+     Scale: 6.0
+     SpawnWeighting: 0.7
+   - Name: "Motorbike Blue"
+     ModelNode: "zdc_vehicle_motorbikeblue"
+     Speed: 20
+     Scale: 6.0
+     SpawnWeighting: 0.7
+   - Name: "Motorbike Green"
+     ModelNode: "zdc_vehicle_motorbikegreen"
+     Speed: 20
+     Scale: 6.0
+     SpawnWeighting: 0.7
+   - Name: "Monster Truck"
+     ModelNode: "Car_Monstertruck"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.3
+   - Name: "Limousine"
+     ModelNode: "Car_Limousine"
+     Speed: 20
+     Scale: 4.0
+     SpawnWeighting: 0.3
+
+JapanPlaneVehicles: &JapanPlaneVehicles
+   Name: "Japan Plane Simulation"
+   VehiclesBasePodFile: "Osaka/VehicleModels/Planes_ZDC.POD"
+   VehicleList:
+   - Name: "Cessna 1"
+     ModelNode: "cessna_01"
+     Speed: 50
+     Scale: 4
+     SpawnWeighting: 1.0
+   - Name: "Cessna 2"
+     ModelNode: "cessna_02"
+     Speed: 50
+     Scale: 4
+     SpawnWeighting: 1.0
+   - Name: "Learjet 1"
+     ModelNode: "learjet_01"
+     Speed: 200
+     Scale: 4
+     SpawnWeighting: 1.0
+   - Name: "Learjet 2"
+     ModelNode: "learjet_02"
+     Speed: 200
+     Scale: 4
+     SpawnWeighting: 1.0
+   - Name: "Zeppelin"
+     ModelNode: "Zeppelin"
+     Speed: 30
+     Scale: 2
+     SpawnWeighting: 1.0
+   - Name: "Helicopter"
+     ModelNode: "Helicopter"
+     Speed: 40
+     Scale: 4
+     SpawnWeighting: 1.0
+   - Name: "Hot Air Balloon"
+     ModelNode: "Hotairballoon"
+     Speed: 30
+     Scale: 2
+     SpawnWeighting: 0.7
+   - Name: "UFO"
+     ModelNode: "UFO"
+     Speed: 200
+     Scale: 4
+     SpawnWeighting: 0.1
+   - Name: "Birds Light"
+     ModelNode: "Birds_01"
+     Speed: 40
+     Scale: 4
+     SpawnWeighting: 0.3
+   - Name: "Birds Dark"
+     ModelNode: "Birds_02"
+     Speed: 40
+     Scale: 4
+     SpawnWeighting: 0.3
+   - Name: "Birds Medium"
+     ModelNode: "Birds_03"
+     Speed: 40
+     Scale: 4
+     SpawnWeighting: 0.3
+   - Name: "Hang Glider"
+     ModelNode: "hangglider"
+     Speed: 30
+     Scale: 4
+     SpawnWeighting: 0.7
+   - Name: "Santa"
+     ModelNode: "santa"
+     Speed: 50
+     Scale: 4
+     SpawnWeighting: 0.05
+
+JapanVehicles: &JapanVehicles
+   RoadVehicles:
+      <<: *JapanRoadVehicles
+   RailVehicles:
+      <<: *JapanRailVehicles
+   PlaneVehicles:
+      <<: *JapanPlaneVehicles
+
+JapanVehiclesDayTextures: &JapanVehiclesDayTextures
+   VehicleDiffuse: Osaka/VehicleModels/cars
+   TrainDiffuse: Osaka/VehicleModels/trains
+   PlaneDiffuse: Osaka/VehicleModels/planes
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams
+
+JapanVehiclesNightTextures: &JapanVehiclesNightTextures
+   VehicleDiffuse: Osaka/VehicleModels/cars_night
+   TrainDiffuse: Osaka/VehicleModels/trains_night
+   PlaneDiffuse: Osaka/VehicleModels/planes_night
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams_night

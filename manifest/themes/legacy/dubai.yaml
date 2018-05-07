@@ -1,0 +1,713 @@
+DubaiTerrainTextures: &DubaiTerrainTextures
+     Terrain0: Dubai/TerrainTexture0
+     Terrain1: Dubai/TerrainTexture1
+     Terrain2: Dubai/TerrainTexture2
+     Terrain3: Dubai/TerrainTexture3
+     Terrain4: Dubai/TerrainTexture4
+     Terrain5: Dubai/TerrainTexture5
+     Terrain6: Dubai/TerrainTexture6
+     Terrain7: Dubai/TerrainTexture7
+     Terrain8: Dubai/TerrainTexture8
+     Terrain9: Dubai/TerrainTexture9
+     Terrain10: Dubai/TerrainTexture10
+     Terrain11: Dubai/TerrainTexture11
+     Terrain12: Dubai/TerrainTexture12
+     Terrain13: Dubai/TerrainTexture13
+     Terrain14: Dubai/TerrainTexture14
+     Terrain15: Dubai/TerrainTexture15
+     Terrain16: Dubai/TerrainTexture16
+     Terrain17: Dubai/TerrainTexture17
+     Terrain18: Dubai/TerrainTexture18
+     Terrain253: Dubai/Water_01
+     Terrain254: Dubai/Water_02
+     Terrain255: Dubai/Water_03
+
+DubaiTerrainLODTextures: &DubaiTerrainLODTextures
+     Terrain0: Dubai/TerrainTexture0_LOD
+     Terrain1: Dubai/TerrainTexture1_LOD
+     Terrain2: Dubai/TerrainTexture2_LOD
+     Terrain3: Dubai/TerrainTexture3_LOD
+     Terrain4: Dubai/TerrainTexture4_LOD
+     Terrain5: Dubai/TerrainTexture5_LOD
+     Terrain6: Dubai/TerrainTexture6_LOD
+     Terrain7: Dubai/TerrainTexture7_LOD
+     Terrain8: Dubai/TerrainTexture8_LOD
+     Terrain9: Dubai/TerrainTexture9_LOD
+     Terrain10: Dubai/TerrainTexture10_LOD
+     Terrain11: Dubai/TerrainTexture11_LOD
+     Terrain12: Dubai/TerrainTexture12_LOD
+     Terrain13: Dubai/TerrainTexture13_LOD
+     Terrain14: Dubai/TerrainTexture14_LOD
+     Terrain15: Dubai/TerrainTexture15_LOD
+     Terrain16: Dubai/TerrainTexture16_LOD
+     Terrain17: Dubai/TerrainTexture17_LOD
+     Terrain18: Dubai/TerrainTexture18_LOD
+     Terrain253: Dubai/Water_01_LOD
+     Terrain254: Dubai/Water_02_LOD
+     Terrain255: Dubai/Water_03_LOD
+
+DubaiSnowTerrainTextures: &DubaiSnowTerrainTextures
+     Terrain0: Dubai/SanFran_Snow_Texture0
+     Terrain1: Dubai/SanFran_Snow_Texture1
+     Terrain2: Dubai/SanFran_Snow_Texture2
+     Terrain3: Dubai/SanFran_Snow_Texture3
+     Terrain4: Dubai/SanFran_Snow_Texture4
+     Terrain5: Dubai/SanFran_Snow_Texture5
+     Terrain6: Dubai/SanFran_Snow_Texture6
+     Terrain7: Dubai/SanFran_Snow_Texture7
+     Terrain8: Dubai/SanFran_Snow_Texture8
+     Terrain9: Dubai/SanFran_Snow_Texture9
+     Terrain10: Dubai/SanFran_Snow_Texture10
+     Terrain11: Dubai/SanFran_Snow_Texture11
+     Terrain12: Dubai/SanFran_Snow_Texture12
+     Terrain13: Dubai/SanFran_Snow_Texture13
+     Terrain14: Dubai/SanFran_Snow_Texture14
+     Terrain15: Dubai/SanFran_Snow_Texture15
+     Terrain16: Dubai/SanFran_Snow_Texture16
+     Terrain17: Dubai/TerrainTexture17
+     Terrain18: Dubai/SanFran_Snow_Texture18
+     Terrain253: Dubai/Water_01
+     Terrain254: Dubai/Water_02
+     Terrain255: Dubai/Water_03
+
+DubaiSnowTerrainLODTextures: &DubaiSnowTerrainLODTextures
+     Terrain0: Dubai/TerrainTexture0_LOD
+     Terrain1: Dubai/TerrainTexture1_LOD
+     Terrain2: Dubai/TerrainTexture2_LOD
+     Terrain3: Dubai/TerrainTexture3_LOD
+     Terrain4: Dubai/TerrainTexture4_LOD
+     Terrain5: Dubai/TerrainTexture5_LOD
+     Terrain6: Dubai/TerrainTexture6_LOD
+     Terrain7: Dubai/TerrainTexture7_LOD
+     Terrain8: Dubai/TerrainTexture8_LOD
+     Terrain9: Dubai/TerrainTexture9_LOD
+     Terrain10: Dubai/TerrainTexture10_LOD
+     Terrain11: Dubai/TerrainTexture11_LOD
+     Terrain12: Dubai/TerrainTexture12_LOD
+     Terrain13: Dubai/TerrainTexture13_LOD
+     Terrain14: Dubai/TerrainTexture14_LOD
+     Terrain15: Dubai/TerrainTexture15_LOD
+     Terrain16: Dubai/TerrainTexture16_LOD
+     Terrain17: Dubai/TerrainTexture17_LOD
+     Terrain18: Dubai/TerrainTexture18_LOD
+     Terrain253: Dubai/Water_01_LOD
+     Terrain254: Dubai/Water_02_LOD
+     Terrain255: Dubai/Water_03_LOD
+
+DubaiSummerTextures: &DubaiSummerTextures
+   RoadDiffuse: Dubai/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: Dubai/SanFran_wallDiffuse
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: Dubai/water_normalmap
+   WaterReflection: Dubai/water_reflectionmap
+   AsyncPlaceholderDiffuse: Dubai/TerrainTexture3
+   PlaceholderNoDataDiffuse: Dubai/placeholder_no_data
+   LcmDiffuse: 
+      <<: *DubaiTerrainTextures
+   LcmLodDiffuse:
+      <<: *DubaiTerrainLODTextures
+
+DubaiSpringTextures: &DubaiSpringTextures
+   <<: *DubaiSummerTextures
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   LcmDiffuse: 
+      <<: *DubaiTerrainTextures
+      Terrain4: Dubai/Spring_TerrainTexture4
+      Terrain5: Dubai/Spring_TerrainTexture5
+      Terrain6: Dubai/Spring_TerrainTexture6
+      Terrain7: Dubai/Spring_TerrainTexture7
+      Terrain8: Dubai/Spring_TerrainTexture8
+      Terrain14: Dubai/Spring_TerrainTexture14
+      Terrain18: Dubai/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *DubaiTerrainLODTextures
+      Terrain4: Dubai/Spring_TerrainTexture4_LOD
+      Terrain5: Dubai/Spring_TerrainTexture5_LOD
+      Terrain6: Dubai/Spring_TerrainTexture6_LOD
+      Terrain7: Dubai/Spring_TerrainTexture7_LOD
+      Terrain8: Dubai/Spring_TerrainTexture8_LOD
+      Terrain14: Dubai/Spring_TerrainTexture14_LOD
+      Terrain18: Dubai/Spring_TerrainTexture18_LOD
+
+DubaiAutumnTextures: &DubaiAutumnTextures
+   <<: *DubaiSummerTextures
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   LcmDiffuse: 
+      <<: *DubaiTerrainTextures
+      Terrain4: Dubai/Autumn_TerrainTexture4
+      Terrain5: Dubai/Autumn_TerrainTexture5
+      Terrain6: Dubai/Autumn_TerrainTexture6
+      Terrain7: Dubai/Autumn_TerrainTexture7
+      Terrain8: Dubai/Autumn_TerrainTexture8
+      Terrain9: Dubai/Autumn_TerrainTexture9
+      Terrain14: Dubai/Autumn_TerrainTexture14
+      Terrain18: Dubai/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *DubaiTerrainLODTextures
+      Terrain4: Dubai/Autumn_TerrainTexture4_LOD
+      Terrain5: Dubai/Autumn_TerrainTexture5_LOD
+      Terrain6: Dubai/Autumn_TerrainTexture6_LOD
+      Terrain7: Dubai/Autumn_TerrainTexture7_LOD
+      Terrain8: Dubai/Autumn_TerrainTexture8_LOD
+      Terrain9: Dubai/Autumn_TerrainTexture9_LOD
+      Terrain14: Dubai/Autumn_TerrainTexture14_LOD
+      Terrain18: Dubai/Autumn_TerrainTexture18_LOD
+
+DubaiWinterTextures: &DubaiWinterTextures
+   <<: *DubaiSummerTextures
+   TreeSideDiffuse: Dubai/trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   LcmDiffuse: 
+      <<: *DubaiTerrainTextures
+      Terrain4: Dubai/Winter_TerrainTexture4
+      Terrain5: Dubai/Winter_TerrainTexture5
+      Terrain6: Dubai/Winter_TerrainTexture6
+      Terrain7: Dubai/Winter_TerrainTexture7
+      Terrain8: Dubai/Winter_TerrainTexture8
+      Terrain9: Dubai/Winter_TerrainTexture9
+      Terrain14: Dubai/Winter_TerrainTexture14
+      Terrain18: Dubai/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *DubaiTerrainLODTextures
+      Terrain4: Dubai/Winter_TerrainTexture4_LOD
+      Terrain5: Dubai/Winter_TerrainTexture5_LOD
+      Terrain6: Dubai/Winter_TerrainTexture6_LOD
+      Terrain7: Dubai/Winter_TerrainTexture7_LOD
+      Terrain8: Dubai/Winter_TerrainTexture8_LOD
+      Terrain9: Dubai/Winter_TerrainTexture9_LOD
+      Terrain14: Dubai/Winter_TerrainTexture14_LOD
+      Terrain18: Dubai/Winter_TerrainTexture18_LOD
+
+DubaiSummerNightTextures: &DubaiSummerNightTextures
+   <<: *DubaiSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Dubai/SanFran_Night_wallDiffuse
+   RoadDiffuse: Dubai/SanFran_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: Dubai/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: Dubai/placeholder
+
+DubaiSummerSnowTextures: &DubaiSummerSnowTextures
+   <<: *DubaiSummerTextures
+   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   LcmDiffuse: 
+      <<: *DubaiSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *DubaiSnowTerrainLODTextures
+
+DubaiSummerNightSnowTextures: &DubaiSummerNightSnowTextures
+   <<: *DubaiSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: Dubai/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/SanFran_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   WaterReflection: Dubai/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: Dubai/placeholder
+   LcmDiffuse: 
+      <<: *DubaiSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *DubaiSnowTerrainLODTextures
+
+DubaiSpringSnowTextures: &DubaiSpringSnowTextures
+   <<: *DubaiSummerTextures
+   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   LcmDiffuse: 
+      <<: *DubaiSnowTerrainTextures
+      Terrain4: Dubai/Spring_Snow_TerrainTexture4
+      Terrain5: Dubai/Spring_Snow_TerrainTexture5
+      Terrain6: Dubai/Spring_Snow_TerrainTexture6
+      Terrain7: Dubai/Spring_Snow_TerrainTexture7
+      Terrain8: Dubai/Spring_Snow_TerrainTexture8
+      Terrain14: Dubai/Spring_Snow_TerrainTexture14
+      Terrain18: Dubai/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *DubaiSnowTerrainLODTextures
+      Terrain4: Dubai/Spring_TerrainTexture4_LOD
+      Terrain5: Dubai/Spring_TerrainTexture5_LOD
+      Terrain6: Dubai/Spring_TerrainTexture6_LOD
+      Terrain7: Dubai/Spring_TerrainTexture7_LOD
+      Terrain8: Dubai/Spring_TerrainTexture8_LOD
+      Terrain14: Dubai/Spring_TerrainTexture14_LOD
+      Terrain18: Dubai/Spring_TerrainTexture18_LOD
+
+DubaiAutumnSnowTextures: &DubaiAutumnSnowTextures
+   <<: *DubaiSummerTextures
+   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   LcmDiffuse: 
+      <<: *DubaiSnowTerrainTextures
+      Terrain4: Dubai/Autumn_Snow_TerrainTexture4
+      Terrain5: Dubai/Autumn_Snow_TerrainTexture5
+      Terrain6: Dubai/Autumn_Snow_TerrainTexture6
+      Terrain7: Dubai/Autumn_Snow_TerrainTexture7
+      Terrain8: Dubai/Autumn_Snow_TerrainTexture8
+      Terrain14: Dubai/Autumn_Snow_TerrainTexture14
+      Terrain18: Dubai/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *DubaiSnowTerrainLODTextures
+      Terrain4: Dubai/Autumn_TerrainTexture4_LOD
+      Terrain5: Dubai/Autumn_TerrainTexture5_LOD
+      Terrain6: Dubai/Autumn_TerrainTexture6_LOD
+      Terrain7: Dubai/Autumn_TerrainTexture7_LOD
+      Terrain8: Dubai/Autumn_TerrainTexture8_LOD
+      Terrain14: Dubai/Autumn_TerrainTexture14_LOD
+      Terrain18: Dubai/Autumn_TerrainTexture18_LOD
+
+DubaiWinterSnowTextures: &DubaiWinterSnowTextures
+   <<: *DubaiSummerTextures
+   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
+   TreeTopDiffuse: Dubai/trees_top_01
+   LcmDiffuse: 
+      <<: *DubaiSnowTerrainTextures
+      Terrain4: Dubai/Winter_Snow_TerrainTexture4
+      Terrain5: Dubai/Winter_Snow_TerrainTexture5
+      Terrain6: Dubai/Winter_Snow_TerrainTexture6
+      Terrain7: Dubai/Winter_Snow_TerrainTexture7
+      Terrain8: Dubai/Winter_Snow_TerrainTexture8
+      Terrain14: Dubai/Winter_Snow_TerrainTexture14
+      Terrain18: Dubai/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *DubaiSnowTerrainLODTextures
+      Terrain4: Dubai/Winter_TerrainTexture4_LOD
+      Terrain5: Dubai/Winter_TerrainTexture5_LOD
+      Terrain6: Dubai/Winter_TerrainTexture6_LOD
+      Terrain7: Dubai/Winter_TerrainTexture7_LOD
+      Terrain8: Dubai/Winter_TerrainTexture8_LOD
+      Terrain14: Dubai/Winter_TerrainTexture14_LOD
+      Terrain18: Dubai/Winter_TerrainTexture18_LOD
+
+DubaiSnowyLighting: &DubaiSnowyLighting
+   KeyLight: [0.47058823529411764, 0.43137254901960786, 0.27450980392156865]
+   BackLight: [0.24490196078431373, 0.24490196078431373, 0.11070588235294118]
+   FillLight: [0.19607843137254902, 0.19607843137254902, 0.11764705882352941]
+   AmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
+   AlternativeAmbientLight: [0.27450980392156865, 0.39215686274509803, 0.5632352941176471]
+   ShadowColor: [0.73098039215686272, 0.82862745098039214, 0.98588235294117654]
+   FogColor: [0.933333333333, 0.839215686, 0.3843137254]
+   FogIntensity: 0.9
+   LightMapColor: [0, 0, 0]
+   LightMapIntensity: 0.0
+   LandmarkPostfix: ""
+   
+DubaiDawnSnowyLighting: &DubaiDawnSnowyLighting
+   <<: *DefaultSunnyLighting
+   KeyLight: [.48, 0.466, 0.24]
+   BackLight: [0.08, 0.08, 0.016]
+   FillLight: [0.2, 0.1, 0.05]
+   AmbientLight: [0.1, 0.1, 0.2]
+   AlternativeAmbientLight: [0.45, 0.35, 0.3]
+   ShadowColor: [0.9, 0.85, 0.87]
+   FogColor: [0.6627, 0.6588, 0.3921]
+   FogIntensity: .95
+   
+DubaiNightSnowyLighting: &DubaiNightSnowyLighting
+   <<: *DefaultNightLighting
+   FogColor: [0.6745098039215686, 0.5882352941176471, 0.2901960784313725]
+   FogIntensity: 0.95
+   
+DubaiDuskSnowyLighting: &DubaiDuskSnowyLighting
+   <<: *DefaultSunnyLighting
+   BackLight: [0.5, 0.225, 0.0255]
+   KeyLight: [0.1, 0.12, 0.01]
+   FillLight: [0.5, 0.2, 0.25]
+   AmbientLight: [0, 0.2, 0.4]
+   AlternativeAmbientLight: [0.35, 0.35, 0.47]
+   ShadowColor: [1, 1, 1]
+   FogColor:  [0.8977, 0.6274, 0.3450]
+   FogIntensity: 1
+   LightMapColor: [1.3, 0.8309803921568627, 0.20392156862745098]
+   LightMapIntensity: 0.4
+   
+SummerDubai: &SummerDubai
+   Name: SummerDubai
+   LocationLatLong: [25.197304,55.274291]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DaySnowy
+        <<: *DubaiSnowyLighting
+        Textures:
+           <<: *DubaiSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DubaiNightSnowyLighting
+        Textures:
+           <<: *DubaiSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DubaiDawnSnowyLighting
+        Textures:
+           <<: *DubaiSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DubaiDuskSnowyLighting
+        Textures:
+           <<: *DubaiSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *DubaiSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *DubaiSummerTextures
+
+SpringDubai: &SpringDubai
+   Name: SpringDubai
+   LocationLatLong: [25.197304,55.274291]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DaySnowy
+        <<: *DubaiSnowyLighting
+        Textures:
+           <<: *DubaiSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DubaiNightSnowyLighting
+        Textures:
+           <<: *DubaiSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DubaiDawnSnowyLighting
+        Textures:
+           <<: *DubaiSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DubaiDuskSnowyLighting
+        Textures:
+           <<: *DubaiSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *DubaiSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *DubaiSpringTextures
+
+AutumnDubai: &AutumnDubai
+   Name: AutumnDubai
+   LocationLatLong: [25.197304,55.274291]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DaySnowy
+        <<: *DubaiSnowyLighting
+        Textures:
+           <<: *DubaiAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DubaiNightSnowyLighting
+        Textures:
+           <<: *DubaiSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DubaiDawnSnowyLighting
+        Textures:
+           <<: *DubaiAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DubaiDuskSnowyLighting
+        Textures:
+           <<: *DubaiAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *DubaiAutumnTextures
+
+WinterDubai: &WinterDubai
+   Name: WinterDubai
+   LocationLatLong: [25.197304,55.274291]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DaySnowy
+        <<: *DubaiSnowyLighting
+        Textures:
+           <<: *DubaiWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DubaiNightSnowyLighting
+        Textures:
+           <<: *DubaiSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DubaiDawnSnowyLighting
+        Textures:
+           <<: *DubaiWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DubaiDuskSnowyLighting
+        Textures:
+           <<: *DubaiWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *DubaiSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *DubaiWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *DubaiWinterTextures

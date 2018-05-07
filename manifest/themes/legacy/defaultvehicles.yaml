@@ -1,0 +1,185 @@
+DefaultRailVehicles: &DefaultRailVehicles
+   Name: "Basic Rail Simulation"
+   DrivesOnRight: true
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Trains_SF.POD"
+   SpawnChancePerCell: 0.6
+   MinimumDistanceBetweenSpawns: 300.0
+   VehicleList:
+   - Name: "Train A"
+     ModelNode: "Train_A_Engine"
+     Speed: 50
+     CarriageNode: "Train_A_Middle"
+     TailNode: "Train_A_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 4.0
+   - Name: "Train B"
+     ModelNode: "Train_B_Engine"
+     Speed: 50
+     CarriageNode: "Train_B_Middle"
+     TailNode: "Train_B_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 4.0
+   - Name: "Train C"
+     ModelNode: "Train_C_Engine"
+     Speed: 50
+     CarriageNode: "Train_C_Middle"
+     TailNode: "Train_C_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Exclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 4.0
+   - Name: "Train D"
+     ModelNode: "Train_D_Engine"
+     Speed: 50
+     CarriageNode: "Train_D_Middle"
+     TailNode: "Train_D_End"
+     MinCarriageCount: 1
+     MaxCarriageCount: 6
+     FunctionalRoadClassFilterType: Inclusive
+     FunctionalRoadClassFilterList: ["RailHighSpeed1"]
+     Scale: 4.0
+
+DefaultRoadVehicles: &DefaultRoadVehicles
+   Name: "Basic Road Simulation"
+   DrivesOnRight: true
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Vehicles_SF.POD"
+   SpawnChancePerCell: 1
+   MinimumDistanceBetweenSpawns: 0
+   VehicleList:
+   - Name: "Red pickup"
+     ModelNode: "Car_A_001"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Red striped pickup"
+     ModelNode: "Car_A_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue pickup"
+     ModelNode: "Car_A_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Grey pickup"
+     ModelNode: "Car_A_004"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Red estate"
+     ModelNode: "Car_B_001"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Black estate"
+     ModelNode: "Car_B_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Green estate"
+     ModelNode: "Car_B_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Grey estate"
+     ModelNode: "Car_B_004"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Grey saloon"
+     ModelNode: "Car_C_001"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Gold saloon"
+     ModelNode: "Car_C_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Orange saloon"
+     ModelNode: "Car_C_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue saloon"
+     ModelNode: "Car_C_004"
+     Speed: 20
+     Scale: 4.0
+   - Name: "White van"
+     ModelNode: "Car_D_001"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Magenta vam"
+     ModelNode: "Car_D_002"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Green van"
+     ModelNode: "Car_D_003"
+     Speed: 20
+     Scale: 4.0
+   - Name: "Blue and Gold van"
+     ModelNode: "Car_D_004"
+     Speed: 20
+     Scale: 4.0
+
+DefaultTramVehicles: &DefaultTramVehicles
+   Name: "Basic Trams Simulation"
+   DrivesOnRight: true
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Trams_SF.POD"
+   SpawnChancePerCell: 0.95
+   MinimumDistanceBetweenSpawns: 150.0
+   VehicleList:
+   - Name: "Melbourne Tram"
+     ModelNode: "Tram_A"
+     Speed: 20
+     Scale: 4.0
+
+DefaultPlaneVehicles: &DefaultPlaneVehicles
+   Name: "Basic Plane Simulation"
+   VehiclesBasePodFile: "SanFrancisco/VehicleModels/Planes_SF.POD"
+   VehicleList:
+   - Name: "Cessna 1"
+     ModelNode: "cessna_01"
+     Speed: 50
+     Scale: 4.0
+   - Name: "Cessna 2"
+     ModelNode: "cessna_02"
+     Speed: 50
+     Scale: 4.0
+   - Name: "Learjet 1"
+     ModelNode: "learjet_01"
+     Speed: 200
+     Scale: 4.0
+   - Name: "Learjet 2"
+     ModelNode: "learjet_02"
+     Speed: 200
+     Scale: 4.0
+
+DefaultVehiclesRightSide: &DefaultVehiclesRightSide
+   RoadVehicles:
+      <<: *DefaultRoadVehicles
+   RailVehicles:
+      <<: *DefaultRailVehicles
+   TramVehicles:
+      <<: *DefaultTramVehicles
+   PlaneVehicles:
+      <<: *DefaultPlaneVehicles
+
+DefaultVehiclesLeftSide: &DefaultVehiclesLeftSide
+   RoadVehicles:
+      <<: *DefaultRoadVehicles
+      DrivesOnRight: false
+   RailVehicles:
+      <<: *DefaultRailVehicles
+   TramVehicles:
+      <<: *DefaultTramVehicles
+   PlaneVehicles:
+      <<: *DefaultPlaneVehicles
+
+DefaultVehiclesDayTextures: &DefaultVehiclesDayTextures
+   VehicleDiffuse: SanFrancisco/sf_vehicles_01
+   TrainDiffuse: SanFrancisco/ldn_trains_01
+   PlaneDiffuse: SanFrancisco/sf_planes_01
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams
+
+DefaultVehiclesNightTextures: &DefaultVehiclesNightTextures
+   VehicleDiffuse: SanFrancisco/VehicleModels/sf_vehicles_Night_01
+   TrainDiffuse: SanFrancisco/VehicleModels/ldn_trains_Night_01
+   PlaneDiffuse: SanFrancisco/VehicleModels/sf_planes_night_01
+   TramDiffuse: SanFrancisco/VehicleModels/recce_trams_night

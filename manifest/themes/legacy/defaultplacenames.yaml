@@ -1,0 +1,52 @@
+PlaceNameColorWhite: &PlaceNameColorWhite
+  Color: [1.0, 1.0, 1.0]
+
+PlaceNameColorYellow: &PlaceNameColorYellow
+  Color: [0.91, 0.906, 0.726]
+
+PlaceNameColorWhiteGray: &PlaceNameColorWhiteGray
+  Color: [0.94, 0.94, 0.94]
+
+PlaceNameColorLightBlue: &PlaceNameColorLightBlue
+  Color: [0.54, 0.9, 1.0]
+
+PlaceNameColorLilac: &PlaceNameColorLilac
+  Color: [0.762, 0.732, 0.91]
+
+PlaceNameColorParkGreen: &PlaceNameColorParkGreen
+  Color: [0.8, 1.0, 0.66]
+
+PlaceNameColorGreen: &PlaceNameColorGreen
+  Color: [0.0, 1.0, 0.0]
+
+DefaultPlaceNameStyles: &DefaultPlaceNameStyles
+   - Category: ctry
+     Scale: 1.0
+     <<: *PlaceNameColorWhite
+   - Category: stat
+     Scale: 1.0
+     <<: *PlaceNameColorYellow
+   - Category: coun
+     Scale: 1.0
+     <<: *PlaceNameColorYellow
+   - Category: ccty
+     Scale: 0.83
+     <<: *PlaceNameColorWhiteGray
+   - Category: city
+     Scale: 0.83
+     <<: *PlaceNameColorWhiteGray
+   - Category: poin
+     Scale: 0.8   
+     <<: *PlaceNameColorLightBlue
+   - Category: dist
+     Scale: 1.0
+     <<: *PlaceNameColorWhiteGray
+   - Category: airp
+     Scale: 1.0
+     <<: *PlaceNameColorLilac
+   - Category: park
+     Scale: 0.83
+     <<: *PlaceNameColorParkGreen
+   - Category: golf
+     Scale: 0.8
+     <<: *PlaceNameColorGreen
