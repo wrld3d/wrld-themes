@@ -2,49 +2,49 @@ JapanTerrainTextures: &JapanTerrainTextures
      Terrain0: Osaka/TerrainTexture0
      Terrain1: Osaka/TerrainTexture1
      Terrain2: Osaka/TerrainTexture2
-     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain3: Legacy_SanFrancisco/TerrainTexture3
      Terrain4: Okinawa/Summer_TerrainTexture4
      Terrain5: Okinawa/Summer_TerrainTexture5
      Terrain6: Okinawa/Summer_TerrainTexture6
      Terrain7: Okinawa/Summer_TerrainTexture7
      Terrain8: Okinawa/Summer_TerrainTexture8
-     Terrain9: SanFrancisco/TerrainTexture9
-     Terrain10: SanFrancisco/TerrainTexture10
-     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain9: Legacy_SanFrancisco/TerrainTexture9
+     Terrain10: Legacy_SanFrancisco/TerrainTexture10
+     Terrain11: Legacy_SanFrancisco/TerrainTexture11
      Terrain12: Osaka/TerrainTexture12
      Terrain13: Osaka/TerrainTexture13
      Terrain14: Okinawa/Summer_TerrainTexture14
-     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain15: Legacy_SanFrancisco/TerrainTexture15
      Terrain16: Osaka/TerrainTexture16
      Terrain17: Osaka/TerrainTexture17
      Terrain18: Okinawa/Summer_TerrainTexture18
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
+     Terrain253: Legacy_SanFrancisco/Water_01
+     Terrain254: Legacy_SanFrancisco/Water_02
+     Terrain255: Legacy_SanFrancisco/Water_03
 
 JapanTerrainLODTextures: &JapanTerrainLODTextures
      Terrain0: Osaka/TerrainTexture0_LOD
      Terrain1: Osaka/TerrainTexture1_LOD
      Terrain2: Osaka/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain3: Legacy_SanFrancisco/TerrainTexture3_LOD
      Terrain4: Okinawa/Summer_TerrainTexture4_LOD
      Terrain5: Okinawa/Summer_TerrainTexture5_LOD
      Terrain6: Okinawa/Summer_TerrainTexture6_LOD
      Terrain7: Okinawa/Summer_TerrainTexture7_LOD
      Terrain8: Okinawa/Summer_TerrainTexture8_LOD
-     Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
-     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain9: Legacy_SanFrancisco/TerrainTexture9_LOD
+     Terrain10: Legacy_SanFrancisco/TerrainTexture10_LOD
+     Terrain11: Legacy_SanFrancisco/TerrainTexture11_LOD
      Terrain12: Osaka/TerrainTexture12_LOD
      Terrain13: Osaka/TerrainTexture13_LOD
      Terrain14: Okinawa/Summer_TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain15: Legacy_SanFrancisco/TerrainTexture15_LOD
      Terrain16: Osaka/TerrainTexture16_LOD
      Terrain17: Osaka/TerrainTexture17_LOD
      Terrain18: Okinawa/Summer_TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01_LOD
-     Terrain254: SanFrancisco/Water_02_LOD
-     Terrain255: SanFrancisco/Water_03_LOD
+     Terrain253: Legacy_SanFrancisco/Water_01_LOD
+     Terrain254: Legacy_SanFrancisco/Water_02_LOD
+     Terrain255: Legacy_SanFrancisco/Water_03_LOD
 
 JapanFlatshadedTerrainTextures: &JapanFlatshadedTerrainTextures
      Terrain0: JapanFlatshaded/TerrainTexture0
@@ -78,10 +78,10 @@ JapanFlatshadedSummerTextures: &JapanFlatshadedSummerTextures
    TreeTopDiffuse: JapanFlatshaded/trees_top_01
    <<: *JapanVehiclesDayTextures
    <<: *DefaultWaterReflectionTextures
-   WaterNormal: SanFrancisco/water_normalmap
-   WaterReflection: SanFrancisco/water_reflectionmap
-   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
-   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   WaterNormal: Legacy_SanFrancisco/water_normalmap
+   WaterReflection: Legacy_SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: Legacy_SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: Legacy_SanFrancisco/placeholder_no_data
    LcmDiffuse: 
       <<: *JapanFlatshadedTerrainTextures
    LcmLodDiffuse:
@@ -105,48 +105,48 @@ JapanSnowTerrainTextures: &JapanSnowTerrainTextures
      Terrain14: Osaka/snow_Texture14
      Terrain15: Osaka/snow_Texture15
      Terrain16: Osaka/snow_Texture16
-     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain17: Legacy_SanFrancisco/TerrainTexture17
      Terrain18: Osaka/snow_Texture14
-     Terrain253: SanFrancisco/Water_01
-     Terrain254: SanFrancisco/Water_02
-     Terrain255: SanFrancisco/Water_03
+     Terrain253: Legacy_SanFrancisco/Water_01
+     Terrain254: Legacy_SanFrancisco/Water_02
+     Terrain255: Legacy_SanFrancisco/Water_03
 
 JapanSnowTerrainLODTextures: &JapanSnowTerrainLODTextures
-     Terrain0: SanFrancisco/TerrainTexture0_LOD
-     Terrain1: SanFrancisco/TerrainTexture1_LOD
-     Terrain2: SanFrancisco/TerrainTexture2_LOD
-     Terrain3: SanFrancisco/TerrainTexture3_LOD
-     Terrain4: SanFrancisco/TerrainTexture4_LOD
-     Terrain5: SanFrancisco/TerrainTexture5_LOD
-     Terrain6: SanFrancisco/TerrainTexture6_LOD
-     Terrain7: SanFrancisco/TerrainTexture7_LOD
-     Terrain8: SanFrancisco/TerrainTexture8_LOD
-     Terrain9: SanFrancisco/TerrainTexture9_LOD
-     Terrain10: SanFrancisco/TerrainTexture10_LOD
-     Terrain11: SanFrancisco/TerrainTexture11_LOD
-     Terrain12: SanFrancisco/TerrainTexture12_LOD
-     Terrain13: SanFrancisco/TerrainTexture13_LOD
-     Terrain14: SanFrancisco/TerrainTexture14_LOD
-     Terrain15: SanFrancisco/TerrainTexture15_LOD
-     Terrain16: SanFrancisco/TerrainTexture16_LOD
-     Terrain17: SanFrancisco/TerrainTexture17_LOD
-     Terrain18: SanFrancisco/TerrainTexture18_LOD
-     Terrain253: SanFrancisco/Water_01_LOD
-     Terrain254: SanFrancisco/Water_02_LOD
-     Terrain255: SanFrancisco/Water_03_LOD
+     Terrain0: Legacy_SanFrancisco/TerrainTexture0_LOD
+     Terrain1: Legacy_SanFrancisco/TerrainTexture1_LOD
+     Terrain2: Legacy_SanFrancisco/TerrainTexture2_LOD
+     Terrain3: Legacy_SanFrancisco/TerrainTexture3_LOD
+     Terrain4: Legacy_SanFrancisco/TerrainTexture4_LOD
+     Terrain5: Legacy_SanFrancisco/TerrainTexture5_LOD
+     Terrain6: Legacy_SanFrancisco/TerrainTexture6_LOD
+     Terrain7: Legacy_SanFrancisco/TerrainTexture7_LOD
+     Terrain8: Legacy_SanFrancisco/TerrainTexture8_LOD
+     Terrain9: Legacy_SanFrancisco/TerrainTexture9_LOD
+     Terrain10: Legacy_SanFrancisco/TerrainTexture10_LOD
+     Terrain11: Legacy_SanFrancisco/TerrainTexture11_LOD
+     Terrain12: Legacy_SanFrancisco/TerrainTexture12_LOD
+     Terrain13: Legacy_SanFrancisco/TerrainTexture13_LOD
+     Terrain14: Legacy_SanFrancisco/TerrainTexture14_LOD
+     Terrain15: Legacy_SanFrancisco/TerrainTexture15_LOD
+     Terrain16: Legacy_SanFrancisco/TerrainTexture16_LOD
+     Terrain17: Legacy_SanFrancisco/TerrainTexture17_LOD
+     Terrain18: Legacy_SanFrancisco/TerrainTexture18_LOD
+     Terrain253: Legacy_SanFrancisco/Water_01_LOD
+     Terrain254: Legacy_SanFrancisco/Water_02_LOD
+     Terrain255: Legacy_SanFrancisco/Water_03_LOD
 
 JapanSummerTextures: &JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
    BuildingDiffuse: Osaka/Osaka_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/trees_01
-   TreeTopDiffuse: SanFrancisco/trees_top_01
+   TreeSideDiffuse: Legacy_SanFrancisco/trees_01
+   TreeTopDiffuse: Legacy_SanFrancisco/trees_top_01
    <<: *JapanVehiclesDayTextures
    <<: *DefaultWaterReflectionTextures
-   WaterNormal: SanFrancisco/water_normalmap
-   WaterReflection: SanFrancisco/water_reflectionmap
-   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
-   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   WaterNormal: Legacy_SanFrancisco/water_normalmap
+   WaterReflection: Legacy_SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: Legacy_SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: Legacy_SanFrancisco/placeholder_no_data
    LcmDiffuse: 
       <<: *JapanTerrainTextures
    LcmLodDiffuse:
@@ -227,15 +227,15 @@ JapanSummerNightTextures: &JapanSummerNightTextures
    BuildingDiffuse: Osaka/Osaka_Night_wallDiffuse
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
-   WaterReflection: SanFrancisco/water_reflectionmap_night
-   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   WaterReflection: Legacy_SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: Legacy_SanFrancisco/placeholder
 
 JapanSummerSnowTextures: &JapanSummerSnowTextures
    <<: *JapanSummerTextures
    RoadDiffuse: Osaka/Osaka_snow_roadDiffuse
    BuildingDiffuse: Osaka/Osaka_Snow_wallDiffuse
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   TreeSideDiffuse: Legacy_SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: Legacy_SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
       <<: *JapanSnowTerrainTextures
    LcmLodDiffuse:
@@ -247,10 +247,10 @@ JapanSummerNightSnowTextures: &JapanSummerNightSnowTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
    BuildingDiffuse: Osaka/Osaka_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
-   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
-   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
-   WaterReflection: SanFrancisco/water_reflectionmap_night
-   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   TreeSideDiffuse: Legacy_SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: Legacy_SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: Legacy_SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: Legacy_SanFrancisco/placeholder
    LcmDiffuse: 
       <<: *JapanSnowTerrainTextures
    LcmLodDiffuse:

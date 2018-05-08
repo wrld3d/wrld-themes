@@ -47,25 +47,25 @@ DubaiTerrainLODTextures: &DubaiTerrainLODTextures
      Terrain255: Dubai/Water_03_LOD
 
 DubaiSnowTerrainTextures: &DubaiSnowTerrainTextures
-     Terrain0: Dubai/SanFran_Snow_Texture0
-     Terrain1: Dubai/SanFran_Snow_Texture1
-     Terrain2: Dubai/SanFran_Snow_Texture2
-     Terrain3: Dubai/SanFran_Snow_Texture3
-     Terrain4: Dubai/SanFran_Snow_Texture4
-     Terrain5: Dubai/SanFran_Snow_Texture5
-     Terrain6: Dubai/SanFran_Snow_Texture6
-     Terrain7: Dubai/SanFran_Snow_Texture7
-     Terrain8: Dubai/SanFran_Snow_Texture8
-     Terrain9: Dubai/SanFran_Snow_Texture9
-     Terrain10: Dubai/SanFran_Snow_Texture10
-     Terrain11: Dubai/SanFran_Snow_Texture11
-     Terrain12: Dubai/SanFran_Snow_Texture12
-     Terrain13: Dubai/SanFran_Snow_Texture13
-     Terrain14: Dubai/SanFran_Snow_Texture14
-     Terrain15: Dubai/SanFran_Snow_Texture15
-     Terrain16: Dubai/SanFran_Snow_Texture16
-     Terrain17: Dubai/TerrainTexture17
-     Terrain18: Dubai/SanFran_Snow_Texture18
+     Terrain0: Dubai/Dubai_Snow_Texture0
+     Terrain1: Dubai/Dubai_Snow_Texture1
+     Terrain2: Dubai/Dubai_Snow_Texture2
+     Terrain3: Dubai/Dubai_Snow_Texture3
+     Terrain4: Dubai/Dubai_Snow_Texture4
+     Terrain5: Dubai/Dubai_Snow_Texture5
+     Terrain6: Dubai/Dubai_Snow_Texture6
+     Terrain7: Dubai/Dubai_Snow_Texture7
+     Terrain8: Dubai/Dubai_Snow_Texture8
+     Terrain9: Dubai/Dubai_Snow_Texture9
+     Terrain10: Dubai/Dubai_Snow_Texture10
+     Terrain11: Dubai/Dubai_Snow_Texture11
+     Terrain12: Dubai/Dubai_Snow_Texture12
+     Terrain13: Dubai/Dubai_Snow_Texture13
+     Terrain14: Dubai/Dubai_Snow_Texture14
+     Terrain15: Dubai/Dubai_Snow_Texture15
+     Terrain16: Dubai/Dubai_Snow_Texture16
+     Terrain17: Dubai/Dubai_Snow_Texture17
+     Terrain18: Dubai/Dubai_Snow_Texture18
      Terrain253: Dubai/Water_01
      Terrain254: Dubai/Water_02
      Terrain255: Dubai/Water_03
@@ -95,9 +95,9 @@ DubaiSnowTerrainLODTextures: &DubaiSnowTerrainLODTextures
      Terrain255: Dubai/Water_03_LOD
 
 DubaiSummerTextures: &DubaiSummerTextures
-   RoadDiffuse: Dubai/SanFran_roadDiffuse_repeat
+   RoadDiffuse: Dubai/Dubai_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
-   BuildingDiffuse: Dubai/SanFran_wallDiffuse
+   BuildingDiffuse: Dubai/Dubai_wallDiffuse
    TreeSideDiffuse: Dubai/trees_01
    TreeTopDiffuse: Dubai/trees_top_01
    <<: *DefaultVehiclesDayTextures
@@ -107,7 +107,7 @@ DubaiSummerTextures: &DubaiSummerTextures
    AsyncPlaceholderDiffuse: Dubai/TerrainTexture3
    PlaceholderNoDataDiffuse: Dubai/placeholder_no_data
    LcmDiffuse: 
-      <<: *DubaiTerrainTextures
+      <<: *DubaiTerrainTextures   
    LcmLodDiffuse:
       <<: *DubaiTerrainLODTextures
 
@@ -117,47 +117,18 @@ DubaiSpringTextures: &DubaiSpringTextures
    TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiTerrainTextures
-      Terrain4: Dubai/Spring_TerrainTexture4
-      Terrain5: Dubai/Spring_TerrainTexture5
-      Terrain6: Dubai/Spring_TerrainTexture6
-      Terrain7: Dubai/Spring_TerrainTexture7
-      Terrain8: Dubai/Spring_TerrainTexture8
-      Terrain14: Dubai/Spring_TerrainTexture14
-      Terrain18: Dubai/Spring_TerrainTexture18
    LcmLodDiffuse:
       <<: *DubaiTerrainLODTextures
-      Terrain4: Dubai/Spring_TerrainTexture4_LOD
-      Terrain5: Dubai/Spring_TerrainTexture5_LOD
-      Terrain6: Dubai/Spring_TerrainTexture6_LOD
-      Terrain7: Dubai/Spring_TerrainTexture7_LOD
-      Terrain8: Dubai/Spring_TerrainTexture8_LOD
-      Terrain14: Dubai/Spring_TerrainTexture14_LOD
-      Terrain18: Dubai/Spring_TerrainTexture18_LOD
-
+ 
 DubaiAutumnTextures: &DubaiAutumnTextures
    <<: *DubaiSummerTextures
    TreeSideDiffuse: Dubai/trees_01
    TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiTerrainTextures
-      Terrain4: Dubai/Autumn_TerrainTexture4
-      Terrain5: Dubai/Autumn_TerrainTexture5
-      Terrain6: Dubai/Autumn_TerrainTexture6
-      Terrain7: Dubai/Autumn_TerrainTexture7
-      Terrain8: Dubai/Autumn_TerrainTexture8
-      Terrain9: Dubai/Autumn_TerrainTexture9
-      Terrain14: Dubai/Autumn_TerrainTexture14
-      Terrain18: Dubai/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *DubaiTerrainLODTextures
-      Terrain4: Dubai/Autumn_TerrainTexture4_LOD
-      Terrain5: Dubai/Autumn_TerrainTexture5_LOD
-      Terrain6: Dubai/Autumn_TerrainTexture6_LOD
-      Terrain7: Dubai/Autumn_TerrainTexture7_LOD
-      Terrain8: Dubai/Autumn_TerrainTexture8_LOD
-      Terrain9: Dubai/Autumn_TerrainTexture9_LOD
-      Terrain14: Dubai/Autumn_TerrainTexture14_LOD
-      Terrain18: Dubai/Autumn_TerrainTexture18_LOD
+
 
 DubaiWinterTextures: &DubaiWinterTextures
    <<: *DubaiSummerTextures
@@ -165,40 +136,24 @@ DubaiWinterTextures: &DubaiWinterTextures
    TreeTopDiffuse: Dubai/trees_top_01
    LcmDiffuse: 
       <<: *DubaiTerrainTextures
-      Terrain4: Dubai/Winter_TerrainTexture4
-      Terrain5: Dubai/Winter_TerrainTexture5
-      Terrain6: Dubai/Winter_TerrainTexture6
-      Terrain7: Dubai/Winter_TerrainTexture7
-      Terrain8: Dubai/Winter_TerrainTexture8
-      Terrain9: Dubai/Winter_TerrainTexture9
-      Terrain14: Dubai/Winter_TerrainTexture14
-      Terrain18: Dubai/Winter_TerrainTexture18
    LcmLodDiffuse:
       <<: *DubaiTerrainLODTextures
-      Terrain4: Dubai/Winter_TerrainTexture4_LOD
-      Terrain5: Dubai/Winter_TerrainTexture5_LOD
-      Terrain6: Dubai/Winter_TerrainTexture6_LOD
-      Terrain7: Dubai/Winter_TerrainTexture7_LOD
-      Terrain8: Dubai/Winter_TerrainTexture8_LOD
-      Terrain9: Dubai/Winter_TerrainTexture9_LOD
-      Terrain14: Dubai/Winter_TerrainTexture14_LOD
-      Terrain18: Dubai/Winter_TerrainTexture18_LOD
 
 DubaiSummerNightTextures: &DubaiSummerNightTextures
    <<: *DubaiSummerTextures
    <<: *DefaultVehiclesNightTextures
-   BuildingDiffuse: Dubai/SanFran_Night_wallDiffuse
-   RoadDiffuse: Dubai/SanFran_Night_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Night_wallDiffuse
+   RoadDiffuse: Dubai/Dubai_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_night
    WaterReflection: Dubai/water_reflectionmap_night
    AsyncPlaceholderDiffuse: Dubai/placeholder
 
 DubaiSummerSnowTextures: &DubaiSummerSnowTextures
    <<: *DubaiSummerTextures
-   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
-   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
-   TreeTopDiffuse: Dubai/trees_top_01
+   RoadDiffuse: Dubai/Dubai_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/Dubai_Snow_trees_01
+   TreeTopDiffuse: Dubai/Dubai_Snow_trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
    LcmLodDiffuse:
@@ -207,92 +162,50 @@ DubaiSummerSnowTextures: &DubaiSummerSnowTextures
 DubaiSummerNightSnowTextures: &DubaiSummerNightSnowTextures
    <<: *DubaiSummerTextures
    <<: *DefaultVehiclesNightTextures
-   RoadDiffuse: Dubai/SanFran_Night_Snow_roadDiffuse
-   BuildingDiffuse: Dubai/SanFran_Night_Snow_wallDiffuse
+   RoadDiffuse: Dubai/Dubai_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
-   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
-   TreeTopDiffuse: Dubai/trees_top_01
+   TreeSideDiffuse: Dubai/Dubai_Snow_trees_01
+   TreeTopDiffuse: Dubai/Dubai_Snow_trees_top_01
    WaterReflection: Dubai/water_reflectionmap_night
    AsyncPlaceholderDiffuse: Dubai/placeholder
-   LcmDiffuse: 
+   LcmDiffuse:
       <<: *DubaiSnowTerrainTextures
    LcmLodDiffuse:
       <<: *DubaiSnowTerrainLODTextures
 
 DubaiSpringSnowTextures: &DubaiSpringSnowTextures
    <<: *DubaiSummerTextures
-   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
-   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
-   TreeTopDiffuse: Dubai/trees_top_01
+   RoadDiffuse: Dubai/Dubai_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/Dubai_Snow_trees_01
+   TreeTopDiffuse: Dubai/Dubai_Snow_trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
-      Terrain4: Dubai/Spring_Snow_TerrainTexture4
-      Terrain5: Dubai/Spring_Snow_TerrainTexture5
-      Terrain6: Dubai/Spring_Snow_TerrainTexture6
-      Terrain7: Dubai/Spring_Snow_TerrainTexture7
-      Terrain8: Dubai/Spring_Snow_TerrainTexture8
-      Terrain14: Dubai/Spring_Snow_TerrainTexture14
-      Terrain18: Dubai/Spring_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *DubaiSnowTerrainLODTextures
-      Terrain4: Dubai/Spring_TerrainTexture4_LOD
-      Terrain5: Dubai/Spring_TerrainTexture5_LOD
-      Terrain6: Dubai/Spring_TerrainTexture6_LOD
-      Terrain7: Dubai/Spring_TerrainTexture7_LOD
-      Terrain8: Dubai/Spring_TerrainTexture8_LOD
-      Terrain14: Dubai/Spring_TerrainTexture14_LOD
-      Terrain18: Dubai/Spring_TerrainTexture18_LOD
 
 DubaiAutumnSnowTextures: &DubaiAutumnSnowTextures
    <<: *DubaiSummerTextures
-   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
-   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
-   TreeTopDiffuse: Dubai/trees_top_01
+   RoadDiffuse: Dubai/Dubai_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/Dubai_Snow_trees_01
+   TreeTopDiffuse: Dubai/Dubai_Snow_trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
-      Terrain4: Dubai/Autumn_Snow_TerrainTexture4
-      Terrain5: Dubai/Autumn_Snow_TerrainTexture5
-      Terrain6: Dubai/Autumn_Snow_TerrainTexture6
-      Terrain7: Dubai/Autumn_Snow_TerrainTexture7
-      Terrain8: Dubai/Autumn_Snow_TerrainTexture8
-      Terrain14: Dubai/Autumn_Snow_TerrainTexture14
-      Terrain18: Dubai/Autumn_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *DubaiSnowTerrainLODTextures
-      Terrain4: Dubai/Autumn_TerrainTexture4_LOD
-      Terrain5: Dubai/Autumn_TerrainTexture5_LOD
-      Terrain6: Dubai/Autumn_TerrainTexture6_LOD
-      Terrain7: Dubai/Autumn_TerrainTexture7_LOD
-      Terrain8: Dubai/Autumn_TerrainTexture8_LOD
-      Terrain14: Dubai/Autumn_TerrainTexture14_LOD
-      Terrain18: Dubai/Autumn_TerrainTexture18_LOD
 
 DubaiWinterSnowTextures: &DubaiWinterSnowTextures
    <<: *DubaiSummerTextures
-   RoadDiffuse: Dubai/SanFran_Snow_roadDiffuse
-   BuildingDiffuse: Dubai/SanFran_Snow_wallDiffuse
-   TreeSideDiffuse: Dubai/SanFran_Snow_trees_01
-   TreeTopDiffuse: Dubai/trees_top_01
+   RoadDiffuse: Dubai/Dubai_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Dubai/Dubai_Snow_trees_01
+   TreeTopDiffuse: Dubai/Dubai_Snow_trees_top_01
    LcmDiffuse: 
       <<: *DubaiSnowTerrainTextures
-      Terrain4: Dubai/Winter_Snow_TerrainTexture4
-      Terrain5: Dubai/Winter_Snow_TerrainTexture5
-      Terrain6: Dubai/Winter_Snow_TerrainTexture6
-      Terrain7: Dubai/Winter_Snow_TerrainTexture7
-      Terrain8: Dubai/Winter_Snow_TerrainTexture8
-      Terrain14: Dubai/Winter_Snow_TerrainTexture14
-      Terrain18: Dubai/Winter_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *DubaiSnowTerrainLODTextures
-      Terrain4: Dubai/Winter_TerrainTexture4_LOD
-      Terrain5: Dubai/Winter_TerrainTexture5_LOD
-      Terrain6: Dubai/Winter_TerrainTexture6_LOD
-      Terrain7: Dubai/Winter_TerrainTexture7_LOD
-      Terrain8: Dubai/Winter_TerrainTexture8_LOD
-      Terrain14: Dubai/Winter_TerrainTexture14_LOD
-      Terrain18: Dubai/Winter_TerrainTexture18_LOD
 
 DubaiSnowyLighting: &DubaiSnowyLighting
    KeyLight: [0.47058823529411764, 0.43137254901960786, 0.27450980392156865]

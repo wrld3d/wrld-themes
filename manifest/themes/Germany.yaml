@@ -113,72 +113,72 @@ GermanySummerTextures: &GermanySummerTextures
 
 GermanySpringTextures: &GermanySpringTextures
    <<: *GermanySummerTextures
-   TreeSideDiffuse: Okinawa/Spring_trees_01
-   TreeTopDiffuse: Okinawa/Spring_trees_top_01
+   TreeSideDiffuse: WesternSeasons/Spring_trees_01
+   TreeTopDiffuse: WesternSeasons/Spring_trees_top_01
    LcmDiffuse: 
       <<: *GermanyTerrainTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4
-      Terrain5: Okinawa/Spring_TerrainTexture5
-      Terrain6: Okinawa/Spring_TerrainTexture6
-      Terrain7: Okinawa/Spring_TerrainTexture7
-      Terrain8: Okinawa/Spring_TerrainTexture8
-      Terrain14: Okinawa/Spring_TerrainTexture14
-      Terrain18: Okinawa/Spring_TerrainTexture18
+      Terrain5: WesternSeasons/Spring_TerrainTexture5
+      Terrain6: WesternSeasons/Spring_TerrainTexture6
+      Terrain7: WesternSeasons/Spring_TerrainTexture7
+      Terrain8: WesternSeasons/Spring_TerrainTexture8
+      Terrain14: WesternSeasons/Spring_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_TerrainTexture18
    LcmLodDiffuse:
       <<: *GermanyTerrainLODTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
-      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
 
 GermanyAutumnTextures: &GermanyAutumnTextures
    <<: *GermanySummerTextures
-   TreeSideDiffuse: Okinawa/Autumn_trees_01
-   TreeTopDiffuse: Okinawa/Autumn_trees_top_01
+   TreeSideDiffuse: WesternSeasons/Autumn_trees_01
+   TreeTopDiffuse: WesternSeasons/Autumn_trees_top_01
    LcmDiffuse: 
       <<: *GermanyTerrainTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4
-      Terrain5: Okinawa/Autumn_TerrainTexture5
-      Terrain6: Okinawa/Autumn_TerrainTexture6
-      Terrain7: Okinawa/Autumn_TerrainTexture7
-      Terrain8: Okinawa/Autumn_TerrainTexture8
-      Terrain14: Okinawa/Autumn_TerrainTexture14
-      Terrain18: Okinawa/Autumn_TerrainTexture18
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18
    LcmLodDiffuse:
       <<: *GermanyTerrainLODTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
-      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
 
 GermanyWinterTextures: &GermanyWinterTextures
    <<: *GermanySummerTextures
-   TreeSideDiffuse: Okinawa/Winter_trees_01
-   TreeTopDiffuse: Okinawa/Winter_trees_top_01
+   TreeSideDiffuse: WesternSeasons/Winter_trees_01
+   TreeTopDiffuse: WesternSeasons/Winter_trees_top_01
    LcmDiffuse: 
       <<: *GermanyTerrainTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4
-      Terrain5: Okinawa/Winter_TerrainTexture5
-      Terrain6: Okinawa/Winter_TerrainTexture6
-      Terrain7: Okinawa/Winter_TerrainTexture7
-      Terrain8: Okinawa/Winter_TerrainTexture8
-      Terrain14: Okinawa/Winter_TerrainTexture14
-      Terrain18: Okinawa/Winter_TerrainTexture18
+      Terrain5: WesternSeasons/Winter_TerrainTexture5
+      Terrain6: WesternSeasons/Winter_TerrainTexture6
+      Terrain7: WesternSeasons/Winter_TerrainTexture7
+      Terrain8: WesternSeasons/Winter_TerrainTexture8
+      Terrain14: WesternSeasons/Winter_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_TerrainTexture18
    LcmLodDiffuse:
       <<: *GermanyTerrainLODTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
-      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+      Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
 
 GermanySummerNightTextures: &GermanySummerNightTextures
    <<: *GermanySummerTextures
@@ -219,76 +219,76 @@ GermanySpringSnowTextures: &GermanySpringSnowTextures
    <<: *GermanySummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
    BuildingDiffuse: Germany/Germany_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Spring_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Spring_Snow_trees_top_01
+   TreeSideDiffuse: WesternSeasons/Spring_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Spring_Snow_trees_top_01
    LcmDiffuse: 
       <<: *GermanySnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
-      Terrain5: Okinawa/Spring_Snow_TerrainTexture5
-      Terrain6: Okinawa/Spring_Snow_TerrainTexture6
-      Terrain7: Okinawa/Spring_Snow_TerrainTexture7
-      Terrain8: Okinawa/Spring_Snow_TerrainTexture8
-      Terrain14: Okinawa/Spring_Snow_TerrainTexture14
-      Terrain18: Okinawa/Spring_Snow_TerrainTexture18
+      Terrain5: WesternSeasons/Spring_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Spring_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Spring_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Spring_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Spring_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *GermanySnowTerrainLODTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
-      Terrain5: Okinawa/Spring_TerrainTexture5_LOD
-      Terrain6: Okinawa/Spring_TerrainTexture6_LOD
-      Terrain7: Okinawa/Spring_TerrainTexture7_LOD
-      Terrain8: Okinawa/Spring_TerrainTexture8_LOD
-      Terrain14: Okinawa/Spring_TerrainTexture14_LOD
-      Terrain18: Okinawa/Spring_TerrainTexture18_LOD
+      Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
 
 GermanyAutumnSnowTextures: &GermanyAutumnSnowTextures
    <<: *GermanySummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
    BuildingDiffuse: Germany/Germany_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Autumn_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Autumn_Snow_trees_top_01
+   TreeSideDiffuse: WesternSeasons/Autumn_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Autumn_Snow_trees_top_01
    LcmDiffuse: 
       <<: *GermanySnowTerrainTextures
       Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
-      Terrain5: Okinawa/Autumn_Snow_TerrainTexture5
-      Terrain6: Okinawa/Autumn_Snow_TerrainTexture6
-      Terrain7: Okinawa/Autumn_Snow_TerrainTexture7
-      Terrain8: Okinawa/Autumn_Snow_TerrainTexture8
-      Terrain14: Okinawa/Autumn_Snow_TerrainTexture14
-      Terrain18: Okinawa/Autumn_Snow_TerrainTexture18
+      Terrain5: WesternSeasons/Autumn_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Autumn_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Autumn_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Autumn_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Autumn_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *GermanySnowTerrainLODTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
-      Terrain5: Okinawa/Autumn_TerrainTexture5_LOD
-      Terrain6: Okinawa/Autumn_TerrainTexture6_LOD
-      Terrain7: Okinawa/Autumn_TerrainTexture7_LOD
-      Terrain8: Okinawa/Autumn_TerrainTexture8_LOD
-      Terrain14: Okinawa/Autumn_TerrainTexture14_LOD
-      Terrain18: Okinawa/Autumn_TerrainTexture18_LOD
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
 
 GermanyWinterSnowTextures: &GermanyWinterSnowTextures
    <<: *GermanySummerTextures
    RoadDiffuse: London/London_Snow_roadDiffuse
    BuildingDiffuse: Germany/Germany_Snow_wallDiffuse
-   TreeSideDiffuse: Okinawa/Winter_Snow_trees_01
-   TreeTopDiffuse: Okinawa/Winter_Snow_trees_top_01
+   TreeSideDiffuse: WesternSeasons/Winter_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Winter_Snow_trees_top_01
    LcmDiffuse: 
       <<: *GermanySnowTerrainTextures
       Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
-      Terrain5: Okinawa/Winter_Snow_TerrainTexture5
-      Terrain6: Okinawa/Winter_Snow_TerrainTexture6
-      Terrain7: Okinawa/Winter_Snow_TerrainTexture7
-      Terrain8: Okinawa/Winter_Snow_TerrainTexture8
-      Terrain14: Okinawa/Winter_Snow_TerrainTexture14
-      Terrain18: Okinawa/Winter_Snow_TerrainTexture18
+      Terrain5: WesternSeasons/Winter_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Winter_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Winter_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Winter_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Winter_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_Snow_TerrainTexture18
    LcmLodDiffuse:
       <<: *GermanySnowTerrainLODTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
-      Terrain5: Okinawa/Winter_TerrainTexture5_LOD
-      Terrain6: Okinawa/Winter_TerrainTexture6_LOD
-      Terrain7: Okinawa/Winter_TerrainTexture7_LOD
-      Terrain8: Okinawa/Winter_TerrainTexture8_LOD
-      Terrain14: Okinawa/Winter_TerrainTexture14_LOD
-      Terrain18: Okinawa/Winter_TerrainTexture18_LOD
+      Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
 
 SummerGermany: &SummerGermany
    Name: SummerGermany

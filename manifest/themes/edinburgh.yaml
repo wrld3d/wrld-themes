@@ -1,0 +1,671 @@
+EdinburghTerrainTextures: &EdinburghTerrainTextures
+     Terrain0: SanFrancisco/TerrainTexture0
+     Terrain1: SanFrancisco/TerrainTexture1
+     Terrain2: SanFrancisco/TerrainTexture2
+     Terrain3: SanFrancisco/TerrainTexture3
+     Terrain4: SanFrancisco/TerrainTexture4
+     Terrain5: SanFrancisco/TerrainTexture5
+     Terrain6: SanFrancisco/TerrainTexture6
+     Terrain7: SanFrancisco/TerrainTexture7
+     Terrain8: SanFrancisco/TerrainTexture8
+     Terrain9: SanFrancisco/TerrainTexture9
+     Terrain10: SanFrancisco/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: SanFrancisco/TerrainTexture14
+     Terrain15: SanFrancisco/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+EdinburghTerrainLODTextures: &EdinburghTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+EdinburghSnowTerrainTextures: &EdinburghSnowTerrainTextures
+     Terrain0: SanFrancisco/SanFran_Snow_Texture0
+     Terrain1: SanFrancisco/SanFran_Snow_Texture1
+     Terrain2: SanFrancisco/SanFran_Snow_Texture2
+     Terrain3: SanFrancisco/SanFran_Snow_Texture3
+     Terrain4: SanFrancisco/SanFran_Snow_Texture4
+     Terrain5: SanFrancisco/SanFran_Snow_Texture5
+     Terrain6: SanFrancisco/SanFran_Snow_Texture6
+     Terrain7: SanFrancisco/SanFran_Snow_Texture7
+     Terrain8: SanFrancisco/SanFran_Snow_Texture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: SanFrancisco/SanFran_Snow_Texture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: SanFrancisco/SanFran_Snow_Texture14
+     Terrain15: SanFrancisco/SanFran_Snow_Texture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: SanFrancisco/Water_01
+     Terrain254: SanFrancisco/Water_02
+     Terrain255: SanFrancisco/Water_03
+
+EdinburghSnowTerrainLODTextures: &EdinburghSnowTerrainLODTextures
+     Terrain0: SanFrancisco/TerrainTexture0_LOD
+     Terrain1: SanFrancisco/TerrainTexture1_LOD
+     Terrain2: SanFrancisco/TerrainTexture2_LOD
+     Terrain3: SanFrancisco/TerrainTexture3_LOD
+     Terrain4: SanFrancisco/TerrainTexture4_LOD
+     Terrain5: SanFrancisco/TerrainTexture5_LOD
+     Terrain6: SanFrancisco/TerrainTexture6_LOD
+     Terrain7: SanFrancisco/TerrainTexture7_LOD
+     Terrain8: SanFrancisco/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: SanFrancisco/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: SanFrancisco/TerrainTexture14_LOD
+     Terrain15: SanFrancisco/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: SanFrancisco/Water_01_LOD
+     Terrain254: SanFrancisco/Water_02_LOD
+     Terrain255: SanFrancisco/Water_03_LOD
+
+EdinburghSummerTextures: &EdinburghSummerTextures
+   RoadDiffuse: London/London_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: Edinburgh/Edinburgh_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *EdinburghTerrainTextures
+   LcmLodDiffuse:
+      <<: *EdinburghTerrainLODTextures
+
+EdinburghSpringTextures: &EdinburghSpringTextures
+   <<: *EdinburghSummerTextures
+   TreeSideDiffuse: WesternSeasons/Spring_trees_01
+   TreeTopDiffuse: WesternSeasons/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *EdinburghTerrainTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4
+      Terrain5: WesternSeasons/Spring_TerrainTexture5
+      Terrain6: WesternSeasons/Spring_TerrainTexture6
+      Terrain7: WesternSeasons/Spring_TerrainTexture7
+      Terrain8: WesternSeasons/Spring_TerrainTexture8
+      Terrain14: WesternSeasons/Spring_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *EdinburghTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
+
+EdinburghAutumnTextures: &EdinburghAutumnTextures
+   <<: *EdinburghSummerTextures
+   TreeSideDiffuse: WesternSeasons/Autumn_trees_01
+   TreeTopDiffuse: WesternSeasons/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *EdinburghTerrainTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *EdinburghTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
+
+EdinburghWinterTextures: &EdinburghWinterTextures
+   <<: *EdinburghSummerTextures
+   TreeSideDiffuse: WesternSeasons/Winter_trees_01
+   TreeTopDiffuse: WesternSeasons/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *EdinburghTerrainTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4
+      Terrain5: WesternSeasons/Winter_TerrainTexture5
+      Terrain6: WesternSeasons/Winter_TerrainTexture6
+      Terrain7: WesternSeasons/Winter_TerrainTexture7
+      Terrain8: WesternSeasons/Winter_TerrainTexture8
+      Terrain14: WesternSeasons/Winter_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *EdinburghTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
+
+EdinburghSummerNightTextures: &EdinburghSummerNightTextures
+   <<: *EdinburghSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Edinburgh/Edinburgh_Night_wallDiffuse
+   RoadDiffuse: London/London_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+EdinburghSummerSnowTextures: &EdinburghSummerSnowTextures
+   <<: *EdinburghSummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Edinburgh/Edinburgh_Snow_wallDiffuse
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *EdinburghSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *EdinburghSnowTerrainLODTextures
+
+EdinburghSummerNightSnowTextures: &EdinburghSummerNightSnowTextures
+   <<: *EdinburghSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: London/London_Night_Snow_roadDiffuse
+   BuildingDiffuse: Edinburgh/Edinburgh_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *EdinburghSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *EdinburghSnowTerrainLODTextures
+
+EdinburghSpringSnowTextures: &EdinburghSpringSnowTextures
+   <<: *EdinburghSummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Edinburgh/Edinburgh_Snow_wallDiffuse
+   TreeSideDiffuse: WesternSeasons/Spring_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *EdinburghSnowTerrainTextures
+      Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
+      Terrain5: WesternSeasons/Spring_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Spring_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Spring_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Spring_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Spring_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *EdinburghSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
+
+EdinburghAutumnSnowTextures: &EdinburghAutumnSnowTextures
+   <<: *EdinburghSummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Edinburgh/Edinburgh_Snow_wallDiffuse
+   TreeSideDiffuse: WesternSeasons/Autumn_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *EdinburghSnowTerrainTextures
+      Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
+      Terrain5: WesternSeasons/Autumn_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Autumn_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Autumn_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Autumn_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Autumn_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *EdinburghSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
+
+EdinburghWinterSnowTextures: &EdinburghWinterSnowTextures
+   <<: *EdinburghSummerTextures
+   RoadDiffuse: London/London_Snow_roadDiffuse
+   BuildingDiffuse: Edinburgh/Edinburgh_Snow_wallDiffuse
+   TreeSideDiffuse: WesternSeasons/Winter_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *EdinburghSnowTerrainTextures
+      Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
+      Terrain5: WesternSeasons/Winter_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Winter_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Winter_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Winter_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Winter_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *EdinburghSnowTerrainLODTextures
+      Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
+
+SummerEdinburgh: &SummerEdinburgh
+   Name: SummerEdinburgh
+   LocationLatLong: [55.948121, -3.201014]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *EdinburghSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *EdinburghSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *EdinburghSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *EdinburghSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *EdinburghSummerTextures
+      - <<: *MapModeState
+
+SpringEdinburgh: &SpringEdinburgh
+   Name: SpringEdinburgh
+   LocationLatLong: [55.948121, -3.201014]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *EdinburghSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *EdinburghSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *EdinburghSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *EdinburghSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *EdinburghSpringTextures
+      - <<: *MapModeState
+
+AutumnEdinburgh: &AutumnEdinburgh
+   Name: AutumnEdinburgh
+   LocationLatLong: [55.948121, -3.201014]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *EdinburghAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *EdinburghSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *EdinburghAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *EdinburghAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *EdinburghAutumnTextures
+      - <<: *MapModeState
+
+WinterEdinburgh: &WinterEdinburgh
+   Name: WinterEdinburgh
+   LocationLatLong: [55.948121, -3.201014]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesLeftSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *EdinburghWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *EdinburghSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *EdinburghWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *EdinburghWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *EdinburghSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *EdinburghWinterTextures
+      - <<: *MapModeState
