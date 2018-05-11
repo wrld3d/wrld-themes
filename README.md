@@ -21,7 +21,7 @@ The [WRLD SDK](http://www.wrld3d.com/) can be used to render beautiful maps in a
 
 At startup, the WRLD SDK downloads a [theme manifest](#theme-manifests), which is a JSON file containing the themes that the app requires. In order to display the map before these themes have been fully downloaded, apps **must** contain an embedded theme manifest. The [Creating Embedded Manifests](#creating-embedded-manifests) section explains how to generate and embed this manifest.
 
-This repository also contains the resources and scripts required to generate custom theme manifests for use with the [WRLD 3D mapping platform](http://www.wrld3d.com/). Generating custom themes is entirely optional however, as the WRLD SDK comes with a collection of preset themes.
+This repository also contains the resources and scripts required to generate custom theme manifests for use with the [WRLD 3D mapping platform](http://www.wrld3d.com/). Generating custom themes is entirely optional however, as the WRLD SDK comes with a collection of preset themes. The current list of theme paths is available [here](https://cdn-resources.wrld3d.com/mobile-themes-new/latest/versions.json).
 
 ## Support
 
@@ -83,7 +83,7 @@ After running the above script, the output folder should contain a file called `
 
 You should now do the following:
 
-1.  The `embedded_manifest.txt` file must be copied into your app's resources. You can see an example of this in the [WRLD Example App](https://github.com/wrld3d/wrld-example-app) for [Android](https://github.com/wrld3d/wrld-example-app/blob/master/android/assets/embedded_manifest.txt), [iOS](https://github.com/wrld3d/wrld-example-app/blob/master/ios/Resources/embedded_manifest.txt), and [Windows](https://github.com/wrld3d/wrld-example-app/blob/master/windows/Resources/embedded_manifest.txt) applications.
+1.  The `embedded_manifest.txt` file must be copied into your app's resources. You can see an example of this in the [WRLD Example App](https://github.com/wrld3d/wrld-example-app) for [Android](https://github.com/wrld3d/wrld-example-app/blob/master/android/assets/embedded_manifest.bin), [iOS](https://github.com/wrld3d/wrld-example-app/blob/master/ios/Resources/embedded_manifest.bin), and [Windows](https://github.com/wrld3d/wrld-example-app/blob/master/windows/Resources/embedded_manifest.bin) applications.  (These examples consume an optimized binary version of the theme produced by our internal build process, but text manifests are also supported.)
 
 2.  As in the [WRLD Example App](https://github.com/wrld3d/wrld-example-app), the contents of the iOS folder should then be placed under the [Resources/Textures/EmbeddedTheme](https://github.com/wrld3d/wrld-example-app/tree/master/ios/Resources/Textures/EmbeddedTheme) folder in your iOS project.
 
@@ -93,9 +93,7 @@ You should now do the following:
 
     (You can place these resources under a different path, but you will have to ensure you specify that path in your app's configuration.)
     
-3.  Finally, edit the config of your app to use the correct paths for the new resources, and select an appropriate starting theme and state. Here are examples for [Android](https://github.com/wrld3d/wrld-example-app/blob/master/android/jni/AppHost.cpp#L188-L191) and [iOS](https://github.com/wrld3d/wrld-example-app/blob/master/ios/ios_src/AppHost.mm#L136-L139).
-
-    Make sure that if you set `EmbeddedThemeNameContains = "Summer"` that your embedded manifest contains a theme with "Summer" in its name. Similarly, make sure that if you set `EmbeddedThemeStateName = "DayDefault"` that the `DayDefault` state is present in your embedded manifest.
+3.  Finally, edit the config of your app to use the correct paths for the new resources, and select an appropriate starting theme and state. Here are examples for [Android](https://github.com/wrld3d/wrld-example-app/blob/master/android/assets/ApplicationConfigs/standard_config.json#L15) and [iOS](https://github.com/wrld3d/wrld-example-app/blob/master/ios/Resources/ApplicationConfigs/standard_config.json#L15).  The starting theme and state are set [here](https://github.com/wrld3d/wrld-example-app/blob/master/src/VisualMap/SdkModel/VisualMapModule.cpp#L24).
 
 After completing these steps, you should see your app open and display the embedded theme that you generated.
 
