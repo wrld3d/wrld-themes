@@ -45,8 +45,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='build a theme manifest')
     parser.add_argument('source_file', type=str, help='source yaml file path. E.g. manifest/manifest.yaml')
     parser.add_argument('version', type=str, help='version. E.g. 123')
-    parser.add_argument('eegeo_assets_host_name', type=str, help='the hostname that the theme assets provided by eegeo will be served from. E.g. d2xvsc8j92rfya.cloudfront.net')
-    parser.add_argument('theme_assets_host_name', type=str, help='the hostname that the theme assets created by this script will be served from. E.g. d2xvsc8j92rfya.cloudfront.net')
+    parser.add_argument('eegeo_assets_host_name', type=str, help='the hostname that the theme assets provided by eegeo will be served from. E.g. cdn-resources.wrld3d.com')
+    parser.add_argument('theme_assets_host_name', type=str, help='the hostname that the theme assets created by this script will be served from. E.g. cdn-resources.wrld3d.com')
     parser.add_argument('landmark_textures_version_file', type=str, help='File containing the version number of the landmark textures store.')
     parser.add_argument('interior_materials_version_file', type=str, help='File containing the version number of the interior materials store')
 

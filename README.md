@@ -142,12 +142,12 @@ If you are using the [WRLD Example App](https://github.com/wrld3d/wrld-example-a
 
 The following example will generate an embedded manifest with one theme (`SummerSanFrancisco`) and one state (`DayDefault`), and output the result to `./some_folder/temp/embedded_theme`:
 ```sh
-python create_embedded_manifest.py -i http://d2xvsc8j92rfya.cloudfront.net/mobile-themes-new/v540/manifest.txt.gz -o ./some_folder/temp/embedded_theme -t SummerSanFrancisco -s DayDefault
+python create_embedded_manifest.py -i https://cdn-resources.wrld3d.com/mobile-themes-new/v540/manifest.txt.gz -o ./some_folder/temp/embedded_theme -t SummerSanFrancisco -s DayDefault
 ```
 
 It is possible to include multiple themes and states if you want your app to be able to display more than one possible theme at startup, before streaming any additional resources:
 ```sh
-python create_embedded_manifest.py -i http://d2xvsc8j92rfya.cloudfront.net/mobile-themes-new/v540/manifest.txt.gz -o ./some_folder/temp/embedded_theme -t SummerSanFrancisco WinterSanFrancisco -s DayDefault NightDefault
+python create_embedded_manifest.py -i https://cdn-resources.wrld3d.com/mobile-themes-new/v540/manifest.txt.gz -o ./some_folder/temp/embedded_theme -t SummerSanFrancisco WinterSanFrancisco -s DayDefault NightDefault
 ```
 
 This could be useful, for example, if you want your app to open with the season or time of day dependent on the real life date and time. For most applications however, it is best to include as few themes and states as possible to minimize app size and startup time.
