@@ -98,8 +98,8 @@ beijingSummerTextures: &beijingSummerTextures
    RoadDiffuse: HongKong/roadDiffuse_repeat
    RailDiffuse: HongKong/railDiffuse_repeat
    BuildingDiffuse: HongKong/wallDiffuse
-   TreeSideDiffuse: WesternSeasons/Summer_trees_01
-   TreeTopDiffuse: WesternSeasons/Summer_trees_top_01
+   TreeSideDiffuse: SanFrancisco/trees_01
+   TreeTopDiffuse: SanFrancisco/trees_top_01
    <<: *DefaultVehiclesDayTextures
    <<: *DefaultWaterReflectionTextures
    WaterNormal: SanFrancisco/water_normalmap
@@ -193,8 +193,8 @@ beijingSummerSnowTextures: &beijingSummerSnowTextures
    <<: *beijingSummerTextures
    RoadDiffuse: HongKong/Snow_roadDiffuse
    BuildingDiffuse: HongKong/Snow_wallDiffuse
-   TreeSideDiffuse: WesternSeasons/Summer_snow_trees_01
-   TreeTopDiffuse: WesternSeasons/Summer_snow_trees_top_01
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
       <<: *beijingSnowTerrainTextures
    LcmLodDiffuse:
@@ -206,8 +206,8 @@ beijingSummerNightSnowTextures: &beijingSummerNightSnowTextures
    RoadDiffuse: HongKong/Night_Snow_roadDiffuse
    BuildingDiffuse: HongKong/Night_Snow_wallDiffuse
    RailDiffuse: HongKong/Rail_01_Night
-   TreeSideDiffuse: WesternSeasons/Summer_snow_trees_01
-   TreeTopDiffuse: WesternSeasons/Summer_snow_trees_top_01
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    LcmDiffuse: 
