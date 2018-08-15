@@ -26,6 +26,7 @@
 #include "../themes/Thailand.yaml"
 #include "../themes/hongkong.yaml"
 #include "../themes/edinburgh.yaml"
+#include "../themes/chinabeijing.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -128,6 +129,11 @@ ThemeManifest:
         *SummerEdinburgh,
         *SpringEdinburgh,
         *AutumnEdinburgh,
-        *WinterEdinburgh
+        *WinterEdinburgh,
+        
+        *Summerbeijing,
+        *Springbeijing,
+        *Autumnbeijing,
+        *Winterbeijing
  
         ]
