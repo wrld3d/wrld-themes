@@ -27,6 +27,7 @@
 #include "../themes/hongkong.yaml"
 #include "../themes/edinburgh.yaml"
 #include "../themes/chinabeijing.yaml"
+#include "../themes/cancun.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -134,6 +135,11 @@ ThemeManifest:
         *Summerbeijing,
         *Springbeijing,
         *Autumnbeijing,
-        *Winterbeijing
+        *Winterbeijing,
+        
+        *SummerCancun,
+        *SpringCancun,
+        *AutumnCancun,
+        *WinterCancun
  
         ]

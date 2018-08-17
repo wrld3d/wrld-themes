@@ -1,0 +1,667 @@
+CancunTerrainTextures: &CancunTerrainTextures
+     Terrain0: Phoenix/TerrainTexture0
+     Terrain1: Phoenix/TerrainTexture1
+     Terrain2: Phoenix/TerrainTexture2
+     Terrain3: Phoenix/TerrainTexture3
+     Terrain4: Phoenix/TerrainTexture4
+     Terrain5: Phoenix/TerrainTexture5
+     Terrain6: Phoenix/TerrainTexture6
+     Terrain7: Phoenix/TerrainTexture7
+     Terrain8: Cancun/TerrainTexture8
+     Terrain9: Phoenix/TerrainTexture9
+     Terrain10: Phoenix/TerrainTexture10
+     Terrain11: SanFrancisco/TerrainTexture11
+     Terrain12: SanFrancisco/TerrainTexture12
+     Terrain13: SanFrancisco/TerrainTexture13
+     Terrain14: Phoenix/TerrainTexture14
+     Terrain15: Phoenix/TerrainTexture15
+     Terrain16: SanFrancisco/TerrainTexture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/TerrainTexture18
+     Terrain253: Cancun/Water_01
+     Terrain254: Cancun/Water_02
+     Terrain255: Cancun/Water_03
+
+CancunTerrainLODTextures: &CancunTerrainLODTextures
+     Terrain0: Phoenix/TerrainTexture0_LOD
+     Terrain1: Phoenix/TerrainTexture1_LOD
+     Terrain2: Phoenix/TerrainTexture2_LOD
+     Terrain3: Phoenix/TerrainTexture3_LOD
+     Terrain4: Phoenix/TerrainTexture4_LOD
+     Terrain5: Phoenix/TerrainTexture5_LOD
+     Terrain6: Phoenix/TerrainTexture6_LOD
+     Terrain7: Phoenix/TerrainTexture7_LOD
+     Terrain8: Cancun/TerrainTexture8_LOD
+     Terrain9: Phoenix/TerrainTexture9_LOD
+     Terrain10: Phoenix/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: Phoenix/TerrainTexture14_LOD
+     Terrain15: Phoenix/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: Cancun/Water_01_LOD
+     Terrain254: Cancun/Water_02_LOD
+     Terrain255: Cancun/Water_03_LOD
+
+CancunSnowTerrainTextures: &CancunSnowTerrainTextures
+     Terrain0: Phoenix/Snow_TerrainTexture0
+     Terrain1: Phoenix/Snow_TerrainTexture1
+     Terrain2: Phoenix/Snow_TerrainTexture2
+     Terrain3: Phoenix/Snow_TerrainTexture3
+     Terrain4: Phoenix/Snow_TerrainTexture4
+     Terrain5: Phoenix/Snow_TerrainTexture5
+     Terrain6: Phoenix/Snow_TerrainTexture6
+     Terrain7: Phoenix/Snow_TerrainTexture7
+     Terrain8: Phoenix/Snow_TerrainTexture8
+     Terrain9: SanFrancisco/SanFran_Snow_Texture9
+     Terrain10: Phoenix/Snow_TerrainTexture10
+     Terrain11: SanFrancisco/SanFran_Snow_Texture11
+     Terrain12: SanFrancisco/SanFran_Snow_Texture12
+     Terrain13: SanFrancisco/SanFran_Snow_Texture13
+     Terrain14: Phoenix/Snow_TerrainTexture14
+     Terrain15: Phoenix/Snow_TerrainTexture15
+     Terrain16: SanFrancisco/SanFran_Snow_Texture16
+     Terrain17: SanFrancisco/TerrainTexture17
+     Terrain18: SanFrancisco/SanFran_Snow_Texture18
+     Terrain253: Cancun/Water_01
+     Terrain254: Cancun/Water_02
+     Terrain255: Cancun/Water_03
+
+CancunSnowTerrainLODTextures: &CancunSnowTerrainLODTextures
+     Terrain0: Phoenix/TerrainTexture0_LOD
+     Terrain1: Phoenix/TerrainTexture1_LOD
+     Terrain2: Phoenix/TerrainTexture2_LOD
+     Terrain3: Phoenix/TerrainTexture3_LOD
+     Terrain4: Phoenix/TerrainTexture4_LOD
+     Terrain5: Phoenix/TerrainTexture5_LOD
+     Terrain6: Phoenix/TerrainTexture6_LOD
+     Terrain7: Phoenix/TerrainTexture7_LOD
+     Terrain8: Phoenix/TerrainTexture8_LOD
+     Terrain9: SanFrancisco/TerrainTexture9_LOD
+     Terrain10: Phoenix/TerrainTexture10_LOD
+     Terrain11: SanFrancisco/TerrainTexture11_LOD
+     Terrain12: SanFrancisco/TerrainTexture12_LOD
+     Terrain13: SanFrancisco/TerrainTexture13_LOD
+     Terrain14: Phoenix/TerrainTexture14_LOD
+     Terrain15: Phoenix/TerrainTexture15_LOD
+     Terrain16: SanFrancisco/TerrainTexture16_LOD
+     Terrain17: SanFrancisco/TerrainTexture17_LOD
+     Terrain18: SanFrancisco/TerrainTexture18_LOD
+     Terrain253: Cancun/Water_01_LOD
+     Terrain254: Cancun/Water_02_LOD
+     Terrain255: Cancun/Water_03_LOD
+
+CancunSummerTextures: &CancunSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: Phoenix/Phoenix_wallDiffuse
+   TreeSideDiffuse: Cancun/Summer_trees_01
+   TreeTopDiffuse: Cancun/Summer_trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: SanFrancisco/water_normalmap
+   WaterReflection: SanFrancisco/water_reflectionmap
+   AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse: 
+      <<: *CancunTerrainTextures
+   LcmLodDiffuse:
+      <<: *CancunTerrainLODTextures
+
+CancunSpringTextures: &CancunSpringTextures
+   <<: *CancunSummerTextures
+   TreeSideDiffuse: Cancun/Spring_trees_01
+   TreeTopDiffuse: Cancun/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *CancunTerrainTextures
+      Terrain4: Phoenix/Spring_TerrainTexture4
+      Terrain5: Phoenix/Spring_TerrainTexture5
+      Terrain6: Phoenix/Spring_TerrainTexture6
+      Terrain7: Phoenix/Spring_TerrainTexture7
+      Terrain8: Cancun/Spring_TerrainTexture8
+      Terrain14: Phoenix/Spring_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_TerrainTexture1
+   LcmLodDiffuse:
+      <<: *CancunTerrainLODTextures
+      Terrain4: Phoenix/Spring_TerrainTexture4_LOD
+      Terrain5: Phoenix/Spring_TerrainTexture5_LOD
+      Terrain6: Phoenix/Spring_TerrainTexture6_LOD
+      Terrain7: Phoenix/Spring_TerrainTexture7_LOD
+      Terrain8: Cancun/Spring_TerrainTexture8_LOD
+      Terrain14: Phoenix/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LO
+
+CancunAutumnTextures: &CancunAutumnTextures
+   <<: *CancunSummerTextures
+   TreeSideDiffuse: Cancun/Autumn_trees_01
+   TreeTopDiffuse: Cancun/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *CancunTerrainTextures
+      Terrain4: Phoenix/Autumn_TerrainTexture4
+      Terrain5: Phoenix/Autumn_TerrainTexture5
+      Terrain6: Phoenix/Autumn_TerrainTexture6
+      Terrain7: Phoenix/Autumn_TerrainTexture7
+      Terrain8: Cancun/Autumn_TerrainTexture8
+      Terrain14: Phoenix/Autumn_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *CancunTerrainLODTextures
+      Terrain4: Phoenix/Autumn_TerrainTexture4_LOD
+      Terrain5: Phoenix/Autumn_TerrainTexture5_LOD
+      Terrain6: Phoenix/Autumn_TerrainTexture6_LOD
+      Terrain7: Phoenix/Autumn_TerrainTexture7_LOD
+      Terrain8: Cancun/Autumn_TerrainTexture8_LOD
+      Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
+
+CancunWinterTextures: &CancunWinterTextures
+   <<: *CancunSummerTextures
+   TreeSideDiffuse: Cancun/Winter_trees_01
+   TreeTopDiffuse: Cancun/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *CancunTerrainTextures
+      Terrain4: Phoenix/Winter_TerrainTexture4
+      Terrain5: Phoenix/Winter_TerrainTexture5
+      Terrain6: Phoenix/Winter_TerrainTexture6
+      Terrain7: Phoenix/Winter_TerrainTexture7
+      Terrain8: Cancun/Winter_TerrainTexture8
+      Terrain14: Phoenix/Winter_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *CancunTerrainLODTextures
+      Terrain4: Phoenix/Winter_TerrainTexture4_LOD
+      Terrain5: Phoenix/Winter_TerrainTexture5_LOD
+      Terrain6: Phoenix/Winter_TerrainTexture6_LOD
+      Terrain7: Phoenix/Winter_TerrainTexture7_LOD
+      Terrain8: Cancun/Winter_TerrainTexture8_LOD
+      Terrain14: Phoenix/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
+
+CancunSummerNightTextures: &CancunSummerNightTextures
+   <<: *CancunSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Phoenix/Phoenix_Night_wallDiffuse
+   RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+CancunSummerSnowTextures: &CancunSummerSnowTextures
+   <<: *CancunSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: SanFrancisco/SanFran_Snow_wallDiffuse
+   TreeSideDiffuse: EasternSeasons/Summer_snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Summer_snow_trees_top_01
+   LcmDiffuse: 
+      <<: *CancunSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *CancunSnowTerrainLODTextures
+
+CancunSummerNightSnowTextures: &CancunSummerNightSnowTextures
+   <<: *CancunSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
+   BuildingDiffuse: Phoenix/Phoenix_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: EasternSeasons/Summer_snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Summer_snow_trees_top_01
+   WaterReflection: SanFrancisco/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+      <<: *CancunSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *CancunSnowTerrainLODTextures
+
+CancunSpringSnowTextures: &CancunSpringSnowTextures
+   <<: *CancunSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Phoenix/Phoenix_Snow_wallDiffuse
+   TreeSideDiffuse: EasternSeasons/Spring_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *CancunSnowTerrainTextures
+      Terrain4: Phoenix/Spring_Snow_TerrainTexture4
+      Terrain5: Phoenix/Spring_Snow_TerrainTexture5
+      Terrain6: Phoenix/Spring_Snow_TerrainTexture6
+      Terrain7: Phoenix/Spring_Snow_TerrainTexture7
+      Terrain8: Phoenix/Spring_Snow_TerrainTexture8
+      Terrain14: Phoenix/Spring_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *CancunSnowTerrainLODTextures
+      Terrain4: Phoenix/Spring_TerrainTexture4_LOD
+      Terrain5: Phoenix/Spring_TerrainTexture5_LOD
+      Terrain6: Phoenix/Spring_TerrainTexture6_LOD
+      Terrain7: Phoenix/Spring_TerrainTexture7_LOD
+      Terrain8: Cancun/Spring_TerrainTexture8_LOD
+      Terrain14: Phoenix/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
+
+CancunAutumnSnowTextures: &CancunAutumnSnowTextures
+   <<: *CancunSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Phoenix/Phoenix_Snow_wallDiffuse
+   TreeSideDiffuse: EasternSeasons/Autumn_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *CancunSnowTerrainTextures
+      Terrain4: Phoenix/Autumn_Snow_TerrainTexture4
+      Terrain5: Phoenix/Autumn_Snow_TerrainTexture5
+      Terrain6: Phoenix/Autumn_Snow_TerrainTexture6
+      Terrain7: Phoenix/Autumn_Snow_TerrainTexture7
+      Terrain8: Phoenix/Autumn_Snow_TerrainTexture8
+      Terrain14: Phoenix/Autumn_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *CancunSnowTerrainLODTextures
+      Terrain4: Phoenix/Autumn_TerrainTexture4_LOD
+      Terrain5: Phoenix/Autumn_TerrainTexture5_LOD
+      Terrain6: Phoenix/Autumn_TerrainTexture6_LOD
+      Terrain7: Phoenix/Autumn_TerrainTexture7_LOD
+      Terrain8: Cancun/Autumn_TerrainTexture8_LOD
+      Terrain14: Phoenix/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
+
+CancunWinterSnowTextures: &CancunWinterSnowTextures
+   <<: *CancunSummerTextures
+   RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
+   BuildingDiffuse: Phoenix/Phoenix_Snow_wallDiffuse
+   TreeSideDiffuse: EasternSeasons/Winter_Snow_trees_01
+   TreeTopDiffuse: EasternSeasons/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *CancunSnowTerrainTextures
+      Terrain4: Phoenix/Winter_Snow_TerrainTexture4
+      Terrain5: Phoenix/Winter_Snow_TerrainTexture5
+      Terrain6: Phoenix/Winter_Snow_TerrainTexture6
+      Terrain7: Phoenix/Winter_Snow_TerrainTexture7
+      Terrain8: Phoenix/Winter_Snow_TerrainTexture8
+      Terrain14: Phoenix/Winter_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *CancunSnowTerrainLODTextures
+      Terrain4: Phoenix/Winter_TerrainTexture4_LOD
+      Terrain5: Phoenix/Winter_TerrainTexture5_LOD
+      Terrain6: Phoenix/Winter_TerrainTexture6_LOD
+      Terrain7: Phoenix/Winter_TerrainTexture7_LOD
+      Terrain8: Cancun/Winter_TerrainTexture8_LOD
+      Terrain14: Phoenix/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
+
+SummerCancun: &SummerCancun
+   Name: SummerCancun
+   LocationLatLong: [21.252961, -86.812359]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *CancunSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *CancunSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *CancunSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *CancunSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *CancunSummerTextures
+      - <<: *MapModeOldRoadsState
+
+SpringCancun: &SpringCancun
+   Name: SpringCancun
+   LocationLatLong: [21.252961, -86.812359]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *CancunSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *CancunSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *CancunSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *CancunSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *CancunSpringTextures
+      - <<: *MapModeOldRoadsState
+
+AutumnCancun: &AutumnCancun
+   Name: AutumnCancun
+   LocationLatLong: [21.252961, -86.812359]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *CancunAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *CancunSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *CancunAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *CancunAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *CancunAutumnTextures
+      - <<: *MapModeOldRoadsState
+
+WinterCancun: &WinterCancun
+   Name: WinterCancun
+   LocationLatLong: [21.252961, -86.812359]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *CancunWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *CancunSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *CancunWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *CancunWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *CancunSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *CancunWinterTextures
+      - <<: *MapModeOldRoadsState
