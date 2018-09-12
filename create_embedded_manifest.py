@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import os.path
+import shutil
 
 import requests
 
@@ -251,6 +252,10 @@ class EmbeddedManifestFactory:
 
 def create_embedded_manifest(source_manifest, theme_names, state_names, output_dir, asset_root=None, partial=False):
     manifest_text = read_file_or_url(source_manifest)
+
+    if not partial:
+        if os.path.exists(output_dir):
+            shutil.rmtree(output_dir)
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
