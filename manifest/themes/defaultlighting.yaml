@@ -23,11 +23,11 @@ DefaultRainyOverlay: &DefaultRainyOverlay
    OverlayLayerTwoScale: 6.4
 
 DefaultSunnyLighting: &DefaultSunnyLighting
-   KeyLight: [0.80, 0.78, 0.63]
+   KeyLight: [0.82, 0.78, 0.63]
    BackLight: [0.43137254901960786, 0.43137254901960786, 0.1568627450980392]
-   FillLight: [0.19607843137254902, 0.19607843137254902, 0.11764705882352941]
+   FillLight: [0.11, 0.11, 0.08]
    AmbientLight: [0.43137254901960786, 0.5490196078431373, 0.6274509803921569]
-   AlternativeAmbientLight: [0.43137254901960786, 0.5490196078431373, 0.6274509803921569]
+   AlternativeAmbientLight: [0.43137254901960786, 0.5490196078431373, 0.60]
    ShadowColor: [0.45098039215686275, 0.5686274509803921, 0.7058823529411765]
    FogColor: [0, 0, 0]
    FogIntensity: 0.0
