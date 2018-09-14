@@ -6,9 +6,11 @@ DefaultHeader: &DefaultHeader
   AssetRoot_OSX: "%THEME_ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/Assets/Legacy/"
   AssetRoot_Android: "%THEME_ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/Assets/Legacy/"
   AssetRoot_Windows: "%THEME_ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/Assets/Legacy/"
+  AssetRoot_WebGL: "%THEME_ASSETS_HOST_NAME%/mobile-themes-new/%VERSION%/Assets/Legacy/"
   AssetExtension_iOS: ".pvr.gz"
   AssetExtension_Android: ".ktx.gz"
   AssetExtension_OSX: ".png.gz"
   AssetExtension_Windows: ".dds.gz"
+  AssetExtension_WebGL: ".webgl.png.gz"
   GlobeViewThemeState: "GlobeView"
   GlobeViewAltitude: 15000

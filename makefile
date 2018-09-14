@@ -32,15 +32,17 @@ PVR_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.pvr,$(SRC_NON_CUBE_
 KTX_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.ktx,$(SRC_NON_CUBE_FILES))
 DDS_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.dds,$(SRC_NON_CUBE_FILES))
 DST_PNG_FILES := $(patsubst $(SRC_DIR)/%,$(COMPRESSED_DIR)/%,$(SRC_PNG_FILES))
+DST_WEB_PNG_FILES := $(patsubst $(SRC_DIR)/%.png,$(COMPRESSED_DIR)/%.webgl.png,$(SRC_PNG_FILES))
 
 PVR_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.pvr,$(SRC_CUBE_POSX_FILES))
 KTX_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.ktx,$(SRC_CUBE_POSX_FILES))
 DDS_CUBE_FILES := $(patsubst $(SRC_DIR)/%_posX.png,$(COMPRESSED_DIR)/%_cubemap.dds,$(SRC_CUBE_POSX_FILES))
 
-ALL_COMPRESSED_FILES := $(PVR_FILES) $(PVR_CUBE_FILES) $(KTX_FILES) $(KTX_CUBE_FILES) $(DDS_FILES) $(DDS_CUBE_FILES) $(DST_PNG_FILES)
+ALL_COMPRESSED_FILES := $(PVR_FILES) $(PVR_CUBE_FILES) $(KTX_FILES) $(KTX_CUBE_FILES) $(DDS_FILES) $(DDS_CUBE_FILES) $(DST_PNG_FILES) $(DST_WEB_PNG_FILES) 
 ALL_GZIP_FILES := $(patsubst $(COMPRESSED_DIR)/%,$(GZIPPED_ASSETS_DIR)/%.gz,$(ALL_COMPRESSED_FILES))
 
 TEX_TOOL = ./lib/PVRTexToolCL.exe
+WEB_OPTIMIZE_PNG = python optimize_png_for_web.py 
 PVR_COMPRESS = $(TEX_TOOL) -f PVRTC1_4 -m -flip y -legacypvr
 PVR_COMPRESS_CUBE = $(TEX_TOOL) -f PVRTC1_4 -m -legacypvr
 KTX_COMPRESS = $(TEX_TOOL) -f ETC1 -m -flip y
@@ -141,6 +143,10 @@ $(COMPRESSED_DIR)/%.png:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)
 	$(CP) "$<" "$@"
 
+$(COMPRESSED_DIR)/%.webgl.png : $(SRC_DIR)/%.png list-unquantizable-textures
+	$(MKDIR) $(dir $@)
+	@$(WEB_OPTIMIZE_PNG) -i "$<" -o "$@" -u $(UNQUANTIZABLE_TEXTURES)
+	
 $(GZIPPED_ASSETS_DIR)/%.gz:$(COMPRESSED_DIR)/%
 	$(MKDIR) $(dir $@)
 	cat $< | gzip -n --stdout >$@
@@ -148,6 +154,10 @@ $(GZIPPED_ASSETS_DIR)/%.gz:$(COMPRESSED_DIR)/%
 $(GZIPPED_ASSETS_DIR)/%.POD.gz:$(SRC_DIR)/%.POD
 	$(MKDIR) $(dir $@)
 	cat $< | gzip -n --stdout >$@
+
+.PHONY: list-unquantizable-textures
+list-unquantizable-textures: $(PREPPED_YAML_FILES)
+	$(eval UNQUANTIZABLE_TEXTURES := $(shell python list_unquantizable_textures.py --manifest_directory=$(MANIFEST_BUILD_DIR)))
 
 .PHONY: check-env
 check-env:
@@ -186,5 +196,4 @@ clean:
 .PHONY: check_theme_paths 
 check_theme_paths:$(PREPPED_YAML_FILES)
 	$(CHECK_THEME_PATHS) --source_files $(PREPPED_YAML_FILES) --texture_directory "themes/"
-
 

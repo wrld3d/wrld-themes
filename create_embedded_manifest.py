@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import os.path
+import shutil
 
 import requests
 
@@ -165,7 +166,7 @@ class EmbeddedManifestFactory:
 
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = remove_suffix(asset_ext_gz, ".gz")
-        use_single_file_cubemap_files = asset_ext.lower() != '.png'
+        use_single_file_cubemap_files = asset_ext.lower() not in {'.png', '.webgl.png'}
         http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz, use_single_file_cubemap_files)
         local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext, use_single_file_cubemap_files)
         cubemap_count = self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
@@ -251,6 +252,10 @@ class EmbeddedManifestFactory:
 
 def create_embedded_manifest(source_manifest, theme_names, state_names, output_dir, asset_root=None, partial=False):
     manifest_text = read_file_or_url(source_manifest)
+
+    if not partial:
+        if os.path.exists(output_dir):
+            shutil.rmtree(output_dir)
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
