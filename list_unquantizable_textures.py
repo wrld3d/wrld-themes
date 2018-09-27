@@ -7,7 +7,7 @@ import fnmatch
 from subprocess import call
 
 
-QUANTIZATION_BLACKLIST = ['BuildingDiffuse']
+QUANTIZATION_BLACKLIST = ['BuildingDiffuse', 'PlaceholderNoDataDiffuse']
 
 
 def _collect_blacklisted_textures_from_state(state_yaml):

@@ -76,9 +76,12 @@ WEB_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/
 SSL_DST_MANIFEST_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(GZIP_DIR)/%/ssl.manifest.txt.gz,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 PREPPED_YAML_FILES := $(patsubst $(MANIFEST_ROOTS_DIR)/%.yaml,$(MANIFEST_BUILD_DIR)/%.yaml.prep,$(wildcard $(MANIFEST_ROOTS_DIR)/*.yaml))
 
+UNQUANTIZABLE_TEXTURES = $(BUILD_DIR)/unquantizable_textures.txt 
+PREV_UNQUANTIZABLE_TEXTURES = $(BUILD_DIR)/unquantizable_textures.txt.prev
+
 .SECONDARY:
 .PHONY: all
-all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST_FILES) $(WEB_DST_MANIFEST_FILES) $(SSL_DST_MANIFEST_FILES) $(DST_POD_FILES) $(VERSIONS_JSON)
+all: check-env $(ALL_GZIP_FILES) $(DST_MANIFEST_FILES) $(WEB_DST_MANIFEST_FILES) $(SSL_DST_MANIFEST_FILES) $(DST_POD_FILES) $(VERSIONS_JSON) $(PREV_UNQUANTIZABLE_TEXTURES) 
 	$(S3SYNC) $(GZIP_DIR)/ $(REMOTE_SYNC_DIR)/
 	$(S3CP) $(REMOTE_SYNC_DIR)/ $(REMOTE_BUILD_DIR)/
 
@@ -143,8 +146,8 @@ $(COMPRESSED_DIR)/%.png:$(SRC_DIR)/%.png
 	$(MKDIR) $(dir $@)
 	$(CP) "$<" "$@"
 
-$(COMPRESSED_DIR)/%.webgl.png : $(SRC_DIR)/%.png list-unquantizable-textures
-	$(MKDIR) $(dir $@)
+$(COMPRESSED_DIR)/%.webgl.png : $(SRC_DIR)/%.png $(UNQUANTIZABLE_TEXTURES)
+	@$(MKDIR) $(dir $@)
 	@$(WEB_OPTIMIZE_PNG) -i "$<" -o "$@" -u $(UNQUANTIZABLE_TEXTURES)
 	
 $(GZIPPED_ASSETS_DIR)/%.gz:$(COMPRESSED_DIR)/%
@@ -155,9 +158,13 @@ $(GZIPPED_ASSETS_DIR)/%.POD.gz:$(SRC_DIR)/%.POD
 	$(MKDIR) $(dir $@)
 	cat $< | gzip -n --stdout >$@
 
-.PHONY: list-unquantizable-textures
-list-unquantizable-textures: $(PREPPED_YAML_FILES)
-	$(eval UNQUANTIZABLE_TEXTURES := $(shell python list_unquantizable_textures.py --manifest_directory=$(MANIFEST_BUILD_DIR)))
+$(UNQUANTIZABLE_TEXTURES):$(PREPPED_YAML_FILES)
+	$(MKDIR) $(dir $@)
+	 python list_unquantizable_textures.py --manifest_directory=$(MANIFEST_BUILD_DIR) > $@
+
+$(PREV_UNQUANTIZABLE_TEXTURES):$(DST_WEB_PNG_FILES)
+	rm -f $@ 
+	cp $(UNQUANTIZABLE_TEXTURES) $@
 
 .PHONY: check-env
 check-env:

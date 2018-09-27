@@ -1,7 +1,7 @@
 import sys
 import argparse
 import collections
-from os import remove
+from os import remove, path
 from subprocess import call
 
 
@@ -22,15 +22,30 @@ def _compress_png(source_path, destination_path, is_quantization_allowed):
         remove(temporary_file)
 
 
-def optimize_png(source_path, destination_path, quantization_blacklist):
-    blacklist = set(quantization_blacklist)
+def optimize_png(source_path, destination_path, quantization_blacklist_path):
+    with open(quantization_blacklist_path, 'r') as f:
+        blacklist = set(f.read().split())
+
+    prev_blacklist_path = quantization_blacklist_path + ".prev"
+    prev_blacklist = set()
+        
+    if path.isfile(prev_blacklist_path):
+        with open(prev_blacklist_path, 'r') as f:
+            prev_blacklist = set(f.read().split())
+
+
     can_quantize = source_path.lower() not in blacklist
-    _compress_png(source_path, destination_path, can_quantize)
+    quantized_last_time = source_path.lower() not in prev_blacklist if len(prev_blacklist) else can_quantize
+    
+    if not path.isfile(destination_path) or \
+            path.getmtime(source_path) > path.getmtime(destination_path) or \
+            can_quantize != quantized_last_time:
+        _compress_png(source_path, destination_path, can_quantize)
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='build a theme manifest')
-    parser.add_argument('--unquantizable_textures', "-u", nargs='*', type=str, help='source yaml file path. E.g. manifest', required=True)
+    parser = argparse.ArgumentParser(description='optimize a png file for the web')
+    parser.add_argument('--unquantizable_textures', "-u", help='path to file with a list of unquantizable textures', required=True)
     parser.add_argument('--input', "-i", type=str, help='path to input png', required=True)
     parser.add_argument('--output', "-o", type=str, help='path to output png', required=True)
     args = parser.parse_args()
