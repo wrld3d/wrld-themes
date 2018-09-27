@@ -11,6 +11,9 @@ def _compress_png(source_path, destination_path, is_quantization_allowed):
     png_crush_source = source_path
     temporary_file = None
 
+    if path.isfile(destination_path):
+        remove(destination_path)
+
     if is_quantization_allowed:
         temporary_file = source_path + ".quant"
         call([PNG_QUANT_TOOL, "--strip", "--quality=45-75", "--speed", "1", source_path, "-o", temporary_file])
