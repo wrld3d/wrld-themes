@@ -28,6 +28,7 @@
 #include "../themes/edinburgh.yaml"
 #include "../themes/chinabeijing.yaml"
 #include "../themes/cancun.yaml"
+#include "../themes/japanpublic.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -140,6 +141,11 @@ ThemeManifest:
         *SummerCancun,
         *SpringCancun,
         *AutumnCancun,
-        *WinterCancun
+        *WinterCancun,
+        
+        *SummerJapanpublic,
+        *SpringJapanpublic,
+        *AutumnJapanpublic,
+        *WinterJapanpublic
  
         ]
