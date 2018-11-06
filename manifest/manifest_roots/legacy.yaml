@@ -6,10 +6,6 @@
 #include "../themes/legacy/mapmode.yaml"
 #include "../themes/legacy/sanfrancisco.yaml"
 #include "../themes/legacy/canada.yaml"
-#include "../themes/legacy/japanvehicles.yaml"
-#include "../themes/legacy/japan.yaml"
-#include "../themes/legacy/japansouth.yaml"
-#include "../themes/legacy/japannorth.yaml"
 #include "../themes/legacy/barcelona.yaml"
 #include "../themes/legacy/london.yaml"
 #include "../themes/legacy/paris.yaml"
@@ -26,7 +22,8 @@
 #include "../themes/legacy/Thailand.yaml"
 #include "../themes/legacy/hongkong.yaml"
 #include "../themes/legacy/china.yaml"
-    
+#include "../themes/legacy/japanpublic.yaml"
+
 ThemeManifest:
    <<: *DefaultHeader
    Themes: [
@@ -40,20 +37,10 @@ ThemeManifest:
         *AutumnCanada, 
         *WinterCanada,
 
-        *SummerJapanSouth, 
-        *SpringJapanSouth, 
-        *AutumnJapanSouth, 
-        *WinterJapanSouth, 
-
-        *SummerJapanNorth, 
-        *SpringJapanNorth, 
-        *AutumnJapanNorth, 
-        *WinterJapanNorth, 
-
-        *SummerJapan, 
-        *SpringJapan, 
-        *AutumnJapan, 
-        *WinterJapan, 
+        *SummerJapanpublic, 
+        *SpringJapanpublic, 
+        *AutumnJapanpublic, 
+        *WinterJapanpublic, 
 
         *SummerBarcelona, 
         *SpringBarcelona, 

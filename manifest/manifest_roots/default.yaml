@@ -6,10 +6,6 @@
 #include "../themes/mapmode.yaml"
 #include "../themes/sanfrancisco.yaml"
 #include "../themes/canada.yaml"
-#include "../themes/japanvehicles.yaml"
-#include "../themes/japan.yaml"
-#include "../themes/japansouth.yaml"
-#include "../themes/japannorth.yaml"
 #include "../themes/barcelona.yaml"
 #include "../themes/london.yaml"
 #include "../themes/paris.yaml"
@@ -43,20 +39,10 @@ ThemeManifest:
         *AutumnCanada, 
         *WinterCanada,
 
-        *SummerJapanSouth, 
-        *SpringJapanSouth, 
-        *AutumnJapanSouth, 
-        *WinterJapanSouth, 
-
-        *SummerJapanNorth, 
-        *SpringJapanNorth, 
-        *AutumnJapanNorth, 
-        *WinterJapanNorth, 
-
-        *SummerJapan, 
-        *SpringJapan, 
-        *AutumnJapan, 
-        *WinterJapan, 
+        *SummerJapanpublic, 
+        *SpringJapanpublic, 
+        *AutumnJapanpublic, 
+        *WinterJapanpublic, 
 
         *SummerBarcelona, 
         *SpringBarcelona, 
