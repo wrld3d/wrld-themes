@@ -41,9 +41,10 @@ def read_file_or_url(path):
 
 
 class TexturePathProvider:
-    def __init__(self, asset_root_path, asset_ext, uses_single_file_cubemap_files):
+    def __init__(self, asset_root_path, asset_ext, cube_asset_ext, uses_single_file_cubemap_files):
         self._asset_root_path = asset_root_path
         self._asset_ext = asset_ext
+        self._cube_asset_ext = cube_asset_ext
         self._uses_single_file_cubemap_files = uses_single_file_cubemap_files
 
     def get_path(self, relative_path, cubemap_face_index=-1):
@@ -51,6 +52,7 @@ class TexturePathProvider:
         asset_ext = self._asset_ext
 
         if cubemap_face_index != -1:
+            asset_ext = self._cube_asset_ext
             if self._uses_single_file_cubemap_files:
                 suffix = '_cubemap'
             else:
@@ -167,8 +169,9 @@ class EmbeddedManifestFactory:
         asset_ext_gz = manifest_json["AssetExtension_{0}".format(platform)]
         asset_ext = remove_suffix(asset_ext_gz, ".gz")
         use_single_file_cubemap_files = asset_ext.lower() not in {'.png', '.webgl.png'}
-        http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz, use_single_file_cubemap_files)
-        local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext, use_single_file_cubemap_files)
+        dest_cube_asset_ext = asset_ext if use_single_file_cubemap_files else '.png'
+        http_texture_path_provider = TexturePathProvider(asset_root, asset_ext_gz, asset_ext_gz, use_single_file_cubemap_files)
+        local_texture_path_provider = TexturePathProvider(local_asset_root+os.path.sep, asset_ext, dest_cube_asset_ext, use_single_file_cubemap_files)
         cubemap_count = self._download_textures_recursive(http_texture_path_provider, local_texture_path_provider, texture_names)
         self._platform_cubemap_counts[platform] = cubemap_count
         self._platform_files_per_cubemap[platform] = http_texture_path_provider.get_cubemap_file_count()
