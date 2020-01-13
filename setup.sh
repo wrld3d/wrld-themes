@@ -14,6 +14,6 @@ python -m pip install --upgrade pip
 pip install virtualenv
 
 venv_name=./tmp/themes_venv
-virtualenv "$venv_name"
+virtualenv "$venv_name" --no-download
 
 ./venv_wrapper.sh pip install --upgrade -r pip_requirements --extra-index-url https://pypi.org/simple
