@@ -25,6 +25,7 @@
 #include "../themes/chinabeijing.yaml"
 #include "../themes/cancun.yaml"
 #include "../themes/japanpublic.yaml"
+#include "../themes/reedyshill.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -132,6 +133,11 @@ ThemeManifest:
         *SummerJapanpublic,
         *SpringJapanpublic,
         *AutumnJapanpublic,
-        *WinterJapanpublic
+        *WinterJapanpublic,
+        
+        *SummerReedysHill,
+        *SpringReedysHill,
+        *AutumnReedysHill,
+        *WinterReedysHill
  
         ]
