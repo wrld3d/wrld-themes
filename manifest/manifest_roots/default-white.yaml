@@ -1,0 +1,143 @@
+#include "../themes/defaultheader.yaml"
+#include "../themes/whitelighting.yaml"
+#include "../themes/defaultplacenames.yaml"
+#include "../themes/defaultvehicles.yaml"
+#include "../themes/defaultwater.yaml"
+#include "../themes/mapmode.yaml"
+#include "../themes/sanfrancisco.yaml"
+#include "../themes/canada.yaml"
+#include "../themes/barcelona.yaml"
+#include "../themes/london.yaml"
+#include "../themes/paris.yaml"
+#include "../themes/melbourne.yaml"
+#include "../themes/newyork.yaml"
+#include "../themes/phoenix.yaml"
+#include "../themes/mountrush.yaml"
+#include "../themes/brazilvehicles.yaml"
+#include "../themes/brazil.yaml"
+#include "../themes/germany.yaml"
+#include "../themes/dubai.yaml"
+#include "../themes/italy.yaml"
+#include "../themes/Scandinavia.yaml"
+#include "../themes/Thailand.yaml"
+#include "../themes/hongkong.yaml"
+#include "../themes/edinburgh.yaml"
+#include "../themes/chinabeijing.yaml"
+#include "../themes/cancun.yaml"
+#include "../themes/japanpublic.yaml"
+#include "../themes/reedyshill.yaml"
+    
+ThemeManifest:
+   <<: *DefaultHeader
+   Themes: [
+        *SummerSanFrancisco,
+        *SpringSanFrancisco, 
+        *AutumnSanFrancisco, 
+        *WinterSanFrancisco, 
+
+        *SummerCanada, 
+        *SpringCanada, 
+        *AutumnCanada, 
+        *WinterCanada,
+
+        *SummerJapanpublic, 
+        *SpringJapanpublic, 
+        *AutumnJapanpublic, 
+        *WinterJapanpublic, 
+
+        *SummerBarcelona, 
+        *SpringBarcelona, 
+        *AutumnBarcelona, 
+        *WinterBarcelona, 
+
+        *SummerLondon, 
+        *SpringLondon, 
+        *AutumnLondon, 
+        *WinterLondon, 
+
+        *SummerParis, 
+        *SpringParis, 
+        *AutumnParis, 
+        *WinterParis, 
+
+        *SummerMelbourne, 
+        *SpringMelbourne, 
+        *AutumnMelbourne, 
+        *WinterMelbourne, 
+
+        *SummerNewYork, 
+        *SpringNewYork, 
+        *AutumnNewYork, 
+        *WinterNewYork, 
+
+        *SummerPhoenix, 
+        *SpringPhoenix, 
+        *AutumnPhoenix, 
+        *WinterPhoenix, 
+
+        *SummerMountRush, 
+        *SpringMountRush, 
+        *AutumnMountRush, 
+        *WinterMountRush,
+
+        *SummerBrazil,
+        *SpringBrazil,
+        *AutumnBrazil,
+        *WinterBrazil,
+
+        *SummerGermany,
+        *SpringGermany,
+        *AutumnGermany,
+        *WinterGermany,
+
+        *SummerItaly,
+        *SpringItaly,
+        *AutumnItaly,
+        *WinterItaly,
+        
+        *SummerScandinavia,
+        *SpringScandinavia,
+        *AutumnScandinavia,
+        *WinterScandinavia,
+        
+        *SummerDubai,
+        *SpringDubai,
+        *AutumnDubai,
+        *WinterDubai,
+
+        *SummerThailand,
+        *SpringThailand,
+        *AutumnThailand,
+        *WinterThailand,
+
+        *Summerhongkong,
+        *Springhongkong,
+        *Autumnhongkong,
+        *Winterhongkong,
+
+        *SummerEdinburgh,
+        *SpringEdinburgh,
+        *AutumnEdinburgh,
+        *WinterEdinburgh,
+        
+        *Summerbeijing,
+        *Springbeijing,
+        *Autumnbeijing,
+        *Winterbeijing,
+        
+        *SummerCancun,
+        *SpringCancun,
+        *AutumnCancun,
+        *WinterCancun,
+        
+        *SummerJapanpublic,
+        *SpringJapanpublic,
+        *AutumnJapanpublic,
+        *WinterJapanpublic,
+        
+        *SummerReedysHill,
+        *SpringReedysHill,
+        *AutumnReedysHill,
+        *WinterReedysHill
+ 
+        ]
