@@ -65,7 +65,7 @@ SanFranciscoTextures: &SanFranciscoTextures
 
 
 SanFrancisco: &SanFrancisco
-   Name: SanFrancisco
+   Name: SummerSanFrancisco
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    PlaceNameStyles:
