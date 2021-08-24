@@ -43,7 +43,7 @@ gunzip -f ${versions_file}.gz
 echo "Copying theme manifests to 'latest'..."
 
 jq -rc 'keys[]' ${versions_file} | tr -d "\r" | while read theme ; do
-    theme_directory=$(jq -rc ".${theme}" ${versions_file})
+    theme_directory=$(jq -rc .\"${theme}\" ${versions_file})
     AWS_ACCESS_KEY_ID="$aws_access_key_id" \
     AWS_SECRET_ACCESS_KEY="$aws_secret_access_key" \
     aws s3 cp \
