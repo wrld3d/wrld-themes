@@ -4,10 +4,10 @@
 #include "../themes/defaultvehicles.yaml"
 #include "../themes/defaultwater.yaml"
 #include "../themes/mapmode.yaml"
-#include "../themes/sanfrancisco-white.yaml"
+#include "../themes/default-white.yaml"
 
 ThemeManifest:
    <<: *DefaultHeader
    Themes: [
-        *SanFrancisco
+        *Default
         ]

@@ -1,4 +1,4 @@
-SanFranciscoTerrainTextures: &SanFranciscoTerrainTextures
+NewYorkTerrainTextures: &NewYorkTerrainTextures
      Terrain0: SanFrancisco/TerrainTexture0
      Terrain1: SanFrancisco/TerrainTexture1
      Terrain2: SanFrancisco/TerrainTexture2
@@ -22,7 +22,7 @@ SanFranciscoTerrainTextures: &SanFranciscoTerrainTextures
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
 
-SanFranciscoTerrainLODTextures: &SanFranciscoTerrainLODTextures
+NewYorkTerrainLODTextures: &NewYorkTerrainLODTextures
      Terrain0: SanFrancisco/TerrainTexture0_LOD
      Terrain1: SanFrancisco/TerrainTexture1_LOD
      Terrain2: SanFrancisco/TerrainTexture2_LOD
@@ -46,10 +46,10 @@ SanFranciscoTerrainLODTextures: &SanFranciscoTerrainLODTextures
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
 
-SanFranciscoTextures: &SanFranciscoTextures
-   RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
+NewYorkTextures: &NewYorkTextures
+   RoadDiffuse: NewYork/NewYork_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
-   BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
+   BuildingDiffuse: NewYork/NewYork_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
    <<: *DefaultVehiclesDayTextures
@@ -59,13 +59,13 @@ SanFranciscoTextures: &SanFranciscoTextures
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse:
-      <<: *SanFranciscoTerrainTextures
+      <<: *NewYorkTerrainTextures
    LcmLodDiffuse:
-      <<: *SanFranciscoTerrainLODTextures
+      <<: *NewYorkTerrainLODTextures
 
 
-SanFrancisco: &SanFrancisco
-   Name: SummerSanFrancisco
+Default: &Default
+   Name: SummerDefault
    LocationLatLong: [37.75253,-122.449837]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -76,8 +76,8 @@ SanFrancisco: &SanFrancisco
       - Name: GlobeView
         <<: *WhiteLighting
         Textures:
-           <<: *SanFranciscoTextures
+           <<: *NewYorkTextures
       - Name: DayDefault
         <<: *WhiteLighting
         Textures:
-           <<: *SanFranciscoTextures
+           <<: *NewYorkTextures
