@@ -1,0 +1,837 @@
+PakistanTerrainTextures: &PakistanTerrainTextures
+     Terrain0: Scandinavia/TerrainTexture0
+     Terrain1: Scandinavia/TerrainTexture1
+     Terrain2: Scandinavia/TerrainTexture2
+     Terrain3: Scandinavia/TerrainTexture3
+     Terrain4: Scandinavia/TerrainTexture4
+     Terrain5: Scandinavia/TerrainTexture5
+     Terrain6: Scandinavia/TerrainTexture11
+     Terrain7: Scandinavia/TerrainTexture7
+     Terrain8: Scandinavia/TerrainTexture8
+     Terrain9: Scandinavia/TerrainTexture9
+     Terrain10: Scandinavia/TerrainTexture10
+     Terrain11: Scandinavia/TerrainTexture11
+     Terrain12: Scandinavia/TerrainTexture12
+     Terrain13: Scandinavia/TerrainTexture13
+     Terrain14: Scandinavia/TerrainTexture14
+     Terrain15: Scandinavia/TerrainTexture15
+     Terrain16: Scandinavia/TerrainTexture16
+     Terrain17: Scandinavia/TerrainTexture17
+     Terrain18: Scandinavia/TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+PakistanTerrainLODTextures: &PakistanTerrainLODTextures
+     Terrain0: Scandinavia/TerrainTexture0_LOD
+     Terrain1: Scandinavia/TerrainTexture1_LOD
+     Terrain2: Scandinavia/TerrainTexture2_LOD
+     Terrain3: Scandinavia/TerrainTexture3_LOD
+     Terrain4: Scandinavia/TerrainTexture4_LOD
+     Terrain5: Scandinavia/TerrainTexture5_LOD
+     Terrain6: Scandinavia/TerrainTexture11_LOD
+     Terrain7: Scandinavia/TerrainTexture7_LOD
+     Terrain8: Scandinavia/TerrainTexture8_LOD
+     Terrain9: Scandinavia/TerrainTexture9_LOD
+     Terrain10: Scandinavia/TerrainTexture10_LOD
+     Terrain11: Scandinavia/TerrainTexture11_LOD
+     Terrain12: Scandinavia/TerrainTexture12_LOD
+     Terrain13: Scandinavia/TerrainTexture13_LOD
+     Terrain14: Scandinavia/TerrainTexture14_LOD
+     Terrain15: Scandinavia/TerrainTexture15_LOD
+     Terrain16: Scandinavia/TerrainTexture16_LOD
+     Terrain17: Scandinavia/TerrainTexture17_LOD
+     Terrain18: Scandinavia/TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+
+PakistanSummerTerrainTextures: &PakistanSummerTerrainTextures
+     Terrain0: Scandinavia/Summer_TerrainTexture0
+     Terrain1: Scandinavia/Summer_TerrainTexture1
+     Terrain2: Scandinavia/Summer_TerrainTexture2
+     Terrain3: Scandinavia/Summer_TerrainTexture3
+     Terrain4: Scandinavia/Summer_TerrainTexture4
+     Terrain5: Scandinavia/Summer_TerrainTexture5
+     Terrain6: Scandinavia/Summer_TerrainTexture11
+     Terrain7: Scandinavia/Summer_TerrainTexture7
+     Terrain8: Scandinavia/Summer_TerrainTexture8
+     Terrain9: Scandinavia/Summer_TerrainTexture9
+     Terrain10: Scandinavia/Summer_TerrainTexture10
+     Terrain11: Scandinavia/Summer_TerrainTexture11
+     Terrain12: Scandinavia/Summer_TerrainTexture12
+     Terrain13: Scandinavia/Summer_TerrainTexture13
+     Terrain14: Scandinavia/Summer_TerrainTexture14
+     Terrain15: Scandinavia/Summer_TerrainTexture15
+     Terrain16: Scandinavia/Summer_TerrainTexture16
+     Terrain17: Scandinavia/Summer_TerrainTexture17
+     Terrain18: Scandinavia/Summer_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+PakistanSummmerTerrainLODTextures: &PakistanSummerTerrainLODTextures
+     Terrain0: Scandinavia/Summer_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Summer_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Summer_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Summer_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Summer_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Summer_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Summer_TerrainTexture11_LOD
+     Terrain7: Scandinavia/Summer_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Summer_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Summer_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Summer_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Summer_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Summer_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Summer_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Summer_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Summer_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Summer_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Summer_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Summer_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+PakistanSpringTerrainTextures: &PakistanSpringTerrainTextures
+     Terrain0: Scandinavia/Spring_TerrainTexture0
+     Terrain1: Scandinavia/Spring_TerrainTexture1
+     Terrain2: Scandinavia/Spring_TerrainTexture2
+     Terrain3: Scandinavia/Spring_TerrainTexture3
+     Terrain4: Scandinavia/Spring_TerrainTexture4
+     Terrain5: Scandinavia/Spring_TerrainTexture5
+     Terrain6: Scandinavia/Spring_TerrainTexture11
+     Terrain7: Scandinavia/Spring_TerrainTexture7
+     Terrain8: Scandinavia/Spring_TerrainTexture8
+     Terrain9: Scandinavia/Spring_TerrainTexture9
+     Terrain10: Scandinavia/Spring_TerrainTexture10
+     Terrain11: Scandinavia/Spring_TerrainTexture11
+     Terrain12: Scandinavia/Spring_TerrainTexture12
+     Terrain13: Scandinavia/Spring_TerrainTexture13
+     Terrain14: Scandinavia/Spring_TerrainTexture14
+     Terrain15: Scandinavia/Spring_TerrainTexture15
+     Terrain16: Scandinavia/Spring_TerrainTexture16
+     Terrain17: Scandinavia/Spring_TerrainTexture17
+     Terrain18: Scandinavia/Spring_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+PakistanSpringTerrainLODTextures: &PakistanSpringTerrainLODTextures
+     Terrain0: Scandinavia/Spring_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Spring_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Spring_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Spring_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Spring_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Spring_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Spring_TerrainTexture11_LOD
+     Terrain7: Scandinavia/Spring_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Spring_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Spring_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Spring_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Spring_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Spring_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Spring_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Spring_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Spring_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Spring_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Spring_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Spring_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+PakistanAutumnTerrainTextures: &PakistanAutumnTerrainTextures
+     Terrain0: Scandinavia/Autumn_TerrainTexture0
+     Terrain1: Scandinavia/Autumn_TerrainTexture1
+     Terrain2: Scandinavia/Autumn_TerrainTexture2
+     Terrain3: Scandinavia/Autumn_TerrainTexture3
+     Terrain4: Scandinavia/Autumn_TerrainTexture4
+     Terrain5: Scandinavia/Autumn_TerrainTexture5
+     Terrain6: Scandinavia/Autumn_TerrainTexture11
+     Terrain7: Scandinavia/Autumn_TerrainTexture7
+     Terrain8: Scandinavia/Autumn_TerrainTexture8
+     Terrain9: Scandinavia/Autumn_TerrainTexture9
+     Terrain10: Scandinavia/Autumn_TerrainTexture10
+     Terrain11: Scandinavia/Autumn_TerrainTexture11
+     Terrain12: Scandinavia/Autumn_TerrainTexture12
+     Terrain13: Scandinavia/Autumn_TerrainTexture13
+     Terrain14: Scandinavia/Autumn_TerrainTexture14
+     Terrain15: Scandinavia/Autumn_TerrainTexture15
+     Terrain16: Scandinavia/Autumn_TerrainTexture16
+     Terrain17: Scandinavia/Autumn_TerrainTexture17
+     Terrain18: Scandinavia/Autumn_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+PakistanAutumnTerrainLODTextures: &PakistanAutumnTerrainLODTextures
+     Terrain0: Scandinavia/Autumn_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Autumn_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Autumn_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Autumn_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Autumn_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Autumn_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Autumn_TerrainTexture11_LOD
+     Terrain7: Scandinavia/Autumn_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Autumn_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Autumn_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Autumn_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Autumn_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Autumn_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Autumn_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Autumn_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Autumn_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Autumn_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Autumn_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Autumn_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+PakistanWinterTerrainTextures: &PakistanWinterTerrainTextures
+     Terrain0: Scandinavia/Winter_TerrainTexture0
+     Terrain1: Scandinavia/Winter_TerrainTexture1
+     Terrain2: Scandinavia/Winter_TerrainTexture2
+     Terrain3: Scandinavia/Winter_TerrainTexture3
+     Terrain4: Scandinavia/Winter_TerrainTexture4
+     Terrain5: Scandinavia/Winter_TerrainTexture5
+     Terrain6: Scandinavia/Winter_TerrainTexture11
+     Terrain7: Scandinavia/Winter_TerrainTexture7
+     Terrain8: Scandinavia/Winter_TerrainTexture8
+     Terrain9: Scandinavia/Winter_TerrainTexture9
+     Terrain10: Scandinavia/Winter_TerrainTexture10
+     Terrain11: Scandinavia/Winter_TerrainTexture11
+     Terrain12: Scandinavia/Winter_TerrainTexture12
+     Terrain13: Scandinavia/Winter_TerrainTexture13
+     Terrain14: Scandinavia/Winter_TerrainTexture14
+     Terrain15: Scandinavia/Winter_TerrainTexture15
+     Terrain16: Scandinavia/Winter_TerrainTexture16
+     Terrain17: Scandinavia/Winter_TerrainTexture17
+     Terrain18: Scandinavia/Winter_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+PakistanWinterTerrainLODTextures: &PakistanWinterTerrainLODTextures
+     Terrain0: Scandinavia/Winter_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Winter_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Winter_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Winter_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Winter_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Winter_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Winter_TerrainTexture11_LOD
+     Terrain7: Scandinavia/Winter_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Winter_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Winter_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Winter_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Winter_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Winter_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Winter_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Winter_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Winter_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Winter_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Winter_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Winter_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+PakistanWinterSnowTerrainTextures: &PakistanWinterSnowTerrainTextures
+     Terrain0: Scandinavia/Winter_Snow_TerrainTexture0
+     Terrain1: Scandinavia/Winter_Snow_TerrainTexture1
+     Terrain2: Scandinavia/Winter_Snow_TerrainTexture2
+     Terrain3: Scandinavia/Winter_Snow_TerrainTexture3
+     Terrain4: Scandinavia/Winter_Snow_TerrainTexture4
+     Terrain5: Scandinavia/Winter_Snow_TerrainTexture5
+     Terrain6: Scandinavia/Winter_Snow_TerrainTexture11
+     Terrain7: Scandinavia/Winter_Snow_TerrainTexture7
+     Terrain8: Scandinavia/Winter_Snow_TerrainTexture8
+     Terrain9: Scandinavia/Winter_Snow_TerrainTexture9
+     Terrain10: Scandinavia/Winter_Snow_TerrainTexture10
+     Terrain11: Scandinavia/Winter_Snow_TerrainTexture11
+     Terrain12: Scandinavia/Winter_Snow_TerrainTexture12
+     Terrain13: Scandinavia/Winter_Snow_TerrainTexture13
+     Terrain14: Scandinavia/Winter_Snow_TerrainTexture14
+     Terrain15: Scandinavia/Winter_Snow_TerrainTexture15
+     Terrain16: Scandinavia/Winter_Snow_TerrainTexture16
+     Terrain17: Scandinavia/Winter_Snow_TerrainTexture17
+     Terrain18: Scandinavia/Winter_Snow_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+PakistanWinterSnowTerrainLODTextures: &PakistanWinterSnowTerrainLODTextures
+     Terrain0: Scandinavia/Winter_Snow_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Winter_Snow_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Winter_Snow_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Winter_Snow_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Winter_Snow_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Winter_Snow_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Winter_Snow_TerrainTexture11_LOD
+     Terrain7: Scandinavia/Winter_Snow_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Winter_Snow_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Winter_Snow_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Winter_Snow_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Winter_Snow_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Winter_Snow_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Winter_Snow_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Winter_Snow_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Winter_Snow_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Winter_Snow_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Winter_Snow_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Winter_Snow_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+PakistanSummerSnowTerrainTextures: &PakistanSummerSnowTerrainTextures
+     Terrain0: Scandinavia/Summer_Snow_TerrainTexture0
+     Terrain1: Scandinavia/Summer_Snow_TerrainTexture1
+     Terrain2: Scandinavia/Summer_Snow_TerrainTexture2
+     Terrain3: Scandinavia/Summer_Snow_TerrainTexture3
+     Terrain4: Scandinavia/Summer_Snow_TerrainTexture4
+     Terrain5: Scandinavia/Summer_Snow_TerrainTexture5
+     Terrain6: Scandinavia/Summer_Snow_TerrainTexture11
+     Terrain7: Scandinavia/Summer_Snow_TerrainTexture7
+     Terrain8: Scandinavia/Summer_Snow_TerrainTexture8
+     Terrain9: Scandinavia/Summer_Snow_TerrainTexture9
+     Terrain10: Scandinavia/Summer_Snow_TerrainTexture10
+     Terrain11: Scandinavia/Summer_Snow_TerrainTexture11
+     Terrain12: Scandinavia/Summer_Snow_TerrainTexture12
+     Terrain13: Scandinavia/Summer_Snow_TerrainTexture13
+     Terrain14: Scandinavia/Summer_Snow_TerrainTexture14
+     Terrain15: Scandinavia/Summer_Snow_TerrainTexture15
+     Terrain16: Scandinavia/Summer_Snow_TerrainTexture16
+     Terrain17: Scandinavia/Summer_Snow_TerrainTexture17
+     Terrain18: Scandinavia/Summer_Snow_TerrainTexture18
+     Terrain253: Scandinavia/Water_01
+     Terrain254: Scandinavia/Water_02
+     Terrain255: Scandinavia/Water_03
+
+PakistanSummerSnowTerrainLODTextures: &PakistanSummerSnowTerrainLODTextures
+     Terrain0: Scandinavia/Summer_Snow_TerrainTexture0_LOD
+     Terrain1: Scandinavia/Summer_Snow_TerrainTexture1_LOD
+     Terrain2: Scandinavia/Summer_Snow_TerrainTexture2_LOD
+     Terrain3: Scandinavia/Summer_Snow_TerrainTexture3_LOD
+     Terrain4: Scandinavia/Summer_Snow_TerrainTexture4_LOD
+     Terrain5: Scandinavia/Summer_Snow_TerrainTexture5_LOD
+     Terrain6: Scandinavia/Summer_Snow_TerrainTexture11_LOD
+     Terrain7: Scandinavia/Summer_Snow_TerrainTexture7_LOD
+     Terrain8: Scandinavia/Summer_Snow_TerrainTexture8_LOD
+     Terrain9: Scandinavia/Summer_Snow_TerrainTexture9_LOD
+     Terrain10: Scandinavia/Summer_Snow_TerrainTexture10_LOD
+     Terrain11: Scandinavia/Summer_Snow_TerrainTexture11_LOD
+     Terrain12: Scandinavia/Summer_Snow_TerrainTexture12_LOD
+     Terrain13: Scandinavia/Summer_Snow_TerrainTexture13_LOD
+     Terrain14: Scandinavia/Summer_Snow_TerrainTexture14_LOD
+     Terrain15: Scandinavia/Summer_Snow_TerrainTexture15_LOD
+     Terrain16: Scandinavia/Summer_Snow_TerrainTexture16_LOD
+     Terrain17: Scandinavia/Summer_Snow_TerrainTexture17_LOD
+     Terrain18: Scandinavia/Summer_Snow_TerrainTexture18_LOD
+     Terrain253: Scandinavia/Water_01_LOD
+     Terrain254: Scandinavia/Water_02_LOD
+     Terrain255: Scandinavia/Water_03_LOD
+     
+PakistanSummerTextures: &PakistanSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_roadDiffuse_repeat
+   RailDiffuse: London/London_railDiffuse_repeat
+   BuildingDiffuse: Dubai/Dubai_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Summer_trees
+   TreeTopDiffuse: Scandinavia/Summer_trees_top
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: Scandinavia/water_normalmap
+   WaterReflection: Scandinavia/water_reflectionmap
+   AsyncPlaceholderDiffuse: Scandinavia/TerrainTexture3
+   PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
+   LcmDiffuse:
+     <<: *PakistanSummerTerrainTextures  
+   
+   LcmLodDiffuse:
+     <<: *PakistanSummerTerrainLODTextures 
+
+PakistanSpringTextures: &PakistanSpringTextures
+   <<: *PakistanSummerTextures
+   TreeSideDiffuse: Scandinavia/Spring_trees
+   TreeTopDiffuse: Scandinavia/Spring_trees_top
+   LcmDiffuse: 
+     <<: *PakistanSpringTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanSpringTerrainLODTextures 
+
+PakistanAutumnTextures: &PakistanAutumnTextures
+   <<: *PakistanSummerTextures
+   TreeSideDiffuse: Scandinavia/Autumn_trees
+   TreeTopDiffuse: Scandinavia/Autumn_trees_top
+   LcmDiffuse: 
+     <<: *PakistanAutumnTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanAutumnTerrainLODTextures 
+
+PakistanWinterTextures: &PakistanWinterTextures
+   <<: *PakistanSummerTextures
+   TreeSideDiffuse: Scandinavia/Winter_trees
+   TreeTopDiffuse: Scandinavia/Winter_trees_top
+   LcmDiffuse: 
+     <<: *PakistanWinterTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanWinterTerrainLODTextures 
+     
+
+PakistanSummerNightTextures: &PakistanSummerNightTextures
+   <<: *PakistanSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Dubai/Dubai_Night_wallDiffuse
+   RoadDiffuse: Scandinavia/Scandinavia_Night_roadDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   WaterReflection: Scandinavia/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+
+PakistanSummerSnowTextures: &PakistanSummerSnowTextures
+   <<: *PakistanSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Summer_Snow_trees
+   TreeTopDiffuse: Scandinavia/Summer_Snow_tree_top
+   LcmDiffuse: 
+     <<: *PakistanSummerSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanSummerSnowTerrainLODTextures 
+
+PakistanSummerNightSnowTextures: &PakistanSummerNightSnowTextures
+   <<: *PakistanSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Night_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Night_Snow_wallDiffuse
+   RailDiffuse: London/London_railDiffuse_night
+   TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
+   TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
+   WaterReflection: Scandinavia/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: SanFrancisco/placeholder
+   LcmDiffuse: 
+     <<: *PakistanSummerSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanSummerSnowTerrainLODTextures 
+
+PakistanSpringSnowTextures: &PakistanSpringSnowTextures
+   <<: *PakistanSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Summer_Snow_trees
+   TreeTopDiffuse: Scandinavia/Summer_Snow_tree_top
+   LcmDiffuse: 
+     <<: *PakistanSummerSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanSummerSnowTerrainLODTextures 
+
+PakistanAutumnSnowTextures: &PakistanAutumnSnowTextures
+   <<: *PakistanSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Winter_Snow_trees
+   TreeTopDiffuse: Scandinavia/Winter_Snow_tree_top
+   LcmDiffuse: 
+     <<: *PakistanWinterSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanWinterSnowTerrainLODTextures 
+
+PakistanWinterSnowTextures: &PakistanWinterSnowTextures
+   <<: *PakistanSummerTextures
+   RoadDiffuse: Scandinavia/Scandinavia_Snow_roadDiffuse
+   BuildingDiffuse: Dubai/Dubai_Snow_wallDiffuse
+   TreeSideDiffuse: Scandinavia/Winter_Snow_trees
+   TreeTopDiffuse: Scandinavia/Winter_Snow_tree_top
+   LcmDiffuse: 
+     <<: *PakistanWinterSnowTerrainTextures 
+     
+   LcmLodDiffuse:
+     <<: *PakistanWinterSnowTerrainLODTextures 
+
+SummerPakistan: &SummerPakistan
+   Name: SummerPakistan
+   LocationLatLong: [31.559246, 74.350547]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PakistanSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PakistanSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PakistanSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PakistanSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PakistanSummerTextures
+      - <<: *MapModeState
+
+SpringPakistan: &SpringPakistan
+   Name: SpringPakistan
+   LocationLatLong: [31.559246, 74.350547]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PakistanSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PakistanSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PakistanSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PakistanSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PakistanSpringTextures
+      - <<: *MapModeState
+
+AutumnPakistan: &AutumnPakistan
+   Name: AutumnPakistan
+   LocationLatLong: [31.559246, 74.350547]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PakistanAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PakistanSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PakistanAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PakistanAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PakistanAutumnTextures
+      - <<: *MapModeState
+
+WinterPakistan: &WinterPakistan
+   Name: WinterPakistan
+   LocationLatLong: [31.559246, 74.350547]
+   BaseAltitude: 0
+   DriveOnRight: false
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *PakistanWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *PakistanSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *PakistanWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *PakistanWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *PakistanSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *PakistanWinterTextures
+      - <<: *MapModeState
