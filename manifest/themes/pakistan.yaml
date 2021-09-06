@@ -5,7 +5,7 @@ PakistanTerrainTextures: &PakistanTerrainTextures
      Terrain3: Scandinavia/TerrainTexture3
      Terrain4: Scandinavia/TerrainTexture4
      Terrain5: Scandinavia/TerrainTexture5
-     Terrain6: Scandinavia/TerrainTexture6
+     Terrain6: Scandinavia/TerrainTexture11
      Terrain7: Scandinavia/TerrainTexture7
      Terrain8: Scandinavia/TerrainTexture8
      Terrain9: Scandinavia/TerrainTexture9
@@ -29,7 +29,7 @@ PakistanTerrainLODTextures: &PakistanTerrainLODTextures
      Terrain3: Scandinavia/TerrainTexture3_LOD
      Terrain4: Scandinavia/TerrainTexture4_LOD
      Terrain5: Scandinavia/TerrainTexture5_LOD
-     Terrain6: Scandinavia/TerrainTexture6_LOD
+     Terrain6: Scandinavia/TerrainTexture11_LOD
      Terrain7: Scandinavia/TerrainTexture7_LOD
      Terrain8: Scandinavia/TerrainTexture8_LOD
      Terrain9: Scandinavia/TerrainTexture9_LOD
@@ -53,7 +53,7 @@ PakistanSummerTerrainTextures: &PakistanSummerTerrainTextures
      Terrain3: Scandinavia/Summer_TerrainTexture3
      Terrain4: Scandinavia/Summer_TerrainTexture4
      Terrain5: Scandinavia/Summer_TerrainTexture5
-     Terrain6: Scandinavia/Summer_TerrainTexture6
+     Terrain6: Scandinavia/Summer_TerrainTexture11
      Terrain7: Scandinavia/Summer_TerrainTexture7
      Terrain8: Scandinavia/Summer_TerrainTexture8
      Terrain9: Scandinavia/Summer_TerrainTexture9
@@ -77,7 +77,7 @@ PakistanSummmerTerrainLODTextures: &PakistanSummerTerrainLODTextures
      Terrain3: Scandinavia/Summer_TerrainTexture3_LOD
      Terrain4: Scandinavia/Summer_TerrainTexture4_LOD
      Terrain5: Scandinavia/Summer_TerrainTexture5_LOD
-     Terrain6: Scandinavia/Summer_TerrainTexture6_LOD
+     Terrain6: Scandinavia/Summer_TerrainTexture11_LOD
      Terrain7: Scandinavia/Summer_TerrainTexture7_LOD
      Terrain8: Scandinavia/Summer_TerrainTexture8_LOD
      Terrain9: Scandinavia/Summer_TerrainTexture9_LOD
@@ -101,7 +101,7 @@ PakistanSpringTerrainTextures: &PakistanSpringTerrainTextures
      Terrain3: Scandinavia/Spring_TerrainTexture3
      Terrain4: Scandinavia/Spring_TerrainTexture4
      Terrain5: Scandinavia/Spring_TerrainTexture5
-     Terrain6: Scandinavia/Spring_TerrainTexture6
+     Terrain6: Scandinavia/Spring_TerrainTexture11
      Terrain7: Scandinavia/Spring_TerrainTexture7
      Terrain8: Scandinavia/Spring_TerrainTexture8
      Terrain9: Scandinavia/Spring_TerrainTexture9
@@ -125,7 +125,7 @@ PakistanSpringTerrainLODTextures: &PakistanSpringTerrainLODTextures
      Terrain3: Scandinavia/Spring_TerrainTexture3_LOD
      Terrain4: Scandinavia/Spring_TerrainTexture4_LOD
      Terrain5: Scandinavia/Spring_TerrainTexture5_LOD
-     Terrain6: Scandinavia/Spring_TerrainTexture6_LOD
+     Terrain6: Scandinavia/Spring_TerrainTexture11_LOD
      Terrain7: Scandinavia/Spring_TerrainTexture7_LOD
      Terrain8: Scandinavia/Spring_TerrainTexture8_LOD
      Terrain9: Scandinavia/Spring_TerrainTexture9_LOD
@@ -149,7 +149,7 @@ PakistanAutumnTerrainTextures: &PakistanAutumnTerrainTextures
      Terrain3: Scandinavia/Autumn_TerrainTexture3
      Terrain4: Scandinavia/Autumn_TerrainTexture4
      Terrain5: Scandinavia/Autumn_TerrainTexture5
-     Terrain6: Scandinavia/Autumn_TerrainTexture6
+     Terrain6: Scandinavia/Autumn_TerrainTexture11
      Terrain7: Scandinavia/Autumn_TerrainTexture7
      Terrain8: Scandinavia/Autumn_TerrainTexture8
      Terrain9: Scandinavia/Autumn_TerrainTexture9
@@ -173,7 +173,7 @@ PakistanAutumnTerrainLODTextures: &PakistanAutumnTerrainLODTextures
      Terrain3: Scandinavia/Autumn_TerrainTexture3_LOD
      Terrain4: Scandinavia/Autumn_TerrainTexture4_LOD
      Terrain5: Scandinavia/Autumn_TerrainTexture5_LOD
-     Terrain6: Scandinavia/Autumn_TerrainTexture6_LOD
+     Terrain6: Scandinavia/Autumn_TerrainTexture11_LOD
      Terrain7: Scandinavia/Autumn_TerrainTexture7_LOD
      Terrain8: Scandinavia/Autumn_TerrainTexture8_LOD
      Terrain9: Scandinavia/Autumn_TerrainTexture9_LOD
@@ -197,7 +197,7 @@ PakistanWinterTerrainTextures: &PakistanWinterTerrainTextures
      Terrain3: Scandinavia/Winter_TerrainTexture3
      Terrain4: Scandinavia/Winter_TerrainTexture4
      Terrain5: Scandinavia/Winter_TerrainTexture5
-     Terrain6: Scandinavia/Winter_TerrainTexture6
+     Terrain6: Scandinavia/Winter_TerrainTexture11
      Terrain7: Scandinavia/Winter_TerrainTexture7
      Terrain8: Scandinavia/Winter_TerrainTexture8
      Terrain9: Scandinavia/Winter_TerrainTexture9
@@ -221,7 +221,7 @@ PakistanWinterTerrainLODTextures: &PakistanWinterTerrainLODTextures
      Terrain3: Scandinavia/Winter_TerrainTexture3_LOD
      Terrain4: Scandinavia/Winter_TerrainTexture4_LOD
      Terrain5: Scandinavia/Winter_TerrainTexture5_LOD
-     Terrain6: Scandinavia/Winter_TerrainTexture6_LOD
+     Terrain6: Scandinavia/Winter_TerrainTexture11_LOD
      Terrain7: Scandinavia/Winter_TerrainTexture7_LOD
      Terrain8: Scandinavia/Winter_TerrainTexture8_LOD
      Terrain9: Scandinavia/Winter_TerrainTexture9_LOD
@@ -245,7 +245,7 @@ PakistanWinterSnowTerrainTextures: &PakistanWinterSnowTerrainTextures
      Terrain3: Scandinavia/Winter_Snow_TerrainTexture3
      Terrain4: Scandinavia/Winter_Snow_TerrainTexture4
      Terrain5: Scandinavia/Winter_Snow_TerrainTexture5
-     Terrain6: Scandinavia/Winter_Snow_TerrainTexture6
+     Terrain6: Scandinavia/Winter_Snow_TerrainTexture11
      Terrain7: Scandinavia/Winter_Snow_TerrainTexture7
      Terrain8: Scandinavia/Winter_Snow_TerrainTexture8
      Terrain9: Scandinavia/Winter_Snow_TerrainTexture9
@@ -269,7 +269,7 @@ PakistanWinterSnowTerrainLODTextures: &PakistanWinterSnowTerrainLODTextures
      Terrain3: Scandinavia/Winter_Snow_TerrainTexture3_LOD
      Terrain4: Scandinavia/Winter_Snow_TerrainTexture4_LOD
      Terrain5: Scandinavia/Winter_Snow_TerrainTexture5_LOD
-     Terrain6: Scandinavia/Winter_Snow_TerrainTexture6_LOD
+     Terrain6: Scandinavia/Winter_Snow_TerrainTexture11_LOD
      Terrain7: Scandinavia/Winter_Snow_TerrainTexture7_LOD
      Terrain8: Scandinavia/Winter_Snow_TerrainTexture8_LOD
      Terrain9: Scandinavia/Winter_Snow_TerrainTexture9_LOD
@@ -293,7 +293,7 @@ PakistanSummerSnowTerrainTextures: &PakistanSummerSnowTerrainTextures
      Terrain3: Scandinavia/Summer_Snow_TerrainTexture3
      Terrain4: Scandinavia/Summer_Snow_TerrainTexture4
      Terrain5: Scandinavia/Summer_Snow_TerrainTexture5
-     Terrain6: Scandinavia/Summer_Snow_TerrainTexture6
+     Terrain6: Scandinavia/Summer_Snow_TerrainTexture11
      Terrain7: Scandinavia/Summer_Snow_TerrainTexture7
      Terrain8: Scandinavia/Summer_Snow_TerrainTexture8
      Terrain9: Scandinavia/Summer_Snow_TerrainTexture9
@@ -317,7 +317,7 @@ PakistanSummerSnowTerrainLODTextures: &PakistanSummerSnowTerrainLODTextures
      Terrain3: Scandinavia/Summer_Snow_TerrainTexture3_LOD
      Terrain4: Scandinavia/Summer_Snow_TerrainTexture4_LOD
      Terrain5: Scandinavia/Summer_Snow_TerrainTexture5_LOD
-     Terrain6: Scandinavia/Summer_Snow_TerrainTexture6_LOD
+     Terrain6: Scandinavia/Summer_Snow_TerrainTexture11_LOD
      Terrain7: Scandinavia/Summer_Snow_TerrainTexture7_LOD
      Terrain8: Scandinavia/Summer_Snow_TerrainTexture8_LOD
      Terrain9: Scandinavia/Summer_Snow_TerrainTexture9_LOD

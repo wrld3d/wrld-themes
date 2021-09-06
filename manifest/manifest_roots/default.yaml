@@ -26,6 +26,7 @@
 #include "../themes/cancun.yaml"
 #include "../themes/japanpublic.yaml"
 #include "../themes/reedyshill.yaml"
+#include "../themes/pakistan.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -138,6 +139,11 @@ ThemeManifest:
         *SummerReedysHill,
         *SpringReedysHill,
         *AutumnReedysHill,
-        *WinterReedysHill
+        *WinterReedysHill,
+
+        *SummerPakistan,
+        *SpringPakistan,
+        *AutumnPakistan,
+        *WinterPakistan
  
         ]
