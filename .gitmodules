@@ -1,0 +1,3 @@
+[submodule "mapply-gis"]
+	path = mapply-gis
+	url = git@github.com:wrld3d/mapply-gis.git
