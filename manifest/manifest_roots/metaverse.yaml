@@ -1,0 +1,16 @@
+#include "../themes/defaultheader.yaml"
+#include "../themes/defaultlighting.yaml"
+#include "../themes/defaultplacenames.yaml"
+#include "../themes/defaultvehicles.yaml"
+#include "../themes/defaultwater.yaml"
+#include "../themes/mapmode.yaml"
+#include "../themes/metaverse.yaml"
+    
+ThemeManifest:
+   <<: *DefaultHeader
+   Themes: [
+        *SummerMetaverse,
+        *SpringMetaverse,
+        *AutumnMetaverse,
+        *WinterMetaverse
+        ]
