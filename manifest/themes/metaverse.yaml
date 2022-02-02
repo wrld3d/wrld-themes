@@ -1,0 +1,667 @@
+MetaverseTerrainTextures: &MetaverseTerrainTextures
+     Terrain0: Metaverse/TerrainTexture0
+     Terrain1: Metaverse/TerrainTexture1
+     Terrain2: Metaverse/TerrainTexture2
+     Terrain3: Metaverse/TerrainTexture3
+     Terrain4: Metaverse/TerrainTexture4
+     Terrain5: Metaverse/TerrainTexture5
+     Terrain6: Metaverse/TerrainTexture6
+     Terrain7: Metaverse/TerrainTexture7
+     Terrain8: Metaverse/TerrainTexture8
+     Terrain9: Metaverse/TerrainTexture9
+     Terrain10: Metaverse/TerrainTexture10
+     Terrain11: Metaverse/TerrainTexture11
+     Terrain12: Metaverse/TerrainTexture12
+     Terrain13: Metaverse/TerrainTexture13
+     Terrain14: Metaverse/TerrainTexture14
+     Terrain15: Metaverse/TerrainTexture15
+     Terrain16: Metaverse/TerrainTexture16
+     Terrain17: Metaverse/TerrainTexture17
+     Terrain18: Metaverse/TerrainTexture18
+     Terrain253: Metaverse/Water_01
+     Terrain254: Metaverse/Water_02
+     Terrain255: Metaverse/Water_03
+
+MetaverseTerrainLODTextures: &MetaverseTerrainLODTextures
+     Terrain0: Metaverse/TerrainTexture0_LOD
+     Terrain1: Metaverse/TerrainTexture1_LOD
+     Terrain2: Metaverse/TerrainTexture2_LOD
+     Terrain3: Metaverse/TerrainTexture3_LOD
+     Terrain4: Metaverse/TerrainTexture4_LOD
+     Terrain5: Metaverse/TerrainTexture5_LOD
+     Terrain6: Metaverse/TerrainTexture6_LOD
+     Terrain7: Metaverse/TerrainTexture7_LOD
+     Terrain8: Metaverse/TerrainTexture8_LOD
+     Terrain9: Metaverse/TerrainTexture9_LOD
+     Terrain10: Metaverse/TerrainTexture10_LOD
+     Terrain11: Metaverse/TerrainTexture11_LOD
+     Terrain12: Metaverse/TerrainTexture12_LOD
+     Terrain13: Metaverse/TerrainTexture13_LOD
+     Terrain14: Metaverse/TerrainTexture14_LOD
+     Terrain15: Metaverse/TerrainTexture15_LOD
+     Terrain16: Metaverse/TerrainTexture16_LOD
+     Terrain17: Metaverse/TerrainTexture17_LOD
+     Terrain18: Metaverse/TerrainTexture18_LOD
+     Terrain253: Metaverse/Water_01_LOD
+     Terrain254: Metaverse/Water_02_LOD
+     Terrain255: Metaverse/Water_03_LOD
+
+MetaverseSnowTerrainTextures: &MetaverseSnowTerrainTextures
+     Terrain0: Metaverse/Metaverse_Snow_Texture0
+     Terrain1: Metaverse/Metaverse_Snow_Texture1
+     Terrain2: Metaverse/Metaverse_Snow_Texture2
+     Terrain3: Metaverse/Metaverse_Snow_Texture3
+     Terrain4: Metaverse/Metaverse_Snow_Texture4
+     Terrain5: Metaverse/Metaverse_Snow_Texture5
+     Terrain6: Metaverse/Metaverse_Snow_Texture6
+     Terrain7: Metaverse/Metaverse_Snow_Texture7
+     Terrain8: Metaverse/Metaverse_Snow_Texture8
+     Terrain9: Metaverse/Metaverse_Snow_Texture9
+     Terrain10: Metaverse/Metaverse_Snow_Texture10
+     Terrain11: Metaverse/Metaverse_Snow_Texture11
+     Terrain12: Metaverse/Metaverse_Snow_Texture12
+     Terrain13: Metaverse/Metaverse_Snow_Texture13
+     Terrain14: Metaverse/Metaverse_Snow_Texture14
+     Terrain15: Metaverse/Metaverse_Snow_Texture15
+     Terrain16: Metaverse/Metaverse_Snow_Texture16
+     Terrain17: Metaverse/TerrainTexture17
+     Terrain18: Metaverse/Metaverse_Snow_Texture18
+     Terrain253: Metaverse/Water_01
+     Terrain254: Metaverse/Water_02
+     Terrain255: Metaverse/Water_03
+
+MetaverseSnowTerrainLODTextures: &MetaverseSnowTerrainLODTextures
+     Terrain0: Metaverse/TerrainTexture0_LOD
+     Terrain1: Metaverse/TerrainTexture1_LOD
+     Terrain2: Metaverse/TerrainTexture2_LOD
+     Terrain3: Metaverse/TerrainTexture3_LOD
+     Terrain4: Metaverse/TerrainTexture4_LOD
+     Terrain5: Metaverse/TerrainTexture5_LOD
+     Terrain6: Metaverse/TerrainTexture6_LOD
+     Terrain7: Metaverse/TerrainTexture7_LOD
+     Terrain8: Metaverse/TerrainTexture8_LOD
+     Terrain9: Metaverse/TerrainTexture9_LOD
+     Terrain10: Metaverse/TerrainTexture10_LOD
+     Terrain11: Metaverse/TerrainTexture11_LOD
+     Terrain12: Metaverse/TerrainTexture12_LOD
+     Terrain13: Metaverse/TerrainTexture13_LOD
+     Terrain14: Metaverse/TerrainTexture14_LOD
+     Terrain15: Metaverse/TerrainTexture15_LOD
+     Terrain16: Metaverse/TerrainTexture16_LOD
+     Terrain17: Metaverse/TerrainTexture17_LOD
+     Terrain18: Metaverse/TerrainTexture18_LOD
+     Terrain253: Metaverse/Water_01_LOD
+     Terrain254: Metaverse/Water_02_LOD
+     Terrain255: Metaverse/Water_03_LOD
+
+MetaverseSummerTextures: &MetaverseSummerTextures
+   RoadDiffuse: Metaverse/Metaverse_roadDiffuse_repeat
+   RailDiffuse: Metaverse/Metaverse_railDiffuse_repeat
+   BuildingDiffuse: Metaverse/Metaverse_wallDiffuse
+   TreeSideDiffuse: Metaverse/trees_01
+   TreeTopDiffuse: Metaverse/trees_top_01
+   <<: *DefaultVehiclesDayTextures
+   <<: *DefaultWaterReflectionTextures
+   WaterNormal: Metaverse/water_normalmap
+   WaterReflection: Metaverse/water_reflectionmap
+   AsyncPlaceholderDiffuse: Metaverse/TerrainTexture3
+   PlaceholderNoDataDiffuse: Metaverse/placeholder_no_data
+   LcmDiffuse: 
+      <<: *MetaverseTerrainTextures
+   LcmLodDiffuse:
+      <<: *MetaverseTerrainLODTextures
+
+MetaverseSpringTextures: &MetaverseSpringTextures
+   <<: *MetaverseSummerTextures
+   TreeSideDiffuse: WesternSeasons/Spring_trees_01
+   TreeTopDiffuse: WesternSeasons/Spring_trees_top_01
+   LcmDiffuse: 
+      <<: *MetaverseTerrainTextures
+      Terrain4: Metaverse/Spring_TerrainTexture4
+      Terrain5: WesternSeasons/Spring_TerrainTexture5
+      Terrain6: WesternSeasons/Spring_TerrainTexture6
+      Terrain7: WesternSeasons/Spring_TerrainTexture7
+      Terrain8: WesternSeasons/Spring_TerrainTexture8
+      Terrain14: WesternSeasons/Spring_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MetaverseTerrainLODTextures
+      Terrain4: Metaverse/Spring_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
+
+MetaverseAutumnTextures: &MetaverseAutumnTextures
+   <<: *MetaverseSummerTextures
+   TreeSideDiffuse: WesternSeasons/Autumn_trees_01
+   TreeTopDiffuse: WesternSeasons/Autumn_trees_top_01
+   LcmDiffuse: 
+      <<: *MetaverseTerrainTextures
+      Terrain4: Metaverse/Autumn_TerrainTexture4
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MetaverseTerrainLODTextures
+      Terrain4: Metaverse/Autumn_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
+
+MetaverseWinterTextures: &MetaverseWinterTextures
+   <<: *MetaverseSummerTextures
+   TreeSideDiffuse: WesternSeasons/Winter_trees_01
+   TreeTopDiffuse: WesternSeasons/Winter_trees_top_01
+   LcmDiffuse: 
+      <<: *MetaverseTerrainTextures
+      Terrain4: Metaverse/Winter_TerrainTexture4
+      Terrain5: WesternSeasons/Winter_TerrainTexture5
+      Terrain6: WesternSeasons/Winter_TerrainTexture6
+      Terrain7: WesternSeasons/Winter_TerrainTexture7
+      Terrain8: WesternSeasons/Winter_TerrainTexture8
+      Terrain14: WesternSeasons/Winter_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MetaverseTerrainLODTextures
+      Terrain4: Metaverse/Winter_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
+
+MetaverseSummerNightTextures: &MetaverseSummerNightTextures
+   <<: *MetaverseSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   BuildingDiffuse: Metaverse/Metaverse_Night_wallDiffuse
+   RoadDiffuse: Metaverse/Metaverse_Night_roadDiffuse
+   RailDiffuse: Metaverse/Metaverse_railDiffuse_night
+   WaterReflection: Metaverse/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: Metaverse/placeholder_no_data
+
+MetaverseSummerSnowTextures: &MetaverseSummerSnowTextures
+   <<: *MetaverseSummerTextures
+   RoadDiffuse: Metaverse/Metaverse_Snow_roadDiffuse
+   BuildingDiffuse: Metaverse/Metaverse_Snow_wallDiffuse
+   TreeSideDiffuse: Metaverse/Metaverse_Snow_trees_01
+   TreeTopDiffuse: Metaverse/Metaverse_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MetaverseSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *MetaverseSnowTerrainLODTextures
+
+MetaverseSummerNightSnowTextures: &MetaverseSummerNightSnowTextures
+   <<: *MetaverseSummerTextures
+   <<: *DefaultVehiclesNightTextures
+   RoadDiffuse: Metaverse/Metaverse_Night_Snow_roadDiffuse
+   BuildingDiffuse: Metaverse/Metaverse_Night_Snow_wallDiffuse
+   RailDiffuse: Metaverse/Metaverse_railDiffuse_night
+   TreeSideDiffuse: Metaverse/Metaverse_Snow_trees_01
+   TreeTopDiffuse: Metaverse/Metaverse_Snow_trees_top_01
+   WaterReflection: Metaverse/water_reflectionmap_night
+   AsyncPlaceholderDiffuse: Metaverse/placeholder_no_data
+   LcmDiffuse: 
+      <<: *MetaverseSnowTerrainTextures
+   LcmLodDiffuse:
+      <<: *MetaverseSnowTerrainLODTextures
+
+MetaverseSpringSnowTextures: &MetaverseSpringSnowTextures
+   <<: *MetaverseSummerTextures
+   RoadDiffuse: Metaverse/Metaverse_Snow_roadDiffuse
+   BuildingDiffuse: Metaverse/Metaverse_Snow_wallDiffuse
+   TreeSideDiffuse: WesternSeasons/Spring_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Spring_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MetaverseSnowTerrainTextures
+      Terrain4: Metaverse/Spring_Snow_TerrainTexture4
+      Terrain5: WesternSeasons/Spring_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Spring_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Spring_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Spring_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Spring_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Spring_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MetaverseSnowTerrainLODTextures
+      Terrain4: Metaverse/Spring_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Spring_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Spring_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
+
+MetaverseAutumnSnowTextures: &MetaverseAutumnSnowTextures
+   <<: *MetaverseSummerTextures
+   RoadDiffuse: Metaverse/Metaverse_Snow_roadDiffuse
+   BuildingDiffuse: Metaverse/Metaverse_Snow_wallDiffuse
+   TreeSideDiffuse: WesternSeasons/Autumn_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Autumn_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MetaverseSnowTerrainTextures
+      Terrain4: Metaverse/Autumn_Snow_TerrainTexture4
+      Terrain5: WesternSeasons/Autumn_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Autumn_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Autumn_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Autumn_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Autumn_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Autumn_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MetaverseSnowTerrainLODTextures
+      Terrain4: Metaverse/Autumn_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Autumn_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Autumn_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
+
+MetaverseWinterSnowTextures: &MetaverseWinterSnowTextures
+   <<: *MetaverseSummerTextures
+   RoadDiffuse: Metaverse/Metaverse_Snow_roadDiffuse
+   BuildingDiffuse: Metaverse/Metaverse_Snow_wallDiffuse
+   TreeSideDiffuse: WesternSeasons/Winter_Snow_trees_01
+   TreeTopDiffuse: WesternSeasons/Winter_Snow_trees_top_01
+   LcmDiffuse: 
+      <<: *MetaverseSnowTerrainTextures
+      Terrain4: Metaverse/Winter_Snow_TerrainTexture4
+      Terrain5: WesternSeasons/Winter_Snow_TerrainTexture5
+      Terrain6: WesternSeasons/Winter_Snow_TerrainTexture6
+      Terrain7: WesternSeasons/Winter_Snow_TerrainTexture7
+      Terrain8: WesternSeasons/Winter_Snow_TerrainTexture8
+      Terrain14: WesternSeasons/Winter_Snow_TerrainTexture14
+      Terrain18: WesternSeasons/Winter_Snow_TerrainTexture18
+   LcmLodDiffuse:
+      <<: *MetaverseSnowTerrainLODTextures
+      Terrain4: Metaverse/Winter_TerrainTexture4_LOD
+      Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
+      Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
+      Terrain7: WesternSeasons/Winter_TerrainTexture7_LOD
+      Terrain8: WesternSeasons/Winter_TerrainTexture8_LOD
+      Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
+      Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
+
+SummerMetaverse: &SummerMetaverse
+   Name: SummerMetaverse
+   LocationLatLong: [0.0,0.0]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide   
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MetaverseSummerSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MetaverseSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MetaverseSummerSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MetaverseSummerSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MetaverseSummerTextures
+
+SpringMetaverse: &SpringMetaverse
+   Name: SpringMetaverse
+   LocationLatLong: [0.0,0.0]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MetaverseSpringSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MetaverseSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MetaverseSpringSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MetaverseSpringSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MetaverseSpringTextures
+
+AutumnMetaverse: &AutumnMetaverse
+   Name: AutumnMetaverse
+   LocationLatLong: [0.0,0.0]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MetaverseAutumnSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MetaverseSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MetaverseAutumnSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MetaverseAutumnSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MetaverseAutumnTextures
+
+WinterMetaverse: &WinterMetaverse
+   Name: WinterMetaverse
+   LocationLatLong: [0.0,0.0]
+   BaseAltitude: 0
+   PlaceNameStyles:
+      *DefaultPlaceNameStyles
+   <<: *DefaultVehiclesRightSide
+   States:
+      - <<: *MapModeState
+      - Name: GlobeView
+        <<: *DefaultGlobeViewLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DayDefault
+        <<: *DefaultSunnyLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: NightDefault
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnDefault
+        <<: *DefaultDawnLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DuskDefault
+        <<: *DefaultDuskLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DayOvercast
+        <<: *DefaultOvercastLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: NightOvercast
+        <<: *DefaultNightLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnOvercast
+        <<: *DefaultDawnOvercastLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DuskOvercast
+        <<: *DefaultDuskOvercastLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DaySnowy
+        <<: *DefaultSnowyLighting
+        Textures:
+           <<: *MetaverseWinterSnowTextures
+      - Name: NightSnowy
+        <<: *DefaultNightSnowyLighting
+        Textures:
+           <<: *MetaverseSummerNightSnowTextures
+      - Name: DawnSnowy
+        <<: *DefaultDawnSnowyLighting
+        Textures:
+           <<: *MetaverseWinterSnowTextures
+      - Name: DuskSnowy
+        <<: *DefaultDuskSnowyLighting
+        Textures:
+           <<: *MetaverseWinterSnowTextures
+      - Name: DayFoggy
+        <<: *DefaultDayFoggyLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: NightFoggy
+        <<: *DefaultNightFoggyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnFoggy
+        <<: *DefaultDawnFoggyLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DuskFoggy
+        <<: *DefaultDuskFoggyLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DayRainy
+        <<: *DefaultRainyLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: NightRainy
+        <<: *DefaultNightRainyLighting
+        Textures:
+           <<: *MetaverseSummerNightTextures
+      - Name: DawnRainy
+        <<: *DefaultDawnRainyLighting
+        Textures:
+           <<: *MetaverseWinterTextures
+      - Name: DuskRainy
+        <<: *DefaultDuskRainyLighting
+        Textures:
+           <<: *MetaverseWinterTextures
