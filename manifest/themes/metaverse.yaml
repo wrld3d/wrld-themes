@@ -296,7 +296,7 @@ SummerMetaverse: &SummerMetaverse
    BaseAltitude: 0
    PlaceNameStyles:
       *DefaultPlaceNameStyles
-   <<: *DefaultVehiclesRightSide   
+   <<: *JapanVehicles   
    States:
       - <<: *MapModeState
       - Name: GlobeView
