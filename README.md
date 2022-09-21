@@ -112,9 +112,9 @@ If you wish to generate entirely new themes, you can do so by using `make` in th
 #### Requirements
 
 * Windows*
-* Bash / MinGW (for Windows, git's bundled version works fine)
+* Bash (for Windows, Git for Windows' bundled version works fine)
 * Python version 2.7 installed and in your path
-* Clang installed and in your path
+* Clang/MinGW installed and in your path
 
 \* (Some of the 3rd-party texture tools used have bugs on OS X. You can replace the Windows executables and run it anyway, but expect to see quality issues. Specifically poor quality mipmaps.)
 
