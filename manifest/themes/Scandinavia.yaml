@@ -337,6 +337,7 @@ ScandinaviaSummerSnowTerrainLODTextures: &ScandinaviaSummerSnowTerrainLODTexture
 ScandinaviaSummerTextures: &ScandinaviaSummerTextures
    RoadDiffuse: Scandinavia/Scandinavia_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: Scandinavia/Scandinavia_wallDiffuse
    TreeSideDiffuse: Scandinavia/Summer_trees
    TreeTopDiffuse: Scandinavia/Summer_trees_top
@@ -389,6 +390,7 @@ ScandinaviaSummerNightTextures: &ScandinaviaSummerNightTextures
    BuildingDiffuse: Scandinavia/Scandinavia_Night_wallDiffuse
    RoadDiffuse: Scandinavia/Scandinavia_Night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    WaterReflection: Scandinavia/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
@@ -410,6 +412,7 @@ ScandinaviaSummerNightSnowTextures: &ScandinaviaSummerNightSnowTextures
    RoadDiffuse: Scandinavia/Scandinavia_Night_Snow_roadDiffuse
    BuildingDiffuse: Scandinavia/Scandinavia_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: Scandinavia/water_reflectionmap_night

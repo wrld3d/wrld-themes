@@ -49,6 +49,7 @@ AmbientWhiteTerrainLODTextures: &AmbientWhiteTerrainLODTextures
 AmbientWhiteDevTextures: &AmbientWhiteDevTextures
    RoadDiffuse: AmbientWhite/roadDiffuse_repeat
    RailDiffuse: AmbientWhite/railDiffuse
+   TramlineDiffuse: AmbientWhite/railDiffuse
    BuildingDiffuse: AmbientWhite/WallDiffuse
    TreeSideDiffuse: AmbientWhite/trees_01
    TreeTopDiffuse: AmbientWhite/trees_top_01

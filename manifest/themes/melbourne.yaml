@@ -97,6 +97,7 @@ MelbourneSnowTerrainLODTextures: &MelbourneSnowTerrainLODTextures
 MelbourneSummerTextures: &MelbourneSummerTextures
    RoadDiffuse: Melbourne/roadDiffuse
    RailDiffuse: Melbourne/Rail_01
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
@@ -186,6 +187,7 @@ MelbourneSummerNightTextures: &MelbourneSummerNightTextures
    BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
    RoadDiffuse: Melbourne/roadDiffuse_Night
    RailDiffuse: Melbourne/Rail_01_Night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
@@ -206,6 +208,7 @@ MelbourneSummerNightSnowTextures: &MelbourneSummerNightSnowTextures
    RoadDiffuse: Melbourne/roadDiffuse_Night_Snow
    BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
    RailDiffuse: Melbourne/Rail_01_Night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night

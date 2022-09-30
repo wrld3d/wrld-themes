@@ -97,6 +97,7 @@ DubaiSnowTerrainLODTextures: &DubaiSnowTerrainLODTextures
 DubaiSummerTextures: &DubaiSummerTextures
    RoadDiffuse: Dubai/Dubai_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: Dubai/Dubai_wallDiffuse
    TreeSideDiffuse: Dubai/trees_01
    TreeTopDiffuse: Dubai/trees_top_01
@@ -145,6 +146,7 @@ DubaiSummerNightTextures: &DubaiSummerNightTextures
    BuildingDiffuse: Dubai/Dubai_Night_wallDiffuse
    RoadDiffuse: Dubai/Dubai_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    WaterReflection: Dubai/water_reflectionmap_night
    AsyncPlaceholderDiffuse: Dubai/placeholder
 
@@ -165,6 +167,7 @@ DubaiSummerNightSnowTextures: &DubaiSummerNightSnowTextures
    RoadDiffuse: Dubai/Dubai_Snow_roadDiffuse
    BuildingDiffuse: Dubai/Dubai_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: Dubai/Dubai_Snow_trees_01
    TreeTopDiffuse: Dubai/Dubai_Snow_trees_top_01
    WaterReflection: Dubai/water_reflectionmap_night
