@@ -27,6 +27,7 @@
 #include "../themes/japanpublic.yaml"
 #include "../themes/reedyshill.yaml"
 #include "../themes/pakistan.yaml"
+#include "../themes/toronto.yaml"
     
 ThemeManifest:
    <<: *DefaultHeader
@@ -144,6 +145,11 @@ ThemeManifest:
         *SummerPakistan,
         *SpringPakistan,
         *AutumnPakistan,
-        *WinterPakistan
+        *WinterPakistan,
+
+        *SummerToronto,
+        *SpringToronto,
+        *AutumnToronto,
+        *WinterToronto
  
         ]
