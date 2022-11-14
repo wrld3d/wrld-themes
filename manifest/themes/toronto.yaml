@@ -1,4 +1,4 @@
-NewYorkTerrainTextures: &NewYorkTerrainTextures
+TorontoTerrainTextures: &TorontoTerrainTextures
      Terrain0: SanFrancisco/TerrainTexture0
      Terrain1: SanFrancisco/TerrainTexture1
      Terrain2: SanFrancisco/TerrainTexture2
@@ -22,7 +22,7 @@ NewYorkTerrainTextures: &NewYorkTerrainTextures
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
 
-NewYorkTerrainLODTextures: &NewYorkTerrainLODTextures
+TorontoTerrainLODTextures: &TorontoTerrainLODTextures
      Terrain0: SanFrancisco/TerrainTexture0_LOD
      Terrain1: SanFrancisco/TerrainTexture1_LOD
      Terrain2: SanFrancisco/TerrainTexture2_LOD
@@ -46,7 +46,7 @@ NewYorkTerrainLODTextures: &NewYorkTerrainLODTextures
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
 
-NewYorkSnowTerrainTextures: &NewYorkSnowTerrainTextures
+TorontoSnowTerrainTextures: &TorontoSnowTerrainTextures
      Terrain0: SanFrancisco/SanFran_Snow_Texture0
      Terrain1: SanFrancisco/SanFran_Snow_Texture1
      Terrain2: SanFrancisco/SanFran_Snow_Texture2
@@ -70,7 +70,7 @@ NewYorkSnowTerrainTextures: &NewYorkSnowTerrainTextures
      Terrain254: SanFrancisco/Water_02
      Terrain255: SanFrancisco/Water_03
 
-NewYorkSnowTerrainLODTextures: &NewYorkSnowTerrainLODTextures
+TorontoSnowTerrainLODTextures: &TorontoSnowTerrainLODTextures
      Terrain0: SanFrancisco/TerrainTexture0_LOD
      Terrain1: SanFrancisco/TerrainTexture1_LOD
      Terrain2: SanFrancisco/TerrainTexture2_LOD
@@ -94,7 +94,7 @@ NewYorkSnowTerrainLODTextures: &NewYorkSnowTerrainLODTextures
      Terrain254: SanFrancisco/Water_02_LOD
      Terrain255: SanFrancisco/Water_03_LOD
 
-NewYorkSummerTextures: &NewYorkSummerTextures
+TorontoSummerTextures: &TorontoSummerTextures
    RoadDiffuse: NewYork/NewYork_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
    BuildingDiffuse: Toronto/Canada_Toronto_wallDiffuse
@@ -107,16 +107,16 @@ NewYorkSummerTextures: &NewYorkSummerTextures
    AsyncPlaceholderDiffuse: SanFrancisco/TerrainTexture3
    PlaceholderNoDataDiffuse: SanFrancisco/placeholder_no_data
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *TorontoTerrainTextures
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *TorontoTerrainLODTextures
 
-NewYorkSpringTextures: &NewYorkSpringTextures
-   <<: *NewYorkSummerTextures
+TorontoSpringTextures: &TorontoSpringTextures
+   <<: *TorontoSummerTextures
    TreeSideDiffuse: WesternSeasons/Spring_trees_01
    TreeTopDiffuse: WesternSeasons/Spring_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *TorontoTerrainTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4
       Terrain5: WesternSeasons/Spring_TerrainTexture5
       Terrain6: WesternSeasons/Spring_TerrainTexture6
@@ -125,7 +125,7 @@ NewYorkSpringTextures: &NewYorkSpringTextures
       Terrain14: WesternSeasons/Spring_TerrainTexture14
       Terrain18: WesternSeasons/Spring_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *TorontoTerrainLODTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
       Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
       Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
@@ -134,12 +134,12 @@ NewYorkSpringTextures: &NewYorkSpringTextures
       Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
       Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
 
-NewYorkAutumnTextures: &NewYorkAutumnTextures
-   <<: *NewYorkSummerTextures
+TorontoAutumnTextures: &TorontoAutumnTextures
+   <<: *TorontoSummerTextures
    TreeSideDiffuse: WesternSeasons/Autumn_trees_01
    TreeTopDiffuse: WesternSeasons/Autumn_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *TorontoTerrainTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4
       Terrain5: WesternSeasons/Autumn_TerrainTexture5
       Terrain6: WesternSeasons/Autumn_TerrainTexture6
@@ -148,7 +148,7 @@ NewYorkAutumnTextures: &NewYorkAutumnTextures
       Terrain14: WesternSeasons/Autumn_TerrainTexture14
       Terrain18: WesternSeasons/Autumn_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *TorontoTerrainLODTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
       Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
       Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
@@ -157,12 +157,12 @@ NewYorkAutumnTextures: &NewYorkAutumnTextures
       Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
       Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
 
-NewYorkWinterTextures: &NewYorkWinterTextures
-   <<: *NewYorkSummerTextures
+TorontoWinterTextures: &TorontoWinterTextures
+   <<: *TorontoSummerTextures
    TreeSideDiffuse: WesternSeasons/Winter_trees_01
    TreeTopDiffuse: WesternSeasons/Winter_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkTerrainTextures
+      <<: *TorontoTerrainTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4
       Terrain5: WesternSeasons/Winter_TerrainTexture5
       Terrain6: WesternSeasons/Winter_TerrainTexture6
@@ -171,7 +171,7 @@ NewYorkWinterTextures: &NewYorkWinterTextures
       Terrain14: WesternSeasons/Winter_TerrainTexture14
       Terrain18: WesternSeasons/Winter_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkTerrainLODTextures
+      <<: *TorontoTerrainLODTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
       Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
       Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
@@ -180,8 +180,8 @@ NewYorkWinterTextures: &NewYorkWinterTextures
       Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
       Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
 
-NewYorkSummerNightTextures: &NewYorkSummerNightTextures
-   <<: *NewYorkSummerTextures
+TorontoSummerNightTextures: &TorontoSummerNightTextures
+   <<: *TorontoSummerTextures
    <<: *DefaultVehiclesNightTextures
    BuildingDiffuse: NewYork/NewYork_Night_wallDiffuse
    RoadDiffuse: NewYork/NewYork_Night_roadDiffuse
@@ -189,19 +189,19 @@ NewYorkSummerNightTextures: &NewYorkSummerNightTextures
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
-NewYorkSummerSnowTextures: &NewYorkSummerSnowTextures
-   <<: *NewYorkSummerTextures
+TorontoSummerSnowTextures: &TorontoSummerSnowTextures
+   <<: *TorontoSummerTextures
    RoadDiffuse: NewYork/NewYork_Snow_roadDiffuse
    BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *TorontoSnowTerrainTextures
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *TorontoSnowTerrainLODTextures
 
-NewYorkSummerNightSnowTextures: &NewYorkSummerNightSnowTextures
-   <<: *NewYorkSummerTextures
+TorontoSummerNightSnowTextures: &TorontoSummerNightSnowTextures
+   <<: *TorontoSummerTextures
    <<: *DefaultVehiclesNightTextures
    RoadDiffuse: NewYork/NewYork_Night_Snow_roadDiffuse
    BuildingDiffuse: NewYork/NewYork_Night_Snow_wallDiffuse
@@ -211,18 +211,18 @@ NewYorkSummerNightSnowTextures: &NewYorkSummerNightSnowTextures
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *TorontoSnowTerrainTextures
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *TorontoSnowTerrainLODTextures
 
-NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
-   <<: *NewYorkSummerTextures
+TorontoSpringSnowTextures: &TorontoSpringSnowTextures
+   <<: *TorontoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
    TreeSideDiffuse: WesternSeasons/Spring_Snow_trees_01
    TreeTopDiffuse: WesternSeasons/Spring_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *TorontoSnowTerrainTextures
       Terrain4: SanFrancisco/Spring_Snow_TerrainTexture4
       Terrain5: WesternSeasons/Spring_Snow_TerrainTexture5
       Terrain6: WesternSeasons/Spring_Snow_TerrainTexture6
@@ -231,7 +231,7 @@ NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
       Terrain14: WesternSeasons/Spring_Snow_TerrainTexture14
       Terrain18: WesternSeasons/Spring_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *TorontoSnowTerrainLODTextures
       Terrain4: SanFrancisco/Spring_TerrainTexture4_LOD
       Terrain5: WesternSeasons/Spring_TerrainTexture5_LOD
       Terrain6: WesternSeasons/Spring_TerrainTexture6_LOD
@@ -240,14 +240,14 @@ NewYorkSpringSnowTextures: &NewYorkSpringSnowTextures
       Terrain14: WesternSeasons/Spring_TerrainTexture14_LOD
       Terrain18: WesternSeasons/Spring_TerrainTexture18_LOD
 
-NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
-   <<: *NewYorkSummerTextures
+TorontoAutumnSnowTextures: &TorontoAutumnSnowTextures
+   <<: *TorontoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
    TreeSideDiffuse: WesternSeasons/Autumn_Snow_trees_01
    TreeTopDiffuse: WesternSeasons/Autumn_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *TorontoSnowTerrainTextures
       Terrain4: SanFrancisco/Autumn_Snow_TerrainTexture4
       Terrain5: WesternSeasons/Autumn_Snow_TerrainTexture5
       Terrain6: WesternSeasons/Autumn_Snow_TerrainTexture6
@@ -256,7 +256,7 @@ NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
       Terrain14: WesternSeasons/Autumn_Snow_TerrainTexture14
       Terrain18: WesternSeasons/Autumn_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *TorontoSnowTerrainLODTextures
       Terrain4: SanFrancisco/Autumn_TerrainTexture4_LOD
       Terrain5: WesternSeasons/Autumn_TerrainTexture5_LOD
       Terrain6: WesternSeasons/Autumn_TerrainTexture6_LOD
@@ -265,14 +265,14 @@ NewYorkAutumnSnowTextures: &NewYorkAutumnSnowTextures
       Terrain14: WesternSeasons/Autumn_TerrainTexture14_LOD
       Terrain18: WesternSeasons/Autumn_TerrainTexture18_LOD
 
-NewYorkWinterSnowTextures: &NewYorkWinterSnowTextures
-   <<: *NewYorkSummerTextures
+TorontoWinterSnowTextures: &TorontoWinterSnowTextures
+   <<: *TorontoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_Snow_roadDiffuse
    BuildingDiffuse: NewYork/NewYork_Snow_wallDiffuse
    TreeSideDiffuse: WesternSeasons/Winter_Snow_trees_01
    TreeTopDiffuse: WesternSeasons/Winter_Snow_trees_top_01
    LcmDiffuse: 
-      <<: *NewYorkSnowTerrainTextures
+      <<: *TorontoSnowTerrainTextures
       Terrain4: SanFrancisco/Winter_Snow_TerrainTexture4
       Terrain5: WesternSeasons/Winter_Snow_TerrainTexture5
       Terrain6: WesternSeasons/Winter_Snow_TerrainTexture6
@@ -281,7 +281,7 @@ NewYorkWinterSnowTextures: &NewYorkWinterSnowTextures
       Terrain14: WesternSeasons/Winter_Snow_TerrainTexture14
       Terrain18: WesternSeasons/Winter_Snow_TerrainTexture18
    LcmLodDiffuse:
-      <<: *NewYorkSnowTerrainLODTextures
+      <<: *TorontoSnowTerrainLODTextures
       Terrain4: SanFrancisco/Winter_TerrainTexture4_LOD
       Terrain5: WesternSeasons/Winter_TerrainTexture5_LOD
       Terrain6: WesternSeasons/Winter_TerrainTexture6_LOD
@@ -290,8 +290,8 @@ NewYorkWinterSnowTextures: &NewYorkWinterSnowTextures
       Terrain14: WesternSeasons/Winter_TerrainTexture14_LOD
       Terrain18: WesternSeasons/Winter_TerrainTexture18_LOD
 
-SummerNewYork: &SummerNewYork
-   Name: SummerNewYork
+SummerToronto: &SummerToronto
+   Name: SummerToronto
    LocationLatLong: [43.651070,-79.347015]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -301,91 +301,91 @@ SummerNewYork: &SummerNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkSummerSnowTextures
+           <<: *TorontoSummerSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *TorontoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkSummerSnowTextures
+           <<: *TorontoSummerSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkSummerSnowTextures
+           <<: *TorontoSummerSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkSummerTextures
+           <<: *TorontoSummerTextures
       - <<: *MapModeState
 
-SpringNewYork: &SpringNewYork
-   Name: SpringNewYork
+SpringToronto: &SpringToronto
+   Name: SpringToronto
    LocationLatLong: [43.651070,-79.347015]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -395,91 +395,91 @@ SpringNewYork: &SpringNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkSpringTextures   
+           <<: *TorontoSpringTextures   
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkSpringSnowTextures
+           <<: *TorontoSpringSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *TorontoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkSpringSnowTextures
+           <<: *TorontoSpringSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkSpringSnowTextures
+           <<: *TorontoSpringSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkSpringTextures
+           <<: *TorontoSpringTextures
       - <<: *MapModeState
 
-AutumnNewYork: &AutumnNewYork
-   Name: AutumnNewYork
+AutumnToronto: &AutumnToronto
+   Name: AutumnToronto
    LocationLatLong: [43.651070,-79.347015]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -489,91 +489,91 @@ AutumnNewYork: &AutumnNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkAutumnTextures   
+           <<: *TorontoAutumnTextures   
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkAutumnSnowTextures
+           <<: *TorontoAutumnSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *TorontoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkAutumnSnowTextures
+           <<: *TorontoAutumnSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkAutumnSnowTextures
+           <<: *TorontoAutumnSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkAutumnTextures
+           <<: *TorontoAutumnTextures
       - <<: *MapModeState
 
-WinterNewYork: &WinterNewYork
-   Name: WinterNewYork
+WinterToronto: &WinterToronto
+   Name: WinterToronto
    LocationLatLong: [43.651070,-79.347015]
    BaseAltitude: 0
    PlaceNameStyles:
@@ -583,85 +583,85 @@ WinterNewYork: &WinterNewYork
       - Name: GlobeView
         <<: *DefaultGlobeViewLighting
         Textures:
-           <<: *NewYorkWinterTextures      
+           <<: *TorontoWinterTextures      
       - Name: DayDefault
         <<: *DefaultSunnyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: NightDefault
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnDefault
         <<: *DefaultDawnLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: DuskDefault
         <<: *DefaultDuskLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: DayOvercast
         <<: *DefaultOvercastLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: NightOvercast
         <<: *DefaultNightLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnOvercast
         <<: *DefaultDawnOvercastLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: DuskOvercast
         <<: *DefaultDuskOvercastLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: DaySnowy
         <<: *DefaultSnowyLighting
         Textures:
-           <<: *NewYorkWinterSnowTextures
+           <<: *TorontoWinterSnowTextures
       - Name: NightSnowy
         <<: *DefaultNightSnowyLighting
         Textures:
-           <<: *NewYorkSummerNightSnowTextures
+           <<: *TorontoSummerNightSnowTextures
       - Name: DawnSnowy
         <<: *DefaultDawnSnowyLighting
         Textures:
-           <<: *NewYorkWinterSnowTextures
+           <<: *TorontoWinterSnowTextures
       - Name: DuskSnowy
         <<: *DefaultDuskSnowyLighting
         Textures:
-           <<: *NewYorkWinterSnowTextures
+           <<: *TorontoWinterSnowTextures
       - Name: DayFoggy
         <<: *DefaultDayFoggyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: NightFoggy
         <<: *DefaultNightFoggyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnFoggy
         <<: *DefaultDawnFoggyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: DuskFoggy
         <<: *DefaultDuskFoggyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: DayRainy
         <<: *DefaultRainyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: NightRainy
         <<: *DefaultNightRainyLighting
         Textures:
-           <<: *NewYorkSummerNightTextures
+           <<: *TorontoSummerNightTextures
       - Name: DawnRainy
         <<: *DefaultDawnRainyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - Name: DuskRainy
         <<: *DefaultDuskRainyLighting
         Textures:
-           <<: *NewYorkWinterTextures
+           <<: *TorontoWinterTextures
       - <<: *MapModeState
