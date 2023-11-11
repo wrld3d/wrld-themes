@@ -49,6 +49,7 @@ AmbientDarkTerrainLODTextures: &AmbientDarkTerrainLODTextures
 AmbientDarkDevTextures: &AmbientDarkDevTextures
    RoadDiffuse: AmbientDark/roadDiffuse_repeat
    RailDiffuse: AmbientDark/railDiffuse
+   TramlineDiffuse: AmbientDark/railDiffuse
    BuildingDiffuse: AmbientDark/WallDiffuse
    TreeSideDiffuse: AmbientDark/trees_01
    TreeTopDiffuse: AmbientDark/trees_top_01

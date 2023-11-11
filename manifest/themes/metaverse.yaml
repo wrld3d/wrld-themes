@@ -97,6 +97,7 @@ MetaverseSnowTerrainLODTextures: &MetaverseSnowTerrainLODTextures
 MetaverseSummerTextures: &MetaverseSummerTextures
    RoadDiffuse: Metaverse/Metaverse_roadDiffuse_repeat
    RailDiffuse: Metaverse/Metaverse_railDiffuse_repeat
+   TramlineDiffuse: Metaverse/Metaverse_railDiffuse_repeat
    BuildingDiffuse: Metaverse/Metaverse_wallDiffuse
    TreeSideDiffuse: Metaverse/trees_01
    TreeTopDiffuse: Metaverse/trees_top_01
@@ -186,6 +187,7 @@ MetaverseSummerNightTextures: &MetaverseSummerNightTextures
    BuildingDiffuse: Metaverse/Metaverse_Night_wallDiffuse
    RoadDiffuse: Metaverse/Metaverse_Night_roadDiffuse
    RailDiffuse: Metaverse/Metaverse_railDiffuse_night
+   TramlineDiffuse: Metaverse/Metaverse_railDiffuse_night
    WaterReflection: Metaverse/water_reflectionmap_night
    AsyncPlaceholderDiffuse: Metaverse/placeholder_no_data
 
@@ -206,6 +208,7 @@ MetaverseSummerNightSnowTextures: &MetaverseSummerNightSnowTextures
    RoadDiffuse: Metaverse/Metaverse_Night_Snow_roadDiffuse
    BuildingDiffuse: Metaverse/Metaverse_Night_Snow_wallDiffuse
    RailDiffuse: Metaverse/Metaverse_railDiffuse_night
+   TramlineDiffuse: Metaverse/Metaverse_railDiffuse_night
    TreeSideDiffuse: Metaverse/Metaverse_Snow_trees_01
    TreeTopDiffuse: Metaverse/Metaverse_Snow_trees_top_01
    WaterReflection: Metaverse/water_reflectionmap_night

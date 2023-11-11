@@ -49,6 +49,7 @@ ScifiTerrainLODTextures: &ScifiTerrainLODTextures
 ScifiDevTextures: &ScifiDevTextures
    RoadDiffuse: Scifi/roadDiffuse_repeat
    RailDiffuse: Scifi/railDiffuse
+   TramlineDiffuse: Scifi/railDiffuse
    BuildingDiffuse: Scifi/WallDiffuse
    TreeSideDiffuse: Scifi/trees_01
    TreeTopDiffuse: Scifi/trees_top_01

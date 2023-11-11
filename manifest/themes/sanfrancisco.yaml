@@ -97,6 +97,7 @@ SanFranciscoSnowTerrainLODTextures: &SanFranciscoSnowTerrainLODTextures
 SanFranciscoSummerTextures: &SanFranciscoSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: SanFrancisco/SanFran_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01
@@ -186,6 +187,7 @@ SanFranciscoSummerNightTextures: &SanFranciscoSummerNightTextures
    BuildingDiffuse: SanFrancisco/SanFran_Night_wallDiffuse
    RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
@@ -206,6 +208,7 @@ SanFranciscoSummerNightSnowTextures: &SanFranciscoSummerNightSnowTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
    BuildingDiffuse: SanFrancisco/SanFran_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night

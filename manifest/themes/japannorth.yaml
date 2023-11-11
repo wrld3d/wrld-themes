@@ -97,6 +97,7 @@ JapanNorthSnowTerrainLODTextures: &JapanNorthSnowTerrainLODTextures
 JapanNorthSummerTextures: &JapanNorthSummerTextures
    RoadDiffuse: Osaka/Osaka_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: Hokkaido/Hokkaido_wallDiffuse
    TreeSideDiffuse: Legacy_SanFrancisco/trees_01
    TreeTopDiffuse: Legacy_SanFrancisco/trees_top_01
@@ -186,6 +187,7 @@ JapanNorthSummerNightTextures: &JapanNorthSummerNightTextures
    BuildingDiffuse: Hokkaido/Hokkaido_Night_wallDiffuse
    RoadDiffuse: Osaka/Osaka_night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    WaterReflection: Legacy_SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: Legacy_SanFrancisco/placeholder
 
@@ -206,6 +208,7 @@ JapanNorthSummerNightSnowTextures: &JapanNorthSummerNightSnowTextures
    RoadDiffuse: Osaka/Osaka_night_snow_roadDiffuse
    BuildingDiffuse: Hokkaido/Hokkaido_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: Legacy_SanFrancisco/SanFran_Snow_trees_01
    TreeTopDiffuse: Legacy_SanFrancisco/SanFran_Snow_trees_top_01
    WaterReflection: Legacy_SanFrancisco/water_reflectionmap_night

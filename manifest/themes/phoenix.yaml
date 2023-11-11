@@ -97,6 +97,7 @@ PhoenixSnowTerrainLODTextures: &PhoenixSnowTerrainLODTextures
 PhoenixSummerTextures: &PhoenixSummerTextures
    RoadDiffuse: SanFrancisco/SanFran_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: Phoenix/Phoenix_wallDiffuse
    TreeSideDiffuse: Phoenix/trees_01
    TreeTopDiffuse: Phoenix/trees_top_01
@@ -186,6 +187,7 @@ PhoenixSummerNightTextures: &PhoenixSummerNightTextures
    BuildingDiffuse: Phoenix/Phoenix_Night_wallDiffuse
    RoadDiffuse: SanFrancisco/SanFran_Night_roadDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
@@ -206,6 +208,7 @@ PhoenixSummerNightSnowTextures: &PhoenixSummerNightSnowTextures
    RoadDiffuse: SanFrancisco/SanFran_Night_Snow_roadDiffuse
    BuildingDiffuse: Phoenix/Phoenix_Night_Snow_wallDiffuse
    RailDiffuse: London/London_railDiffuse_night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: Phoenix/Snow_trees_01
    TreeTopDiffuse: Phoenix/Snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night

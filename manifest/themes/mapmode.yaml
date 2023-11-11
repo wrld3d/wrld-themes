@@ -49,6 +49,7 @@ MapModeTerrainLODTextures: &MapModeTerrainLODTextures
 MapModeTextures: &MapModeTextures
    RoadDiffuse: MapMode/MapMode_roadDiffuse_repeat
    RailDiffuse: MapMode/MapMode_railDiffuse
+   TramlineDiffuse: MapMode/MapMode_railDiffuse
    BuildingDiffuse: MapMode/MapMode_wallDiffuse
    TreeSideDiffuse: MapMode/MapMode_trees_01
    TreeTopDiffuse: MapMode/MapMode_trees_top_01

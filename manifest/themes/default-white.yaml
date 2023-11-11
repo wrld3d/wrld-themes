@@ -49,6 +49,7 @@ NewYorkTerrainLODTextures: &NewYorkTerrainLODTextures
 NewYorkTextures: &NewYorkTextures
    RoadDiffuse: NewYork/NewYork_roadDiffuse_repeat
    RailDiffuse: London/London_railDiffuse_repeat
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: NewYork/NewYork_wallDiffuse
    TreeSideDiffuse: SanFrancisco/trees_01
    TreeTopDiffuse: SanFrancisco/trees_top_01

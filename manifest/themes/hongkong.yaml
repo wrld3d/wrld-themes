@@ -97,6 +97,7 @@ hongkongSnowTerrainLODTextures: &hongkongSnowTerrainLODTextures
 hongkongSummerTextures: &hongkongSummerTextures
    RoadDiffuse: HongKong/roadDiffuse_repeat
    RailDiffuse: HongKong/railDiffuse_repeat
+   TramlineDiffuse: Melbourne/Rail_01
    BuildingDiffuse: HongKong/wallDiffuse
    TreeSideDiffuse: EasternSeasons/Summer_trees_01
    TreeTopDiffuse: EasternSeasons/Summer_trees_top_01
@@ -186,6 +187,7 @@ hongkongSummerNightTextures: &hongkongSummerNightTextures
    BuildingDiffuse: HongKong/Night_wallDiffuse
    RoadDiffuse: HongKong/Night_roadDiffuse
    RailDiffuse: HongKong/Rail_01_Night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    WaterReflection: SanFrancisco/water_reflectionmap_night
    AsyncPlaceholderDiffuse: SanFrancisco/placeholder
 
@@ -206,6 +208,7 @@ hongkongSummerNightSnowTextures: &hongkongSummerNightSnowTextures
    RoadDiffuse: HongKong/Night_Snow_roadDiffuse
    BuildingDiffuse: HongKong/Night_Snow_wallDiffuse
    RailDiffuse: HongKong/Rail_01_Night
+   TramlineDiffuse: Melbourne/Rail_01_Night
    TreeSideDiffuse: EasternSeasons/Summer_snow_trees_01
    TreeTopDiffuse: EasternSeasons/Summer_snow_trees_top_01
    WaterReflection: SanFrancisco/water_reflectionmap_night
